@@ -378,10 +378,5 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/svg/net" pricingInformationLink="https://purchase.aspose.com/pricing/svg/net" >}}
 
-{{< blocks/products/pf/offers-section pfName="" description="" >}}
-
-    {{< blocks/products/pf/offers-section-item link="" imgSrc="" sdkName="" >}}
-
-{{< /blocks/products/pf/offers-section >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
