@@ -5,13 +5,17 @@ url: /net/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Load, Parse and Convert SVG to PDF, XPS, PNG and other popular image formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_svg-for-net.png" pfName="Aspose.SVG" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Load, Parse and Convert SVG to PDF, XPS, PNG and other popular image formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/header/aspose_svg-for-net.png" pfName="Aspose.SVG for .NET" subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.SVG" subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/svg/272x272/aspose_svg-for-net.png" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com" docsLink="https://docs.aspose.com/svg/net/release-notes/" instalationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" >}}
 
 {{< blocks/products/pf/tab-content >}}
+<p>
+ Aspose.SVG for .NET is flexible library for SVG files processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of file through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.
+</p>
+
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
@@ -349,12 +353,6 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="" subTitle="" >}}
-
-{{< blocks/products/pf/testimonials-quote >}}
-{{< /blocks/products/pf/testimonials-quote >}}
-
-{{< /blocks/products/pf/testimonials >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -379,7 +377,7 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 
 {{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/svg/net" pricingInformationLink="https://purchase.aspose.com/pricing/svg/net" >}}
 
-{{< blocks/products/pf/offers-section pfName="" >}}
+{{< blocks/products/pf/offers-section pfName="" description="" >}}
 
     {{< blocks/products/pf/offers-section-item link="" imgSrc="" sdkName="" >}}
 
