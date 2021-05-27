@@ -2,6 +2,7 @@
 title: C# .NET SVG files Parsing API - Aspose 
 weight: 20
 url: /net/ 
+description: C# ASP.NET VB.NET SVG library to load file, read and traverse the elements and convert SVG to PDF, XPS and Image formats
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
