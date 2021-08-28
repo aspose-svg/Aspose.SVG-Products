@@ -1,22 +1,21 @@
 ---
-title: Convert SVG to BMP on .NET 
-description: Load, Save and Convert SVG files using .NET API
+title: Convert SVG to BMP with .NET Core 
+description: Load, Save and Convert SVG files using .NET Core API on Windows, macOS & Linux
 url: /net/conversion/svg-to-bmp/
 family: svg
 platformtag: net
 feature: conversion
 informat: SVG
 outformat: BMP
-platform: .NET
-otherformats: JPEG GIF PNG TIFF 
+otherformats: GIF JPEG PNG TIFF 
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/agp/upper-banner-autogen h1="Convert SVG to BMP via C#" h2="Convert SVG files to XPS, PDF & Image formats on .NET">}}
+{{< blocks/products/pf/agp/upper-banner-autogen h1="Convert SVG to BMP via C#" h2="Convert SVG files to XPS, PDF & Image formats like BMP on Windows, macOS & Linux">}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="SVG to BMP Conversion on .NET" %}}
+{{% blocks/products/pf/agp/feature-section-col title="SVG to BMP Conversion on .NET Core" %}}
 1. Initialize [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) with your SVG file
 1. Initialize [ImageRenderingOptions](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions) class and set output format
 1. Initialize [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) class and specify the output file name to render
