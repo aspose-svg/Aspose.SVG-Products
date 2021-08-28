@@ -6,7 +6,7 @@ description: On Premise APIs and Free Apps to process and convert SVG documents 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="SVG File Format Solution" h2="On Premise APIs and free apps for SVG file format parsing and rendering with no dependency on any other software." logoImageSrc="https://www.aspose.com/templates/brand/images/svg/aspose_svg-brand.png" imageAlt="Aspose.SVG Product Solution" >}}
+{{< blocks/products/pf/upper-banner h1="SVG File Format Solution" h2="On Premise APIs and free apps for SVG file format parsing and rendering with no dependency on any other software." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-brand.svg" imageAlt="Aspose.SVG Product Solution" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.SVG On Premise APIs Include" >}}
