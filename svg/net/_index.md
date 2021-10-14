@@ -13,9 +13,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/svg/net/release-notes/" installationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/svg/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>
- Aspose.SVG for .NET is flexible library for SVG files processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of file through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.
-</p>
+<p>Aspose.SVG for .NET is flexible library for SVG files processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of file through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
