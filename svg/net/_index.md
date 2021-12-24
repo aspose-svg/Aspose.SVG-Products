@@ -6,9 +6,9 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Load, Parse and Convert SVG to PDF, XPS, PNG and other popular image formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Load, Parse and Convert SVG to PDF, XPS, PNG and other popular image formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.SVG " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.SVG " subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/svg/net/release-notes/" installationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/svg/net" >}}
 
@@ -92,7 +92,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
 <div class="diagram1 d1-net">
  <div class="d1-row">
   <div class="d1-col d1-left">
-   <!--<header><i class="fa fa-cubes"> </i>Mono</header>-->
+   <!--<header><i class="fa fa-cubes"> </i>Mono</header>-->
   </div>
   <!--/left-->
   <div class="d1-col d1-right">
@@ -268,14 +268,14 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert SVG to PNG
+     Convert SVG to PNG
     </h2>
     <p>
-     Aspose.SVG for .NET can read and convert SVG files to PDF, XPS and major image formats. Getting conversion functionality is simple and depends on each application requirement. Here is the few lines of code for PNG conversion.
+     Aspose.SVG for .NET can read and convert SVG files to PDF, XPS and major image formats. Getting conversion functionality is simple and depends on each application requirement. Here is the few lines of code for PNG conversion.
     </p>
     <div class="codeblock" id="code">
      <h3>
-      Save SVG to PNG - C#
+      Save SVG to PNG - C#
      </h3>
      <pre><code class="cs">string dataDir = RunExamples.GetDataDir_Data();
 
@@ -301,7 +301,7 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 
 <h2 class="h2title">Read or Create PUB Files</h2>
 
-<p>Aspose.PUB for .NET not only supports loading PSD & PSB file formats for manipulation & conversion but it also provides the capability to create PUB & PSB files from scratch. .NET developers can use the API to automate scenarios that may help them on their way.</p>
+<p>Aspose.PUB for .NET not only supports loading PSD & PSB file formats for manipulation & conversion but it also provides the capability to create PUB & PSB files from scratch. .NET developers can use the API to automate scenarios that may help them on their way.</p>
 
 <div id="code" class="codeblock">
 
