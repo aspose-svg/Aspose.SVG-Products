@@ -70,7 +70,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt=".NET SVG Processing API" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
+  <img width="70" height="75" alt=".NET SVG Processing API" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
   <header>
    Aspose.SVG
   </header>
@@ -112,7 +112,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt="SVG Manipulation APIs" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
+  <img width="70" height="75" alt="SVG Manipulation APIs" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
   <header>
    Aspose.SVG
   </header>
@@ -171,7 +171,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
  </div>
  <!--/row-->
  <div class="d1-logo">
-  <img alt=".NET SVG API" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
+  <img width="70" height="75" alt=".NET SVG API" src="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg"/>
   <header>
    Aspose.SVG
   </header>
