@@ -29,16 +29,7 @@ Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloa
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-autogen title=".NET C# Code for SVG to JPEG Conversion" gistPath="" %}}
-```cs
-using (var document = new SVGDocument("template.svg"))
-{
-	var options = new ImageRenderingOptions(ImageFormat.Jpeg);
-	using (IDevice device = new ImageDevice(options, "output.jpeg"))
-	{
-		document.RenderTo(device);                    
-	}
-}
-```
+{{< gist "aspose-com-gists" "97c9b706bdb4de13344f2fdbe3eae07a" "convert-svg-to-jpg.cs" >}}
 {{% /blocks/products/pf/agp/code-autogen %}}
 {{< /blocks/products/pf/agp/feature-section >}}
 {{< blocks/products/pf/agp/about-file-autogen >}}

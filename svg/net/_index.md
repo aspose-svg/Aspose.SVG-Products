@@ -277,17 +277,7 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
      <h3>
       Save SVG to PNG - C#
      </h3>
-     <pre><code class="cs">string dataDir = RunExamples.GetDataDir_Data();
-
-using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
-
-    using (var device = new ImageDevice(new ImageRenderingOptions(ImageFormat.Png), dataDir + "targetfile.png")){
-
-        document.RenderTo(device);
-
-    }
-
-}</code></pre>
+     {{< gist "aspose-com-gists" "97c9b706bdb4de13344f2fdbe3eae07a" "svg-to-images-conversion.cs" >}}
     </div>
    </div>
    <!--<div class="col-lg-12">
