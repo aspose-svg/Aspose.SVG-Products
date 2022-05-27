@@ -6,14 +6,23 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Load, Parse and Convert SVG to PDF, XPS, PNG and other popular image formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1=".NET APIs to Parse SVG Files" h2="Create, load, parse, render and convert SVG files to popular formats without any software dependencies." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.SVG " subTitlepfName="for .NET" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/svg/net/release-notes/" installationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/svg/net" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.SVG for .NET is flexible library for SVG files processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of file through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.</p>
+<p>Aspose.SVG for .NET is a flexible library for SVG file processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of files through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.</p>
+<p>Using Aspose.SVG for .NET in your project allows you to perform the following tasks:</p>
+<p><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Create or load SVG documents</a> from a file, URL, string, stream, etc.</br>
+<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Convert SVG</a> to PDF, PNG, and other popular formats.</br>
+<a href="hhttps://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vectorize raster images</a> such as PNG, JPG, BMP, TIFF, GIF, and ICO into an SVG document.</br>
+<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">Navigate SVG documents</a> using XPath Query, CSS Selector, Element and Document Traversal features.</br>
+<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank">Edit SVG files</a> by inserting new nodes, removing, or editing the content of existing nodes.</br>
+<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank">Render SVG documents</a> with high quality.</br>
+<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/text-vectorization/" target="_blank">Vectorize SVG text</a> in a short time and with professional quality and resolution.</br>
+and more.</p>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -268,72 +277,138 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert SVG to PNG
+     Convert SVG to PNG, PDF, XPS, and other formats 
     </h2>
     <p>
-     Aspose.SVG for .NET can read and convert SVG files to PDF, XPS and major image formats. Getting conversion functionality is simple and depends on each application requirement. Here is the few lines of code for PNG conversion.
+     Aspose.SVG for .NET can read and convert SVG to PDF, XPS and major image formats. The conversion process is simple and reliable, thus making Aspose.SVG for .NET API a perfect choice. Getting conversion functionality is simple and depends on each application requirement. Here is the few lines of code for conversion between formats.
     </p>
+	
     <div class="codeblock" id="code">
      <h3>
-      Save SVG to PNG - C#
+Convert SVG to PNG - C#
      </h3>
-     {{< gist "aspose-com-gists" "97c9b706bdb4de13344f2fdbe3eae07a" "svg-to-images-conversion.cs" >}}
+     <pre><code class="cs">
+using Aspose.Svg;
+using System.IO;
+using Aspose.Svg.Saving;
+using Aspose.Svg.Converters;
+...
+    
+    // Initialize an SVG document from a file
+    using (var document = new SVGDocument("input.svg"))
+    {
+        // Create an instance of the ImageSaveOptions class
+    	var pngSaveOptions = new ImageSaveOptions();    
+
+        // Convert SVG to PNG
+    	Converter.ConvertSVG(document, pngSaveOptions, "output.png");
+    }
+</code></pre>
+<p>
+You can try online SVG Converter <a href="https://products.aspose.app/svg/conversion/svg" rel="opener noopener noreferrer" target="_blank">here.</a>
+    </p>
     </div>
-   </div>
-   <!--<div class="col-lg-12">
+<p >Other Supported SVG Conversions: 
+</p>
 
-<h2 class="h2title">Access & Manipulate PUB Layers</h2>
-
-<p>Aspose.PUB for .NET lets you access layers of a PUB with the ability to draw on it with either image or text. You can merge layers, update text on layers, set effects or export layer as an image. You may also use PUB .NET API to detect flattened PUB files or create thumbnails.</p>
-
-</div>-->
-   <!--<div class="col-lg-12">
-
-<h2 class="h2title">Read or Create PUB Files</h2>
-
-<p>Aspose.PUB for .NET not only supports loading PSD & PSB file formats for manipulation & conversion but it also provides the capability to create PUB & PSB files from scratch. .NET developers can use the API to automate scenarios that may help them on their way.</p>
-
-<div id="code" class="codeblock">
-
-<h3>Create PUB from scratch - C#</h3>
-
-<pre><code class="cs">using (var PUB = Aspose.PSD.Image.Create(new Aspose.PSD.ImageOptions.PsdOptions()
-
-{
-
-    Source = new Aspose.PSD.Sources.FileCreateSource(dir + "output.psd", false),
-
-    ColorMode = Aspose.PSD.FileFormats.Psd.ColorModes.Rgb,
-
-    CompressionMethod = Aspose.PSD.FileFormats.Psd.CompressionMethod.RLE,
-
-    Version = 4
-
-}, 400, 400))
-
-{
-
-    // draw some graphics over the newly created PSD
-
-    var graphics = new Aspose.PSD.Graphics(psd);
-
-    graphics.Clear(Aspose.PSD.Color.White);
-
-    graphics.DrawEllipse(new Aspose.PSD.Pen(Aspose.PSD.Color.Red, 6), new Aspose.PSD.Rectangle(0, 0, 400, 400));
-
-    psd.Save();
-
-}</code></pre>
-
+<div class="row">
+	<div class="col-md-3">
+		<ul>
+			<li><a href="/svg/net/conversion/svg-to-pdf/"> SVG to PDF</a></li>
+			<li><a href="/svg/net/conversion/svg-to-xps">SVG to XPS </a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/net/conversion/svg-to-png">SVG to PNG</a></li>
+			<li><a href="/svg/net/conversion/svg-to-jpeg/"> SVG to JPEG</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/net/conversion/svg-to-bmp">SVG to BMP</a></li>
+			<li><a href="/svg/net/conversion/svg-to-gif">SVG to GIF</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/net/conversion/svg-to-tiff/"> SVG to TIFF</a></li>
+			<li><a href="/svg/net/conversion/svg-to-image">SVG to IMAGE</a></li>						
+		</ul>
+	</div>
 </div>
+	<h2 class="h2title">
+     Convert Raster Image to Vector Graphic
+    </h2>
+    <p>
+     Converting an image to vector is very easy using Aspose.SVG API. The <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/"  target="_blank">ImageVectorization</a> Namespace includes classes and interfaces for implementing the image vectorization process. The following code snippet demonstrates the use of the ImageVectorizer class for image vectorization:
+    </p>
+	<div class="codeblock" id="code">
+     <h3>
+Convert Image to Vector - C#
+     </h3>
+     <pre><code class="cs">
+using Aspose.Svg.ImageVectorization;
+using Aspose.Svg.Saving;
+...
+    
+	// Initialize an instance of the ImageVectorizer class
+	var vectorizer = new ImageVectorizer
+	{
+		Configuration = 
+		{
+			TraceSmoother =   new ImageTraceSmoother(1),
+			TraceSimplifier = new ImageTraceSimplifier(0.5f),
+			ColorsLimit = 3
+		}
+	};
 
-</div>-->
+	// Vectorize raster image from the specified file
+	using var document = vectorizer.Vectorize("input.png");
+
+	// Save vectorized image as SVG file 
+	document.Save("output.svg");	
+</code></pre>
+    </div></br>	
+	
+	<h2 class="h2title">
+     Merge SVG files 
+    </h2>
+    <p>
+     The Renderer() method gives you the ability to send multiple documents at once to the output rendering device and merge them. Documents merging can be done with a few lines of code:
+    </p>
+	
+    <div class="codeblock" id="code">
+     <h3>
+Merge SVG to PDF - C#
+     </h3>
+     <pre><code class="cs">
+using Aspose.Svg;
+using Aspose.Svg.Rendering;
+using Aspose.Svg.Rendering.Pdf;
+...   
+	
+	// Initialize SVG documents from files to merge later
+	using (var document1 = new SVGDocument("input1.svg"))
+	using (var document2 = new SVGDocument("input2.svg"))
+	using (var document3 = new SVGDocument("input3.svg"))
+	{
+		// Create an instance of SvgRenderer
+		using (var renderer = new SvgRenderer())
+		{
+			// Create an instance of PdfDevice
+			using (var device = new PdfDevice("output.pdf"))
+			{
+				// Merge all SVG documents to PDF
+				renderer.Render(device, document1, document2, document3);
+			}
+		}
+	}
+</code></pre>
+   
+   </div>   
+  
    <!--<div class="col-lg-12">
-
-<h2 class="h2title">Various Imaging Filters</h2>
-
-<p>Aspose.PUB for .NET provides the core imaging features such as color adjustment via its class libraries. Developers can easily adjust brightness, contrast or gamma on raster image loaded by the API. Furthermore, developers can dynamically dither or blur images as well as use popular filters including Median, Gauss Wiener, Motion Wiener and Bradley Threshold.</p>
-
 </div>-->
   </div>
  </div>
