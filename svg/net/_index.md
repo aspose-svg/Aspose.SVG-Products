@@ -2,7 +2,7 @@
 title: C# .NET SVG files Parsing API - Aspose 
 weight: 20
 url: /net/ 
-description: C# ASP.NET VB.NET SVG library to load file, read and traverse the elements and convert SVG to PDF, XPS and Image formats
+description: C# .NET SVG library to load file, read and traverse the elements and convert SVG to PDF, XPS and Image formats
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,15 +14,18 @@ description: C# ASP.NET VB.NET SVG library to load file, read and traverse the e
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.SVG for .NET is a flexible library for SVG file processing and fully compatible with its specifications. API can easily load, save and convert SVG files as well as read and traverse the elements of files through its Document Object Model (DOM). API is independent of any other software and empowers developers to work with SVG files without going into the underlying details of the format.</p>
-<p>Using Aspose.SVG for .NET in your project allows you to perform the following tasks:</p>
-<p><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Create or load SVG documents</a> from a file, URL, string, stream, etc.</br>
-<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Convert SVG</a> to PDF, PNG, and other popular formats.</br>
-<a href="hhttps://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vectorize raster images</a> such as PNG, JPG, BMP, TIFF, GIF, and ICO into an SVG document.</br>
-<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">Navigate SVG documents</a> using XPath Query, CSS Selector, Element and Document Traversal features.</br>
-<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank">Edit SVG files</a> by inserting new nodes, removing, or editing the content of existing nodes.</br>
-<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank">Render SVG documents</a> with high quality.</br>
-<a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/text-vectorization/" target="_blank">Vectorize SVG text</a> in a short time and with professional quality and resolution.</br>
-and more.</p>
+<p>Using Aspose.SVG C# library in your project allows you to perform the following tasks:</p>
+<div>
+	<ul>
+		<li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Create or load SVG documents</a> from a file, URL, string, stream, etc.</li>
+		<li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Convert SVG</a> to PDF, PNG, and other popular formats.</li>
+		<li><a href="hhttps://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vectorize raster images</a> such as PNG, JPG, BMP, TIFF, GIF, and ICO into an SVG document.</li>
+		<li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">Navigate SVG documents</a> using XPath Query, CSS Selector, Element and Document Traversal features.</li>
+        <li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank">Edit SVG files</a> by inserting new nodes, removing, or editing the content of existing nodes.</li>
+		<li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank">Render SVG documents</a> with high quality.</li>
+		<li><a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/text-vectorization/" target="_blank">Vectorize SVG text</a> in a short time and with professional quality and resolution, and more.</li>
+	</ul>
+</div>
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -277,12 +280,13 @@ and more.</p>
    </div>
    <div class="col-lg-12">
     <h2 class="h2title">
-     Convert SVG to PNG, PDF, XPS, and other formats 
+     Convert SVG using C# 
     </h2>
     <p>
-     Aspose.SVG for .NET can read and convert SVG to PDF, XPS and major image formats. The conversion process is simple and reliable, thus making Aspose.SVG for .NET API a perfect choice. Getting conversion functionality is simple and depends on each application requirement. Here is the few lines of code for conversion between formats.
+     Aspose.SVG for .NET can read and convert SVG to PDF, XPS and major image formats. The conversion process is simple and reliable, thus making SVG .NET API a perfect choice. You can use API in your C# or any other .NET application to develop converter applications without getting into the details of underlying file formats. Getting conversion functionality is simple and depends on each application requirement. Here are a few lines of code for conversion between formats.
     </p>
-	
+
+
     <div class="codeblock" id="code">
      <h3>
 Convert SVG to PNG - C#
@@ -299,7 +303,7 @@ using Aspose.Svg.Converters;
     {
         // Create an instance of the ImageSaveOptions class
     	var pngSaveOptions = new ImageSaveOptions();    
-
+    
         // Convert SVG to PNG
     	Converter.ConvertSVG(document, pngSaveOptions, "output.png");
     }
@@ -338,13 +342,13 @@ You can try online SVG Converter <a href="https://products.aspose.app/svg/conver
 	</div>
 </div>
 	<h2 class="h2title">
-     Convert Raster Image to Vector Graphic
-    </h2>
-    <p>
-     Converting an image to vector is very easy using Aspose.SVG API. The <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/"  target="_blank">ImageVectorization</a> Namespace includes classes and interfaces for implementing the image vectorization process. The following code snippet demonstrates the use of the ImageVectorizer class for image vectorization:
-    </p>
+	 Convert Raster Image to Vector Graphic
+	</h2>
+	<p>
+	 Converting an image to vector is very easy using Aspose.SVG API. The <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/"  target="_blank">ImageVectorization</a> Namespace includes classes and interfaces for implementing the image vectorization process. The following code snippet demonstrates the use of the ImageVectorizer class for image vectorization:
+	</p>
 	<div class="codeblock" id="code">
-     <h3>
+	 <h3>
 Convert Image to Vector - C#
      </h3>
      <pre><code class="cs">
@@ -362,24 +366,24 @@ using Aspose.Svg.Saving;
 			ColorsLimit = 3
 		}
 	};
-
+	
 	// Vectorize raster image from the specified file
 	using var document = vectorizer.Vectorize("input.png");
-
+	
 	// Save vectorized image as SVG file 
 	document.Save("output.svg");	
 </code></pre>
     </div></br>	
 	
 	<h2 class="h2title">
-     Merge SVG files 
-    </h2>
-    <p>
-     The Renderer() method gives you the ability to send multiple documents at once to the output rendering device and merge them. Documents merging can be done with a few lines of code:
-    </p>
+	 Merge SVG in C# 
+	</h2>
+	<p>
+	 The Renderer() method gives you the ability to send multiple documents at once to the output rendering device and merge them. Documents merging can be done with a few lines of code:
+	</p>
 	
-    <div class="codeblock" id="code">
-     <h3>
+	<div class="codeblock" id="code">
+	 <h3>
 Merge SVG to PDF - C#
      </h3>
      <pre><code class="cs">
@@ -405,9 +409,9 @@ using Aspose.Svg.Rendering.Pdf;
 		}
 	}
 </code></pre>
-   
+
    </div>   
-  
+
    <!--<div class="col-lg-12">
 </div>-->
   </div>
