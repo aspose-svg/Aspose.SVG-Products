@@ -312,7 +312,7 @@ using Aspose.Svg.Converters;
 You can try online SVG Converter <a href="https://products.aspose.app/svg/conversion/svg" rel="opener noopener noreferrer" target="_blank">here.</a>
     </p>
     </div>
-<p >Other Supported SVG Conversions: 
+<p>Other Supported SVG Conversions: 
 </p>
 
 <div class="row">
@@ -409,8 +409,42 @@ using Aspose.Svg.Rendering.Pdf;
 		}
 	}
 </code></pre>
+</div> 
+<p>Other Supported Mergers: 
+</p>
+<div class="row">
+	<div class="col-md-2">
+		<ul>
+			<li><a href="/svg/net/merger/svg-to-pdf/"> SVG to PDF</a></li>
+			<li><a href="/svg/net/merger/svg-to-xps">SVG to XPS </a></li>						
+		</ul>
+	</div>
+	<div class="col-md-2">		
+		<ul>
+			<li><a href="/svg/net/merger/svg-to-png">SVG to PNG</a></li>
+			<li><a href="/svg/net/merger/svg-to-jpeg/"> SVG to JPEG</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-2">		
+		<ul>
+			<li><a href="/svg/net/merger/svg-to-bmp">SVG to BMP</a></li>
+			<li><a href="/svg/net/merger/svg-to-gif">SVG to GIF</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-2">		
+		<ul>
+			<li><a href="/svg/net/merger/svg-to-tiff/"> SVG to TIFF</a></li>
+			<li><a href="/svg/net/merger/svg-to-image">SVG to IMAGE</a></li>						
+		</ul>
+	</div>
+    <div class="col-md-2">		
+		<ul>
+			<li><a href="/svg/net/merger/jpg-to-jpg/"> JPG to JPG</a></li>
+			<li><a href="/svg/net/merger/png-to-png">PNG to PNG</a></li>						
+		</ul>
+	</div>
+</div>  
 
-   </div>   
 
    <!--<div class="col-lg-12">
 </div>-->
