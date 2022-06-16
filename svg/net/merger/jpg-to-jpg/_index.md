@@ -16,10 +16,10 @@ outformat: JPG
 
 {{% blocks/products/pf/agp/content h2="Merge JPG to JPG Using C#" %}}
 
-JPEG is a standard image format developed by the Joint Photographic Experts Group. The JPEG file compression technology is well designed and thought out. It removes redundant color data and provides an extremely high compression ratio. Still, JPEG can display vivid and colourful images and achieve better image quality with the smallest image size. In many cases, you may need to combine JPG images. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge JPG to JPG programmatically. Powerful C# API allows you to transform your JPG files quickly and in high quality.</br></br>
+JPEG is a standard image format developed by the Joint Photographic Experts Group. The JPEG file compression technology is well designed and thought out. It removes redundant color data and provides an extremely high compression ratio. Still, JPEG can display vivid and colourful images and achieve better image quality with the smallest image size. In many cases, you may need to combine JPG images. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge JPG to JPG programmatically. Powerful C# API allows you to combine JPG files quickly and in high quality.</br></br>
 
 <h2> C# code example to merge JPG to JPG </h2>
-<p> A high-speed C# library allows .NET developers to merge JPG files into one image quickly and efficiently. Documents merging can be done with a few lines of code:</p></br>
+<p> Combine multiple JPG files and save the result as a single file easily! Merging images can be done with a few lines of code:</p></br>
 
 {{% blocks/products/pf/agp/code-block title="Merge JPG to JPG  - C#" offSpacer="true" %}}
 
@@ -52,7 +52,7 @@ using (var document = new SVGDocument())
         thumbnail.Y.BaseVal.Value = (thumbnailHeight + thumbnailMargin) * i;
         // Append the thumbnail to the document
         document.DocumentElement.AppendChild(thumbnail);
-	}
+    }
     // Define saving options
     var options = new ImageRenderingOptions
     {
@@ -79,9 +79,9 @@ using (var document = new SVGDocument())
 1. Use one of the [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/) constructor to initialize a new instance of the ImageRenderingOptions class. You can customize the rendering process by specifying the page size, image format, etc. PNG is used as the default image format.
 1. Create an instans of ImageDevice using the [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_3) constructor.
 1. Call the [RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto) method to send the current document to the output rendering device.
-1. Multiple JPG images will be saved to the one JPG file on the specified path.</br></br>
+1. Multiple JPG images will be saved into one JPG file on the specified path.</br></br>
 
-The [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) namespace provides specific device classes as well as a few rendering options classes responsible for rendering to raster formats: JPEG, PNG, BMP, GIF, and TIFF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. </br></br>
+A high-speed C# library allows .NET developers to merge JPG files into one image quickly and efficiently. The [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) namespace provides specific device classes as well as a few rendering options classes responsible for rendering to raster formats: JPEG, PNG, BMP, GIF, and TIFF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. </br></br>
 <h2>Online Image Merger</h2>
 Aspose.SVG offers a free online <a href="https://products.aspose.app/svg/merger" target="_blank">Image Merger</a> App that combines multiple images into a single file. You can choose a kind of Image Merger for different source files such as SVG, JPG, PNG, BMP, ICO, GIF, or TIFF, and save the merging result to one of the following output formats: JPG, PNG or SVG. Our application is multifunctional. You can create image collages, edit and manipulate images before merging. Image Merger allows you to freely add images, rotate, scale, add backgrounds, filters and move each image until you are happy with the end result of your design.</br>
 
@@ -96,8 +96,18 @@ Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloa
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Mergers" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-jpg/" name="JPG TO JPG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-jpg/" name="JPG to JPG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-png/" name="JPG to PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-bmp/" name="JPG to BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-gif/" name="JPG to GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-tiff/" name="JPG to TIFF" description="Tagged Image Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-png/" name="PNG TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-jpg/" name="PNG to JPG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-bmp/" name="PNG to BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-gif/" name="PNG to GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-tiff/" name="PNG to TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/gif-to-jpg/" name="GIF to JPG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/gif-to-png/" name="GIF to PNG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-pdf/" name="SVG TO PDF" description="Portable Document Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-xps/" name="SVG TO XPS" description="XML Paper Specifications" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-bmp/" name="SVG TO BMP" description="Bitmap Image" >}}

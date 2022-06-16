@@ -1,31 +1,31 @@
 ---
-title: Merge PNG to PNG via C# - Aspose.SVG
-description: Merge PNG to PNG using .NET Core API on Windows, macOS & Linux
-url: /net/merger/png-to-png/
+title: Merge GIF to BMP via C# - Aspose.SVG
+description: Merge GIF to BMP using .NET Core API on Windows, macOS & Linux
+url: /net/merger/gif-to-bmp/
 family: svg
 platformtag: net
 feature: merge
-informat: PNG
-outformat: PNG
+informat: GIF
+outformat: BMP
 ---
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Merge PNG to PNG via C#" h2="High-speed .NET API to combine PNG files on Windows, macOS & Linux" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1="Merge GIF to BMP via C#" h2="High-speed .NET API to combine GIF files on Windows, macOS & Linux" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{% blocks/products/pf/agp/content h2="Merge PNG to PNG Using C#" %}}
+{{% blocks/products/pf/agp/content h2="Merge GIF to BMP Using C#" %}}
 
-PNG refers to a type of raster image file format that uses lossless compression, making it popular among users. We can safely say that PNG has evolved into one of the most used image file formats. In many cases, you may need to combine PNG images. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge PNG to PNG programmatically. Powerful C# API allows you to combine PNG files quickly and in high quality.</br></br>
+GIF files have a small file size, which makes them ideal for website usage for logos, line art and simple cartoons. Graphic files with a BMP format are uncompressed bitmapped images, and BMP pictures have a higher resolution than GIF ones. Both file formats have their own pros and cons, and in some cases, you may need to combine GIF images and save them as one BMP file. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge GIF to BMP programmatically. Powerful C# API helps you to combine GIF files quickly and in high quality!</br></br>
 
-<h2> C# code example to merge PNG to PNG </h2>
-<p> A high-speed C# library allows .NET developers to merge PNG files into one image quickly and efficiently. Documents merging can be done with a few lines of code:</p></br>
+<h2> C# code example to merge GIF to BMP </h2>
+<p> Combine multiple GIF files and save the result as a single BMP file easily! Merging images can be done with a few lines of code:</p></br>
 
-{{% blocks/products/pf/agp/code-block title="Merge PNG to PNG  - C#" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Merge GIF to BMP - C#" offSpacer="true" %}}
 
 ```cs
 // Images to merge 
-var images = new string[] { @"image1.png", "image2.png" };
+var images = new string[] { @"image1.gif", "image2.gif" };
 // Initialize a new instance of SVGDocument
 using (var document = new SVGDocument())
 {
@@ -45,7 +45,7 @@ using (var document = new SVGDocument())
     // Create thumbnails merging loop
     for (var i = 0; i < images.Length; i++)
     {
-	// Create a thumbnail
+        // Create a thumbnail
         var thumbnail = CreateThumbnail(images[i], thumbnailWidth, thumbnailHeight);
         // Define coordinates 
         thumbnail.X.BaseVal.Value = 0;
@@ -56,22 +56,22 @@ using (var document = new SVGDocument())
     // Define saving options
     var options = new ImageRenderingOptions
     {
-        Format = ImageFormat.Png,
+        Format = ImageFormat.Bmp,
         PageSetup =
         {
             Sizing = SizingType.FitContent
         }
     };    
     // Render document 
-    document.RenderTo(new ImageDevice(options, "merged.png"));
+    document.RenderTo(new ImageDevice(options, "merged.bmp"));
 }
 ```
 <p></p></br></br>
 {{% /blocks/products/pf/agp/code-block %}}
 
-<h2> Steps to Merge PNG to PNG using C# </h2>
+<h2> Steps to Merge GIF to BMP using C# </h2>
 
-1. Define PNG images to merge. 
+1. Define GIF images to merge. 
 1. Initialize a new instance of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor) class. 
 1. Declare an image function. You should use the [CreateElementNS(`namespaceURI, qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) method of the SVGDocument class to create an image instance. The `namespaceURI` sets the reference to W3C SVG specification. The `qualifiedName` must contain the string tag name of the image element.
 1. Call the image function to create a thumbnail object.
@@ -79,9 +79,9 @@ using (var document = new SVGDocument())
 1. Use one of the [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/) constructor to initialize a new instance of the ImageRenderingOptions class. You can customize the rendering process by specifying the page size, image format, etc. PNG is used as the default image format.
 1. Create an instans of ImageDevice using the [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_3) constructor.
 1. Call the [RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto) method to send the current document to the output rendering device.
-1. Multiple PNG images will be saved into one PNG file on the specified path.</br></br>
+1. Multiple GIF images will be saved into one BMP file on the specified path.</br></br>
 
-The [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) namespace provides specific device classes as well as a few rendering options classes responsible for rendering to raster formats: JPEG, PNG, BMP, GIF, and TIFF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. </br></br>
+A high-speed C# library allows .NET developers to merge GIF files into one image quickly and efficiently. The [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) namespace provides specific device classes as well as a few rendering options classes responsible for rendering to raster formats: JPEG, PNG, BMP, GIF, and TIFF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. </br></br>
 <h2>Online Image Merger</h2>
 Aspose.SVG offers a free online <a href="https://products.aspose.app/svg/merger" target="_blank">Image Merger</a> App that combines multiple images into a single file. You can choose a kind of Image Merger for different source files such as SVG, JPG, PNG, BMP, ICO, GIF, or TIFF, and save the merging result to one of the following output formats: JPG, PNG or SVG. Our application is multifunctional. You can create image collages, edit and manipulate images before merging. Image Merger allows you to freely add images, rotate, scale, add backgrounds, filters and move each image until you are happy with the end result of your design.</br>
 

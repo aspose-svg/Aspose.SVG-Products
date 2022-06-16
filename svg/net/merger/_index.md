@@ -15,7 +15,7 @@ There are a lot of reasons why you need to combine several SVGs or Images into o
 <h2>C# example to combine SVG to PDF</h2>
 <p> A high-speed C# library allows .NET developers to merge SVG files and convert the combined result into many popular formats such as PDF, XPS, JPEG, PNG, BMP, GIF, and TIFF with high quality and efficiency. Documents merging can be done with a few lines of code:</p>
 
-{{% blocks/products/pf/agp/code-block title="Merge SVG to PDF  - C#" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Merge SVG to PDF - C#" offSpacer="true" %}}
 
 ```cs
 // Initialize SVG documents from files to merge 
@@ -58,4 +58,4 @@ You can combine SVG files into many other file formats including few listed belo
 {{% /blocks/products/pf/feature-page-section %}}
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/feature-page-options pairs="svg-to-pdf svg-to-xps svg-to-bmp svg-to-png svg-to-jpeg svg-to-tiff svg-to-gif svg-to-image jpg-to-jpg png-to-png" >}}
+{{< blocks/products/pf/feature-page-options pairs="svg-to-pdf svg-to-xps svg-to-bmp jpg-to-jpg png-to-png gif-to-gif svg-to-png svg-to-jpeg svg-to-tiff jpg-to-png png-to-jpg gif-to-jpg svg-to-gif svg-to-image jpg-to-tiff jpg-to-gif png-to-gif gif-to-png" >}}
