@@ -9,7 +9,7 @@ platformtag: net
 feature: conversion
 informat: SVG
 outformat: BMP
-otherformats: GIF JPEG PNG TIFF 
+otherformats: GIF JPEG PNG TIFF PDF XPS 
 ---
 
 {{<section banner>}}
@@ -24,6 +24,7 @@ h2: SVG to BMP Conversion via .NET Core
 ---
 
 SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to BMP format programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert  SVG to popular formats with high speed and high quality.
+
 
 {{<section demos>}}
 ---
@@ -77,9 +78,12 @@ h2: Steps to Convert SVG to BMP using RenderTo() Method
 1. Initialize [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) class and specify the output file name to render. 
 1. Call [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) method & pass the instance of the ImageDevice.
 
-{{<section code-snippet>}}
+{{<section code-text>}}
+---
+title: Convert SVG to BMP
+---
 
-{{% blocks/products/pf/agp/code-block title="Convert SVG to BMP" offSpacer="true" %}}
+{{<section code-snippet>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

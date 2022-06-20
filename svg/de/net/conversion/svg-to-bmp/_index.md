@@ -4,7 +4,7 @@ template: Vorlage.md
 title: Konvertieren Sie SVG in BMP mit .NET Core
 description: Laden und konvertieren Sie SVG in BMP mit der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-bmp/
-family: &1871850132 SVG
+family: &1617081016 SVG
 platformtag: Netz
 feature: Wandlung
 informat: SVG
@@ -24,6 +24,7 @@ h2: SVG-zu-BMP-Konvertierung über .NET Core
 ---
 
 SVG ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. Aber manchmal müssen Sie SVG konvertieren und in einem gängigen Rasterbildformat speichern. Mit der API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) können Sie SVG programmgesteuert in das BMP-Format umwandeln und dabei die volle Kontrolle über eine Vielzahl von Konvertierungsparametern haben. Mit der leistungsstarken C#-API können Sie SVG mit hoher Geschwindigkeit und hoher Qualität in gängige Formate konvertieren.
+
 
 {{<section demos>}}
 ---
@@ -79,9 +80,12 @@ h2: Schritte zum Konvertieren von SVG in BMP mit der RenderTo()-Methode
 
 
 
-{{<section code-snippet>}}
+{{<section code-text>}}
+---
+title: Konvertieren Sie SVG in BMP
+---
 
-{{% blocks/products/pf/agp/code-block title="Convert SVG to BMP" offSpacer="true" %}}
+{{<section code-snippet>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

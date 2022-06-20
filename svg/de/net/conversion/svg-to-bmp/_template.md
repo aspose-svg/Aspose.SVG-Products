@@ -16,7 +16,7 @@ otherformats: GIF JPEG PNG TIFF
 
 {{< blocks/products/pf/main-container >}}
 
-{{% blocks/products/pf/agp/content h2="{{i18n.overview.h1}}" %}}
+{{% blocks/products/pf/agp/content h2="{{i18n.overview.h2}}" %}}
 
 {{i18n.overview}}
 
