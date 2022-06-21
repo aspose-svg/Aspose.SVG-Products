@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: Vorlage.md
+template: template.md
 title: Konvertieren Sie SVG in gängige Formate mit C#
 url: /net/conversion/
 description: Konvertieren Sie SVG in PDF, XPS und Bilder mit wenigen Zeilen C#-Code über die .NET-Bibliothek.
@@ -19,7 +19,7 @@ h2: So konvertieren Sie SVG mit C#
 
 SVG (Scalable Vector Graphics) ist ein XML-basiertes Bildformat für zweidimensionale Grafiken. Es ist ein Vektorgrafikformat, das hauptsächlich für das Web gedacht ist. Die größte Stärke von SVG ist seine unübertroffene Fähigkeit, ohne Qualitätsverlust auf jede beliebige Größe skaliert zu werden. Alle modernen Browser unterstützen SVG, und es scheint, dass das Web bereits auf Vektorgrafiken umsteigen sollte. Es gibt jedoch einige Einschränkungen bei der Verwendung von SVG und manchmal müssen Sie SVG in andere Formate konvertieren.
  
- - Die statische [Converter-Klasse] (https://reference.aspose.com/svg/net/aspose.svg.converters/converter/) ist eine gemeinsam genutzte Fassade, die SVG-Dateikonvertierungen in die gängigen Formate bereitstellt und diese Operationen ermöglicht bequem und einfach.
+ - Die statische [Converter-Klasse](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/) ist eine gemeinsam genutzte Fassade, die SVG-Dateikonvertierungen in die gängigen Formate bereitstellt und diese Operationen ermöglicht bequem und einfach.
 
  - Die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) wird verwendet, um SVG in ein anderes Format zu rendern und ein Dokument an das Ausgabegerät zu senden. Die Aspose.SVG-API bietet die folgende Implementierung von Ausgabegeräten: die Klassen PdfDevice, XpsDevice und ImageDevice, die das Rendern in PDF-, XPS- bzw. Bilddateiformate durchführen.
 
@@ -86,7 +86,7 @@ Installieren von <a href="https://www.nuget.org/packages/Aspose.SVG" target="_bl
 
 
 
-Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation] (https://docs.aspose.com/svg/net/getting-started/installation/).
+Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/installation/).
 
 {{<section "other-conversions">}}
 ---

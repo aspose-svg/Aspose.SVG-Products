@@ -9,7 +9,7 @@ platformtag: net
 feature: conversion
 informat: SVG
 outformat: BMP
-otherformats: GIF JPEG PNG TIFF PDF XPS 
+otherformats: GIF BMP JPEG PNG TIFF PDF XPS 
 ---
 
 {{<section banner>}}
@@ -31,11 +31,11 @@ SVG is one of the most used formats for website building and print graphics to a
 h2: Free Online Converter Live Demos
 ---
 
-<p>Test the quality of SVG to BMP conversion right in your browser! The following C# example demonstrates how to convert an SVG document using ConvertSVG() method. We describe the source code for reading SVG from a file and then converting SVG to BMP with default saving options. Please load SVG from the local file system, select the output format and run the example. You will immediately get the result as a separate file.</p>
+Test the quality of SVG to BMP conversion right in your browser! The following C# example demonstrates how to convert an SVG document using ConvertSVG() method. We describe the source code for reading SVG from a file and then converting SVG to BMP with default saving options. Please load SVG from the local file system, select the output format and run the example. You will immediately get the result as a separate file.
 
 {{<section app-pluging>}}
 
-{{< app/svg/converter SVG BMP XPS TIFF PNG PDF "JPG|JPEG" GIF >}}
+{{< app/svg/converter SVG BMP XPS TIFF PNG PDF "JPG|JPEG" GIF>}}
 using Aspose.Svg;
 using Aspose.Svg.Saving;
 using Aspose.Svg.Converters;
@@ -107,6 +107,6 @@ Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloa
 
 {{<section other-conversions>}}
 ---
-h2: Other Supported SVG Conversions
+title: Other Supported SVG Conversions
+subTitle: "You can also convert SVG to many other file formats:"
 ---
-You can also convert SVG to many other file formats:
