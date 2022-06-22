@@ -1,4 +1,5 @@
 ---
+template: true
 title: {{i18n.title}}
 description: {{i18n.description}}
 url: {{i18n.url}}
