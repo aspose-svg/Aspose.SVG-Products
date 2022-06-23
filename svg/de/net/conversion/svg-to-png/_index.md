@@ -1,30 +1,41 @@
----
-title: Convert SVG to PNG with .NET Core 
-description: Load and Convert SVG to PNG using .NET Core API on Windows, macOS & Linux
+﻿---
+translation: true
+template: ./../_template1.md
+title: Konvertieren Sie SVG in PNG mit C# Core
+description: Laden und konvertieren Sie SVG in PNG mit der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-png/
 family: svg
 platformtag: net
 feature: conversion
 informat: SVG
 outformat: PNG
-otherformats: JPEG BMP TIFF GIF 
+otherformats: GIF JPEG PNG TIFF PDF XPS BMP
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Convert SVG to PNG via C#" h2="High-speed .NET API for converting SVG to PNG on Windows, macOS & Linux" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{<section banner>}}
+---
+h1: Konvertieren Sie SVG in PNG über C#
+h2: Hochgeschwindigkeits-.NET-API zum Konvertieren von SVG in PNG unter Windows, macOS und Linux
+---
 
-{{< blocks/products/pf/main-container >}}
+{{<section overview>}}
+---
+h2: SVG-zu-PNG-Konvertierung über .NET Core
+---
 
-{{% blocks/products/pf/agp/content h2="SVG to PNG Conversion via .NET Core" %}}
+SVG ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. Aber manchmal müssen Sie SVG konvertieren und in einem gängigen Rasterbildformat speichern. Mit der API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) können Sie SVG programmgesteuert in PNG umwandeln und dabei die volle Kontrolle über eine Vielzahl von Konvertierungsparametern haben. Mit der leistungsstarken C#-API können Sie SVG mit hoher Geschwindigkeit und hoher Qualität in andere gängige Formate konvertieren.
 
-SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can convert SVG to PNG format programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert  SVG to popular formats with high speed and high quality.</br></br>
 
-<h2> Free Online Converter Live Demos </h2>
-<p>Test the quality of SVG to PNG conversion right in your browser! The following C# example demonstrates how to convert an SVG document using ConvertSVG() method. We describe the source code for reading SVG from a file and then converting SVG to PNG with default saving options. Please load SVG from the local file system, select the output format and run the example. You will immediately get the result as a separate file.</p>
-{{% /blocks/products/pf/agp/content %}}
+{{<section demos>}}
+---
+h2: Kostenlose Online-Konverter-Live-Demos
+---
 
-{{< app/svg/converter SVG PNG "JPG|JPEG" GIF TIFF BMP PDF XPS >}}
+Testen Sie die Qualität der SVG-zu-PNG-Konvertierung direkt in Ihrem Browser! Das folgende C#-Beispiel zeigt, wie ein SVG-Dokument mithilfe der ConvertSVG()-Methode konvertiert wird. Wir beschreiben den Quellcode zum Lesen von SVG aus einer Datei und zum anschließenden Konvertieren von SVG in PNG mit Standardspeicheroptionen. Bitte laden Sie SVG aus dem lokalen Dateisystem, wählen Sie das Ausgabeformat und führen Sie das Beispiel aus. Das Ergebnis erhalten Sie sofort als separate Datei.
+
+{{<section "app-pluging" i18n-exclude>}}
+
+{{< app/svg/converter SVG PNG "JPG|JPEG" BMP XPS TIFF PDF GIF >}}
 using Aspose.Svg;
 using Aspose.Svg.Saving;
 using Aspose.Svg.Converters;
@@ -37,31 +48,44 @@ using Aspose.Svg.Rendering.Image;
 {{#if_output 'XPS'}}
     var options = new XpsSaveOptions();
 {{/if_output}}
-{{#if_output 'GIF' 'JPG' 'BMP' 'PNG' 'TIFF'}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
     var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
 {{/if_output}}
     Converter.ConvertSVG(document, options, "output.{{output lower}}");   
 {{< /app/svg/converter>}} 
 
-{{% blocks/products/pf/agp/content %}}
-Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API conversion functions and to consider C# examples for the most common SVG conversion scenarios. In the documentation article <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/convert-svg-to-image/" target="_blank">Convert SVG to Image</a>, you can consider C# examples of how to convert SVG to images in different ways. Let's consider some of them: </br></br>
+{{<section documentation>}}
 
-<h2> Steps to Convert SVG to PNG using ConvertSVG() Method </h2>
+Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">unsere Dokumentation</a> um mehr über die Verwendung von Aspose.SVG-API-Konvertierungsfunktionen zu erfahren und C#-Beispiele für die gängigsten SVG-Konvertierungsszenarien zu betrachten. Im Dokumentationsartikel <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/convert-svg-to-image/" target="_blank ">SVG in Bild umwandeln</a> können Sie C#-Beispiele betrachten, wie Sie SVG auf unterschiedliche Weise in Bilder umwandeln können. Betrachten wir einige davon:
 
-1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) class.
-1.  Create a new  [ImageSaveOptions](https://apireference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) object. By default, the `Format` property is PNG.
-1.  Use the [ConvertSVG()](https://apireference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) method to save SVG as a PNG image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG() method.
-1.  The PNG file will be saved to the specified path.</br></br>
+{{<section steps1>}}
+---
+h2: Schritte zum Konvertieren von SVG in PNG mit der Methode ConvertSVG()
+---
+1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument)-Klasse.
+1. Erstellen Sie ein neues [ImageSaveOptions](https://apireference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions)-Objekt. Standardmäßig ist die Eigenschaft „Format“ PNG.
+1. Verwenden Sie die Methode [ConvertSVG()](https://apireference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), um SVG als PNG-Bild zu speichern. Sie müssen das SVGDocument, die ImageSaveOptions und den Pfad der Ausgabedatei an die Methode ConvertSVG() übergeben.
+1. Die PNG-Datei wird im angegebenen Pfad gespeichert.
 
 
-<h2> Steps to Convert SVG to PNG using RenderTo() Method </h2>
 
-1. Initialize [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) with your SVG file.
-1. Create an object of the ImageRenderingOptions class. Use the [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) constructor and specify the `Format` property of the output document.
-1. Initialize [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) class and specify the output file name to render. 
-1. Call [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) method & pass the instance of the ImageDevice.</br>
+{{<section steps2>}}
+---
+h2: Schritte zum Konvertieren von SVG in PNG mit der RenderTo()-Methode
+---
+1. Initialisieren Sie [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
+1. Erstellen Sie ein Objekt der ImageRenderingOptions-Klasse. Verwenden Sie den Konstruktor [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
+1. Initialisieren Sie die Klasse [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
+1. Rufen Sie die Methode [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz von ImageDevice.
 
-{{% blocks/products/pf/agp/code-block title="Convert SVG to PNG" offSpacer="true" %}}
+
+
+{{<section code-text>}}
+---
+title: Konvertieren Sie SVG in PNG
+---
+
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))
@@ -73,27 +97,18 @@ using (var document = new SVGDocument("input.svg"))
 	}
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
-{{% /blocks/products/pf/agp/content %}}
 
-{{% blocks/products/pf/agp/content h2="Get Started with .NET SVG API" %}}
+{{<section get-started>}}
+---
+h2: Erste Schritte mit der .NET SVG-API
+---
 
-Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.</br>
-Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.aspose.com/svg/net). Aspose.SVG for .NET API is a standalone library and does not depend on any software for SVG document processing.</br>
- For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation](https://docs.aspose.com/svg/net/getting-started/).
-{{% /blocks/products/pf/agp/content %}}
+Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
+Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://downloads.aspose.com/svg/net) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
+ Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/).
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported SVG Conversions" subTitle="You can also convert SVG to many other file formats:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-pdf/" name="SVG TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-xps/" name="SVG TO XPS" description="XML Paper Specifications" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-bmp/" name="SVG TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-image/" name="SVG TO IMAGE" description="Image formats" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-jpeg/" name="SVG TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-gif/" name="SVG TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-png/" name="SVG TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/conversion/svg-to-tiff/" name="SVG TO TIFF" description="Tagged Image Format" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+ {{<section other-conversions>}}
+---
+title: Andere unterstützte SVG-Konvertierungen
+subTitle: "Sie können SVG auch in viele andere Dateiformate konvertieren:"
+---

@@ -1,15 +1,15 @@
 ﻿---
 translation: true
-template: template.md
+template: ./../_template1.md
 title: Konvertieren Sie SVG in ein Bild mit C# Core
-description: Laden und konvertieren Sie SVG in Bilder mit der .NET Core-API unter Windows, macOS und Linux
+description: Laden und konvertieren Sie SVG in ein Bild mithilfe der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-image/
 family: svg
 platformtag: net
 feature: conversion
 informat: SVG
 outformat: GIF JPEG PNG TIFF BMP
-otherformats: GIF JPEG PNG TIFF PDF XPS
+otherformats: GIF JPEG PNG BMP TIFF PDF XPS
 ---
 
 {{<section banner>}}
@@ -23,7 +23,7 @@ h2: Hochgeschwindigkeits-.NET-API zum Konvertieren von SVG in Bilder unter Windo
 h2: SVG-zu-Bild-Konvertierung über .NET Core
 ---
 
-SVG ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. Aber manchmal müssen Sie SVG konvertieren und in einem gängigen Rasterbildformat speichern. Mit der [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API können Sie SVG programmgesteuert in Bildformate umwandeln und dabei die volle Kontrolle über eine Vielzahl von Konvertierungsparametern haben. Mit der leistungsstarken C#-API können Sie SVG mit hoher Geschwindigkeit und hoher Qualität in Rasterbilder konvertieren.
+SVG ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. Aber manchmal müssen Sie SVG konvertieren und in einem gängigen Rasterbildformat speichern. Mit der API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) können Sie SVG programmgesteuert in Bilder umwandeln und dabei die volle Kontrolle über eine Vielzahl von Konvertierungsparametern haben. Mit der leistungsstarken C#-API können Sie SVG mit hoher Geschwindigkeit und hoher Qualität in Rasterbilder konvertieren.
 
 
 {{<section demos>}}
@@ -75,7 +75,7 @@ h2: Schritte zum Konvertieren von SVG in ein Bild mit der RenderTo()-Methode
 ---
 1. Initialisieren Sie [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
 1. Erstellen Sie ein Objekt der ImageRenderingOptions-Klasse. Verwenden Sie den Konstruktor [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
-1. Initialisieren Sie die Klasse [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
+1. Initialisieren Sie die Klasse [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den zu rendernden Ausgabedateinamen an.
 1. Rufen Sie die Methode [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz von ImageDevice.
 
 
@@ -85,7 +85,7 @@ h2: Schritte zum Konvertieren von SVG in ein Bild mit der RenderTo()-Methode
 title: Konvertieren Sie SVG in ein Bild
 ---
 
-{{<section code-snippet>}}
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

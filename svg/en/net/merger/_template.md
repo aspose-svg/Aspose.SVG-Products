@@ -15,11 +15,14 @@ url: {{i18n.url}}
 
 <h2>{{i18n.demos.h2}}</h2>
 
-{{i18n.demos}}
+<p>{{i18n.demos}}</p>
 
+{{% blocks/products/pf/agp/code-block title="Merge SVG to PDF - C#" offSpacer="true" %}}
+
+{{i18n.code-snippet}}
+
+{{% /blocks/products/pf/agp/code-block %}}
 {{% /blocks/products/pf/feature-page-section %}}
-
-{{i18n.app-pluging}}
 
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.documentation.h2}}" %}}
 
@@ -33,11 +36,11 @@ url: {{i18n.url}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-conversions.h2}}" %}}
+{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-mergers.h2}}" %}}
 
-{{i18n.other-conversions}}
+{{i18n.other-mergers}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/feature-page-options pairs="svg-to-pdf svg-to-xps svg-to-bmp svg-to-png svg-to-jpeg svg-to-tiff svg-to-gif svg-to-image" >}}
+{{< blocks/products/pf/feature-page-options pairs="svg-to-pdf svg-to-xps svg-to-bmp jpg-to-jpg png-to-png gif-to-gif svg-to-png svg-to-jpeg svg-to-tiff jpg-to-png png-to-jpg gif-to-jpg svg-to-gif svg-to-image jpg-to-tiff jpg-to-gif png-to-gif gif-to-png" >}}

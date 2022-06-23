@@ -1,6 +1,6 @@
 ---
 translation: true
-template: template.md
+template: ./../_template1.md
 title: Convert SVG to Image with C# Core 
 description: Load and Convert SVG to Image using .NET Core API on Windows, macOS & Linux
 url: /net/conversion/svg-to-image/
@@ -9,7 +9,7 @@ platformtag: net
 feature: conversion
 informat: SVG
 outformat: GIF JPEG PNG TIFF BMP
-otherformats: GIF JPEG PNG TIFF PDF XPS 
+otherformats: GIF JPEG PNG BMP TIFF PDF XPS 
 ---
 
 {{<section banner>}}
@@ -23,7 +23,7 @@ h2: High-speed .NET API for converting SVG to Image on Windows, macOS & Linux
 h2: SVG to Image Conversion via .NET Core
 ---
 
-SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to Image formats programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert SVG to raster images with high speed and high quality.
+SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to Images programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert SVG to raster images with high speed and high quality.
 
 
 {{<section demos>}}
@@ -83,7 +83,7 @@ h2: Steps to Convert SVG to Image using RenderTo() Method
 title: Convert SVG to Image
 ---
 
-{{<section code-snippet>}}
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

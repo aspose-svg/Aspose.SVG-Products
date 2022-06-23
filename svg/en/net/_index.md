@@ -1,7 +1,7 @@
 ---
 translation: true
-template: template.md
-title: C# .NET SVG files Parsing API - Aspose 
+template: _template.md
+title: C# SVG files Parsing API - Aspose 
 weight: 20
 url: /net/ 
 description: C# .NET SVG library to load file, read and traverse the elements and convert SVG to PDF, XPS and Image formats
@@ -9,7 +9,7 @@ description: C# .NET SVG library to load file, read and traverse the elements an
 
 {{<section banner>}}
 ---
-h1: .NET APIs to Parse SVG Files
+h1: C# API to Parse SVG Files
 h2: Create, load, parse, render and convert SVG files to popular formats without any software dependencies
 ---
 
@@ -59,13 +59,14 @@ feature8: Navigate via CSS Selectors, Element and Document Traversal
 feature9: DOM Tree manipulation of official SVG specifications
 ---
 
-{{<section convert>}}
+{{<section converter>}}
 ---
 h2: Convert SVG using C#
 h3: Convert SVG to PNG - C#
 ----
    
 Aspose.SVG for .NET can read and convert SVG to PDF, XPS and major image formats. The conversion process is simple and reliable, thus making SVG .NET API a perfect choice. You can use API in your C# or any other .NET application to develop converter applications without getting into the details of underlying file formats. Getting conversion functionality is simple and depends on each application requirement. Here are a few lines of code for conversion between formats.
+
 
 {{<section "code" i18n-exclude>}}
      
@@ -78,7 +79,7 @@ using Aspose.Svg.Converters;
     // Initialize an SVG document from a file
     using (var document = new SVGDocument("input.svg"))
     {
-        // Create an instance of the ImageSaveOptions class
+    	// Create an instance of the ImageSaveOptions class
     	var pngSaveOptions = new ImageSaveOptions();    
     
         // Convert SVG to PNG
@@ -158,4 +159,4 @@ using Aspose.Svg.Rendering.Pdf;
 
 {{<section other-mergers>}}	
 
-Other Supported Mergers:  
+Other Supported Mergers: 

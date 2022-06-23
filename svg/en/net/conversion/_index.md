@@ -1,6 +1,6 @@
 ---
 translation: true
-template: template.md
+template: _template.md
 title: Convert SVG to popular formats Using C#
 url: /net/conversion/
 description: Convert SVG to PDF, XPS, and Images with few lines of C# code via .NET library.
@@ -24,14 +24,14 @@ SVG (Scalable Vector Graphics) is an XML-based image format for two-dimensional 
 
  - The [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) method is used to render SVG to another format and send a document to the output device. Aspose.SVG API provides the following output devices implementation: the PdfDevice, XpsDevice,  and ImageDevice classes, which perform rendering to PDF, XPS, and Image file formats respectively.
 
-{{<section "demos">}}
+{{<section demos>}}
 ---
 h2: SVG Converter Live Demos
 ---
 
 You can convert SVG with Aspose.SVG for .NET API in real-time.  The following C# example demonstrates how to convert an SVG document. Please load a file from the local file system, select the output format and run the example. You will immediately get the result as a separate file.
 
-{{<section app-pluging>}}
+{{<section "app-pluging" i18n-exclude>}}
 
 {{< app/svg/converter SVG PDF BMP "JPG|JPEG" PNG GIF TIFF XPS>}}
 using Aspose.Svg;
@@ -57,7 +57,7 @@ using Aspose.Svg.Converters;
     Converter.ConvertSVG(document, options, "output.{{output lower}}");
 {{< /app/svg/converter>}}
 
-{{<section "documentation">}}
+{{<section documentation>}}
 ---
 h2: Popular SVG Conversions in Documentation
 ---
@@ -72,7 +72,7 @@ Aspose.SVG for .NET library lets you create, edit, read and convert SVG files pr
 	</ul>
 </div>
 
-{{<section "installing">}}
+{{<section installing>}}
 ---
 h2: Installing Aspose.SVG for .NET library
 ---
@@ -86,7 +86,7 @@ Installing <a href="https://www.nuget.org/packages/Aspose.SVG" target="_blank">A
 
 For more details about C# library installation, please refer to [Aspose.SVG Documentation](https://docs.aspose.com/svg/net/getting-started/installation/).
 
-{{<section "other-conversions">}}
+{{<section other-conversions>}}
 ---
 h2: Other Supported Conversions
 ---

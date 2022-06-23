@@ -1,28 +1,39 @@
----
-title: Merge SVG to BMP with C# Core - Aspose.SVG
-description: Merge SVG to BMP using .NET Core API on Windows, macOS & Linux
+﻿---
+translation: true
+template: ./../_template1.md
+title: Zusammenführen von SVG zu BMP über C# - Aspose.SVG
+description: Führen Sie SVG zu BMP über die C#-API unter Windows, macOS und Linux zusammen
 url: /net/merger/svg-to-bmp/
 family: svg
 platformtag: net
 feature: merge
 informat: SVG
 outformat: BMP
-otherformats: XPS PDF BMP GIF JPEG PNG TIFF 
+otherformats: XPS PDF GIF JPEG PNG TIFF BMP
 ---
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Merge SVG to BMP via C#" h2="High-speed .NET API to combine SVG files on Windows, macOS & Linux" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
-{{< blocks/products/pf/main-container >}}
+{{<section banner>}}
+---
+h1: SVG zu BMP über C# zusammenführen
+h2: Hochgeschwindigkeits-.NET-API zum Kombinieren von SVG-Dateien unter Windows, macOS und Linux
+---
 
-{{% blocks/products/pf/agp/content h2="Merge SVG to BMP in C#" %}}
+{{<section overview>}}
+---
+h2: Zusammenführen von SVG zu BMP mit C#
+---
 
-SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to merge SVG files and save them as one document in another file format. BMP files represent Bitmap Image files that are used to store high-quality bitmap digital images. BMP format can store data as two-dimensional digital images in both monochromes as well as color formats with various colour depths. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge SVG to BMP programmatically. Powerful C# API allows you to transform your SVG files quickly and in high quality.</br></br>
+SVG ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. Aber manchmal müssen Sie SVG-Dateien zusammenführen und sie als ein Dokument in einem anderen Dateiformat speichern. BMP-Dateien stellen Bitmap-Bilddateien dar, die zum Speichern hochwertiger digitaler Bitmap-Bilder verwendet werden. Das BMP-Format kann Daten als zweidimensionale digitale Bilder sowohl in Monochrom- als auch in Farbformaten mit verschiedenen Farbtiefen speichern. Mit der API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) können Sie SVG programmgesteuert mit BMP zusammenführen. Die leistungsstarke C#-API hilft Ihnen, SVG-Dateien schnell und in hoher Qualität zu kombinieren!
 
-<h2> C# code example to merge SVG to BMP </h2>
-<p> A high-speed C# library allows .NET developers to merge SVG files and convert the combined result into other popular formats such as PDF, XPS, JPEG, PNG, BMP, GIF, and TIFF quickly and efficiently. Documents merging can be done with a few lines of code:</p></br>
+{{<section code-text>}}
+---
+h2: C#-Codebeispiel zum Zusammenführen von SVG zu BMP
+title: SVG zu BMP zusammenführen - C#
+---
 
-{{% blocks/products/pf/agp/code-block title="Merge SVG to BMP  - C#" offSpacer="true" %}}
+Eine Hochgeschwindigkeits-C#-Bibliothek ermöglicht es .NET-Entwicklern, SVG-Dateien zusammenzuführen und das kombinierte Ergebnis schnell und effizient in andere gängige Formate wie PDF, XPS, JPEG, PNG, BMP, GIF und TIFF zu konvertieren. Das Zusammenführen von Dokumenten kann mit ein paar Zeilen Code durchgeführt werden:
+
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 // Initialize SVG documents from files to merge 
@@ -38,39 +49,41 @@ using (var document3 = new SVGDocument("document3.svg"))
     renderer.Render(device, document1, document2, document3);                
 }
 ```
-<p></p></br></br>
-{{% /blocks/products/pf/agp/code-block %}}
 
-<h2> Steps to Merge SVG to BMP using C# </h2>
+{{<section steps>}}
+---
+h2: Schritte zum Zusammenführen von SVG zu BMP mit C#
+---
+1. Laden Sie ein SVG-Dokument mit einem der [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/)-Konstruktoren.
+1. Erstellen Sie eine neue Instanz der Klasse [SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/).
+1. Verwenden Sie den Konstruktor [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5), um eine neue Instanz der ImageDevice-Klasse zu initialisieren.
+1. Rufen Sie die Methode [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/) auf, um SVG zu BMP-Bild zusammenzuführen.
+1. Mehrere SVG-Dateien werden im BMP-Bild im angegebenen Pfad gespeichert.
 
-1.  Load an SVG document using one of the [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/) constructors.
-1.  Create a new instance of the [SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/) class.
-1.  Use the [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5) constructor to initialize a new instance of the ImageDevice class.
-1.  Call the [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/) method to merge SVG to BMP image.
-1.  Multiple SVG files will be saved to the BMP image on the specified path.</br></br>
 
-The [Aspose.Svg.Rendering](https://reference.aspose.com/svg/net/aspose.svg.rendering/) namespace implements easy access to Render() methods. You can quickly perform SVG merge and export the combining result to popular formats, such as PDF, XPS, JPEG, PNG, BMP, TIFF, and GIF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. In the documentation article <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank">How to Merge SVG Files</a>, you can consider C# examples of how to merge SVG.</br></br>
 
-{{% /blocks/products/pf/agp/content %}}
+{{<section documentation>}}
 
-{{% blocks/products/pf/agp/content h2="Get Started with .NET SVG API" %}}
+Der Namespace [Aspose.Svg.Rendering](https://reference.aspose.com/svg/net/aspose.svg.rendering/) implementiert einfachen Zugriff auf Render()-Methoden. Sie können SVG-Zusammenführungen schnell durchführen und das Kombinationsergebnis in gängige Formate wie PDF, XPS, JPEG, PNG, BMP, TIFF und GIF exportieren. Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">unsere Dokumentation</a>, um mehr zu erfahren mehr über die Verwendung von Aspose.SVG-API-Funktionen. Im Dokumentationsartikel <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target= "_blank">So führen Sie SVG-Dateien zusammen</a>, können Sie sich C#-Beispiele zum Zusammenführen von SVG ansehen.
 
-Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.</br>
-Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.aspose.com/svg/net). Aspose.SVG for .NET API is a standalone library and does not depend on any software for SVG document processing.</br>
- For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation](https://docs.aspose.com/svg/net/getting-started/).
-{{% /blocks/products/pf/agp/content %}}
+{{<section online-merger>}}
+---
+h2: Online-Bildzusammenführung
+---
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported SVG Mergers" subTitle="You can merge SVG to many other file formats:" >}}
+Aspose.SVG bietet eine kostenlose Online-<a href="https://products.aspose.app/svg/merger" target="_blank">Image Merger</a>-App, die mehrere Bilder in einer einzigen Datei kombiniert. Sie können eine Art Bildzusammenführung für verschiedene Quelldateien wie SVG, JPG, PNG, BMP, ICO, GIF oder TIFF auswählen und das Ergebnis in einem der folgenden Ausgabeformate speichern: JPG, PNG oder SVG. Unsere Anwendung ist multifunktional. Sie können Bildcollagen erstellen, Bilder vor dem Zusammenführen bearbeiten und manipulieren. Mit Image Merger können Sie Bilder frei hinzufügen, drehen, skalieren, Hintergründe hinzufügen, filtern und jedes Bild verschieben, bis Sie mit dem Endergebnis Ihres Designs zufrieden sind.
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-pdf/" name="SVG TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-xps/" name="SVG TO XPS" description="XML Paper Specifications" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-bmp/" name="SVG TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-image/" name="SVG TO IMAGE" description="Image formats" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-jpeg/" name="SVG TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-gif/" name="SVG TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-png/" name="SVG TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-tiff/" name="SVG TO TIFF" description="Tagged Image Format" >}}
+{{<section get-started>}}
+---
+h2: Erste Schritte mit der .NET SVG-API
+---
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
+Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://downloads.aspose.com/svg/net) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
+ Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/).
+
+{{<section other-mergers>}}
+---
+title: Andere unterstützte Fusionen
+subTitle: "Sie können SVG und Bilder mit anderen Dateiformaten zusammenführen:"
+---

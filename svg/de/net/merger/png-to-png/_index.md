@@ -1,27 +1,39 @@
----
-title: Merge PNG to PNG via C# - Aspose.SVG
-description: Merge PNG to PNG using .NET Core API on Windows, macOS & Linux
+﻿---
+translation: true
+template: ./../_template1.md
+title: Zusammenführen von PNG zu PNG über C# - Aspose.SVG
+description: Zusammenführen von PNG zu PNG mit C# unter Windows, macOS und Linux
 url: /net/merger/png-to-png/
 family: svg
 platformtag: net
 feature: merge
 informat: PNG
 outformat: PNG
+otherformats: GIF JPEG PNG TIFF BMP
 ---
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Merge PNG to PNG via C#" h2="High-speed .NET API to combine PNG files on Windows, macOS & Linux" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
 
-{{< blocks/products/pf/main-container >}}
+{{<section banner>}}
+---
+h1: PNG zu PNG über C# zusammenführen
+h2: Hochgeschwindigkeits-.NET-API zum Kombinieren von PNG-Dateien unter Windows, macOS und Linux
+---
 
-{{% blocks/products/pf/agp/content h2="Merge PNG to PNG Using C#" %}}
+{{<section overview>}}
+---
+h2: PNG zu PNG mit C# zusammenführen
+---
 
-PNG refers to a type of raster image file format that uses lossless compression, making it popular among users. We can safely say that PNG has evolved into one of the most used image file formats. In many cases, you may need to combine PNG images. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can merge PNG to PNG programmatically. Powerful C# API allows you to combine PNG files quickly and in high quality.</br></br>
+PNG bezieht sich auf eine Art von Rasterbilddateiformat, das verlustfreie Komprimierung verwendet, was es bei Benutzern beliebt macht. Wir können mit Sicherheit sagen, dass sich PNG zu einem der am häufigsten verwendeten Bilddateiformate entwickelt hat. In vielen Fällen müssen Sie möglicherweise PNG-Bilder kombinieren. Mit der API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) können Sie PNG programmgesteuert mit PNG zusammenführen. Die leistungsstarke C#-API hilft Ihnen, PNG-Dateien schnell und in hoher Qualität zu kombinieren!
 
-<h2> C# code example to merge PNG to PNG </h2>
-<p> A high-speed C# library allows .NET developers to merge PNG files into one image quickly and efficiently. Documents merging can be done with a few lines of code:</p></br>
+{{<section code-text>}}
+---
+h2: C#-Codebeispiel zum Zusammenführen von PNG zu PNG
+title: PNG zu PNG zusammenführen - C#
+---
 
-{{% blocks/products/pf/agp/code-block title="Merge PNG to PNG  - C#" offSpacer="true" %}}
+Eine Hochgeschwindigkeits-C#-Bibliothek ermöglicht es .NET-Entwicklern, PNG-Dateien schnell und effizient zu einem PNG zusammenzuführen. Das Zusammenführen von Bildern kann mit ein paar Zeilen Code durchgeführt werden:
+
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 // Images to merge 
@@ -45,7 +57,7 @@ using (var document = new SVGDocument())
     // Create thumbnails merging loop
     for (var i = 0; i < images.Length; i++)
     {
-	// Create a thumbnail
+        // Create a thumbnail
         var thumbnail = CreateThumbnail(images[i], thumbnailWidth, thumbnailHeight);
         // Define coordinates 
         thumbnail.X.BaseVal.Value = 0;
@@ -66,57 +78,45 @@ using (var document = new SVGDocument())
     document.RenderTo(new ImageDevice(options, "merged.png"));
 }
 ```
-<p></p></br></br>
-{{% /blocks/products/pf/agp/code-block %}}
 
-<h2> Steps to Merge PNG to PNG using C# </h2>
+{{<section steps>}}
+---
+h2: Schritte zum Zusammenführen von PNG zu PNG mithilfe von C#
+---
+1. Definieren Sie zusammenzuführende PNG-Bilder.
+1. Initialisieren Sie eine neue Instanz der Klasse [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor).
+1. Deklarieren Sie eine Bildfunktion. Sie sollten die Methode [CreateElementNS(`namespaceURI,qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) der SVGDocument-Klasse verwenden, um eine Bildinstanz. Der `namespaceURI` setzt den Verweis auf die W3C-SVG-Spezifikation. Der „qualifiedName“ muss den String-Tag-Namen des Bildelements enthalten.
+1. Rufen Sie die Bildfunktion auf, um ein Thumbnail-Objekt zu erstellen.
+1. Verwenden Sie zum Hinzufügen von Miniaturansichten zum Dokument die Methode [AppendChild()](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/#appendchild).
+1. Verwenden Sie einen der [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/)-Konstruktoren, um eine neue Instanz der ImageRenderingOptions-Klasse zu initialisieren. Sie können den Rendering-Prozess anpassen, indem Sie die Seitengröße, das Bildformat usw. angeben. PNG wird als Standardbildformat verwendet.
+1. Erstellen Sie eine Instanz von ImageDevice mit dem Konstruktor [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_3).
+1. Rufen Sie die Methode [RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto) auf, um das aktuelle Dokument an das Ausgaberenderinggerät zu senden.
+1. Mehrere PNG-Bilder werden in einer PNG-Datei im angegebenen Pfad gespeichert.
 
-1. Define PNG images to merge. 
-1. Initialize a new instance of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor) class. 
-1. Declare an image function. You should use the [CreateElementNS(`namespaceURI, qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) method of the SVGDocument class to create an image instance. The `namespaceURI` sets the reference to W3C SVG specification. The `qualifiedName` must contain the string tag name of the image element.
-1. Call the image function to create a thumbnail object.
-1. To add thumbnails to the document, use [AppendChild()](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/#appendchild) method.
-1. Use one of the [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/) constructor to initialize a new instance of the ImageRenderingOptions class. You can customize the rendering process by specifying the page size, image format, etc. PNG is used as the default image format.
-1. Create an instans of ImageDevice using the [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_3) constructor.
-1. Call the [RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto) method to send the current document to the output rendering device.
-1. Multiple PNG images will be saved into one PNG file on the specified path.</br></br>
 
-The [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) namespace provides specific device classes as well as a few rendering options classes responsible for rendering to raster formats: JPEG, PNG, BMP, GIF, and TIFF. Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">our documentation</a> to learn more about using Aspose.SVG API functions. </br></br>
-<h2>Online Image Merger</h2>
-Aspose.SVG offers a free online <a href="https://products.aspose.app/svg/merger" target="_blank">Image Merger</a> App that combines multiple images into a single file. You can choose a kind of Image Merger for different source files such as SVG, JPG, PNG, BMP, ICO, GIF, or TIFF, and save the merging result to one of the following output formats: JPG, PNG or SVG. Our application is multifunctional. You can create image collages, edit and manipulate images before merging. Image Merger allows you to freely add images, rotate, scale, add backgrounds, filters and move each image until you are happy with the end result of your design.</br>
 
-{{% /blocks/products/pf/agp/content %}}
+{{<section documentation>}}
 
-{{% blocks/products/pf/agp/content h2="Get Started with .NET SVG API" %}}
+Der Namensraum [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) stellt spezifische Geräteklassen sowie einige für das Rendern zuständige Rendering-Optionsklassen bereit in Rasterformate: JPEG, PNG, BMP, GIF und TIFF. Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">unsere Dokumentation</a>, um mehr zu erfahren mehr über die Verwendung von Aspose.SVG-API-Funktionen.
 
-Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.</br>
-Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.aspose.com/svg/net). Aspose.SVG for .NET API is a standalone library and does not depend on any software for SVG document processing.</br>
- For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation](https://docs.aspose.com/svg/net/getting-started/).
-{{% /blocks/products/pf/agp/content %}}
+{{<section online-merger>}}
+---
+h2: Online-Bildzusammenführung
+---
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Mergers" >}}
+Aspose.SVG bietet eine kostenlose Online-<a href="https://products.aspose.app/svg/merger" target="_blank">Image Merger</a>-App, die mehrere Bilder in einer einzigen Datei kombiniert. Sie können eine Art Bildzusammenführung für verschiedene Quelldateien wie SVG, JPG, PNG, BMP, ICO, GIF oder TIFF auswählen und das Ergebnis in einem der folgenden Ausgabeformate speichern: JPG, PNG oder SVG. Unsere Anwendung ist multifunktional. Sie können Bildcollagen erstellen, Bilder vor dem Zusammenführen bearbeiten und manipulieren. Mit Image Merger können Sie Bilder frei hinzufügen, drehen, skalieren, Hintergründe hinzufügen, filtern und jedes Bild verschieben, bis Sie mit dem Endergebnis Ihres Designs zufrieden sind.
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-jpg/" name="JPG to JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-png/" name="JPG to PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-bmp/" name="JPG to BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-gif/" name="JPG to GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/jpg-to-tiff/" name="JPG to TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-png/" name="PNG TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-jpg/" name="PNG to JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-bmp/" name="PNG to BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-gif/" name="PNG to GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/png-to-tiff/" name="PNG to TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/gif-to-jpg/" name="GIF to JPG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/gif-to-png/" name="GIF to PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-pdf/" name="SVG TO PDF" description="Portable Document Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-xps/" name="SVG TO XPS" description="XML Paper Specifications" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-bmp/" name="SVG TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-image/" name="SVG TO IMAGE" description="Image formats" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-jpeg/" name="SVG TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-gif/" name="SVG TO GIF" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-png/" name="SVG to PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/merger/svg-to-tiff/" name="SVG TO TIFF" description="Tagged Image Format" >}}
+{{<section get-started>}}
+---
+h2: Erste Schritte mit der .NET SVG-API
+---
 
-{{< /blocks/products/pf/agp/other-supported-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
+Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://downloads.aspose.com/svg/net) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
+ Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/).
+
+{{<section other-mergers>}}
+---
+title: Andere unterstützte Fusionen
+subTitle: "Sie können Bilder in andere Dateiformate zusammenführen:"
+---

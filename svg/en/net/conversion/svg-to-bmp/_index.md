@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../template1.md
+template: ./../_template1.md
 title: Convert SVG to BMP with .NET Core 
 description: Load and Convert SVG to BMP using .NET Core API on Windows, macOS & Linux
 url: /net/conversion/svg-to-bmp/
@@ -23,7 +23,7 @@ h2: High-speed .NET API for converting SVG to BMP on Windows, macOS & Linux
 h2: SVG to BMP Conversion via .NET Core
 ---
 
-SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to BMP format programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert  SVG to popular formats with high speed and high quality.
+SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to BMP image programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert  SVG to popular formats with high speed and high quality.
 
 
 {{<section demos>}}
@@ -33,7 +33,7 @@ h2: Free Online Converter Live Demos
 
 Test the quality of SVG to BMP conversion right in your browser! The following C# example demonstrates how to convert an SVG document using ConvertSVG() method. We describe the source code for reading SVG from a file and then converting SVG to BMP with default saving options. Please load SVG from the local file system, select the output format and run the example. You will immediately get the result as a separate file.
 
-{{<section app-pluging>}}
+{{<section "app-pluging" i18n-exclude>}}
 
 {{< app/svg/converter SVG BMP XPS TIFF PNG PDF "JPG|JPEG" GIF>}}
 using Aspose.Svg;
@@ -83,7 +83,7 @@ h2: Steps to Convert SVG to BMP using RenderTo() Method
 title: Convert SVG to BMP
 ---
 
-{{<section code-snippet>}}
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

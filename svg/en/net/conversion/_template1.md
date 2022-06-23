@@ -10,6 +10,7 @@ informat: SVG
 outformat: BMP
 otherformats: GIF JPEG PNG TIFF 
 ---
+<!-- template1.md -->
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 

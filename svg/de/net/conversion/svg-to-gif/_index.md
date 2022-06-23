@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: template.md
+template: ./../_template1.md
 title: Konvertieren Sie SVG in GIF mit .NET Core
 description: Laden und konvertieren Sie SVG in GIF mit der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-gif/
@@ -9,7 +9,7 @@ platformtag: net
 feature: conversion
 informat: SVG
 outformat: GIF
-otherformats: GIF JPEG PNG TIFF PDF XPS
+otherformats: GIF JPEG PNG TIFF BMP PDF XPS
 ---
 
 {{<section banner>}}
@@ -75,7 +75,7 @@ h2: Schritte zum Konvertieren von SVG in GIF mit der RenderTo()-Methode
 ---
 1. Initialisieren Sie [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
 1. Erstellen Sie ein Objekt der ImageRenderingOptions-Klasse. Verwenden Sie den Konstruktor [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
-1. Initialisieren Sie die Klasse [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
+1. Initialisieren Sie die Klasse [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den zu rendernden Ausgabedateinamen an.
 1. Rufen Sie die Methode [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz von ImageDevice.
 
 
@@ -85,7 +85,7 @@ h2: Schritte zum Konvertieren von SVG in GIF mit der RenderTo()-Methode
 title: Konvertieren Sie SVG in GIF
 ---
 
-{{<section code-snippet>}}
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: template.md
+template: _template.md
 title: Konvertieren Sie SVG in gängige Formate mit C#
 url: /net/conversion/
 description: Konvertieren Sie SVG in PDF, XPS und Bilder mit wenigen Zeilen C#-Code über die .NET-Bibliothek.
@@ -25,14 +25,14 @@ SVG (Scalable Vector Graphics) ist ein XML-basiertes Bildformat für zweidimensi
 
 <a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG for .NET API</a> vereinfacht den Konvertierungsprozess für Entwickler. Die Konvertierung zwischen Formaten kann mithilfe einiger verschiedener Ansätze erfolgen:
 
-{{<section "demos">}}
+{{<section demos>}}
 ---
 h2: SVG Converter Live-Demos
 ---
 
 Sie können SVG mit Aspose.SVG für die .NET-API in Echtzeit konvertieren. Das folgende C#-Beispiel zeigt, wie ein SVG-Dokument konvertiert wird. Bitte laden Sie eine Datei aus dem lokalen Dateisystem, wählen Sie das Ausgabeformat und führen Sie das Beispiel aus. Das Ergebnis erhalten Sie sofort als separate Datei.
 
-{{<section app-pluging>}}
+{{<section "app-pluging" i18n-exclude>}}
 
 {{< app/svg/converter SVG PDF BMP "JPG|JPEG" PNG GIF TIFF XPS>}}
 using Aspose.Svg;
@@ -41,13 +41,13 @@ using Aspose.Svg.Converters;
 
     using var document = new SVGDocument("input.{{input lower}}");
 {{#if_output 'PDF'}}
-    var Optionen = neue PdfSaveOptions();
+    var options = new PdfSaveOptions();
 {{/if_output}}
 {{#if_output 'DOCX'}}
-    var Optionen = neue DocSaveOptions();
+    var options = new DocSaveOptions();
 {{/if_output}}
 {{#if_output 'XPS'}}
-    var Optionen = neue XpsSaveOptions();
+    var options = new XpsSaveOptions();
 {{/if_output}}
 {{#if_output 'MD'}}
     var options = new MarkdownSaveOptions();
@@ -58,7 +58,7 @@ using Aspose.Svg.Converters;
     Converter.ConvertSVG(document, options, "output.{{output lower}}");
 {{< /app/svg/converter>}}
 
-{{<section "documentation">}}
+{{<section documentation>}}
 ---
 h2: Beliebte SVG-Konvertierungen in der Dokumentation
 ---
@@ -73,7 +73,7 @@ Mit der Bibliothek Aspose.SVG für .NET können Sie SVG-Dateien programmgesteuer
 	</ul>
 </div>
 
-{{<section "installing">}}
+{{<section installing>}}
 ---
 h2: Aspose.SVG für die .NET-Bibliothek installieren
 ---
@@ -88,7 +88,7 @@ Installieren von <a href="https://www.nuget.org/packages/Aspose.SVG" target="_bl
 
 Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/installation/).
 
-{{<section "other-conversions">}}
+{{<section other-conversions>}}
 ---
 h2: Andere unterstützte Konvertierungen
 ---

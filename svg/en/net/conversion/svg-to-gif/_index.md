@@ -1,6 +1,6 @@
 ---
 translation: true
-template: template.md
+template: ./../_template1.md
 title: Convert SVG to GIF with .NET Core 
 description: Load and Convert SVG to GIF using .NET Core API on Windows, macOS & Linux
 url: /net/conversion/svg-to-gif/
@@ -9,7 +9,7 @@ platformtag: net
 feature: conversion
 informat: SVG
 outformat: GIF
-otherformats: GIF JPEG PNG TIFF PDF XPS 
+otherformats: GIF JPEG PNG TIFF BMP PDF XPS 
 ---
 
 {{<section banner>}}
@@ -23,7 +23,7 @@ h2: High-speed .NET API for converting SVG to GIF on Windows, macOS & Linux
 h2: SVG to GIF Conversion via .NET Core
 ---
 
-SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to GIF format programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert  SVG to popular formats with high speed and high quality.
+SVG is one of the most used formats for website building and print graphics to achieve scalability. But sometimes, you need to convert SVG and save it in a common raster image format. With [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, you can transform SVG to GIF format programmatically with full control over a wide range of conversion parameters. Powerful C# API allows you to convert SVG to popular formats with high speed and high quality.
 
 
 {{<section demos>}}
@@ -83,7 +83,7 @@ h2: Steps to Convert SVG to GIF using RenderTo() Method
 title: Convert SVG to GIF
 ---
 
-{{<section code-snippet>}}
+{{<section "code-snippet" i18n-exclude>}}
 
 ```cs
 using (var document = new SVGDocument("input.svg"))

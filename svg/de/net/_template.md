@@ -1,4 +1,5 @@
 ﻿---
+template: true
 title: {{i18n.title}}
 description: {{i18n.description}}
 url: {{i18n.url}}
@@ -26,7 +27,7 @@ weight: 20
 		<li>{{i18n.overview.item6}}</li>
 		<li>{{i18n.overview.item7}}</li>
 	</ul>
-</div>
+</div> 
 
 {{< /blocks/products/pf/tab-content >}}
 
@@ -252,12 +253,12 @@ weight: 20
 
 <div class="col-lg-12">
 
-<h2 class="h2title">{{i18n.convert.h2}}</h2>
+<h2 class="h2title">{{i18n.converter.h2}}</h2>
 
-<p>{{i18n.convert}}</p>
+<p>{{i18n.converter}}</p>
 
 <div class="codeblock" id="code">
-<h3> {{i18n.convert.h3}}</h3>
+<h3> {{i18n.converter.h3}}</h3>
 
 <pre><code class="cs">
 {{i18n.code}}

@@ -1,4 +1,5 @@
 ---
+template: true
 title: {{i18n.title}}
 description: {{i18n.description}}
 url: {{i18n.url}}
@@ -9,6 +10,7 @@ informat: SVG
 outformat: BMP
 otherformats: GIF JPEG PNG TIFF 
 ---
+<!-- template1.md -->
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
