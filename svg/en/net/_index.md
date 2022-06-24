@@ -63,7 +63,7 @@ feature9: DOM Tree manipulation of official SVG specifications
 ---
 h2: Convert SVG using C#
 h3: Convert SVG to PNG - C#
-----
+---
    
 Aspose.SVG for .NET can read and convert SVG to PDF, XPS and major image formats. The conversion process is simple and reliable, thus making SVG .NET API a perfect choice. You can use API in your C# or any other .NET application to develop converter applications without getting into the details of underlying file formats. Getting conversion functionality is simple and depends on each application requirement. Here are a few lines of code for conversion between formats.
 
