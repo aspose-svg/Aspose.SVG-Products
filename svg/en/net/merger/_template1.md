@@ -6,9 +6,9 @@ url: {{i18n.url}}
 family: svg
 platformtag: net
 feature: conversion
-informat: SVG
-outformat: BMP
-otherformats: GIF JPEG PNG TIFF 
+informat: {{i18n.informat}}
+outformat: {{i18n.outformat}}
+otherformats: {{i18n.otherformats}}
 ---
 <!-- template1.md -->
 
