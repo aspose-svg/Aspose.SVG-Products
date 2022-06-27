@@ -22,13 +22,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Copycat
-      uses: andstor/copycat-action@v3
-      with:
-        personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./svg/
-        dst_path: /content/
-        dst_owner: Aspose
-        dst_repo_name: products.aspose.com
-        dst_branch: main
-        src_branch: main
+    - name: Build
+      run: |
+          dependencies/globalizeIt/GlobalizeIt.Console
+      shell: bash
+    # - name: Copycat
+    #   uses: andstor/copycat-action@v3
+    #   with:
+    #     personal_token: ${{ secrets.REPO_TOKEN }}
+    #     src_path: ./svg/
+    #     dst_path: /content/
+    #     dst_owner: Aspose
+    #     dst_repo_name: products.aspose.com
+    #     dst_branch: main
+    #     src_branch: main
