@@ -24,7 +24,7 @@ jobs:
     steps:
     - name: Build
       run: |
-          dependencies/globalizeIt/GlobalizeIt.Console
+          ./dependencies/globalizeIt/GlobalizeIt.Console
       shell: bash
     # - name: Copycat
     #   uses: andstor/copycat-action@v3
