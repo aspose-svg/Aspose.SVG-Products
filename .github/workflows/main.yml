@@ -26,8 +26,8 @@ jobs:
       uses: actions/checkout@v3
     - name: build
       run: |
-          chmod 777 ${{ github.workspace }}/dependencies/globalizeIt/GlobalizeIt.Console
-          ${{ github.workspace }}/dependencies/globalizeIt/GlobalizeIt.Console
+          chmod 777 ./dependencies/globalizeIt/GlobalizeIt.Console
+          ./dependencies/globalizeIt/GlobalizeIt.Console -c ./svg/ -p ./output/
       shell: bash
     # - name: Copycat
     #   uses: andstor/copycat-action@v3
