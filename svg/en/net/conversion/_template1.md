@@ -23,19 +23,6 @@ otherformats: {{i18n.otherformats}}
 {{i18n.overview}}
 <br>
 
-<b>
-
-{{<import path="./../../partials/_fileformats.md" section="{{i18n.informat}}">}}
-
-</b>
-<br>
-<b>
-
-{{<import path="./../../partials/_fileformats.md" section="{{i18n.outformat}}">}}
-
-</b>
-<br>
-
 <h2>{{i18n.demos.h2}}</h2>
 
 {{i18n.demos}}
