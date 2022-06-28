@@ -27,7 +27,7 @@ jobs:
     - name: build
       run: |
           chmod 777 ./dependencies/globalizeIt/GlobalizeIt.Console
-          ./dependencies/globalizeIt/GlobalizeIt.Console -c ./svg/ -p ./output/
+          ./dependencies/globalizeIt/GlobalizeIt.Console -c ${{ github.workspace }}/svg/ -p ${{ github.workspace }}/output/
       shell: bash
     # - name: Copycat
     #   uses: andstor/copycat-action@v3
