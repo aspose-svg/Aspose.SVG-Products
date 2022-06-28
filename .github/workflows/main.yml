@@ -29,13 +29,15 @@ jobs:
           chmod 777 ./dependencies/globalizeIt/GlobalizeIt.Console
           ./dependencies/globalizeIt/GlobalizeIt.Console -c ${{ github.workspace }}/svg/ -p ${{ github.workspace }}/output/svg/
       shell: bash
-    - name: Copycat
-      uses: datalbry/copy_folder_to_another_repo_action@1.0.0
+    - name: Copy files to another repository
+      uses: nkoppel/push-files-to-another-repository@v1.1.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.REPO_TOKEN }}
       with:
-        personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./output/svg/
-        dst_path: /content/svg/
-        dst_owner: aspose-svg
-        dst_repo_name: Aspose.SVG-for-.NET
-        dst_branch: master
-        src_branch: master
+        source-files: ./output/svg/
+        destination-repository: aspose-svg/Aspose.SVG-for-.NET
+        destination-directory: /content/svg/
+        destination-branch: master
+        destination-username: ${{ env.GITHUB_ACTOR }}
+        commit-email: ${{ env.GITHUB_ACTOR }}
+        commit-message: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
