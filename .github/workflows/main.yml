@@ -37,7 +37,7 @@ jobs:
         source-files: ./output/svg/
         destination-repository: aspose-svg/Aspose.SVG-for-.NET
         destination-directory: /content/svg/
-        destination-branch: master
+        destination-branch: feature/docs
         destination-username: ${{ env.GITHUB_ACTOR }}
         commit-email: ${{ env.GITHUB_ACTOR }}
         commit-message: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
