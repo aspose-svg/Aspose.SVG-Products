@@ -35,9 +35,9 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.REPO_TOKEN }}
       with:
         source_folder: ./output/svg/
-        destination_repo: aspose-svg/Aspose.SVG-for-.NET
+        destination_repo: Aspose/products.aspose.com
         destination_folder: /content/svg/
-        destination_branch: feature/docs
+        destination_branch: main
         user_name: ${{ github.actor }}
         user_email: ${{ github.actor }}
         commit_msg: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
