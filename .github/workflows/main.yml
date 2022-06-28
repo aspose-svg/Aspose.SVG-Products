@@ -30,14 +30,14 @@ jobs:
           ./dependencies/globalizeIt/GlobalizeIt.Console -c ${{ github.workspace }}/svg/ -p ${{ github.workspace }}/output/svg/
       shell: bash
     - name: Copy files to another repository
-      uses: nkoppel/push-files-to-another-repository@v1.1.1
+      uses: crykn/copy_folder_to_another_repo_action@v1.0.6
       env:
         API_TOKEN_GITHUB: ${{ secrets.REPO_TOKEN }}
       with:
-        source-files: ./output/svg/
-        destination-repository: aspose-svg/Aspose.SVG-for-.NET
-        destination-directory: /content/svg/
-        destination-branch: feature/docs
-        destination-username: ${{ env.GITHUB_ACTOR }}
-        commit-email: ${{ env.GITHUB_ACTOR }}
-        commit-message: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
+        source_folder: ./output/svg/
+        destination_repo: aspose-svg/Aspose.SVG-for-.NET
+        destination_folder: /content/svg/
+        destination_branch: feature/docs
+        user_name: ${{ env.GITHUB_ACTOR }}
+        user_email: ${{ env.GITHUB_ACTOR }}
+        commit_msg: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
