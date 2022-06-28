@@ -38,6 +38,6 @@ jobs:
         destination_repo: aspose-svg/Aspose.SVG-for-.NET
         destination_folder: /content/svg/
         destination_branch: feature/docs
-        user_name: ${{ env.GITHUB_ACTOR }}
-        user_email: ${{ env.GITHUB_ACTOR }}
+        user_name: ${{ github.actor }}
+        user_email: ${{ github.actor }}
         commit_msg: Update file(s) "./svg/" from "aspose-svg/Aspose.SVG-Products"
