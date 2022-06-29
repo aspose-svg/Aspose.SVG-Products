@@ -11,13 +11,13 @@ url: {{i18n.url}}
 
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.overview.h2}}" %}}
 
-{{i18n.overview}}
+{{i18n.overview}}<br>
 
 <h2>{{i18n.demos.h2}}</h2>
 
 <p>{{i18n.demos}}</p>
 
-{{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="{{i18n.demos.title}}" offSpacer="true" %}}
 
 {{i18n.code-snippet}}
 
@@ -27,6 +27,11 @@ url: {{i18n.url}}
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.documentation.h2}}" %}}
 
 {{i18n.documentation}}
+<br>
+
+<h2><b>{{i18n.online-color-converter.h2}}</b></h2>
+
+{{i18n.online-color-converter}}
 
  {{% /blocks/products/pf/feature-page-section %}}
 
@@ -36,11 +41,11 @@ url: {{i18n.url}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-mergers.h2}}" %}}
+{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-color-converters.h2}}" %}}
 
-{{i18n.other-mergers}}
 
 {{% /blocks/products/pf/feature-page-section %}}
+
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/feature-page-options pairs="svg-to-pdf svg-to-xps svg-to-bmp jpg-to-jpg png-to-png gif-to-gif svg-to-png svg-to-jpeg svg-to-tiff jpg-to-png png-to-jpg gif-to-jpg svg-to-gif svg-to-image jpg-to-tiff jpg-to-gif png-to-gif gif-to-png" >}}
+{{< blocks/products/pf/feature-page-options pairs="rgb-to-hex rgb-to-hsl hex-to-rgb hex-to-cmyk hsl-to-rgb cmyk-to-hex rgb-to-cmyk rgb-to-hsv hex-to-hsl hsla-to-rgba hsl-to-hex cmyk-to-rgb rgb-to-lab rgb-to-xyz rgba-to-hsla hex-to-xyz hsl-to-hsv cmyk-to-hsl" >}}
