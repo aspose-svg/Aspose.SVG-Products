@@ -6,7 +6,7 @@ description: Work with color codes and convert CMYK to HEX in C#
 url: /net/color-converter/cmyk-to-hex/
 family: svg
 platformtag: net
-feature: color
+feature: color converter
 informat: CMYK
 outformat: HEX
 otherformats: RGB HEX HSL HSV HWB CMYK LAB LCH XYZ OKLAB OKLCH NCOL
@@ -48,13 +48,14 @@ The high-speed C# library allows .NET developers to quickly and efficiently conv
 
 ```cs
 
-// Parse HEX color from a string
-IConvertibleColor color = ColorConverter.ConvertFrom("#DEB487");
-// Convert HEX to RGB 
-string rgbColor = color.ToRgbString();
+// Parse CMYK color from a string
+var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
+// Convert CMYK to HEX 
+string hexColor = color.ToHexString();
 // Print the result into console
-Console.WriteLine(rgbColor);
-//result should be: rgb(222, 180, 135)
+Console.WriteLine(hexColor);
+//result should be: #2759D9
+
 ```
 
 {{<section steps>}}

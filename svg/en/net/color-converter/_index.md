@@ -33,7 +33,7 @@ The high-speed C# library allows .NET developers to quickly and efficiently conv
 ```cs
 
 // Parse HEX color from a string
-IConvertibleColor color = ColorConverter.ConvertFrom("#DEB487");
+var color = ColorConverter.ConvertFrom("#DEB487");
 // Convert HEX to RGB 
 string rgbColor = color.ToRgbString();
 // Print the result into console
