@@ -272,26 +272,26 @@ weight: 20
 <div class="row">
 	<div class="col-md-3">
 		<ul>
-			<li><a href="/svg/net/conversion/svg-to-pdf/"> SVG to PDF</a></li>
-			<li><a href="/svg/net/conversion/svg-to-xps">SVG to XPS </a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-pdf/">SVG to PDF</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-xps">SVG to XPS </a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
-			<li><a href="/svg/net/conversion/svg-to-png">SVG to PNG</a></li>
-			<li><a href="/svg/net/conversion/svg-to-jpeg/"> SVG to JPEG</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-png">SVG to PNG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-jpeg/">SVG to JPEG</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
-			<li><a href="/svg/net/conversion/svg-to-bmp">SVG to BMP</a></li>
-			<li><a href="/svg/net/conversion/svg-to-gif">SVG to GIF</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-bmp">SVG to BMP</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-gif">SVG to GIF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
-			<li><a href="/svg/net/conversion/svg-to-tiff/"> SVG to TIFF</a></li>
-			<li><a href="/svg/net/conversion/svg-to-image">SVG to IMAGE</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-tiff/">SVG to TIFF</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-image">SVG to IMAGE</a></li>						
 		</ul>
 	</div>
 </div>
