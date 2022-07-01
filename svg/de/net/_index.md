@@ -17,7 +17,7 @@ h2: Erstellen, laden, parsen, rendern und konvertieren Sie SVG-Dateien in gängi
 ---
 item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">SVG erstellen oder laden Dokumente</a> aus einer Datei, URL, Zeichenfolge, Stream usw.
 item2: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">SVG konvertieren</a> in PDF , PNG und andere gängige Formate.
-item3: <a href="hhttps://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vektorisieren Sie Rasterbilder</a> wie z als PNG, JPG, BMP, TIFF, GIF und ICO in ein SVG-Dokument.
+item3: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vektorisieren Sie Rasterbilder</a> wie z als PNG, JPG, BMP, TIFF, GIF und ICO in ein SVG-Dokument.
 item4: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">In SVG-Dokumenten navigieren</a > Verwendung von XPath-Abfrage, CSS-Selektor, Element- und Dokumentdurchlauffunktionen.
 item5: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank"> Bearbeiten Sie SVG-Dateien</a>, indem Sie neue Knoten einfügen, entfernen oder den Inhalt bestehender Knoten bearbeiten.
 item6: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank"> Rendern Sie SVG-Dokumente</a> in hoher Qualität.

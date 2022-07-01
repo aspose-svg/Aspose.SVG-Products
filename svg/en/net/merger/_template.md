@@ -17,7 +17,7 @@ url: {{i18n.url}}
 
 <p>{{i18n.demos}}</p>
 
-{{% blocks/products/pf/agp/code-block title="Merge SVG to PDF - C#" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
 
 {{i18n.code-snippet}}
 

@@ -17,7 +17,7 @@ h2: Create, load, parse, render and convert SVG files to popular formats without
 ---
 item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Create or load SVG documents</a> from a file, URL, string, stream, etc.
 item2: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Convert SVG</a> to PDF, PNG, and other popular formats.
-item3: <a href="hhttps://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vectorize raster images</a> such as PNG, JPG, BMP, TIFF, GIF, and ICO into an SVG document.
+item3: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vectorize raster images</a> such as PNG, JPG, BMP, TIFF, GIF, and ICO into an SVG document.
 item4: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">Navigate SVG documents</a> using XPath Query, CSS Selector, Element and Document Traversal features. 
 item5: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank">Edit SVG files</a> by inserting new nodes, removing, or editing the content of existing nodes.
 item6: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank">Render SVG documents</a> with high quality. 

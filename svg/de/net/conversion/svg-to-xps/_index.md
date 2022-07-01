@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Konvertieren Sie SVG mit C# Core in XPS
 description: Laden und konvertieren Sie SVG in XPS mit der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-xps/

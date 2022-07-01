@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Zusammenführen von PNG zu TIFF über C# - Aspose.SVG
 description: Zusammenführen von PNG in TIFF mit C# unter Windows, macOS und Linux
 url: /net/merger/png-to-tiff/

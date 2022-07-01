@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Merge GIF to JPG via C# - Aspose.SVG
 description: Merge GIF to JPG using .NET Core API on Windows, macOS & Linux
 url: /net/merger/gif-to-jpg/

@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Merge PNG to TIFF via C# - Aspose.SVG
 description: Merge PNG to TIFF using C# on Windows, macOS & Linux
 url: /net/merger/png-to-tiff/

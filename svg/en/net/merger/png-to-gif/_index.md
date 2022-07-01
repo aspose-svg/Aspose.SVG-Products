@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Merge PNG to GIF via C# - Aspose.SVG
 description: Merge PNG to GIF using C# on Windows, macOS & Linux
 url: /net/merger/png-to-gif/

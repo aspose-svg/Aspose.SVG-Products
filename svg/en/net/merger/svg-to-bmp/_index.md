@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Merge SVG to BMP via C# - Aspose.SVG
 description: Merge SVG to BMP using C# API on Windows, macOS & Linux
 url: /net/merger/svg-to-bmp/
