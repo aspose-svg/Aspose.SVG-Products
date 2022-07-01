@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: GIF zu PNG über C# zusammenführen - Aspose.SVG
 description: Zusammenführen von GIF in PNG mithilfe der .NET Core-API unter Windows, macOS und Linux
 url: /net/merger/gif-to-png/

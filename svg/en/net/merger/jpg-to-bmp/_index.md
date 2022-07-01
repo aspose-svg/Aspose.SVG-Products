@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Merge JPG to BMP via C# - Aspose.SVG
 description: Merge JPG to BMP using .NET Core API on Windows, macOS & Linux
 url: /net/merger/jpg-to-bmp/

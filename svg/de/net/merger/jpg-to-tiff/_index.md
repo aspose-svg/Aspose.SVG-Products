@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Zusammenführen von JPG zu TIFF über C# - Aspose.SVG
 description: Zusammenführen von JPG zu TIFF mit der C#-API unter Windows, macOS und Linux
 url: /net/merger/jpg-to-tiff/

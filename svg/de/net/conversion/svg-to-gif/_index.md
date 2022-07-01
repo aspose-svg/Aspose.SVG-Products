@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Konvertieren Sie SVG in GIF mit .NET Core
 description: Laden und konvertieren Sie SVG in GIF mit der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-gif/

@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template1.md
+template: ./../_template-child.md
 title: Convert SVG to Image with C# Core 
 description: Load and Convert SVG to Image using .NET Core API on Windows, macOS & Linux
 url: /net/conversion/svg-to-image/
