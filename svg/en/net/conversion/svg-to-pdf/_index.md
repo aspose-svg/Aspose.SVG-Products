@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: Convert SVG to PDF with C# Core 
-description: Load and Convert SVG to PDF using .NET Core API on Windows, macOS & Linux
+title: Convert SVG to PDF with C# Core - Online SVG to PDF Converter
+description: Load and Convert SVG to PDF using .NET Core API on Windows, macOS & Linux. Try online SVG to PDF Converter for free!
 url: /net/conversion/svg-to-pdf/
 family: svg
 platformtag: net

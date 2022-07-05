@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: Convert SVG to TIFF with C# Core 
-description: Load and Convert SVG to TIFF using .NET Core API on Windows, macOS & Linux
+title: Convert SVG to TIFF with C# Core - Online SVG to TIFF Converter
+description: Convert SVG to TIFF using .NET Core API on Windows, macOS & Linux. Try online SVG to TIFF Converter for free!
 url: /net/conversion/svg-to-tiff/
 family: svg
 platformtag: net
