@@ -12,13 +12,13 @@ weight: 30
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="{{i18n.include.title}}" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.SVG for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" productLink="https://products.aspose.com/svg/net/" >}}
+{{< blocks/products/pf/product pfName="Aspose.SVG for " title=".NET" imgSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" productLink="https://products.aspose.com/svg/{{lang.url-fragment}}net/" >}}
 
 {{i18n.net}}
 
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/svg/family/" innerText="{{i18n.button1.innerText}}" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/svg/{{lang.url-fragment}}family/" innerText="{{i18n.button1.innerText}}" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
