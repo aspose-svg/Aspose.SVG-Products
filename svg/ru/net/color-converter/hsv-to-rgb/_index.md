@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование HSV в RGB в C#
+title: Конвертировать HSV в RGB на C#
 description: Работа с цветовыми кодами и преобразование HSV в RGB на C#
 url: /net/color-converter/hsv-to-rgb/
 family: svg
@@ -14,7 +14,7 @@ otherformats: HEX HSL HWB CMYK LAB LCH XYZ OKLAB OKLCH NCOL
 
 {{<section banner>}}
 ---
-h1: Преобразование HSV в RGB через C#
+h1: Конвертировать HSV в RGB на C#
 h2: Используйте высокоскоростной .NET API для преобразования цветов HSV в RGB в Windows, macOS и Linux.
 ---
 
@@ -23,12 +23,12 @@ h2: Используйте высокоскоростной .NET API для пр
 h2: Преобразование HSV в RGB с помощью C#
 ---
 
-[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB). , CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br><br>
+[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br><br>
 Цветовые коды или цветовые форматы тесно связаны с методами описания и определения цветов и широко используются в вебе, дизайне, полиграфии, фотографии, искусстве и т. д. И для разных задач предпочтительны разные цветовые форматы. Поэтому иногда вам может понадобиться преобразовать цветовые коды.
 
 {{<section input-color>}}
 ---
-title: Что такое цвет ВПГ?
+title: Что такое цвет HSV?
 ---
 
 {{<section output-color>}}
@@ -62,7 +62,7 @@ Console.WriteLine(rgbColor);
 h2: Действия по преобразованию HSV в RGB с помощью C#
 ---
 1. Вызовите метод [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) класса ColorConverter и передайте код HSV в виде строки.
-1. Метод ConvertFrom() анализирует цвет из строкового представления и возвращает интерфейс [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) для преобразования его в требуемый цвет. пространства.
+1. Метод ConvertFrom() анализирует цвет из строкового представления и возвращает интерфейс [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) для преобразования его в требуемый цвет.
 1. Метод IConvertibleColor.ToRgbString() преобразует HSV в цвет RGB в формате: rgb(0,0,0).
 
 
@@ -89,5 +89,5 @@ h2: Начало работы с .NET SVG API
 
 {{<section other-color-converters>}}
 ---
-title: Другие поддерживаемые преобразователи цветов
+title: Другие поддерживаемые Конвертеры цветов
 ---

@@ -74,7 +74,7 @@ h2: 使用 RenderTo() 方法将 SVG 转换为 PDF 的步骤
 ---
 1. 使用您的 SVG 文件初始化 [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument)。
 1. 创建 PdfRenderingOptions 类的对象。使用 [PdfRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
-1.初始化[PdfDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice)类并指定要渲染的输出文件名。
+1. 初始化[PdfDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice)类并指定要渲染的输出文件名。
 1. 调用 [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) 方法并传递 PdfDevice 的实例。
 
 

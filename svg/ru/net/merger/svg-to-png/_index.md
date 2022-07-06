@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение SVG в PNG через C# - Aspose.SVG
+title: Объединение SVG в PNG с помощью C# - Aspose.SVG
 description: Объединение SVG в PNG с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-png/
 family: svg
@@ -14,7 +14,7 @@ otherformats: GIF JPEG PNG TIFF BMP PDF XPS
 
 {{<section banner>}}
 ---
-h1: Объединить SVG в PNG через C#
+h1: Объединить SVG в PNG на C#
 h2: Высокоскоростной .NET API для объединения файлов SVG в Windows, macOS и Linux.
 ---
 
@@ -52,12 +52,12 @@ using (var document3 = new SVGDocument("document3.svg"))
 
 {{<section steps>}}
 ---
-h2: Шаги по слиянию SVG с PNG с помощью C#
+h2: Шаги по слиянию SVG в PNG с помощью C#
 ---
-1. Загрузите документ SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
+1. Загрузите документы SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
 1. Создайте новый экземпляр класса [SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/).
 1. Используйте конструктор [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5) для инициализации нового экземпляра класса ImageDevice.
-1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить изображение SVG с изображением PNG.
+1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить файлы SVG в изображение PNG.
 1. Несколько файлов SVG будут сохранены в формате PNG по указанному пути.
 
 
@@ -80,10 +80,10 @@ h2: Начало работы с .NET SVG API
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
 Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+ Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
 {{<section other-mergers>}}
 ---
 title: Другие поддерживаемые слияния
-subTitle: "Вы можете объединить SVG и изображения с файлами других форматов:"
+subTitle: "Вы можете объединить изображения и сохранить результат в другие форматы файлов:"
 ---

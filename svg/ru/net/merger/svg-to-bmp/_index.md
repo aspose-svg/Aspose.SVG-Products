@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение SVG в BMP через C# - Aspose.SVG
+title: Объединение SVG в BMP с помощью C# - Aspose.SVG
 description: Объедините SVG в BMP с помощью C# API в Windows, macOS и Linux
 url: /net/merger/svg-to-bmp/
 family: svg
@@ -14,16 +14,16 @@ otherformats: XPS PDF GIF JPEG PNG TIFF BMP
 
 {{<section banner>}}
 ---
-h1: Слияние SVG с BMP через C#
+h1: Объединить SVG в BMP на C#
 h2: Высокоскоростной .NET API для объединения файлов SVG в Windows, macOS и Linux.
 ---
 
 {{<section overview>}}
 ---
-h2: Слияние SVG с BMP с помощью C#
+h2: Объединение SVG в BMP с помощью C#
 ---
 
-SVG — один из наиболее часто используемых форматов для создания веб-сайтов и печати графики для обеспечения масштабируемости. Но иногда вам нужно объединить файлы SVG и сохранить их как один документ в другом формате файла. Файлы BMP представляют собой файлы растровых изображений, которые используются для хранения высококачественных растровых цифровых изображений. Формат BMP может хранить данные в виде двумерных цифровых изображений как в монохромном, так и в цветном формате с различной глубиной цвета. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединять SVG с BMP. Мощный C# API поможет вам быстро и качественно объединить файлы SVG!
+SVG — один из наиболее часто используемых форматов для создания веб-сайтов и печати графики для обеспечения масштабируемости. Но иногда вам нужно объединить файлы SVG и сохранить их как один документ в другом формате файла. Файлы BMP представляют собой файлы растровых изображений, которые используются для хранения высококачественных растровых цифровых изображений. Формат BMP может хранить данные в виде двумерных цифровых изображений как в монохромном, так и в цветном формате с различной глубиной цвета. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединять SVG в BMP. Мощный C# API поможет вам быстро и качественно объединить файлы SVG!
 
 {{<section code-text>}}
 ---
@@ -52,12 +52,12 @@ using (var document3 = new SVGDocument("document3.svg"))
 
 {{<section steps>}}
 ---
-h2: Шаги по слиянию SVG с BMP с помощью C#
+h2: Шаги по слиянию SVG в BMP с помощью C#
 ---
-1. Загрузите документ SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
+1. Загрузите документы SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
 1. Создайте новый экземпляр класса [SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/).
 1. Используйте конструктор [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5) для инициализации нового экземпляра класса ImageDevice.
-1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить изображение SVG с изображением BMP.
+1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить файлы SVG в BMP.
 1. Несколько файлов SVG будут сохранены в виде изображения BMP по указанному пути.
 
 
@@ -80,10 +80,10 @@ h2: Начало работы с .NET SVG API
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
 Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+ Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
 {{<section other-mergers>}}
 ---
 title: Другие поддерживаемые слияния
-subTitle: "Вы можете объединить SVG и изображения с файлами других форматов:"
+subTitle: "Вы можете объединить изображения и сохранить результат в другие форматы файлов:"
 ---

@@ -1,10 +1,10 @@
 ﻿---
 translation: true
 template: _template.md
-title: API синтаксического анализа файлов C# SVG — Aspose
+title: C# API синтаксического анализа файлов SVG — Aspose
 weight: 20
 url: /net/
-description: Библиотека C# .NET SVG для загрузки файла, чтения и перемещения элементов и преобразования SVG в форматы PDF, XPS и изображений.
+description: C# библиотека для загрузки файлов SVG, чтения и обхода элементов, преобразования SVG в форматы PDF, XPS и изображения.
 ---
 
 {{<section banner>}}
@@ -15,16 +15,16 @@ h2: Создавайте, загружайте, анализируйте, виз
 
 {{<section overview>}}
 ---
-item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Создать или загрузить SVG документы</a> из файла, URL, строки, потока и т. д.
+item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Создание или загрузка SVG документов</a> из файла, URL, строки, потока и т. д.
 item2: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Преобразование SVG</a> в PDF , PNG и другие популярные форматы.
-item3: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Векторизация растровых изображений</a>, например как PNG, JPG, BMP, TIFF, GIF и ICO в документ SVG.
+item3: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Векторизация растровых изображений</a>, например PNG, JPG, BMP, TIFF, GIF и ICO в документ SVG.
 item4: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">Навигация по документам SVG</a > используя функции XPath Query, CSS Selector, Element и Document Traversal.
-item5: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank"> Редактируйте файлы SVG</a>, добавляя новые узлы, удаляя или редактируя содержимое существующих узлов.
-item6: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank"> Отрисовывайте документы SVG</a> с высоким качеством.
-item7: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/text-vectorization/" target="_blank">Векторизация текста SVG</a > в короткие сроки и с профессиональным качеством и разрешением и многое другое.
+item5: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-edit-svg-documents/" target="_blank"> Редактирование файлов SVG</a>, добавляя новые узлы, удаляя или редактируя содержимое существующих узлов.
+item6: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-merge-svg-files/" target="_blank"> Отрисовка документов SVG</a> с высоким качеством.
+item7: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/text-vectorization/" target="_blank">Векторизация текста SVG</a > с профессиональным качеством и разрешением и многое другое.
 ---
 
-Aspose.SVG для .NET — это гибкая библиотека для обработки файлов SVG, полностью совместимая с ее спецификациями. API может легко загружать, сохранять и преобразовывать файлы SVG, а также читать и просматривать элементы файлов через свою объектную модель документа (DOM). API не зависит от какого-либо другого программного обеспечения и позволяет разработчикам работать с файлами SVG, не вникая в основные детали формата.<br><br>
+Aspose.SVG для .NET — это гибкая библиотека для обработки файлов SVG, полностью совместимая с ее спецификациями. API может легко загружать, сохранять и преобразовывать файлы SVG, а также читать и просматривать элементы файлов через объектную модель документа (DOM). API не зависит от какого-либо другого программного обеспечения и позволяет разработчикам работать с файлами SVG, не вникая в основные детали формата.<br><br>
 Использование библиотеки C# Aspose.SVG в вашем проекте позволяет выполнять следующие задачи:
 
 {{<section glance>}}
@@ -36,7 +36,7 @@ description: Обзор Aspose.SVG для .NET API.
 {{<section platform>}}
 ---
 h3: Независимость от платформы
-description: Aspose.SVG для .NET поддерживает все основные платформы, в том числе.
+description: "Aspose.SVG для .NET поддерживает все основные платформы, в том числе:"
 ---
 
 {{<section formats>}}
@@ -47,25 +47,25 @@ description: Aspose.SVG для .NET поддерживает все популя
 
 {{<section feature>}}
 ---
-title: Расширенные функции API синтаксического анализа .NET SVG
+title: Расширенные функции Aspose.SVG for .NET API
 feature1: Создание и чтение документов SVG
-feature2: Редактировать и сохранять файлы SVG
-feature3: <a href="/svg/{{lang.url-fragment}}net/conversion/">Конвертировать SVG в популярные форматы</a>
+feature2: Редактирование и сохранение SVG файлов
+feature3: <a href="/svg/{{lang.url-fragment}}net/conversion/">Преобразование SVG в популярные форматы</a>
 feature4: Полный контроль над узлами SVG
 feature5: <a href="/svg/{{lang.url-fragment}}net/color-converter/">Преобразование цветовых кодов</a>
-feature6: Изменить свойства узла
+feature6: Изменение свойств узла
 feature7: Навигация по содержимому с использованием XPath Query
 feature8: Навигация с помощью селекторов CSS, обхода элементов и документов
-feature9: Манипуляции DOM Tree с официальными спецификациями SVG
+feature9: Манипуляции DOM Tree согласно официальным спецификациям SVG
 ---
 
 {{<section converter>}}
 ---
-h2: Преобразование SVG с помощью C#
+h2: Преобразование SVG в другие форматы файлов
 h3: Преобразование SVG в PNG — C#
 ---
    
-Aspose.SVG для .NET может читать и преобразовывать SVG в PDF, XPS и основные графические форматы. Процесс преобразования прост и надежен, что делает SVG .NET API идеальным выбором. Вы можете использовать API в своем C# или любом другом приложении .NET для разработки приложений-конвертеров, не вдаваясь в подробности базовых форматов файлов. Получить функциональность преобразования просто и зависит от требований каждого приложения. Вот несколько строк кода для преобразования между форматами.
+Aspose.SVG для .NET может читать и преобразовывать SVG в PDF, XPS и основные форматы изображений. Процесс преобразования прост и надежен, что делает SVG .NET API идеальным выбором. Вы можете использовать API в своем C# или любом другом приложении .NET для разработки приложений-конвертеров, не вдаваясь в подробности базовых форматов файлов. Получить функциональность преобразования просто и зависит от требований каждого приложения. Вот несколько строк кода для преобразования между форматами.
 
 
 {{<section "code" i18n-exclude>}}
@@ -88,7 +88,7 @@ using Aspose.Svg.Converters;
 
 {{<section online-converters>}}
 
-Вы можете попробовать онлайн-конвертер SVG <a href="https://products.aspose.app/svg/conversion/svg" target="_blank">здесь</a>.
+Вы можете попробовать онлайн Конвертер SVG перейдя по <a href="https://products.aspose.app/svg/conversion/svg" target="_blank">ссылке</a>.
 
 {{<section other-converters>}}
 
@@ -100,7 +100,7 @@ h2: Преобразование растрового изображения в 
 h3: Преобразование изображения в вектор — C#
 ---
 
-Преобразование изображения в вектор очень просто с помощью Aspose.SVG API. Пространство имен <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> включает классы и интерфейсы для реализации процесса векторизации изображения. Следующий фрагмент кода демонстрирует использование класса ImageVectorizer для векторизации изображения:
+Конвертировать растровое изображение в векторную графику очень просто с помощью Aspose.SVG API. Пространство имен <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> включает классы и интерфейсы для реализации процесса векторизации изображения. Следующий фрагмент кода демонстрирует использование класса ImageVectorizer для векторизации изображения:
 
 {{<section "code-image" i18n-exclude>}}
      
@@ -127,7 +127,7 @@ using Aspose.Svg.Saving;
 
 {{<section merge>}}
 ---
-h2: Объединить SVG в C#
+h2: Объединить несколько SVG файлов используя C#
 h3: Объединить SVG в PDF — C#
 ---	
 	
@@ -159,4 +159,4 @@ using Aspose.Svg.Rendering.Pdf;
 
 {{<section other-mergers>}}	
 
-Другие поддерживаемые слияния:
+Другие поддерживаемые Объединения:

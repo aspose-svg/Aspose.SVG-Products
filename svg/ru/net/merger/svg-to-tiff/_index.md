@@ -14,7 +14,7 @@ otherformats: XPS PDF GIF JPEG PNG TIFF BMP
 
 {{<section banner>}}
 ---
-h1: Объединить SVG в TIFF через C#
+h1: Объединить SVG в TIFF на C#
 h2: Высокоскоростной .NET API для объединения файлов SVG в Windows, macOS и Linux.
 ---
 
@@ -23,7 +23,7 @@ h2: Высокоскоростной .NET API для объединения фа
 h2: Объединить SVG в TIFF с помощью C#
 ---
 
-SVG — один из наиболее часто используемых форматов для создания веб-сайтов и печати графики для обеспечения масштабируемости. Но иногда вам нужно объединить файлы SVG и сохранить их как одно растровое изображение. TIFF — популярный формат для хранения изображений с глубокими цветами. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединять SVG с TIFF. Мощный C# API поможет вам быстро и качественно объединить файлы SVG!
+SVG — один из наиболее часто используемых форматов для создания веб-сайтов и печати графики для обеспечения масштабируемости. Но иногда вам нужно объединить файлы SVG и сохранить их как одно растровое изображение. TIFF — популярный формат для хранения изображений с глубокими цветами. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединять несколько SVG в TIFF. Мощный C# API поможет вам быстро и качественно объединить файлы SVG!
 
 {{<section code-text>}}
 ---
@@ -52,12 +52,12 @@ using (var document3 = new SVGDocument("document3.svg"))
 
 {{<section steps>}}
 ---
-h2: Шаги по слиянию SVG с TIFF с помощью C#
+h2: Шаги по слиянию SVG в TIFF с помощью C#
 ---
-1. Загрузите документ SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
+1. Загрузите документы SVG с помощью одного из конструкторов [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/).
 1. Создайте новый экземпляр класса [SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/).
 1. Используйте конструктор [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5) для инициализации нового экземпляра класса ImageDevice.
-1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить изображение SVG с изображением TIFF.
+1. Вызовите метод [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/), чтобы объединить SVG в TIFF.
 1. Несколько файлов SVG будут сохранены в виде изображения TIFF по указанному пути.
 
 
@@ -80,10 +80,10 @@ h2: Начало работы с .NET SVG API
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
 Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+ Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
 {{<section other-mergers>}}
 ---
 title: Другие поддерживаемые слияния
-subTitle: "Вы можете объединить SVG и изображения с файлами других форматов:"
+subTitle: "Вы можете объединить изображения и сохранить результат в другие форматы файлов:"
 ---

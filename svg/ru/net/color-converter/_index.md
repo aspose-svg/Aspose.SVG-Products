@@ -18,7 +18,7 @@ h2: Преобразование цветовых кодов с помощью C
 ---
 
 Чтобы преобразовать цветовые коды, мы будем использовать <a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG для .NET API</a>, который многофункциональная, мощная и простая в использовании библиотека для работы с документами для платформы C#. С нашей библиотекой C# вы можете легко преобразовать цветовой код из одной цветовой модели во множество других. Поддерживает преобразование из современных цветовых форматов CSS3 и CSS4, например из и обратно.<br><br>
-Пространство имен [Aspose.Svg.Converters](https://reference.aspose.com/svg/net/aspose.svg.converters/) реализует простой доступ к [ColorConverter](https://reference.aspose.com/svg /net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цвета. пространства.
+Пространство имен [Aspose.Svg.Converters](https://reference.aspose.com/svg/net/aspose.svg.converters/) реализует простой доступ к ColorConverter классу, который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цвета.
 
 {{<section demos>}}
 ---

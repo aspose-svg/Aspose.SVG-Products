@@ -84,13 +84,13 @@ using (var document = new SVGDocument())
 h2: 使用 C# 将 JPG 合并为 BMP 的步骤
 ---
 1. 定义要合并的 JPG 图片。
-1.初始化[SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor)类的新实例。
-1.声明一个图像函数。您应该使用 SVGDocument 类的 [CreateElementNS(`namespaceURI,qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) 方法创建一个图像实例。 `namespaceURI` 设置对 W3C SVG 规范的引用。 `qualifiedName` 必须包含图像元素的字符串标签名称。
-1.调用image函数创建缩略图对象。
+1. 初始化[SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor)类的新实例。
+1. 声明一个图像函数。您应该使用 SVGDocument 类的 [CreateElementNS(`namespaceURI,qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) 方法创建一个图像实例。 `namespaceURI` 设置对 W3C SVG 规范的引用。 `qualifiedName` 必须包含图像元素的字符串标签名称。
+1. 调用image函数创建缩略图对象。
 1. 要将缩略图添加到文档中，请使用 [AppendChild()](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/#appendchild) 方法。
 1. 使用 [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/) 构造函数之一初始化 ImageRenderingOptions 类的新实例。您可以通过指定页面大小、图像格式等来自定义渲染过程。PNG 用作默认图像格式。
 1. 使用 [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_3) 构造函数创建 ImageDevice 的实例。
-1.调用[RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto)方法将当前文档发送到输出渲染设备。
+1. 调用[RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto)方法将当前文档发送到输出渲染设备。
 1. 多张JPG图片会被保存到指定路径的一个BMP文件中。
 
 

@@ -55,9 +55,9 @@ using (var document3 = new SVGDocument("document3.svg"))
 h2: 使用 C# 将 SVG 合并为 PNG 的步骤
 ---
 1. 使用 [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/) 构造函数之一加载 SVG 文档。
-1.创建[SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/)类的新实例。
+1. 创建[SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/)类的新实例。
 1. 使用 [ImageDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/imagedevice/#constructor_5) 构造函数初始化 ImageDevice 类的新实例。
-1.调用[Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/)方法将SVG合并为PNG图片。
+1. 调用[Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/)方法将SVG合并为PNG图片。
 1. 多个SVG文件会被保存到指定路径的PNG图片中。
 
 

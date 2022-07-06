@@ -14,13 +14,13 @@ otherformats: GIF JPEG PNG TIFF BMP PDF XPS
 
 {{<section banner>}}
 ---
-h1: Преобразование SVG в XPS через C#
+h1: Конвертировать SVG в XPS на C#
 h2: Высокоскоростной .NET API для преобразования SVG в XPS в Windows, macOS и Linux.
 ---
 
 {{<section overview>}}
 ---
-h2: Преобразование SVG в XPS через .NET Core
+h2: Преобразование SVG в XPS с помощью .NET Core
 ---
 
 SVG — один из наиболее часто используемых форматов для создания веб-сайтов и печати графики для обеспечения масштабируемости. Но иногда вам нужно преобразовать SVG и сохранить его в другом формате файла. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно преобразовывать SVG в XPS с полным контролем над широким диапазоном параметров преобразования. Мощный C# API позволяет конвертировать SVG в популярные форматы с высокой скоростью и высоким качеством.
@@ -55,7 +55,7 @@ using Aspose.Svg.Converters;
 
 {{<section documentation>}}
 
-Посетите <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">нашу документацию</a>. чтобы узнать больше об использовании функций преобразования Aspose.SVG API и рассмотреть примеры C# для наиболее распространенных сценариев преобразования SVG. В главе документации <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Как преобразовать SVG Файлы</a>, вы можете рассмотреть примеры C# того, как конвертировать SVG в XPS разными способами. Рассмотрим некоторые из них:
+Посетите <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">нашу документацию</a> чтобы узнать больше об использовании функций преобразования Aspose.SVG API и рассмотреть примеры C# для наиболее распространенных сценариев преобразования SVG. В главе документации <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">Как преобразовать SVG Файлы</a>, вы можете рассмотреть примеры C# того, как конвертировать SVG в XPS разными способами. Рассмотрим некоторые из них:
 
 {{<section steps1>}}
 ---
@@ -104,7 +104,7 @@ h2: Начало работы с .NET SVG API
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
 Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+ Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
  {{<section other-conversions>}}
 ---

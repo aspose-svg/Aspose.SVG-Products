@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование RGB в LCH в C#
+title: Конвертировать RGB в LCH на C#
 description: Работа с цветовыми кодами и преобразование RGB в LCH в C#
 url: /net/color-converter/rgb-to-lch/
 family: svg
@@ -14,7 +14,7 @@ otherformats: HEX HSV HSL HWB CMYK LAB XYZ OKLAB OKLCH NCOL
 
 {{<section banner>}}
 ---
-h1: Преобразование RGB в LCH через C#
+h1: Конвертировать RGB в LCH на C#
 h2: Используйте высокоскоростной API .NET для преобразования цветов RGB в LCH в Windows, macOS и Linux.
 ---
 
@@ -23,7 +23,7 @@ h2: Используйте высокоскоростной API .NET для пр
 h2: Преобразование RGB в LCH с помощью C#
 ---
 
-[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB). , CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br><br>
+[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br><br>
 Цветовые коды или цветовые форматы тесно связаны с методами описания и определения цветов и широко используются в вебе, дизайне, полиграфии, фотографии, искусстве и т. д. И для разных задач предпочтительны разные цветовые форматы. Поэтому иногда вам может понадобиться преобразовать цветовые коды.
 
 {{<section input-color>}}
@@ -63,7 +63,7 @@ Console.WriteLine(lchColor);
 h2: Действия по преобразованию RGB в LCH с помощью C#
 ---
 1. Вызовите метод [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) класса ColorConverter и передайте код RGB в виде строки.
-1. Метод ConvertFrom() анализирует цвет из строкового представления и возвращает интерфейс [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) для преобразования его в требуемый цвет. пространства.
+1. Метод ConvertFrom() анализирует цвет из строкового представления и возвращает интерфейс [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) для преобразования его в требуемый цвет.
 1. Метод IConvertibleColor.ToLchString() преобразует цвет RGB в LCH в формате: lch(0%,0%,0%).
 
 
@@ -90,5 +90,5 @@ h2: Начало работы с .NET SVG API
 
 {{<section other-color-converters>}}
 ---
-title: Другие поддерживаемые преобразователи цветов
+title: Другие поддерживаемые Конвертеры цветов
 ---

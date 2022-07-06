@@ -18,7 +18,7 @@ h2: 使用 C# 转换颜色代码
 ---
 
 为了转换颜色代码，我们将使用 <a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG for .NET API</a> 这是一个功能丰富、功能强大且易于使用的 C# 平台文档操作库。使用我们的 C# 库，您可以轻松地将颜色代码从一种颜色模型转换为许多其他颜色模型。支持从现代 CSS3 和 CSS4 颜色格式进行转换，例如，反之亦然。<br><br>
-[Aspose.Svg.Converters](https://reference.aspose.com/svg/net/aspose.svg.converters/) 命名空间实现了对 [ColorConverter](https://reference.aspose.com/svg) 的轻松访问/net/aspose.svg.converters/colorconverter/) 类，从字符串解析颜色（RGB、HEX、HSL、HWB、CMYK、NCOL、LCH、OKLCH、LAB、OKLAB）并返回用于转换为各种颜色的 IConvertibleColor 接口空格。
+[Aspose.Svg.Converters](https://reference.aspose.com/svg/net/aspose.svg.converters/) 命名空间实现了对 [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) 类，从字符串解析颜色（RGB、HEX、HSL、HWB、CMYK、NCOL、LCH、OKLCH、LAB、OKLAB）并返回用于转换为各种颜色的 IConvertibleColor 接口空格。
 
 {{<section demos>}}
 ---

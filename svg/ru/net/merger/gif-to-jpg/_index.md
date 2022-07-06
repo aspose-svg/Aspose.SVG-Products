@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение GIF в JPG через C# - Aspose.SVG
+title: Объединение GIF в JPG с помощью C# - Aspose.SVG
 description: Объединение GIF в JPG с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/gif-to-jpg/
 family: svg
@@ -14,7 +14,7 @@ otherformats: GIF JPEG PNG TIFF BMP
 
 {{<section banner>}}
 ---
-h1: Объединить GIF в JPG через C#
+h1: Объединить GIF в JPG на C#
 h2: Высокоскоростной .NET API для объединения файлов GIF в Windows, macOS и Linux.
 ---
 
@@ -23,7 +23,7 @@ h2: Высокоскоростной .NET API для объединения фа
 h2: Объединить GIF в JPG с помощью C#
 ---
 
-Файлы GIF имеют небольшой размер, что делает их идеальными для использования на веб-сайтах для логотипов, штриховых рисунков и простых мультфильмов. GIF и JPG — самые популярные форматы графических файлов в Интернете. Оба формата файлов имеют свои плюсы и минусы, и в некоторых случаях вам может понадобиться объединить изображения GIF и сохранить их как один файл JPG. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединить GIF в JPG. Мощный C# API поможет вам быстро и качественно объединить GIF-файлы!
+Файлы GIF имеют небольшой размер, что делает их идеальными для использования на веб-сайтах для логотипов, штриховых рисунков и простых мультфильмов. GIF и JPG — самые популярные форматы графических файлов в Интернете. Оба формата файлов имеют свои плюсы и минусы, и в некоторых случаях вам может понадобиться объединить изображения GIF и сохранить их как один файл JPG. С помощью API [Aspose.SVG для .NET](https://products.aspose.com/svg/net/) вы можете программно объединить GIF в JPG. Мощный C# API поможет вам быстро и качественно объединить GIF файлы!
 
 {{<section code-text>}}
 ---
@@ -81,7 +81,7 @@ using (var document = new SVGDocument())
 
 {{<section steps>}}
 ---
-h2: Шаги по слиянию GIF с JPG с помощью C#
+h2: Шаги по слиянию GIF в JPG с помощью C#
 ---
 1. Определите изображения GIF для объединения.
 1. Инициализируйте новый экземпляр класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor).
@@ -97,7 +97,7 @@ h2: Шаги по слиянию GIF с JPG с помощью C#
 
 {{<section documentation>}}
 
-Высокоскоростная библиотека C# позволяет разработчикам .NET быстро и эффективно объединять файлы GIF в одно изображение JPG. Пространство имен [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) предоставляет определенные классы устройств, а также несколько классов параметров рендеринга, отвечающих за рендеринг. в растровые форматы: JPEG, PNG, BMP, GIF и TIFF. Посетите <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">нашу документацию</a>, чтобы узнать подробнее об использовании функций API Aspose.SVG.
+Высокоскоростная библиотека C# позволяет разработчикам .NET быстро и эффективно объединять файлы GIF в одно изображение JPG. Пространство имен [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) предоставляет определенные классы устройств, а также несколько классов параметров рендеринга, отвечающих за рендеринг в растровые форматы: JPEG, PNG, BMP, GIF и TIFF. Посетите <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">нашу документацию</a>, чтобы узнать подробнее об использовании функций API Aspose.SVG.
 
 {{<section online-merger>}}
 ---
@@ -113,10 +113,10 @@ h2: Начало работы с .NET SVG API
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
 Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+ Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
 {{<section other-mergers>}}
 ---
 title: Другие поддерживаемые слияния
-subTitle: "Вы можете объединить изображения в другие форматы файлов:"
+subTitle: "Вы можете объединить изображения и сохранить результат в другие форматы файлов:"
 ---

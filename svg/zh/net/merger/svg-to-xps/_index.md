@@ -54,12 +54,11 @@ using (var document3 = new SVGDocument("document3.svg"))
 ---
 h2: 使用 C# 将 SVG 合并到 XPS 的步骤
 ---
-1. 使用 [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/) 构造函数之一加载 SVG 文档。
-1.创建[SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/)类的新实例。
-1.使用[XpsDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsdevice/xpsdevice/#constructor_5)构造函数初始化XpsDevice类的新实例。
-1. 调用 [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/) 方法将 SVG 合并为单个 XPS 文件。
-1. 多个 SVG 文件将被保存到指定路径的一个 XPS 文件中。
-
+1.  使用 [SVGDocument()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/) 构造函数之一加载 SVG 文档。
+1.  创建[SvgRenderer](https://reference.aspose.com/svg/net/aspose.svg.rendering/svgrenderer/)类的新实例。
+1.  使用[XpsDevice()](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsdevice/xpsdevice/#constructor_5)构造函数初始化XpsDevice类的新实例。
+1.  调用 [Render()](https://reference.aspose.com/svg/net/aspose.svg.rendering/renderer-1/) 方法将 SVG 合并为单个 XPS 文件。
+1.  多个 SVG 文件将被保存到指定路径的一个 XPS 文件中。
 
 
 {{<section documentation>}}
