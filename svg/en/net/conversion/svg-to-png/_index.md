@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: Convert SVG to PNG with C# Core 
-description: Load and Convert SVG to PNG using .NET Core API on Windows, macOS & Linux
+title: Convert SVG to PNG with C# Core - Online SVG to PNG Converter
+description: Convert SVG to PNG using .NET Core API on Windows, macOS & Linux. Try online SVG to PNG Converter for free!
 url: /net/conversion/svg-to-png/
 family: svg
 platformtag: net

@@ -1,9 +1,9 @@
 ---
 translation: true
 template: _template.md
-title: Convert SVG to popular formats Using C#
+title: Convert SVG to popular formats Using C# - Online SVG Converter
 url: /net/conversion/
-description: Convert SVG to PDF, XPS, and Images with few lines of C# code via .NET library.
+description: Convert SVG to PDF, XPS, and Images with a few lines of C# code via .NET library. Check online SVG Converter for free!
 ---
 
 {{<section banner>}}

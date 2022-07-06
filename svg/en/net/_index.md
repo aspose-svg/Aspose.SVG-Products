@@ -50,9 +50,9 @@ description: Aspose.SVG for .NET supports all popular image file formats and mor
 title: Advanced .NET SVG Parsing API Features
 feature1: Create and read SVG documents
 feature2: Edit and Save SVG files
-feature3: Convert SVG to popular formats
+feature3: <a href="/svg/{{lang.url-fragment}}net/conversion/">Convert SVG to popular formats</a>
 feature4: Full control over SVG nodes
-feature5: Add and remove nodes
+feature5: <a href="/svg/{{lang.url-fragment}}net/color-converter/">Convert Color Codes</a>
 feature6: Change the node properties
 feature7: Content navigation using XPath Query
 feature8: Navigate via CSS Selectors, Element and Document Traversal

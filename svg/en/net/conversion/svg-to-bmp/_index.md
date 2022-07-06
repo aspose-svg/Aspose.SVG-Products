@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: Convert SVG to BMP with .NET Core 
-description: Load and Convert SVG to BMP using .NET Core API on Windows, macOS & Linux
+title: Convert SVG to BMP with C# Core - Online SVG to BMP Converter
+description: Load and Convert SVG to BMP using .NET Core API on Windows, macOS & Linux. Try online SVG to BMP Converter for free!
 url: /net/conversion/svg-to-bmp/
 family: svg
 platformtag: net

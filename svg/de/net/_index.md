@@ -15,7 +15,7 @@ h2: Erstellen, laden, parsen, rendern und konvertieren Sie SVG-Dateien in gängi
 
 {{<section overview>}}
 ---
-item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">SVG erstellen oder laden Dokumente</a> aus einer Datei, URL, Zeichenfolge, Stream usw.
+item1: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/creating-loading-documents/" target="_blank">Erstellen oder laden Sie SVG Dokumente</a> aus einer Datei, URL, Zeichenfolge, Stream usw.
 item2: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/converting/" target="_blank">SVG konvertieren</a> in PDF , PNG und andere gängige Formate.
 item3: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/vectorization/" target="_blank">Vektorisieren Sie Rasterbilder</a> wie z als PNG, JPG, BMP, TIFF, GIF und ICO in ein SVG-Dokument.
 item4: <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/navigation-inspection/" target="_blank">In SVG-Dokumenten navigieren</a > Verwendung von XPath-Abfrage, CSS-Selektor, Element- und Dokumentdurchlauffunktionen.
@@ -50,9 +50,9 @@ description: Aspose.SVG für .NET unterstützt alle gängigen Bilddateiformate u
 title: Erweiterte .NET-SVG-Parsing-API-Funktionen
 feature1: Erstellen und lesen Sie SVG-Dokumente
 feature2: Bearbeiten und speichern Sie SVG-Dateien
-feature3: Konvertieren Sie SVG in gängige Formate
+feature3: <a href="/svg/{{lang.url-fragment}}net/conversion/">SVG in gängige Formate konvertieren</a>
 feature4: Volle Kontrolle über SVG-Knoten
-feature5: Knoten hinzufügen und entfernen
+feature5: <a href="/svg/{{lang.url-fragment}}net/color-converter/">Farbcodes konvertieren</a>
 feature6: Ändern Sie die Knoteneigenschaften
 feature7: Inhaltsnavigation mit XPath-Abfrage
 feature8: Navigieren Sie über CSS-Selektoren, Element- und Dokumentendurchlauf
@@ -67,6 +67,7 @@ h3: Konvertieren Sie SVG in PNG - C#
    
 Aspose.SVG für .NET kann SVG lesen und in PDF, XPS und die wichtigsten Bildformate konvertieren. Der Konvertierungsprozess ist einfach und zuverlässig, was die SVG .NET API zur perfekten Wahl macht. Sie können die API in Ihrer C#- oder jeder anderen .NET-Anwendung verwenden, um Konverteranwendungen zu entwickeln, ohne sich mit den Details der zugrunde liegenden Dateiformate befassen zu müssen. Das Abrufen der Konvertierungsfunktion ist einfach und hängt von den jeweiligen Anwendungsanforderungen ab. Hier sind ein paar Codezeilen für die Konvertierung zwischen Formaten.
 
+
 {{<section "code" i18n-exclude>}}
      
 using Aspose.Svg;
@@ -78,7 +79,7 @@ using Aspose.Svg.Converters;
     // Initialize an SVG document from a file
     using (var document = new SVGDocument("input.svg"))
     {
-        // Create an instance of the ImageSaveOptions class
+    	// Create an instance of the ImageSaveOptions class
     	var pngSaveOptions = new ImageSaveOptions();    
     
         // Convert SVG to PNG
