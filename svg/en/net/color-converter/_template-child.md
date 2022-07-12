@@ -35,6 +35,8 @@ otherformats: {{i18n.otherformats}}
 
 {{% /blocks/products/pf/agp/code-block %}}
 
+{{i18n.app-pluging}} 
+
 <h2>{{i18n.steps.h2}}</h2>
 
 {{i18n.steps}}

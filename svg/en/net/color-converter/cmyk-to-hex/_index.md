@@ -44,6 +44,22 @@ title: Convert CMYK to HEX - C#
 
 The high-speed C# library allows .NET developers to quickly and efficiently convert CMYK to HEX color. Color conversion can be done with a few lines of code:
 
+{{<section "app-pluging" i18n-exclude>}}
+
+{{< app/svg/color id=1 input="CMYK" output="HEX">}}
+
+// Parse CMYK color from a string
+var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
+
+// Convert CMYK to HEX 
+string hexColor = color.ToHexString();   
+
+// Print the result into console
+Console.WriteLine(hexColor);
+//result should be: #2759D9
+{{< /app/svg/color>}}
+
+
 {{<section "code-snippet" i18n-exclude>}}
 
 ```cs
