@@ -47,18 +47,16 @@ The high-speed C# library allows .NET developers to quickly and efficiently conv
 {{<section "app-pluging" i18n-exclude>}}
 
 {{< app/svg/color id=1 input="CMYK" output="HEX">}}
-
 // Parse CMYK color from a string
 var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
 
 // Convert CMYK to HEX 
-string hexColor = color.ToHexString();   
+string hexColor = color.ToHexString();
 
 // Print the result into console
 Console.WriteLine(hexColor);
 //result should be: #2759D9
 {{< /app/svg/color>}}
-
 
 {{<section "code-snippet" i18n-exclude>}}
 
@@ -80,8 +78,8 @@ h2: Steps to convert CMYK to HEX using C#
 ---
 
 1. Call the [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) method of the ColorConverter class and pass the CMYK code as a string. 
-1. The ConvertFrom() method parses color from string representation and returns the [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) interface to convert it to the required color spaces.
-1. The IConvertibleColor.ToHexString() method converts CMYK to HEX color in the format: #000000.
+2. The ConvertFrom() method parses color from string representation and returns the [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) interface to convert it to the required color spaces.
+3. The IConvertibleColor.ToHexString() method converts CMYK to HEX color in the format: #000000.
 
 {{<section documentation>}}
 

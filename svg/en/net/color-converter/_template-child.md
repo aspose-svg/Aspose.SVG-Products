@@ -27,14 +27,6 @@ otherformats: {{i18n.otherformats}}
 
 {{i18n.code-text}}<br>
 
-{{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
-
-{{i18n.code-snippet}} 
-
-<p></p></br></br>
-
-{{% /blocks/products/pf/agp/code-block %}}
-
 {{i18n.app-pluging}} 
 
 <h2>{{i18n.steps.h2}}</h2>
