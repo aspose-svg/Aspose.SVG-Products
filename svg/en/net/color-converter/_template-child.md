@@ -35,9 +35,6 @@ otherformats: {{i18n.otherformats}}
 <br>
 
 {{i18n.documentation}}
-<br>
-
-<h2>{{i18n.online-color-converter.h2}}</h2>
 
 {{i18n.online-color-converter}}
 <br><br>
