@@ -38,43 +38,42 @@ title: What is HSL Color?
 
 {{<section code-text>}}
 ---
-h2: C# code example to convert HSV to HSL
+h2: Online Color Converter
 title: Convert HSV to HSL - C#
 ---
+If you need to convert colors from one color model to another, use our free online tool! It supports various color spaces, including HEX, RGB, CMYK, etc. You simply need to enter the color value for conversion! Click inside the color area to select a color, or enter a color code in the Input text box. You will immediately see other color codes for chosen color in the Output section.
 
-The high-speed C# library allows .NET developers to quickly and efficiently convert HSV to HSL color. Color conversion can be done with a few lines of code:
+{{<section "app-pluging" i18n-exclude>}}
 
-{{<section "code-snippet" i18n-exclude>}}
-
-```cs
-
+{{< app/svg/color id=1 input="HSV" output="HSL">}}
 // Parse HSV color from a string
 var color = ColorConverter.ConvertFrom("hsv(223.0,82%,85%)");
+
 // Convert HSV to HSL 
 string hslColor = color.ToHslString();
+
 // Print the result into console
 Console.WriteLine(hslColor);
 //result should be: hsl(223,69.91%,50.15%)
 
-```
+{{< /app/svg/color>}}
 
 {{<section steps>}}
 ---
-h2: Steps to convert HSV to HSL using C#
+h2: How to convert HSV to HSL using C#
 ---
 
+If you want to use the conversion functions in your product or programmatically convert HSV to HSL, see the C# code example above. Color conversion can be done with a few lines of code:
+
 1. Call the [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) method of the ColorConverter class and pass the HEX code as a string. 
-1. The ConvertFrom() method parses color from string representation and returns the [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) interface to convert it to the required color spaces.
-1. The IConvertibleColor.ToHslString() method converts HSV to HSL color in the format: hsl(0,0%,0%).
+2. The ConvertFrom() method parses color from string representation and returns the [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) interface to convert it to the required color spaces.
+3. The IConvertibleColor.ToHslString() method converts HSV to HSL color in the format: hsl(0,0%,0%).
 
 {{<section documentation>}}
 
 Please visit our documentation to learn more about using Aspose.SVG API functions and consider C# examples for the most common SVG processing scenarios. In the documentation article <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/how-to-change-svg-color/" target="_blank">How to Change SVG Color</a>, you can view how to change the color of elements and background in SVG images using Aspose.SVG .NET library. The article <a href="https://docs.aspose.com/svg/net/drawing-basics/svg-color/" target="_blank">SVG Color</a> takes an in-depth look at how SVG text and shapes can be colorized.
 
 {{<section online-color-converter>}}
----
-h2: Online Color Converter
----
 
 [Color Converters](https://products.aspose.app/svg/color-converter) are free online web applications that allow you to convert colors between different color codes like RGB, HEX, HSL, HSV, HWB, LAB, CMYK, LCH, XYZ, OKLAB, OKLCH, RGBA, HSLA, etc. on the fly. Color Converters are easy-to-use and work on any browser and operating system. You get the result immediately after entering the color code you need to convert.
 

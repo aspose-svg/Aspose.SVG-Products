@@ -57,20 +57,6 @@ Console.WriteLine(hexColor);
 //result should be: #2759D9
 {{< /app/svg/color>}}
 
-{{<section "code-snippet" i18n-exclude>}}
-
-```cs
-
-// Parse CMYK color from a string
-var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
-// Convert CMYK to HEX 
-string hexColor = color.ToHexString();
-// Print the result into console
-Console.WriteLine(hexColor);
-//result should be: #2759D9
-
-```
-
 {{<section steps>}}
 ---
 h2: How to convert CMYK to HEX using C#
