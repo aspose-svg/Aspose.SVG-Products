@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в TIFF с помощью C# Core - онлайн-конвертер SVG в TIFF
+title: Конвертировать SVG в TIFF с помощью C# Core
 description: Преобразование SVG в TIFF с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в TIFF бесплатно!
 url: /net/conversion/svg-to-tiff/
 family: svg

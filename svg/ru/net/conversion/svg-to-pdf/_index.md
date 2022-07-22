@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в PDF с помощью C# Core - онлайн-конвертер SVG в PDF
+title: Конвертировать SVG в PDF на C# Core
 description: Загружайте и конвертируйте SVG в PDF с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в PDF бесплатно!
 url: /net/conversion/svg-to-pdf/
 family: svg

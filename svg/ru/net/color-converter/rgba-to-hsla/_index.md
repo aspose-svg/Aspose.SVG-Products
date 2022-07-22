@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Конвертировать RGBA в HSLA с помощью C#
+title: Конвертировать RGBA в HSLA - C#
 description: Работа с цветовыми кодами и преобразование RGBA в HSLA в C#
 url: /net/color-converter/rgba-to-hsla/
 family: svg
@@ -23,7 +23,7 @@ h2: Используйте высокоскоростной .NET API для пр
 h2: Преобразование RGBA в HSLA с помощью C#
 ---
 
-[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br><br>
+[Aspose.SVG для .NET API](https://products.aspose.com/svg/net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Одной из особенностей API является легкий доступ к работе с несколькими цветовыми пространствами. Пространство имен Aspose.Svg.Converters реализует простой доступ к классу [ColorConverter,](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) который анализирует цвета (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) из строки и возвращает интерфейс IConvertibleColor для преобразования в различные цветовые пространства.<br>
 Цветовые коды или цветовые форматы тесно связаны с методами описания и определения цветов и широко используются в вебе, дизайне, полиграфии, фотографии, искусстве и т. д. И для разных задач предпочтительны разные цветовые форматы. Поэтому иногда вам может понадобиться преобразовать цветовые коды.
 
 {{<section input-color>}}
@@ -38,35 +38,36 @@ title: Что такое цвет HSLA?
 
 {{<section code-text>}}
 ---
-h2: Пример кода C# для преобразования RGBA в HSLA
+h2: Онлайн Конвертер Цветов
 title: Преобразование RGBA в HSLA — C#
 ---
 
-Высокоскоростная библиотека C# позволяет разработчикам .NET быстро и эффективно преобразовывать цвета RGBA в цвета HSLA. Преобразование цвета можно выполнить с помощью нескольких строк кода:
+Если вам нужно преобразовать цвета из одной цветовой модели в другую, воспользуйтесь нашим бесплатным онлайн Конвертером! Он поддерживает различные цветовые пространства, включая HEX, RGB, CMYK, HSL, LAB, XYZ и т. д. Вам просто нужно ввести значение цвета для преобразования! Щелкните внутри области цвета, чтобы выбрать нужный вам цвет, или введите цветовой код в текстовом поле ввода. Вы сразу же увидите другие цветовые коды для выбранного цвета в разделе «Output».
 
-{{<section "code-snippet" i18n-exclude>}}
+{{<section "app-pluging" i18n-exclude>}}
 
-```cs
-
+{{< app/svg/color id=1 input="RGB" output="HSL">}}
 // Parse RGBA color from a string
 var color = ColorConverter.ConvertFrom("rgba(222, 180, 135, 0.5)");
+
 // Convert RGBA to HSLA 
 string hslaColor = color.ToHslaString();
+
 // Print the result into console
 Console.WriteLine(hslaColor);
 //result should be: hsla(31.034, 57%, 70%, 0.5)
-
-```
+{{< /app/svg/color>}}
 
 {{<section steps>}}
 ---
-h2: Действия по преобразованию RGBA в HSLA с помощью C#
+h2: Как конвертировать RGBA в HSLA с помощью C#
 ---
+
+Если вы хотите использовать функции преобразования в своем продукте или программно конвертировать цветовые коды, пожалуйста, рассмотрите приведенный выше  C# пример. Конвертацию между цветовыми кодами можно выполнить с помощью нескольких строк кода:
+
 1. Вызовите метод [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) класса ColorConverter и передайте код RGBA в виде строки.
 1. Метод ConvertFrom() анализирует цвет из строкового представления и возвращает интерфейс [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) для преобразования его в требуемый цвет.
 1. Метод IConvertibleColor.ToHslaString() преобразует цвета RGBA в цвета HSLA в формате: hsla(0,0%,0%,0).
-
-
 
 {{<section documentation>}}
 
@@ -84,9 +85,9 @@ h2: Онлайн-конвертер цвета
 h2: Начало работы с .NET SVG API
 ---
 
-Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG API — это автономный API, который можно использовать для обработки и анализа документов SVG в приложениях.
-Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
+Установите из командной строки ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio ```Install-Package Aspose.SVG```.
+Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки.](https://downloads.aspose.com/svg/net) Aspose.SVG API — это автономный API, который можно использовать для обработки и анализа документов SVG в приложениях.
+Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [Документации Aspose.SVG.](https://docs.aspose.com/svg/net/getting-started/)
 
 {{<section other-color-converters>}}
 ---

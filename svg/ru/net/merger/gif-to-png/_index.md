@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение GIF в PNG с помощью C# - Aspose.SVG
+title: Объединение GIF в PNG на C# - Aspose.SVG
 description: Объединение GIF в PNG с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/gif-to-png/
 family: svg

@@ -1,7 +1,7 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: RGB to LCH Conversion in C#
+title: RGB to LCH Conversion - C# - Online Color Converter
 description: Work with color codes and convert RGB to LCH in C#
 url: /net/color-converter/rgb-to-lch/
 family: svg
@@ -23,7 +23,7 @@ h2: Use High-speed .NET API to Convert RGB to LCH color on Windows, macOS & Linu
 h2: Convert RGB to LCH Using C#
 ---
 
-[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) offers a high-speed C# library that you can use for different SVG parsing tasks. One of the API features is easy access to work with several color spaces. The Aspose.Svg.Converters namespace implements easy access to [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) class that parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the IConvertibleColor interface for converting to various color spaces.<br><br>
+[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) offers a high-speed C# library that you can use for different SVG parsing tasks. One of the API features is easy access to work with several color spaces. The Aspose.Svg.Converters namespace implements the [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) class that parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the IConvertibleColor interface for converting to various color spaces.<br>
 Colors codes or color formats are closely linked to the methods of describing and defining colors and are widely used in the web, design, polygraphy, photography, arts, etc. And for different tasks, different color formats are preferred. So, sometimes you may need to convert color codes.
 
 {{<section input-color>}}
@@ -41,7 +41,7 @@ title: What is LCH Color?
 h2: Online Color Converter
 title: Convert RGB to LCH - C#
 ---
-If you need to convert colors from one color model to another, use our free online tool! It supports various color spaces, including HEX, RGB, CMYK, etc. You simply need to enter the color value for conversion! Click inside the color area to select a color, or enter a color code in the Input text box. You will immediately see other color codes for chosen color in the Output section.
+If you need to convert colors from one color model to another, use our free online tool! It supports various color spaces, including HEX, RGB, CMYK, HSL, LAB, NCOL, XYZ, etc. You simply need to enter the color value for conversion! Click inside the color area to select a color, or enter a color code in the Input text box. You will immediately see other color codes for chosen color in the Output section.
 
 {{<section "app-pluging" i18n-exclude>}}
 

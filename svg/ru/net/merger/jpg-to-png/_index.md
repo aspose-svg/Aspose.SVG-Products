@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение JPG в PNG с помощью C# - Aspose.SVG
+title: Объединение JPG в PNG на C# - Aspose.SVG
 description: Объединение JPG в PNG с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/jpg-to-png/
 family: svg

@@ -27,7 +27,7 @@ otherformats: {{i18n.otherformats}}
 
 {{i18n.code-text}}<br>
 
-{{i18n.app-pluging}} 
+{{i18n.app-pluging}}
 
 <h2>{{i18n.steps.h2}}</h2>
 
@@ -70,7 +70,7 @@ otherformats: {{i18n.otherformats}}
 {{< blocks/products/pf/agp/other-supported-section title="{{i18n.other-color-converters.title}}" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hex/" name="RGB to HEX" description="Hexadecimal Color" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-cmyk/ "name="RGB to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-cmyk/" name="RGB to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hsl/" name="RGB to HSL" description="Hue, Saturation and Lightness" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hwb/" name="RGB to HWB" description="Hue, Whiteness and Blackness" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-lab/" name="RGB to LAB" description="CIELAB Color Space" >}}

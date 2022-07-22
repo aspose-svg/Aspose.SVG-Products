@@ -1,7 +1,7 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: HSLA to RGBA Conversion in C#
+title: HSLA to RGBA Conversion - C# - Online Color Converter
 description: Work with color codes and convert HSLA to RGBA in C#
 url: /net/color-converter/hsla-to-rgba/
 family: svg
@@ -83,7 +83,7 @@ h2: Get Started with .NET SVG API
 
 Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.
 Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://downloads.aspose.com/svg/net). Aspose.SVG API is a standalone API and can be used for SVG document manipulation and parsing within applications. 
-For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation](https://docs.aspose.com/svg/net/getting-started/).
+For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation.](https://docs.aspose.com/svg/net/getting-started/)
 
 {{<section other-color-converters>}}
 ---

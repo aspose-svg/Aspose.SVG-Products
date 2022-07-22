@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в XPS с помощью C# Core - Онлайн-конвертер SVG в XPS
+title: Конвертировать SVG в XPS на C# Core - Онлайн-конвертер SVG в XPS
 description: Преобразование SVG в XPS с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн Конвертер SVG в XPS бесплатно!
 url: /net/conversion/svg-to-xps/
 family: svg

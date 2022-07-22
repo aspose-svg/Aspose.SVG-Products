@@ -23,7 +23,7 @@ h2: 在 Windows、macOS 和 Linux 上使用高速 .NET API 将 HSL 转换为 HEX
 h2: 使用 C# 将 HSL 转换为 HEX
 ---
 
-[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) 提供了一个高速 C# 库，可用于不同的 SVG 解析任务。 API 功能之一是可以轻松访问多个颜色空间。 Aspose.Svg.Converters 命名空间实现对 [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) 类（RGB、HEX、HSL、HWB、CMYK、NCOL、LCH、OKLCH、LAB、OKLAB）的解析颜色的轻松访问，并返回一个 IConvertibleColor 接口用于转换为不同的颜色空间.<br><br>
+[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) 提供了一个高速 C# 库，可用于不同的 SVG 解析任务。 API 功能之一是可以轻松访问多个颜色空间。 Aspose.Svg.Converters 命名空间实现对 [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) 类（RGB、HEX、HSL、HWB、CMYK、NCOL、LCH、OKLCH、LAB、OKLAB）的解析颜色的轻松访问，并返回一个 IConvertibleColor 接口用于转换为不同的颜色空间.<br>
 颜色代码或颜色格式与描述和定义颜色的方法密切相关，广泛应用于网页、设计、测绘、摄影、艺术等领域。针对不同的任务，首选不同的颜色格式。因此，有时您可能需要转换颜色代码。
 
 {{<section input-color>}}
@@ -38,35 +38,36 @@ title: 什么是十六进制颜色？
 
 {{<section code-text>}}
 ---
-h2: 将 HSL 转换为 HEX 的 C# 代码示例
+h2: 在线颜色转换器
 title: 将 HSL 转换为 HEX - C#
 ---
 
-高速 C# 库允许 .NET 开发人员快速有效地将 HSL 转换为 HEX 颜色。几行代码就可以完成颜色转换：
+如果您需要将颜色从一种颜色模型转换为另一种颜色，请使用我们的免费在线工具！ 它支持各种颜色空间，包括HEX、RGB、CMYK等，您只需输入颜色值进行转换！ 在颜色区域内单击以选择颜色，或在输入文本框中输入颜色代码。 您将立即在输出部分看到所选颜色的其他颜色代码。
 
-{{<section "code-snippet" i18n-exclude>}}
+{{<section "app-pluging" i18n-exclude>}}
 
-```cs
-
+{{< app/svg/color id=1 input="HSL" output="HEX">}}
 // Parse HSL color from a string
 var color = ColorConverter.ConvertFrom("hsl(31.034, 57%, 70%)");
+
 // Convert HSL to HEX 
 string hexColor = color.ToHexString();
+
 // Print the result into console
 Console.WriteLine(hexColor);
 //result should be: #DEB486
-
-```
+{{< /app/svg/color>}}
 
 {{<section steps>}}
 ---
 h2: 使用 C# 将 HSL 转换为 HEX 的步骤
 ---
+
+如果您想在产品中使用转换功能或以编程方式转换颜色代码，请参阅上面的 C# 代码示例。 几行代码就可以完成颜色转换：
+
 1. 调用ColorConverter类的[ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/)方法，将HSL代码作为字符串传递。
 1. ConvertFrom()方法从字符串表示中解析颜色，返回[IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/)接口转换成需要的颜色空格。
 1. IConvertibleColor.ToHexString() 方法将 HSL 转换为 HEX 颜色，格式为：#000000。
-
-
 
 {{<section documentation>}}
 

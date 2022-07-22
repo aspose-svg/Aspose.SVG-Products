@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: HEX-zu-CMYK-Konvertierung in C#
+title: HEX-zu-CMYK-Konvertierung - C#
 description: Arbeiten Sie mit Farbcodes und konvertieren Sie HEX in CMYK in C#
 url: /net/color-converter/hex-to-cmyk/
 family: svg
@@ -23,7 +23,7 @@ h2: Verwenden Sie die Hochgeschwindigkeits-.NET-API, um HEX- in CMYK-Farben unte
 h2: Konvertieren Sie HEX in CMYK mit C#
 ---
 
-[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) bietet eine Hochgeschwindigkeits-C#-Bibliothek, die Sie für verschiedene SVG-Parsing-Aufgaben verwenden können. Eine der API-Funktionen ist der einfache Zugriff auf die Arbeit mit mehreren Farbräumen. Der Namensraum Aspose.Svg.Converters implementiert einfachen Zugriff auf die Klasse [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/), die Farben analysiert (RGB, HEX, HSL, HWB , CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) aus einem String und gibt die IConvertibleColor-Schnittstelle zur Konvertierung in verschiedene Farbräume zurück.<br><br>
+[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) bietet eine Hochgeschwindigkeits-C#-Bibliothek, die Sie für verschiedene SVG-Parsing-Aufgaben verwenden können. Eine der API-Funktionen ist der einfache Zugriff auf die Arbeit mit mehreren Farbräumen. Der Namensraum Aspose.Svg.Converters implementiert einfachen Zugriff auf die Klasse [ColorConverter,](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) die Farben analysiert (RGB, HEX, HSL, HWB , CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) aus einem String und gibt die IConvertibleColor-Schnittstelle zur Konvertierung in verschiedene Farbräume zurück.<br>
 Farbcodes oder Farbformate sind eng mit den Methoden zur Beschreibung und Definition von Farben verbunden und werden häufig im Web, Design, Polygrafie, Fotografie, Kunst usw. verwendet. Und für unterschiedliche Aufgaben werden unterschiedliche Farbformate bevorzugt. Daher müssen Sie manchmal Farbcodes konvertieren.
 
 {{<section input-color>}}
@@ -38,30 +38,33 @@ title: Was ist CMYK-Farbe?
 
 {{<section code-text>}}
 ---
-h2: C#-Codebeispiel zum Konvertieren von HEX in CMYK
+h2: Online-Farbkonverter
 title: HEX in CMYK umwandeln - C#
 ---
 
-Die Hochgeschwindigkeits-C#-Bibliothek ermöglicht .NET-Entwicklern die schnelle und effiziente Konvertierung von HEX- in CMYK-Farben. Die Farbkonvertierung kann mit ein paar Zeilen Code durchgeführt werden:
+Wenn Sie Farben von einem Farbmodell in ein anderes konvertieren müssen, verwenden Sie unser kostenloses Online-Tool! Es unterstützt verschiedene Farbräume, darunter HEX, RGB, CMYK, HSL, LAB, XYZ usw. Sie müssen nur den Farbwert für die Konvertierung eingeben! Klicken Sie in den Farbbereich, um eine Farbe auszuwählen, oder geben Sie einen Farbcode in das Textfeld Eingabe ein. Sie sehen sofort andere Farbcodes für die ausgewählte Farbe im Abschnitt Ausgabe.
 
-{{<section "code-snippet" i18n-exclude>}}
+{{<section "app-pluging" i18n-exclude>}}
 
-```cs
-
+{{< app/svg/color id=1 input="HEX" output="CMYK">}}
 // Parse HEX color from a string
 var color = ColorConverter.ConvertFrom("#DEB487");
+
 // Convert HEX to CMYK 
 string cmykColor = color.ToCmykString();
+
 // Print the result into console
 Console.WriteLine(cmykColor);
 //result should be: cmyk(0%, 19%, 39%, 13%)
-
-```
+{{< /app/svg/color>}}
 
 {{<section steps>}}
 ---
 h2: Schritte zum Konvertieren von HEX in CMYK mit C#
 ---
+
+Wenn Sie die Konvertierungsfunktionen in Ihrem Produkt verwenden oder HEX programmgesteuert in CMYK konvertieren möchten, sehen Sie sich das obige C#-Codebeispiel an. Die Farbkonvertierung kann mit ein paar Zeilen Code durchgeführt werden:
+
 1. Rufen Sie die Methode [ConvertFrom()](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/convertfrom/) der Klasse ColorConverter auf und übergeben Sie den HEX-Code als String.
 1. Die ConvertFrom()-Methode analysiert die Farbe aus der Zeichenfolgendarstellung und gibt die Schnittstelle [IConvertibleColor](https://reference.aspose.com/svg/net/aspose.svg.drawing/iconvertiblecolor/) zurück, um sie in die erforderliche Farbe zu konvertieren Räume.
 1. Die Methode IConvertibleColor.ToCmykString() konvertiert HEX in CMYK-Farbe im Format: cmyk(0%,0%,0%,0%).
@@ -77,7 +80,7 @@ Bitte besuchen Sie unsere Dokumentation, um mehr über die Verwendung von Aspose
 h2: Online-Farbkonverter
 ---
 
-[Farbkonverter](https://products.aspose.app/svg/color-converter) sind kostenlose Online-Webanwendungen, mit denen Sie Farben zwischen verschiedenen Farbcodes wie RGB, HEX, HSL, HSV, HWB, LAB, CMYK konvertieren können , LCH, XYZ, OKLAB, OKLCH, RGBA, HSLA usw. im Handumdrehen. Farbkonverter sind einfach zu bedienen und funktionieren auf jedem Browser und Betriebssystem. Das Ergebnis erhalten Sie sofort nach Eingabe des zu konvertierenden Farbcodes.
+[Farbkonverter](https://products.aspose.app/svg/color-converter) sind kostenlose Online-Webanwendungen, mit denen Sie Farben zwischen verschiedenen Farbcodes wie RGB, HEX, HSL, HSV, HWB, LAB, CMYK konvertieren können, LCH, XYZ, OKLAB, OKLCH, RGBA, HSLA usw. im Handumdrehen. Farbkonverter sind einfach zu bedienen und funktionieren auf jedem Browser und Betriebssystem. Das Ergebnis erhalten Sie sofort nach Eingabe des zu konvertierenden Farbcodes.
 
 {{<section get-started>}}
 ---

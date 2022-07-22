@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в изображение с помощью C# - Онлайн-конвертер SVG в изображение
+title: Конвертировать SVG в изображение на C# - Онлайн-конвертер SVG в изображение
 description: Преобразование SVG в изображение с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн SVG to Image Converter бесплатно!
 url: /net/conversion/svg-to-image/
 family: svg
