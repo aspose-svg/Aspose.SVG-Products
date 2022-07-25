@@ -62,9 +62,9 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: Шаги для преобразования SVG в JPEG с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument).
-1. Создайте новый объект [ImageSaveOptions](https://apireference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) с JPEG ImageFormat. По умолчанию свойство «Формат» имеет значение PNG.
-1. Используйте метод [ConvertSVG()](https://apireference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG как изображение JPEG. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
+1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) с JPEG ImageFormat. По умолчанию свойство «Формат» имеет значение PNG.
+1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG как изображение JPEG. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл JPEG будет сохранен по указанному пути.
 
 
@@ -73,10 +73,10 @@ h2: Шаги для преобразования SVG в JPEG с использо
 ---
 h2: Шаги для преобразования SVG в JPEG с использованием метода RenderTo()
 ---
-1. Инициализируйте [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
-1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) и укажите свойство «Формат» документа.
-1. Инициализируйте класс [ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) и укажите имя выходного файла для рендеринга.
-1. Вызовите метод [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр ImageDevice.
+1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
+1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) и укажите свойство «Формат» документа.
+1. Инициализируйте класс [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) и укажите имя выходного файла для рендеринга.
+1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр ImageDevice.
 
 
 
@@ -104,7 +104,7 @@ h2: Начало работы с .NET SVG API
 ---
 
 Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://downloads.aspose.com/svg/net). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
+Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://releases.aspose.com/svg/net/). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
  Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
  {{<section other-conversions>}}

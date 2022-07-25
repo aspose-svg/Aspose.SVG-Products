@@ -100,7 +100,7 @@ h2: Convert Raster Image to Vector Graphic
 h3: Convert Image to Vector - C#
 ---
 
-Converting an image to vector is very easy using Aspose.SVG API. The <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/"  target="_blank">ImageVectorization</a> Namespace includes classes and interfaces for implementing the image vectorization process. The following code snippet demonstrates the use of the ImageVectorizer class for image vectorization:
+Converting an image to vector is very easy using Aspose.SVG API. The <a href="https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/"  target="_blank">ImageVectorization</a> Namespace includes classes and interfaces for implementing the image vectorization process. The following code snippet demonstrates the use of the ImageVectorizer class for image vectorization:
 
 {{<section "code-image" i18n-exclude>}}
      

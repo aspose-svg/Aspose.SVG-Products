@@ -61,9 +61,9 @@ Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-asp
 ---
 h2: Schritte zum Konvertieren von SVG in PDF mit der ConvertSVG()-Methode
 ---
-1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument)-Klasse.
-1. Erstellen Sie ein neues [PdfSaveOptions](https://apireference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions)-Objekt.
-1. Verwenden Sie die Methode [ConvertSVG()](https://apireference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), um SVG als PDF-Datei zu speichern. Sie müssen das SVGDocument, PdfSaveOptions und den Ausgabedateipfad an die Methode ConvertSVG() übergeben.
+1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)-Klasse.
+1. Erstellen Sie ein neues [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions)-Objekt.
+1. Verwenden Sie die Methode [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), um SVG als PDF-Datei zu speichern. Sie müssen das SVGDocument, PdfSaveOptions und den Ausgabedateipfad an die Methode ConvertSVG() übergeben.
 1. Die PDF-Datei wird im angegebenen Pfad gespeichert.
 
 
@@ -72,10 +72,10 @@ h2: Schritte zum Konvertieren von SVG in PDF mit der ConvertSVG()-Methode
 ---
 h2: Schritte zum Konvertieren von SVG in PDF mit der RenderTo()-Methode
 ---
-1. Initialisieren Sie [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
-1. Erstellen Sie ein Objekt der Klasse PdfRenderingOptions. Verwenden Sie den Konstruktor [PdfRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
-1. Initialisieren Sie die Klasse [PdfDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
-1. Rufen Sie die Methode [RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz des PdfDevice.
+1. Initialisieren Sie [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
+1. Erstellen Sie ein Objekt der Klasse PdfRenderingOptions. Verwenden Sie den Konstruktor [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
+1. Initialisieren Sie die Klasse [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
+1. Rufen Sie die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz des PdfDevice.
 
 
 
@@ -103,7 +103,7 @@ h2: Erste Schritte mit der .NET SVG-API
 ---
 
 Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
-Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://downloads.aspose.com/svg/net) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
+Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://releases.aspose.com/svg/net/) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
  Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/).
 
  {{<section other-conversions>}}

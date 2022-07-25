@@ -7,11 +7,11 @@ weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/svg/net/" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.SVG " subTitlepfName="for .NET" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/svg/net/release-notes/" installationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" mavenRepoLink="" directDownloadLink="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.com/pricing/svg/net" buyLink="https://purchase.aspose.com/buy" docsLink="https://docs.aspose.com/svg/net/release-notes/" installationsDocsLink="https://docs.aspose.com/svg/net/getting-started/installation/" nugetLink="https://www.nuget.org/packages/Aspose.SVG/" nugetPackageName="Aspose.SVG" mavenRepoLink="" directDownloadLink="https://releases.aspose.com/svg/net/" >}}
 
 {{< blocks/products/pf/tab-content >}}
 
@@ -273,25 +273,25 @@ weight: 20
 	<div class="col-md-3">
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-pdf/">SVG to PDF</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-xps">SVG to XPS </a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-xps/">SVG to XPS </a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
-			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-png">SVG to PNG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-png/">SVG to PNG</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-jpeg/">SVG to JPEG</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
-			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-bmp">SVG to BMP</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-gif">SVG to GIF</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-bmp/">SVG to BMP</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-gif/">SVG to GIF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-tiff/">SVG to TIFF</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-image">SVG to IMAGE</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/conversion/svg-to-image/">SVG to IMAGE</a></li>						
 		</ul>
 	</div>
 </div>
@@ -326,36 +326,36 @@ weight: 20
 	<div class="col-md-2">
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-pdf/">SVG to PDF</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-xps">SVG to XPS </a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-png">SVG to PNG</a></li>			
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-xps/">SVG to XPS </a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-png/">SVG to PNG</a></li>			
 		</ul>
 	</div>	
 	<div class="col-md-2">		
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-jpeg/">SVG to JPEG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-bmp">SVG to BMP</a></li>
-			<li><a href="/svg/net/{{lang.url-fragment}}merger/svg-to-gif">SVG to GIF</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-bmp/">SVG to BMP</a></li>
+			<li><a href="/svg/net/{{lang.url-fragment}}merger/svg-to-gif/">SVG to GIF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-tiff/">SVG to TIFF</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-image">SVG to IMAGE</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-image/">SVG to IMAGE</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/jpg-to-jpg/">JPG to JPG</a></li>
 		</ul>
 	</div>
     <div class="col-md-2">		
 		<ul>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-gif">GIF to GIF</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-png">PNG to PNG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/tiff-to-jpg">TIFF to JPG</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-gif/">GIF to GIF</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-png/">PNG to PNG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/tiff-to-jpg/">TIFF to JPG</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		
 		<ul>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/jpg-to-png">JPG to PNG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-jpg">PNG to JPG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/jpg-to-gif">JPG to GIF</a></li>									
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/jpg-to-png/">JPG to PNG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-jpg/">PNG to JPG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/jpg-to-gif/">JPG to GIF</a></li>									
 		</ul>
 	</div>
 </div>   
@@ -371,24 +371,23 @@ weight: 20
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/svg/net/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-svg/Aspose.SVG-for-.NET" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/net/svg" >}}
-{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/svg/net/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/svg" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/svg/42" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/svg/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.SVG for .NET?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/svg/net" pricingInformationLink="https://purchase.aspose.com/pricing/svg/net" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/svg/net/" pricingInformationLink="https://purchase.aspose.com/pricing/svg/net" >}}
 
 
 {{< /blocks/products/pf/main-wrap-class >}}

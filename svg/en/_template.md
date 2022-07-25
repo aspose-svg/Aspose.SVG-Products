@@ -49,7 +49,7 @@ weight: 30
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/testimonials title="{{i18n.people.title}}" subTitle="{{i18n.people.subTitle}}" caseStudiesLink="https://downloads.aspose.com/corporate/case-studies/aspose.total/" >}}
+{{< blocks/products/pf/testimonials title="{{i18n.people.title}}" subTitle="{{i18n.people.subTitle}}" caseStudiesLink="https://releases.aspose.com/corporate/success-stories/aspose.total/" >}}
 
 {{< blocks/products/pf/testimonials-quote >}}
 <p class="first">
