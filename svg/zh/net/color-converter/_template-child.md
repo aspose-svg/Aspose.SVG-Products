@@ -14,7 +14,7 @@ otherformats: {{i18n.otherformats}}
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
-{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://downloads.aspose.com/svg/net" >}}
+{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/headers/aspose_svg-for-net.svg" pfName="Aspose.SVG " subTitlepfName="for .NET" downloadUrl="https://releases.aspose.com/svg/net/" >}}
 
 {{< blocks/products/pf/main-container >}}
 

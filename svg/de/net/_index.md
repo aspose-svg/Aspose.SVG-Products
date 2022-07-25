@@ -100,7 +100,7 @@ h2: Konvertieren Sie ein Rasterbild in eine Vektorgrafik
 h3: Bild in Vektor umwandeln – C#
 ---
 
-Das Konvertieren eines Bildes in einen Vektor ist mit der Aspose.SVG-API sehr einfach. Der Namespace <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> enthält Klassen und Schnittstellen zur Implementierung des Bildvektorisierungsprozesses. Das folgende Code-Snippet demonstriert die Verwendung der ImageVectorizer-Klasse für die Bildvektorisierung:
+Das Konvertieren eines Bildes in einen Vektor ist mit der Aspose.SVG-API sehr einfach. Der Namespace <a href="https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> enthält Klassen und Schnittstellen zur Implementierung des Bildvektorisierungsprozesses. Das folgende Code-Snippet demonstriert die Verwendung der ImageVectorizer-Klasse für die Bildvektorisierung:
 
 {{<section "code-image" i18n-exclude>}}
      

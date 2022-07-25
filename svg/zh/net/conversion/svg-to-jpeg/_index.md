@@ -62,9 +62,9 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: 使用 ConvertSVG() 方法将 SVG 转换为 JPEG 的步骤
 ---
-1. 使用 [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
-1. 使用 JPEG ImageFormat 创建一个新的 [ImageSaveOptions](https://apireference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) 对象。默认情况下，“格式”属性为 PNG。
-1. 使用 [ConvertSVG()](https://apireference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) 方法将 SVG 保存为 JPEG 图像。您需要将 SVGDocument、ImageSaveOptions 和输出文件路径传递给 ConvertSVG() 方法。
+1. 使用 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
+1. 使用 JPEG ImageFormat 创建一个新的 [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) 对象。默认情况下，“格式”属性为 PNG。
+1. 使用 [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) 方法将 SVG 保存为 JPEG 图像。您需要将 SVGDocument、ImageSaveOptions 和输出文件路径传递给 ConvertSVG() 方法。
 1. JPEG文件将被保存到指定路径。
 
 
@@ -73,10 +73,10 @@ h2: 使用 ConvertSVG() 方法将 SVG 转换为 JPEG 的步骤
 ---
 h2: 使用 RenderTo() 方法将 SVG 转换为 JPEG 的步骤
 ---
-1. 使用您的 SVG 文件初始化 [SVGDocument](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument)。
-1. 创建 ImageRenderingOptions 类的对象。使用 [ImageRenderingOptions()](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
-1. 初始化[ImageDevice](https://apireference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice)类并指定要渲染的输出文件名。
-1. 调用[RenderTo()](https://apireference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto)方法并传递ImageDevice的实例。
+1. 使用您的 SVG 文件初始化 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)。
+1. 创建 ImageRenderingOptions 类的对象。使用 [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
+1. 初始化[ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice)类并指定要渲染的输出文件名。
+1. 调用[RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto)方法并传递ImageDevice的实例。
 
 
 
@@ -104,7 +104,7 @@ h2: .NET SVG API 入门
 ---
 
 从命令行安装为 ```nuget install Aspose.SVG``` 或通过 Visual Studio 的 Package Manager Console 使用 ```Install-Package Aspose.SVG``` 安装。
-或者，从 [下载](https://downloads.aspose.com/svg/net) 获取 ZIP 文件中的离线 MSI 安装程序或 DLL。 Aspose.SVG for .NET API 是一个独立的库，不依赖于任何软件来处理 SVG 文档。
+或者，从 [下载](https://releases.aspose.com/svg/net/) 获取 ZIP 文件中的离线 MSI 安装程序或 DLL。 Aspose.SVG for .NET API 是一个独立的库，不依赖于任何软件来处理 SVG 文档。
  有关 C# 库安装和系统要求的更多详细信息，请参阅 [Aspose.SVG 文档](https://docs.aspose.com/svg/net/getting-started/)。
 
  {{<section other-conversions>}}

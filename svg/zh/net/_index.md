@@ -100,7 +100,7 @@ h2: 将光栅图像转换为矢量图形
 h3: 将图像转换为矢量 - C#
 ---
 
-使用 Aspose.SVG API 将图像转换为矢量非常简单。 <a href="https://apireference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> 命名空间包括用于实现图像矢量化过程的类和接口。以下代码片段演示了使用 ImageVectorizer 类进行图像矢量化：
+使用 Aspose.SVG API 将图像转换为矢量非常简单。 <a href="https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/" target="_blank">ImageVectorization</a> 命名空间包括用于实现图像矢量化过程的类和接口。以下代码片段演示了使用 ImageVectorizer 类进行图像矢量化：
 
 {{<section "code-image" i18n-exclude>}}
      

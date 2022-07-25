@@ -8,7 +8,7 @@ weight: 20
 
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg.svg" pfName="Aspose.SVG" downloadUrl="https://downloads.aspose.com/svg/net" tryOnlineUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="{{i18n.banner.h1}}" h2="{{i18n.banner.h2}}" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/svg/aspose_svg.svg" pfName="Aspose.SVG" downloadUrl="https://releases.aspose.com/svg/net/" tryOnlineUrl="" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="{{i18n.include.title}}" >}}
@@ -26,23 +26,22 @@ weight: 20
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.com/svg/" >}}
 {{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-svg" >}}
-{{< blocks/products/pf/slr-element name="API References" href="https://apireference.aspose.com/" >}}
-{{< blocks/products/pf/slr-element name="Tutorial Videos" href="https://www.youtube.com/user/asposevideo" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.com/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/svg" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.com/c/svg/42" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.com/" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.com/category/svg/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.SVG Product Family?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.com/customers" >}}
-{{< blocks/products/pf/slr-element name="Success Stories" href="https://company.aspose.com/customers/success-stories/" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.com/customers/" >}}
+{{< blocks/products/pf/slr-element name="Success Stories" href="https://about.aspose.com/customers/success-stories/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="https://downloads.aspose.com/svg/net" pricingInformationLink="https://purchase.aspose.com/pricing/svg/family" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://releases.aspose.com/svg/net/" pricingInformationLink="https://purchase.aspose.com/pricing/svg/family" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
