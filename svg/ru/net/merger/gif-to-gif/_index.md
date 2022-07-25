@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение GIF в GIF с помощью C# - Aspose.SVG
+title: Объединение GIF в GIF на C# - Aspose.SVG
 description: Объединение GIF в GIF с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/gif-to-gif/
 family: svg

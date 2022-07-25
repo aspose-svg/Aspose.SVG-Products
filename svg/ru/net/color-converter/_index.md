@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: _template.md
-title: Преобразование цветовых кодов с помощью библиотеки C#
+title: Преобразование цветовых кодов с помощью C# библиотеки 
 url: /net/color-converter/
 description: Библиотека Aspose.SVG C# помогает программно преобразовывать цветовые форматы — RGB, HEX, HSL, HSV, CMYK, LAB, XYZ и т. д.
 ---

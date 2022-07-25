@@ -27,13 +27,7 @@ otherformats: {{i18n.otherformats}}
 
 {{i18n.code-text}}<br>
 
-{{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
-
-{{i18n.code-snippet}} 
-
-<p></p></br></br>
-
-{{% /blocks/products/pf/agp/code-block %}}
+{{i18n.app-pluging}}
 
 <h2>{{i18n.steps.h2}}</h2>
 
@@ -41,9 +35,6 @@ otherformats: {{i18n.otherformats}}
 <br>
 
 {{i18n.documentation}}
-<br>
-
-<h2>{{i18n.online-color-converter.h2}}</h2>
 
 {{i18n.online-color-converter}}
 <br><br>
@@ -78,26 +69,26 @@ otherformats: {{i18n.otherformats}}
 
 {{< blocks/products/pf/agp/other-supported-section title="{{i18n.other-color-converters.title}}" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hex/" name="RGB to HEX" description="Hexadecimal Color" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-cmyk/ "name="RGB to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hsl/" name="RGB to HSL" description="Hue, Saturation and Lightness" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-hwb/" name="RGB to HWB" description="Hue, Whiteness and Blackness" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-lab/" name="RGB to LAB" description="CIELAB Color Space" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgb-to-lch/" name="RGB TO LCH" description="Lightness, Chroma, and Hue" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hex-to-rgb/" name="HEX to RGB" description="Red, Green and Blue" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hex-to-hsl/" name="HEX to HSL" description="Hue, Saturation and Lightness" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hex-to-lab/" name="HEX to LAB" description="CIELAB Color Space" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hex-to-cmyk/" name="HEX to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsl-to-rgb/" name="HSL to RGB" description="Red, Green and Blue" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsl-to-hex/" name="HSL to HEX" description="Hexadecimal Color" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsl-to-cmyk/" name="HSL TO CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsv-to-hsl/" name="HSV TO HSL" description="Hue, Saturation and Lightness" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsv-to-rgb/" name="HSV TO RGB" description="Red, Green and Blue" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/cmyk-to-rgb/" name="CMYK TO RGB" description="Red, Green and Blue" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/cmyk-to-hex/" name="CMYK TO HEX" description="Hexadecimal Color" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/cmyk-to-hsl/" name="CMYK TO HSL" description="Hue, Saturation and Lightness" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/rgba-to-hsla/" name="RGBA to HSLA" description="Hue, Saturation, Lightness, and Alpha" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/net/color-converter/hsla-to-rgba/" name="HSLA TO RGBA" description="Red, Green, Blue, and Alpha" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-hex/" name="RGB to HEX" description="Hexadecimal Color" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-cmyk/" name="RGB to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-hsl/" name="RGB to HSL" description="Hue, Saturation and Lightness" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-hwb/" name="RGB to HWB" description="Hue, Whiteness and Blackness" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-lab/" name="RGB to LAB" description="CIELAB Color Space" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgb-to-lch/" name="RGB TO LCH" description="Lightness, Chroma, and Hue" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hex-to-rgb/" name="HEX to RGB" description="Red, Green and Blue" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hex-to-hsl/" name="HEX to HSL" description="Hue, Saturation and Lightness" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hex-to-lab/" name="HEX to LAB" description="CIELAB Color Space" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hex-to-cmyk/" name="HEX to CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsl-to-rgb/" name="HSL to RGB" description="Red, Green and Blue" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsl-to-hex/" name="HSL to HEX" description="Hexadecimal Color" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsl-to-cmyk/" name="HSL TO CMYK" description="Cyan, Magenta, Yellow, and blacK" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsv-to-hsl/" name="HSV TO HSL" description="Hue, Saturation and Lightness" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsv-to-rgb/" name="HSV TO RGB" description="Red, Green and Blue" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/cmyk-to-rgb/" name="CMYK TO RGB" description="Red, Green and Blue" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/cmyk-to-hex/" name="CMYK TO HEX" description="Hexadecimal Color" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/cmyk-to-hsl/" name="CMYK TO HSL" description="Hue, Saturation and Lightness" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/rgba-to-hsla/" name="RGBA to HSLA" description="Hue, Saturation, Lightness, and Alpha" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/hsla-to-rgba/" name="HSLA TO RGBA" description="Red, Green, Blue, and Alpha" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 {{< /blocks/products/pf/main-container >}}

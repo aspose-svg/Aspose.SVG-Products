@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в BMP с помощью C# Core - Онлайн-конвертер SVG в BMP
+title: Конвертировать SVG в BMP с помощью C# Core - Онлайн-конвертер SVG в BMP
 description: Загружайте и конвертируйте SVG в BMP с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн Конвертер SVG в BMP бесплатно!
 url: /net/conversion/svg-to-bmp/
 family: svg

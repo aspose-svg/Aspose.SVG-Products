@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Преобразование SVG в JPEG с помощью C# Core - Онлайн-конвертер SVG в JPEG
+title: Конвертировать SVG в JPEG на C# Core - Онлайн-конвертер SVG в JPEG
 description: Загружайте и конвертируйте SVG в JPEG с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в JPEG бесплатно!
 url: /net/conversion/svg-to-jpeg/
 family: svg

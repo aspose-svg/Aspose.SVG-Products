@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение SVG в PDF с помощью C# - Aspose.SVG
+title: Объединение SVG в PDF на C# - Aspose.SVG
 description: Объединение SVG в PDF с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-pdf/
 family: svg

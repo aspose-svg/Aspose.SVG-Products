@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Объединение JPG в BMP с помощью C# - Aspose.SVG
+title: Объединение JPG в BMP на C# - Aspose.SVG
 description: Объединение JPG в BMP с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/jpg-to-bmp/
 family: svg
