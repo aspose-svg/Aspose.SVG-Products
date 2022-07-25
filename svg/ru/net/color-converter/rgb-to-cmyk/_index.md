@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Конвертировать RGB в CMYK - C#
+title: Конвертировать RGB в CMYK - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование RGB в CMYK в C#
 url: /net/color-converter/rgb-to-cmyk/
 family: svg

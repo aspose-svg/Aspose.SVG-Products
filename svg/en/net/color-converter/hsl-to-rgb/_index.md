@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: HSL to RGB Conversion - C# - Online Color Converter
-description: Work with color codes and convert HSL to RGB in C#
+title: Convert HSL to RGB - C# - Online Color Converter
+description: Work with color codes and convert HSL to RGB in C#. Try Color Converter for free!
 url: /net/color-converter/hsl-to-rgb/
 family: svg
 platformtag: net

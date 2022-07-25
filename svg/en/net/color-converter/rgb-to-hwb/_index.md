@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: RGB to HWB Conversion - C# - Online Color Converter
-description: Work with color codes and convert RGB to HWB in C#
+title: Convert RGB to HWB - C# code and Online Converter
+description: Work with color codes and convert RGB to HWB in C#. Try Online Color Converter for free!
 url: /net/color-converter/rgb-to-hwb/
 family: svg
 platformtag: net

@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Конвертировать HSV в RGB - C#
+title: Конвертировать HSV в RGB - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование HSV в RGB на C#
 url: /net/color-converter/hsv-to-rgb/
 family: svg

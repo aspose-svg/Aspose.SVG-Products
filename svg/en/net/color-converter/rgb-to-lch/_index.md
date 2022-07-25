@@ -2,7 +2,7 @@
 translation: true
 template: ./../_template-child.md
 title: RGB to LCH Conversion - C# - Online Color Converter
-description: Work with color codes and convert RGB to LCH in C#
+description: Work with color codes and convert RGB to LCH in C#. Try Color Converter for free!
 url: /net/color-converter/rgb-to-lch/
 family: svg
 platformtag: net

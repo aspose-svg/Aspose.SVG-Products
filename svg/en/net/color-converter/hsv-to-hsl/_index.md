@@ -2,7 +2,7 @@
 translation: true
 template: ./../_template-child.md
 title: HSV to HSL Conversion - C# - Online Color Converter
-description: Work with color codes and convert HSV to HSL in C#
+description: Work with color codes and convert HSV to HSL in C#. Try Color Converter for free!
 url: /net/color-converter/hsv-to-hsl/
 family: svg
 platformtag: net

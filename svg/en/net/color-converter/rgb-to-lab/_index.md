@@ -2,7 +2,7 @@
 translation: true
 template: ./../_template-child.md
 title: RGB to LAB Conversion - C# - Online Color Converter
-description: Work with color codes and convert RGB to LAB in C#
+description: Work with color codes and convert RGB to LAB in C#. Try Color Converter for free!
 url: /net/color-converter/rgb-to-lab/
 family: svg
 platformtag: net

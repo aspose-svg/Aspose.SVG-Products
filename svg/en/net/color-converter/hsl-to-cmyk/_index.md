@@ -2,7 +2,7 @@
 translation: true
 template: ./../_template-child.md
 title: HSL to CMYK Conversion - C# - Online Color Converter
-description: Work with color codes and convert HSL to CMYK in C#
+description: Work with color codes and convert HSL to CMYK in C#. Try Color Converter for free!
 url: /net/color-converter/hsl-to-cmyk/
 family: svg
 platformtag: net

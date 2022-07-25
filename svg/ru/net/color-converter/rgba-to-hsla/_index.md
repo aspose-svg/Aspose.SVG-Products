@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: ./../_template-child.md
-title: Конвертировать RGBA в HSLA - C#
+title: Конвертировать RGBA в HSLA - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование RGBA в HSLA в C#
 url: /net/color-converter/rgba-to-hsla/
 family: svg

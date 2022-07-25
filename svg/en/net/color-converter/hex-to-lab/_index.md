@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: HEX to LAB Conversion - C# - Online Color Converter
-description: Work with color codes and convert HEX to LAB in C#
+title: HEX to LAB Conversion - C# code and Online Converter
+description: Work with color codes and convert HEX to LAB in C#. Try Online Color Converter for free!
 url: /net/color-converter/hex-to-lab/
 family: svg
 platformtag: net

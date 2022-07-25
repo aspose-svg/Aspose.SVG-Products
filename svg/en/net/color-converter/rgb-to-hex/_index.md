@@ -1,8 +1,8 @@
 ---
 translation: true
 template: ./../_template-child.md
-title: Convert RGB to HEX - C# - Online Color Converter
-description: Work with color codes and convert RGB to HEX in C#
+title: Convert RGB to HEX - C# code and Online Converter
+description: Work with color codes and convert RGB to HEX in C#. Try Online Color Converter for free!
 url: /net/color-converter/rgb-to-hex/
 family: svg
 platformtag: net

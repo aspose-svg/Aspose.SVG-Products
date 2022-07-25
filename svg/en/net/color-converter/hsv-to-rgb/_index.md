@@ -2,7 +2,7 @@
 translation: true
 template: ./../_template-child.md
 title: HSV to RGB Conversion - C# - Online Color Converter
-description: Work with color codes and convert HSV to RGB in C#
+description: Work with color codes and convert HSV to RGB in C#. Try Color Converter for free!
 url: /net/color-converter/hsv-to-rgb/
 family: svg
 platformtag: net
