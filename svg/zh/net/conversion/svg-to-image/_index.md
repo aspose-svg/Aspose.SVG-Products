@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: 通过 C# 将 SVG 转换为图像 - 在线 SVG 到图像转换器
 description: 在 Windows、macOS 和 Linux 上使用 .NET Core API 将 SVG 转换为图像。免费试用在线 SVG 到图像转换器！
 url: /net/conversion/svg-to-image/
@@ -67,8 +67,6 @@ h2: 使用 ConvertSVG() 方法将 SVG 转换为图像的步骤
 1. 使用[ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/)方法将SVG保存为图片。您需要将 SVGDocument、ImageSaveOptions 和输出文件路径传递给 ConvertSVG() 方法。
 1. 图像文件将保存到指定路径。
 
-
-
 {{<section steps2>}}
 ---
 h2: 使用 RenderTo() 方法将 SVG 转换为图像的步骤
@@ -77,8 +75,6 @@ h2: 使用 RenderTo() 方法将 SVG 转换为图像的步骤
 1. 创建 ImageRenderingOptions 类的对象。使用 [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
 1. 初始化[ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice)类并指定要渲染的输出文件名。
 1. 调用[RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto)方法并传递ImageDevice的实例。
-
-
 
 {{<section code-text>}}
 ---
@@ -98,16 +94,7 @@ using (var document = new SVGDocument("input.svg"))
 }
 ```
 
-{{<section get-started>}}
----
-h2: .NET SVG API 入门
----
-
-从命令行安装为 ```nuget install Aspose.SVG``` 或通过 Visual Studio 的 Package Manager Console 使用 ```Install-Package Aspose.SVG``` 安装。
-或者，从 [下载](https://releases.aspose.com/svg/net/) 获取 ZIP 文件中的离线 MSI 安装程序或 DLL。 Aspose.SVG for .NET API 是一个独立的库，不依赖于任何软件来处理 SVG 文档。
- 有关 C# 库安装和系统要求的更多详细信息，请参阅 [Aspose.SVG 文档](https://docs.aspose.com/svg/net/getting-started/)。
-
- {{<section other-conversions>}}
+{{<section other-conversions>}}
 ---
 title: 其他支持的 SVG 转换
 subTitle: "您还可以将 SVG 转换为许多其他文件格式："

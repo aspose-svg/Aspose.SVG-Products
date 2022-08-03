@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: Конвертировать SVG в PDF на C# Core
 description: Загружайте и конвертируйте SVG в PDF с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в PDF бесплатно!
 url: /net/conversion/svg-to-pdf/
@@ -61,12 +61,10 @@ using Aspose.Svg.Converters;
 ---
 h2: Шаги для преобразования SVG в PDF с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument.](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)
 1. Создайте новый объект [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions).
-1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG в виде файла PDF. Вам необходимо передать SVGDocument, PdfSaveOptions и путь к выходному файлу методу ConvertSVG().
+1. Используйте метод [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) чтобы сохранить SVG в виде файла PDF. Вам необходимо передать SVGDocument, PdfSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл PDF будет сохранен по указанному пути.
-
-
 
 {{<section steps2>}}
 ---
@@ -76,8 +74,6 @@ h2: Шаги по преобразованию SVG в PDF с использов�
 1. Создайте объект класса PdfRenderingOptions. Используйте конструктор [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) и укажите свойство «Формат» документа.
 1. Инициализируйте класс [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) и укажите имя выходного файла для рендеринга.
 1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр PdfDevice.
-
-
 
 {{<section code-text>}}
 ---
@@ -97,16 +93,7 @@ using (var document = new SVGDocument("input.svg"))
 }
 ```
 
-{{<section get-started>}}
----
-h2: Начало работы с .NET SVG API
----
-
-Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://releases.aspose.com/svg/net/). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
-
- {{<section other-conversions>}}
+{{<section other-conversions>}}
 ---
 title: Другие поддерживаемые преобразования SVG
 subTitle: "Вы также можете конвертировать SVG во многие другие форматы файлов:"

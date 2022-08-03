@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: Конвертировать SVG в JPEG на C# Core - Онлайн-конвертер SVG в JPEG
 description: Загружайте и конвертируйте SVG в JPEG с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в JPEG бесплатно!
 url: /net/conversion/svg-to-jpeg/
@@ -62,12 +62,10 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: Шаги для преобразования SVG в JPEG с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument.](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)
 1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) с JPEG ImageFormat. По умолчанию свойство «Формат» имеет значение PNG.
-1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG как изображение JPEG. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
+1. Используйте метод [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) чтобы сохранить SVG как изображение JPEG. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл JPEG будет сохранен по указанному пути.
-
-
 
 {{<section steps2>}}
 ---
@@ -98,16 +96,7 @@ using (var document = new SVGDocument("input.svg"))
 }
 ```
 
-{{<section get-started>}}
----
-h2: Начало работы с .NET SVG API
----
-
-Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://releases.aspose.com/svg/net/). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
-
- {{<section other-conversions>}}
+{{<section other-conversions>}}
 ---
 title: Другие поддерживаемые преобразования SVG
 subTitle: "Вы также можете конвертировать SVG во многие другие форматы файлов:"

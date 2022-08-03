@@ -10,7 +10,10 @@ informat: {{i18n.informat}}
 outformat: {{i18n.outformat}}
 otherformats: {{i18n.otherformats}}
 ---
-<!-- template1.md -->
+
+{{<meta path="/{{lang}}/meta/color-converter/default.md" section="{{env.howto}}">}}
+
+{{<meta path="/{{lang}}/meta/color-converter/default.md" section="faq">}}
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
