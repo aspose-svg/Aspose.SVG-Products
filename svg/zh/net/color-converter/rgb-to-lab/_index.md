@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: C# 中的 RGB 到 LAB 转换
 description: 在 C# 中使用颜色代码并将 RGB 转换为 LAB
 url: /net/color-converter/rgb-to-lab/

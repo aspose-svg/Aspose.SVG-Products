@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-merger.md
 title: Объединение нескольких SVG файлов в один файл PDF, JPEG, PNG и т.д. на C#
 url: /net/merger/
 description: Объединяйте изображения или SVG в один файл и сохраняйте результат в PDF, XPS, PNG, JPEG, BMP, GIF, TIFF с помощью C#.

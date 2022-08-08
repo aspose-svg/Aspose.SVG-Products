@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge SVG to GIF via C# - Aspose.SVG
 description: Merge SVG to GIF using C# on Windows, macOS & Linux
 url: /net/merger/svg-to-gif/

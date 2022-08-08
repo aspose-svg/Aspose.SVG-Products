@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать HSLA в RGBA - C# 
 description: Работа с цветовыми кодами и преобразование HSLA в RGBA на C#
 url: /net/color-converter/hsla-to-rgba/

@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать RGB в HEX - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование RGB в HEX в C#
 url: /net/color-converter/rgb-to-hex/

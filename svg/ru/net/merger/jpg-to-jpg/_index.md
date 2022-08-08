@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение JPG в JPG на C# - Aspose.SVG
 description: Объединение JPG в JPG с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/jpg-to-jpg/

@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-svg.md
 title: Загрузка, анализ или преобразование файлов SVG
 weight: 30
 url: /

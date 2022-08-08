@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать RGB в LAB - C#
 description: Работа с цветовыми кодами и преобразование RGB в LAB на C#
 url: /net/color-converter/rgb-to-lab/

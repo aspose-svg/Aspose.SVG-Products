@@ -40,13 +40,28 @@ otherformats: {{i18n.otherformats}}
 {{i18n.documentation}}
 
 {{i18n.online-color-converter}}
+<br>
+
+<h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-color.h2">}}</h2>
+
+<b>1. {{<import path="/{{lang}}/partials/_faq.md" section="faq-color.Q1">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-color.A1">}}
+
+<b>2. {{<import path="/{{lang}}/partials/_faq.md" section="faq-color.Q2">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-color.A2">}}
+
+<b>3. {{<import path="/{{lang}}/partials/_faq.md" section="faq-color.Q3">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-color.A3">}}
 <br><br>
 
 {{% blocks/products/pf/agp/feature-section-col title="{{i18n.input-color.title}}" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
-{{<import path="./../../partials/_colorcodes.md" section="{{i18n.informat}}">}}
+{{<import path="/{{lang}}/partials/_colorcodes.md" section="{{i18n.informat}}">}}
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -56,7 +71,7 @@ otherformats: {{i18n.otherformats}}
 
 {{% blocks/products/pf/agp/text %}}
 
-{{<import path="./../../partials/_colorcodes.md" section="{{i18n.outformat}}">}}
+{{<import path="/{{lang}}/partials/_colorcodes.md" section="{{i18n.outformat}}">}}
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -64,9 +79,9 @@ otherformats: {{i18n.otherformats}}
 
 {{% /blocks/products/pf/agp/content %}}
 
-{{% blocks/products/pf/agp/content h2="{{i18n.get-started.h2}}" %}}
+{{% blocks/products/pf/agp/content h2="{{<import path="/{{lang}}/partials/_install.md" section="net.h2">}}" %}}
 
-{{i18n.get-started}}
+{{<import path="/{{lang}}/partials/_install.md" section="{{i18n.platformtag}}">}}
 
 {{% /blocks/products/pf/agp/content %}}
 

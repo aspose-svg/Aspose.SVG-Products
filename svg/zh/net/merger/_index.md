@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-merger.md
 title: 使用 C# 将 SVG 组合成流行格式
 url: /net/merger/
 description: 使用几行 C# 代码将图像或 SVG 组合为 PDF、XPS、PNG、JPEG 等。

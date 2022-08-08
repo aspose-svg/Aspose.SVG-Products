@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение GIF в TIFF на C# - Aspose.SVG
 description: Объединение GIF в TIFF с помощью .NET Core API в Windows, macOS и Linux
 url: /net/merger/gif-to-tiff/

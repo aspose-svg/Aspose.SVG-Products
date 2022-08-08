@@ -1,6 +1,6 @@
 ---
 translation: true
-template: _template.md
+template: /templates/_template-color.md
 title: Convert Color Codes with C# library
 url: /net/color-converter/
 description: Aspose.SVG C# library helps you programmatically convert color formats - RGB, HEX, HSL, HSV, CMYK, LAB, XYZ, etc.
@@ -8,7 +8,7 @@ description: Aspose.SVG C# library helps you programmatically convert color form
 
 {{<section banner>}}
 ---
-h1: Convert Color Codes with C# 
+h1: Convert Color Codes with C#
 h2: Use the C# library to convert  between color formats - RGB, HEX, HSL, HSV, CMYK, LAB, XYZ, etc.
 ---
 

@@ -10,7 +10,10 @@ informat: SVG
 outformat: BMP
 otherformats: GIF JPEG PNG TIFF 
 ---
-<!-- template1.md -->
+
+{{<meta path="/{{lang}}/meta/merger/default.md" section="{{env.howto}}">}}
+
+{{<meta path="/{{lang}}/meta/merger/default.md" section="faq">}}
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
@@ -31,7 +34,7 @@ otherformats: GIF JPEG PNG TIFF
 
 {{i18n.code-snippet}} 
 
-<p></p></br></br>
+<p></p><br><br>
 
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -45,13 +48,27 @@ otherformats: GIF JPEG PNG TIFF
 
 <h2>{{i18n.online-merger.h2}}</h2>
 
-{{i18n.online-merger}}
+{{i18n.online-merger}}<br>
+
+<h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.h2">}}</h2>
+
+<b>1. {{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.Q1">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.A1">}}
+
+<b>2. {{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.Q2">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.A2">}}
+
+<b>3. {{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.Q3">}}</b>
+
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-merger.A3">}}
 
 {{% /blocks/products/pf/agp/content %}}
 
-{{% blocks/products/pf/agp/content h2="{{i18n.get-started.h2}}" %}}
+{{% blocks/products/pf/agp/content h2="{{<import path="/{{lang}}/partials/_install.md" section="net.h2">}}" %}}
 
-{{i18n.get-started}}
+{{<import path="/{{lang}}/partials/_install.md" section="{{i18n.platformtag}}">}}
 
 {{% /blocks/products/pf/agp/content %}}
 

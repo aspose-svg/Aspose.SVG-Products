@@ -1,6 +1,6 @@
 ---
 translation: true
-template: _template.md
+template: /templates/_template-svg.md
 title: Load, Parse or Convert SVG Files 
 weight: 30
 url: /

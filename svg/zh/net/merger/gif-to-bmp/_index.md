@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: 通过 C# 将 GIF 合并到 BMP - Aspose.SVG
 description: 在 Windows、macOS 和 Linux 上使用 .NET Core API 将 GIF 合并到 BMP
 url: /net/merger/gif-to-bmp/

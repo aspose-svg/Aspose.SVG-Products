@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: RGBA-zu-HSLA-Konvertierung - C#
 description: Arbeiten Sie mit Farbcodes und konvertieren Sie RGBA in HSLA in C#
 url: /net/color-converter/rgba-to-hsla/
@@ -76,15 +76,6 @@ Bitte besuchen Sie unsere Dokumentation, um mehr über die Verwendung von Aspose
 {{<section online-color-converter>}}
 
 [Farbkonverter](https://products.aspose.app/svg/color-converter) sind kostenlose Online-Webanwendungen, mit denen Sie Farben zwischen verschiedenen Farbcodes wie RGB, HEX, HSL, HSV, HWB, LAB, CMYK konvertieren können, LCH, XYZ, OKLAB, OKLCH, RGBA, HSLA usw. im Handumdrehen. Farbkonverter sind einfach zu bedienen und funktionieren auf jedem Browser und Betriebssystem. Das Ergebnis erhalten Sie sofort nach Eingabe des zu konvertierenden Farbcodes.
-
-{{<section get-started>}}
----
-h2: Erste Schritte mit der .NET SVG-API
----
-
-Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
-Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://releases.aspose.com/svg/net/) herunterladen. Die Aspose.SVG-API ist eine eigenständige API und kann für die Bearbeitung und Analyse von SVG-Dokumenten in Anwendungen verwendet werden.
-Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation.](https://docs.aspose.com/svg/net/getting-started/)
 
 {{<section other-color-converters>}}
 ---

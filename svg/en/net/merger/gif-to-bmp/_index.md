@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge GIF to BMP via C# - Aspose.SVG
 description: Merge GIF to BMP using .NET Core API on Windows, macOS & Linux
 url: /net/merger/gif-to-bmp/

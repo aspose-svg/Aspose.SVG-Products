@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-family.md
 title: SVG 格式处理 API - Aspose
 weight: 10
 url: /family

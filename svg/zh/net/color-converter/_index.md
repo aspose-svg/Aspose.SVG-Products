@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-color.md
 title: 使用 C# 库转换颜色代码
 url: /net/color-converter/
 description: Aspose.SVG C# 库可帮助您以编程方式转换颜色格式 - RGB、HEX、HSL、HSV、CMYK、LAB、XYZ 等。

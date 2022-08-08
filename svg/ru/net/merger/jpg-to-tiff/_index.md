@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение JPG в TIFF на C# - Aspose.SVG
 description: Объединение JPG в TIFF с помощью C# API в Windows, macOS и Linux
 url: /net/merger/jpg-to-tiff/

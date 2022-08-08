@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge SVG to XPS via C# - Aspose.SVG
 description: Merge SVG to XPS using C# on Windows, macOS & Linux
 url: /net/merger/svg-to-xps/
