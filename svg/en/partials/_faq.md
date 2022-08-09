@@ -17,12 +17,12 @@ A3: "Vector graphics using is one of the most popular Web design trends in the l
 {{<section faq-merger>}}
 ---
 h2: FAQ
-Q1: "How can I merge {{i18n.informat}} to {{i18n.outformat}}?"
-A1: "??"
-Q2: "What ?"
-A2: "??"
-Q3: "Why ?"
-A3: "??"
+Q1: "How can I merge several {{i18n.informat}} into {{i18n.outformat}}?"
+A1: "In your daily work, you will sometimes need to merge two or more images. Aspose.SVG allows you to merge SVG into other formats in any way - online or programmatically. Online [Image Combiner](https://products.aspose.app/svg/merger) helps you combine images quickly and with high quality. C# API provides the Renderer class for rendering and merging SVG documents programmatically."
+Q2: "In what formats can I save the result of {{i18n.informat}} merge via C#?"
+A2: "You can save the {{i18n.informat}} merge result in the most common formats such as JPG, PNG, BMP, GIF, TIFF, etc."
+Q3: "Why do I need to merge multiple {{i18n.informat}} files?"
+A3: "There are many reasons why you want to merge several images into one. For example, you want to make a collage or create a new drawing based on several {{i18n.informat}} images. You may need to merge {{i18n.informat}} and save the result as {{i18n.outformat}} for easy storage or mailing."
 ---
 
 {{<section faq-color>}}

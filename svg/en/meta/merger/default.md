@@ -23,7 +23,7 @@ steps[3].text: "Use one of the ImageRenderingOptions() constructor to initialize
 steps[3].image: "https://products.aspose.com/svg/images/merger/step2.png"
 steps[3].url: "https://products.aspose.com/svg/net/merger/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 steps[4].name: "Merge {{i18n.informat}} to {{i18n.outformat}} using C#"
-steps[4].text: "Create an instans of ImageDevice. Call the RenderTo(device) method to send the current SVGdocument to the output rendering device."
+steps[4].text: "Create an instans of ImageDevice. Call the RenderTo(device) method to send the current SVGdocuments to the output rendering device."
 steps[4].image: "https://products.aspose.com/svg/images/merger/step3.png"
 steps[4].url: "https://products.aspose.com/svg/net/merger/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 steps[5].name: "Get the result in {{i18n.outformat}} format"
@@ -58,7 +58,7 @@ steps[4].image: "https://products.aspose.com/svg/images/merger/step-svg-3.png"
 steps[4].url: "https://products.aspose.com/svg/net/merger/svg-to-{{i18n.outformat lower}}/"
 steps[5].name: "Get the result in {{i18n.outformat}} format"
 steps[5].text: "Get the result of SVG to {{i18n.outformat}} merge."
-steps[5].image: "https://products.aspose.com/svg/images/merger/step4.png"
+steps[5].image: "https://products.aspose.com/svg/images/merger/step-svg-4.png"
 steps[5].url: "https://products.aspose.com/svg/net/merger/svg-to-{{i18n.outformat lower}}/"
 ---
 
@@ -66,12 +66,12 @@ steps[5].url: "https://products.aspose.com/svg/net/merger/svg-to-{{i18n.outforma
 
 {{<section faq>}}
 ---
-qs[1].name: "How can I merge {{i18n.informat}} to {{i18n.outformat}}?"
-qs[1].text: "Aspose.SVG allows you ??? - online or programmatically. You can convert {{i18n.informat}} in real-time using Online SVG Converter that transforms your files quickly and with high quality. Upload, convert SVG and get results in a few seconds."
-qs[2].name: "What ?"
-qs[2].text: "123."
-qs[3].name: "Why?"
-qs[3].text: "123"
+qs[1].name: "How can I merge {{i18n.informat}} into {{i18n.outformat}}?"
+qs[1].text: "In your daily work, you will sometimes need to merge two or more images. Aspose.SVG allows you to merge several {{i18n.informat}} into other formats in any way - online or programmatically. Online Image Combiner helps you combine images quickly and with high quality. C# API provides the Renderer class for rendering and merging SVG documents programmatically."
+qs[2].name: "In what formats can I save the result of {{i18n.informat}} merge using C#?"
+qs[2].text: "You can save the {{i18n.informat}} merge result in the most common formats such as JPG, PNG, BMP, GIF, TIFF, etc."
+qs[3].name: "Why do I need to merge multiple {{i18n.informat}} files?"
+qs[3].text: "There are many reasons why you want to merge several images into one. For example, you want to make a collage or create a new drawing based on several {{i18n.informat}} images. You may need to merge {{i18n.informat}} and save the result as {{i18n.outformat}} for easy storage or mailing."
 ---
 
 {{<import path="/meta/schemas.md" section="faq">}}

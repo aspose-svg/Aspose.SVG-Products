@@ -8,7 +8,7 @@ family: svg
 platformtag: net
 feature: conversion
 informat: SVG
-outformat: GIF JPEG PNG TIFF BMP
+outformat: image
 otherformats: GIF JPEG PNG BMP TIFF PDF XPS
 ---
 

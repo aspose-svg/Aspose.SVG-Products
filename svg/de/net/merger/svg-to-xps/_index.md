@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: XPS
 otherformats: XPS PDF GIF JPEG PNG TIFF BMP
+howto: howtoSvg
 ---
 
 {{<section banner>}}

@@ -8,8 +8,9 @@ family: svg
 platformtag: net
 feature: merge
 informat: SVG
-outformat: GIF JPEG PNG TIFF BMP
+outformat: image
 otherformats: GIF JPEG PNG TIFF BMP PDF XPS
+howto: howtoSvg
 ---
 
 {{<section banner>}}
