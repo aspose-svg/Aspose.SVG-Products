@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать CMYK в HSL - C# - Онлайн Конвертер цветов
 description: Работа с цветовыми кодами и преобразование CMYK в HSL в C#
 url: /net/color-converter/cmyk-to-hsl/

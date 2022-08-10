@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: Konvertieren Sie SVG in JPEG mit C# Core
 description: Laden und konvertieren Sie SVG in JPEG mithilfe der .NET Core-API unter Windows, macOS und Linux
 url: /net/conversion/svg-to-jpeg/
@@ -98,16 +98,7 @@ using (var document = new SVGDocument("input.svg"))
 }
 ```
 
-{{<section get-started>}}
----
-h2: Erste Schritte mit der .NET SVG-API
----
-
-Installieren Sie von der Befehlszeile als ```nuget install Aspose.SVG``` oder über die Package Manager Console von Visual Studio mit ```Install-Package Aspose.SVG```.
-Alternativ können Sie das Offline-MSI-Installationsprogramm oder DLLs in einer ZIP-Datei von [downloads](https://releases.aspose.com/svg/net/) herunterladen. Aspose.SVG für .NET API ist eine eigenständige Bibliothek und hängt von keiner Software für die Verarbeitung von SVG-Dokumenten ab.
- Weitere Einzelheiten zur Installation der C#-Bibliothek und zu den Systemanforderungen finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/).
-
- {{<section other-conversions>}}
+{{<section other-conversions>}}
 ---
 title: Andere unterstützte SVG-Konvertierungen
 subTitle: "Sie können SVG auch in viele andere Dateiformate konvertieren:"

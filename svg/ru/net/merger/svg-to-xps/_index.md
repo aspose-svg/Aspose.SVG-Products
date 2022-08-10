@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение нескольких SVG в XPS с помощью C# - Aspose.SVG
 description: Объединение SVG в XPS с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-xps/
@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: XPS
 otherformats: XPS PDF GIF JPEG PNG TIFF BMP
+howto: howtoSvg
 ---
 
 {{<section banner>}}

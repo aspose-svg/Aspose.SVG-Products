@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать HEX в CMYK - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование HEX в CMYK в C#
 url: /net/color-converter/hex-to-cmyk/

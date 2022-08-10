@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-merger.md
 title: Kombinieren Sie SVG in gängigen Formaten mit C#
 url: /net/merger/
 description: Kombinieren Sie Bilder oder SVG in PDF, XPS, PNG, JPEG usw. mit wenigen Zeilen C#-Code.

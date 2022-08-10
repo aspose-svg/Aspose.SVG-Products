@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: 通过 C# 将 GIF 合并为 JPG - Aspose.SVG
 description: 在 Windows、macOS 和 Linux 上使用 .NET Core API 将 GIF 合并为 JPG
 url: /net/merger/gif-to-jpg/

@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Convert HEX to HSL - C# code and Online Converter
 description: Work with color codes and convert HEX to HSL in C#. Try Online Color Converter for free!
 url: /net/color-converter/hex-to-hsl/
@@ -23,7 +23,7 @@ h2: Use High-speed .NET API to Convert HEX to HSL color on Windows, macOS & Linu
 h2: Convert HEX to HSL Using C#
 ---
 
-[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) offers a high-speed C# library that you can use for different SVG parsing tasks. One of the API features is easy access to work with several color spaces. The Aspose.Svg.Converters namespace implements the use of [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) class that parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the IConvertibleColor interface for converting to various color spaces.<br><br>
+[Aspose.SVG for .NET API](https://products.aspose.com/svg/net/) offers a high-speed C# library that you can use for different SVG parsing tasks. One of the API features is easy access to work with several color spaces. The Aspose.Svg.Converters namespace implements the use of [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) class that parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the IConvertibleColor interface for converting to various color spaces.<br>
 Colors codes or color formats are closely linked to the methods of describing and defining colors and are widely used in the web, design, polygraphy, photography, arts, etc. And for different tasks, different color formats are preferred. So, sometimes you may need to convert color codes.
 
 {{<section input-color>}}
@@ -75,15 +75,6 @@ Please visit our documentation to learn more about using Aspose.SVG API function
 {{<section online-color-converter>}}
 
 [Color Converters](https://products.aspose.app/svg/color-converter) are free online web applications that allow you to convert colors between different color codes like RGB, HEX, HSL, HSV, HWB, LAB, CMYK, LCH, XYZ, OKLAB, OKLCH, RGBA, HSLA, etc. on the fly. Color Converters are easy-to-use and work on any browser and operating system. You get the result immediately after entering the color code you need to convert.
-
-{{<section get-started>}}
----
-h2: Get Started with .NET SVG API
----
-
-Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.
-Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads](https://releases.aspose.com/svg/net/). Aspose.SVG API is a standalone API and can be used for SVG document manipulation and parsing within applications. 
-For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation.](https://docs.aspose.com/svg/net/getting-started/)
 
 {{<section other-color-converters>}}
 ---

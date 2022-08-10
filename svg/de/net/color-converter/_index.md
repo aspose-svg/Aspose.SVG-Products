@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-color.md
 title: Konvertieren Sie Farbcodes mit der C#-Bibliothek
 url: /net/color-converter/
 description: Die C#-Bibliothek Aspose.SVG hilft Ihnen bei der programmgesteuerten Konvertierung von Farbformaten – RGB, HEX, HSL, HSV, CMYK, LAB, XYZ usw.
@@ -68,8 +68,6 @@ Aspose.SVG für .NET ist eine plattformübergreifende flexible Bibliothek, die e
 Installieren von <a href="https://www.nuget.org/packages/Aspose.SVG" target="_blank">Aspose.SVG für .NET über NuGet</a>:
 1. Verwenden der Paket-Manager-Konsole.
 2. Verwenden der NuGet Package Manager-GUI.</br>
-
-
 
 Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/installation/).
 

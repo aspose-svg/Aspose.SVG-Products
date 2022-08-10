@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: 通过 C# 将 SVG 合并到 PNG - Aspose.SVG
 description: 在 Windows、macOS 和 Linux 上使用 C# 将 SVG 合并为 PNG
 url: /net/merger/svg-to-png/
@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: PNG
 otherformats: GIF JPEG PNG TIFF BMP PDF XPS
+howto: howtoSvg
 ---
 
 {{<section banner>}}

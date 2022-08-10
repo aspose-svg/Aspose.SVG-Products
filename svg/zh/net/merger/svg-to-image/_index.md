@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: 使用 C# 将 SVG 合并到图像 - Aspose.SVG
 description: 在 Windows、macOS 和 Linux 上使用 C# 将 SVG 合并到图像
 url: /net/merger/svg-to-image/
@@ -8,8 +8,9 @@ family: svg
 platformtag: net
 feature: merge
 informat: SVG
-outformat: GIF JPEG PNG TIFF BMP
+outformat: image
 otherformats: GIF JPEG PNG TIFF BMP PDF XPS
+howto: howtoSvg
 ---
 
 {{<section banner>}}

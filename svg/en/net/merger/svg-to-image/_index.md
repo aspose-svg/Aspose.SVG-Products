@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge SVG to Image with C# - Aspose.SVG
 description: Merge SVG to Image using C# on Windows, macOS & Linux
 url: /net/merger/svg-to-image/
@@ -8,8 +8,9 @@ family: svg
 platformtag: net
 feature: merge
 informat: SVG
-outformat: GIF JPEG PNG TIFF BMP
+outformat: image
 otherformats: GIF JPEG PNG TIFF BMP PDF XPS
+howto: howtoSvg
 ---
 
 {{<section banner>}}

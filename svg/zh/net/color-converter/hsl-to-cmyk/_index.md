@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: C# 中 HSL 到 CMYK 的转换
 description: 在 C# 中使用颜色代码并将 HSL 转换为 CMYK
 url: /net/color-converter/hsl-to-cmyk/

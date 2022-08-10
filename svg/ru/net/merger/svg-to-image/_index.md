@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединить нескольго SVG в файл расторового изображения с помощью C# - Aspose.SVG
 description: Объединение нескольких SVG документов в формат файла растрового изображения с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-image/
@@ -8,8 +8,9 @@ family: svg
 platformtag: net
 feature: merge
 informat: SVG
-outformat: GIF JPEG PNG TIFF BMP
+outformat: image
 otherformats: GIF JPEG PNG TIFF BMP PDF XPS
+howto: howtoSvg
 ---
 
 {{<section banner>}}

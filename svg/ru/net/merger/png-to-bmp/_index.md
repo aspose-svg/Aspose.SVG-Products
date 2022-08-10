@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение PNG в BMP на C# - Aspose.SVG
 description: Объединение PNG в BMP с помощью C# в Windows, macOS и Linux
 url: /net/merger/png-to-bmp/

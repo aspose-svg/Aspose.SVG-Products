@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge JPG to PNG via C# - Aspose.SVG
 description: Merge JPG to PNG using .NET Core API on Windows, macOS & Linux
 url: /net/merger/jpg-to-png/

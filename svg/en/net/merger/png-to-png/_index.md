@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge PNG to PNG via C# - Aspose.SVG
 description: Merge PNG to PNG using C# on Windows, macOS & Linux
 url: /net/merger/png-to-png/

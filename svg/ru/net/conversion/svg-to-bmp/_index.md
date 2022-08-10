@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: Конвертировать SVG в BMP с помощью C# Core - Онлайн-конвертер SVG в BMP
 description: Загружайте и конвертируйте SVG в BMP с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн Конвертер SVG в BMP бесплатно!
 url: /net/conversion/svg-to-bmp/
@@ -97,15 +97,6 @@ using (var document = new SVGDocument("input.svg"))
 	}
 }
 ```
-
-{{<section get-started>}}
----
-h2: Начало работы с .NET SVG API
----
-
-Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://releases.aspose.com/svg/net/). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях вы найдете в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
 
 {{<section other-conversions>}}
 ---

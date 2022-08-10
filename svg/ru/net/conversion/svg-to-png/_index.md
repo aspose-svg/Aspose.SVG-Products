@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-conversion-child.md
 title: Конвертировать SVG в PNG на C# Core 
 description: Преобразование SVG в PNG с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн-конвертер SVG в PNG бесплатно!
 url: /net/conversion/svg-to-png/
@@ -98,16 +98,7 @@ using (var document = new SVGDocument("input.svg"))
 }
 ```
 
-{{<section get-started>}}
----
-h2: Начало работы с .NET SVG API
----
-
-Установите из командной строки как ```nuget install Aspose.SVG``` или через консоль диспетчера пакетов Visual Studio с ```Install-Package Aspose.SVG```.
-Кроме того, вы можете получить автономный установщик MSI или библиотеки DLL в ZIP-файле из [загрузки](https://releases.aspose.com/svg/net/). Aspose.SVG для .NET API является автономной библиотекой и не зависит от какого-либо программного обеспечения для обработки документов SVG.
- Дополнительные сведения об установке библиотеки C# и системных требованиях см. в [документации Aspose.SVG](https://docs.aspose.com/svg/net/getting-started/).
-
- {{<section other-conversions>}}
+{{<section other-conversions>}}
 ---
 title: Другие поддерживаемые преобразования SVG
 subTitle: "Вы также можете конвертировать SVG во многие другие форматы файлов:"

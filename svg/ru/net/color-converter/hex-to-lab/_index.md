@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: Конвертировать HEX в LAB - C#
 description: Работа с цветовыми кодами и преобразование HEX в LAB на C#
 url: /net/color-converter/hex-to-lab/

@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-conversion.md
 title: 使用 C# 将 SVG 转换为流行格式 - 在线 SVG 转换器
 url: /net/conversion/
 description: 通过 .NET 库使用几行 C# 代码将 SVG 转换为 PDF、XPS 和图像。免费在线查看 SVG 转换器！
@@ -83,8 +83,6 @@ Aspose.SVG for .NET 是一个跨平台的灵活库，旨在为处理和呈现 SV
 通过 NuGet 安装 <a href="https://www.nuget.org/packages/Aspose.SVG" target="_blank">Aspose.SVG for .NET</a>：
 1. 使用包管理器控制台。
 1. 使用 NuGet 包管理器 GUI。
-
-
 
 有关 C# 库安装的更多详细信息，请参阅 [Aspose.SVG 文档](https://docs.aspose.com/svg/net/getting-started/installation/)。
 

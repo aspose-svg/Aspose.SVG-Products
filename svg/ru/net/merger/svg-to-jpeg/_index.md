@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Объединение SVG в JPEG с помощью C# - Aspose.SVG
 description: Объединение SVG в JPEG с помощью C# API в Windows, macOS и Linux
 url: /net/merger/svg-to-jpeg/
@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: JPEG
 otherformats: XPS PDF GIF JPEG PNG TIFF BMP
+howto: howtoSvg
 ---
 
 {{<section banner>}}

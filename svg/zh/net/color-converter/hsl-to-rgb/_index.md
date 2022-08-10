@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: C# 中的 HSL 到 RGB 转换
 description: 在 C# 中使用颜色代码并将 HSL 转换为 RGB
 url: /net/color-converter/hsl-to-rgb/

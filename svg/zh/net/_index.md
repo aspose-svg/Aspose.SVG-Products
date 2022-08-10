@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-net.md
 title: C# SVG 文件解析 API - Aspose
 weight: 20
 url: /net/

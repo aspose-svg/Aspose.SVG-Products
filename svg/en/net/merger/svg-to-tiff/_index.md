@@ -1,6 +1,6 @@
 ---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Merge SVG to TIFF via C# - Aspose.SVG
 description: Merge SVG to TIFF using C# API on Windows, macOS & Linux
 url: /net/merger/svg-to-tiff/
@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: TIFF
 otherformats: XPS PDF GIF JPEG PNG TIFF BMP
+howto: howtoSvg
 ---
 
 {{<section banner>}}

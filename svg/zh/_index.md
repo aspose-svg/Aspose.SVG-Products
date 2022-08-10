@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-svg.md
 title: 加载、解析或转换 SVG 文件
 weight: 30
 url: /

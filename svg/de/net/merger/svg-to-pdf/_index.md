@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: Zusammenführen von SVG zu PDF über C# - Aspose.SVG
 description: Zusammenführen von SVG in PDF mit C# unter Windows, macOS und Linux
 url: /net/merger/svg-to-pdf/
@@ -10,6 +10,7 @@ feature: merge
 informat: SVG
 outformat: PDF
 otherformats: XPS PDF GIF JPEG PNG TIFF BMP
+howto: howtoSvg
 ---
 
 {{<section banner>}}

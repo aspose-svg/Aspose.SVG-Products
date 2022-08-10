@@ -1,6 +1,6 @@
 ---
 translation: true
-template: _template.md
+template: /templates/_template-merger.md
 title: Combine SVG into popular formats Using C#
 url: /net/merger/
 description: Combine Images or SVG to PDF, XPS, PNG, JPEG, etc. with few lines of C# code.

@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-color-child.md
 title: C# 中的 HSLA 到 RGBA 转换
 description: 在 C# 中使用颜色代码并将 HSLA 转换为 RGBA
 url: /net/color-converter/hsla-to-rgba/

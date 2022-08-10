@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: ./../_template-child.md
+template: /templates/_template-merger-child.md
 title: GIF zu GIF über C# zusammenführen - Aspose.SVG
 description: Zusammenführen von GIF zu GIF mithilfe der .NET Core-API unter Windows, macOS und Linux
 url: /net/merger/gif-to-gif/

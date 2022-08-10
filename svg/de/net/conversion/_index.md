@@ -1,6 +1,6 @@
 ﻿---
 translation: true
-template: _template.md
+template: /templates/_template-conversion.md
 title: Konvertieren Sie SVG in gängige Formate mit C#
 url: /net/conversion/
 description: Konvertieren Sie SVG in PDF, XPS und Bilder mit wenigen Zeilen C#-Code über die .NET-Bibliothek.
@@ -83,8 +83,6 @@ Aspose.SVG für .NET ist eine plattformübergreifende flexible Bibliothek, die e
 Installieren von <a href="https://www.nuget.org/packages/Aspose.SVG" target="_blank">Aspose.SVG für .NET über NuGet</a>:
 1. Verwenden der Paket-Manager-Konsole.
 1. Verwenden der NuGet Package Manager-GUI.
-
-
 
 Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation](https://docs.aspose.com/svg/net/getting-started/installation/).
 
