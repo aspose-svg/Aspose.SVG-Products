@@ -26,7 +26,7 @@ steps[4].name: "Объединить {{i18n.informat}} в {{i18n.outformat}} с 
 steps[4].text: "Создайте экземпляры ImageDevice. Вызовите метод RenderTo(device) для отправки текущего SVG-документа на выходное устройство рендеринга."
 steps[4].image: "https://products.aspose.com/svg/images/merger/step3.png"
 steps[4].url: "https://products.aspose.com/svg/net/merger/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
-steps[5].name: "Получить результат в формате {{i18n.outformat}}"
+steps[5].name: "Получить результат"
 steps[5].text: "Получите результат слияния {{i18n.informat}} в {{i18n.outformat}}."
 steps[5].image: "https://products.aspose.com/svg/images/merger/step4.png"
 steps[5].url: "https://products.aspose.com/svg/net/merger/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"

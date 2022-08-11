@@ -22,7 +22,7 @@ steps[3].name: "Конвертировать SVG в {{i18n.outformat}} с пом
 steps[3].text: "Вызовите метод ConvertSVG(), передав ему SVGDocument, объект saveOptions и путь к выходному файлу."
 steps[3].image: "https://products.aspose.com/svg/images/conversion/step-{{i18n.informat lower}}-2.png"
 steps[3].url: "https://products.aspose.com/svg/net/conversion/svg-to-{{i18n.outformat lower}}/"
-steps[4].name: "Получить результат в формате {{i18n.outformat}}"
+steps[4].name: "Получить результат"
 steps[4].text: "Получите результат преобразования SVG в {{i18n.outformat}}."
 steps[4].image: "https://products.aspose.com/svg/images/conversion/step3.png"
 steps[4].url: "https://products.aspose.com/svg/net/conversion/svg-to-{{i18n.outformat lower}}/"

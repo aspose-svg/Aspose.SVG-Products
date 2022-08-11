@@ -231,7 +231,7 @@ weight: 20
             <p class="col-lg-10">{{i18n.feature.feature4}}</p>
         </div>
         <div class="col-lg-4">
-            <em class="fa fa-plus ico-blue fa-2x col-lg-2"></em>
+            <em class="fa fa-recycle ico-blue fa-2x col-lg-2"></em>
             <p class="col-lg-10">{{i18n.feature.feature5}}</p>
         </div>
         <div class="col-lg-4">
@@ -243,13 +243,26 @@ weight: 20
             <p class="col-lg-10">{{i18n.feature.feature7}}</p>
         </div>
         <div class="col-lg-4">
-            <em class="fa fa-recycle ico-blue fa-2x col-lg-2"> </em>
+            <em class="fa fa-search-plus ico-blue fa-2x col-lg-2"> </em>
             <p class="col-lg-10"> {{i18n.feature.feature8}}</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-cogs ico-blue fa-2x col-lg-2"> </em>
             <p class="col-lg-10"> {{i18n.feature.feature9}} </p>
         </div>
+        <div class="col-lg-4">
+            <em class="fa fa-plus ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature10}} </p>
+        </div>
+        <div class="col-lg-4">
+            <em class="fa fa-mail-forward ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature11}} </p>
+        </div>
+        <div class="col-lg-4">
+            <em class="fa fa-image ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature12}} </p>
+        </div>
+        
 
 <div class="col-lg-12">
 
