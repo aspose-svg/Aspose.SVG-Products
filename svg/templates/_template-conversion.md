@@ -25,7 +25,7 @@ url: {{i18n.url}}
 
 {{i18n.documentation}}
 
- {{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.installing.h2}}" %}}
 

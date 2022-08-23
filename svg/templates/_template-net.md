@@ -347,7 +347,7 @@ weight: 20
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-jpeg/">SVG to JPEG</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-bmp/">SVG to BMP</a></li>
-			<li><a href="/svg/net/{{lang.url-fragment}}merger/svg-to-gif/">SVG to GIF</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-gif/">SVG to GIF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		
@@ -361,7 +361,7 @@ weight: 20
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-gif/">GIF to GIF</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-png/">PNG to PNG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/tiff-to-jpg/">TIFF to JPG</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-jpg/">GIF to JPG</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		

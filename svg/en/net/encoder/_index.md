@@ -3,7 +3,7 @@ translation: true
 template: /templates/_template-encoder.md
 title: Encode Image to Base64 - C# Examples
 url: /net/encoder/
-description: Learn how to encode images to Base64, JSON, XML, URI, and CSS in C# code. Check online Base64 Encoder for free!
+description: Convert image to Base64 in C# code. Use Base64 images encoded as data URIs to embed them in HTML, CSS, or JSON.
 ---
 
 {{<section banner>}}
@@ -12,57 +12,66 @@ h1: Encode Image to Base64 in C#
 h2: Convert JPG, PNG, BMP, GIF, TIFF, ICO, or SVG to Base64 encoded string in C#
 ---
 
-{{<section overview>}}
+{{<section base64>}}
 ---
-h2: How to Encode Images or SVG Using C#
+h2: How to Encode Images Using C#
+title: Base64 Encoding
 ---
 
-SVG (Scalable Vector Graphics) is an XML-based image format for two-dimensional graphics. It is a vector graphics format intended primarily for the Web. The main excellence of SVG is its unmatched ability to be scaled to any size without any shred of quality degradation. All modern browsers support SVG, and it would seem that the Web should already switch to vector graphics. However, there are some restrictions on the use of SVG and sometimes you need to convert SVG to other formats.
- 
-<a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG for .NET API</a> makes the conversion process easier for developers. Converting between formats can perform by using a few different approaches:
- - The static [Converter class](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/) is a shared facade that provides SVG file conversions to the popular formats and allows to make these operations convenient and easy. 
+Base64 is an encoding scheme to convert binary data into an ASCII text format. It is generally used to transfer data over the Internet. The result of converting an image to Base64 is just a set of letters, numbers and two characters - “+” and “/”. Any browser knows what to do with them. Base64 is a kind of binary-to-text encoding. In other words, any data are represented as text, and any image can be converted to Base64.
 
- - The [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) method is used to render SVG to another format and send a document to the output device. Aspose.SVG API provides the following output devices implementation: the PdfDevice, XpsDevice,  and ImageDevice classes, which perform rendering to PDF, XPS, and Image file formats respectively.
+Base64 images are mainly used to embed image data in other formats such as HTML, CSS, JavaScript or JSON. Including the image data in the HTML file means the browser does not need to make an additional web request to retrieve the file because the image is already embedded in the HTML document. It is recommended to use base64 encoding only for small images. Large base64 images result in a lot of code in HTML, which results in a loss of performance benefits. It should also be noted that a base64 image will never be indexed by Google because it doesn't show up in image searches.
 
 {{<section demos>}}
 ---
-h2: Encoder Live Demos
+h2: Encode Image to Base64 in C#
+title: C# code to convert PNG image to Base64
 ---
 
-You can encode SVG with Aspose.SVG for .NET API in real-time. The following C# example demonstrates how to encode an SVG document. Please load a file from the local file system, select the output format and run the example. You will immediately get the result as a separate file.
+This article considers how to encode an image file to a Base64 string using Aspose.SVG .NET API features. The following C# example demonstrates how to convert a PNG image to a Base64 string and embed it into an SVG file. The ReadAllBytes(string) method is used to open an image  (binary file) and read the contents of the file into a byte array. The ToBase64String(bytes) method converts an array of 8-bit integers to its equivalent string representation encoded in base 64 digits. The AppendChild() method then adds the base64 encoded image to the SVG document.
 
-{{<section "app-pluging" i18n-exclude>}}
+{{<section "code" i18n-exclude>}}
 
-{{< app/svg/converter SVG PDF BMP "JPG|JPEG" PNG GIF TIFF XPS>}}
-using Aspose.Svg;
-using Aspose.Svg.Saving;
-using Aspose.Svg.Converters;
+```cs
+    // Open a binary file - PNG image
+    var bytes = File.ReadAllBytes(@"image.png");
+    // Initialize an SVGDocument object
+    var document = new SVGDocument();
+    // Create an image element
+    var img = (SVGImageElement)document.CreateElementNS("http://www.w3.org/2000/svg", "image");
+    // Convert image to base64
+    img.Href.BaseVal = "data:image/png;charset=utf-8;base64," + Convert.ToBase64String(bytes);
+    // Add the image element into the SVG document
+    document.RootElement.AppendChild(img);
+    // Save the SVG document
+    document.Save(@"image-base64.svg");
+```
 
-    using var document = new SVGDocument("input.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");
-{{< /app/svg/converter>}}
+
+{{<section html>}}
+---
+h4: "Example of embedded a Base64 image into HTML"
+text: Base64 encoded images can be embedded in HTML using the `<img>` tag. Base64 encoding and data URI scheme usage reduce the number of HTTP requests a browser needs to render an HTML document. This code snippet demonstrates how you can embed Base64 images in HTML.
+---
+
+The data URI consists of two parts separated by a comma. The first part specifies a Base64 encoded image, and the second part specifies a Base64 encoded image string:
+
+1. data:image/jpeg;base64, is the data URI scheme header.
+1. iVBORw0KGgoAAAANSUhEUg... is the encoded Base64 data.
+
+{{<section css>}}
+---
+h4: "Example of embedded a Base64 image as CSS background code"
+---
+
+One more way to reduce the number of HTTP requests for images - is the CSS `background-image` property usage. The `background-image` property defines images as the background of an element. Each image for the background-image property can be specified as a URL or as an image data URI. The difference is that in the first case the browser sends an HTTP request to get the external image, while in the second case the base64 image is directly embedded in the document and does not point out other sources. Therefore, the browser doesn’t need to load HTTP requests to deliver the output.
 
 {{<section encoder-online>}}
 ---
 h2: Online Base64 Encoders
 ---
 
-Online Base64 Encoders convert the content of SVG documents or image files to its equivalent string representation that is encoded with base-64 digits. They also provide examples for for data URI, JSON, XML, and others. You can choose the output format that you need: Plain Base64, Data URI, JSON, CSS, or XML.
+Online <a href="https://products.aspose.app/svg/{{lang}}/encoding" target="_blank">Base64 Encoders</a> convert the content of SVG documents or image files to its equivalent string representation that is encoded with base-64 digits. They also provide examples for for data URI, JSON, XML, and others. Encoding tools help you avoid various data encoding issues that make website content or email messages unreadable. Base64 Encoders are secure, easy to use and completely free. They work in any browser and on any operating system. 
 
 {{<section installing>}}
 ---
@@ -84,3 +93,33 @@ h2: Other Supported Encoders
 ---
 
 You can also encode SVG or Image files into other output formats including few listed below:
+
+{{<section "code-text">}}
+
+The fragment of the resulting image-base64.svg file is shown below. The Base64 string was cut so as not to clutter up the SVG code example:
+
+{{<section "code-svg" i18n-exclude>}}
+
+```cs
+<svg xmlns="http://www.w3.org/2000/svg">
+	<image href="data:image/png;charset=utf-8;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border"/>
+</svg>
+```
+
+{{<section "code-html" i18n-exclude>}}
+
+```cs
+<body>
+    <div>
+        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border">
+    </div>
+</body>
+```
+
+{{<section "code-css" i18n-exclude>}}
+
+```cs
+body {
+    background-image: url('data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg...');
+}
+```
