@@ -40,9 +40,9 @@ A3: "A color space is a specific organization of colors that is a collection of 
 ---
 h2: FAQ
 Q1: "How can I encode {{i18n.informat}} to {{i18n.outformat}}?"
-A1: "Aspose.SVG allows you to encode {{i18n.informat}} to other output formats in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online [{{i18n.informat}} Encoder](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) that converts your files quickly and with high quality. Upload, encode {{i18n.informat}} and get the result in a few seconds!"
-Q2: "Why is Base64 Encoder needed?"
-A2: "Historically, many data transfer and storage formats use text instead of binary code (HTML, URL-schemes, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 Encoder comes in."
-Q3: "Where is Base64 encoding applied?"
-A3: "To prevent misinterpretation of binary symbols when sending data over the Internet, it is necessary to encode them into characters. Some typical applications of Base64 Encoding: data URI schemes for images (CSS, HTML); transferring pictures and other binary data to XML; storing images in a database; including images into email messages."
+A1: "Aspose.SVG allows you to encode {{i18n.informat}} to Base64 string in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online [{{i18n.informat}} Encoder](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) that converts your files quickly and with high quality. Upload, encode {{i18n.informat}} and get the result in a few seconds! In other way, you can use Aspose.SVG for .NET API to convert {{i18n.informat}} to Base64 programmatically."
+Q2: "Why is Base64 Encoding needed?"
+A2: "Historically, many data transfer and storage formats use text instead of binary code (HTML, URL schemes, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 encoding comes in. To prevent misinterpretation of binary symbols when sending data over the Internet, it is necessary to encode them into characters. Some typical applications of Base64 Encoding: data URI schemes for images (CSS, HTML); transferring pictures and other binary data to XML; storing images in a database; including images into email messages."
+Q3: "What are the pros and cons of using data URIs?"
+A3: "11"
 ---

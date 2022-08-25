@@ -37,7 +37,7 @@ qs[1].text: "Aspose.SVG allows you to encode {{i18n.informat}} to other output f
 qs[2].name: "What other output formats can I encode {{i18n.informat}} to?"
 qs[2].text: "The {{i18n.informat}} Encoder allow you to encode {{i18n.informat}} in various output formats: Plain Base64, JSON, XML, URI, or CSS."
 qs[3].name: "Why is Base64 Encoder needed?"
-qs[3].text: "Historically, many data transfer and storage formats use text instead of binary code (HTML, URL-schemes, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 Encoder comes in."
+qs[3].text: "Historically, many data transfer and storage formats use text instead of binary code (HTML, URI schemes, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 Encoder comes in."
 qs[4].name: "Where is Base64 encoding applied?"
 qs[4].text: "To prevent misinterpretation of binary symbols when sending data over the Internet, it is necessary to encode them into characters. Some typical applications of Base64 Encoding: data URI schemes for images (CSS, HTML); transferring pictures and other binary data to XML; storing images in a database; including images into email messages."
 ---

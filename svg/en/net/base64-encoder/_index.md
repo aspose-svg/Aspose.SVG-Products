@@ -24,7 +24,7 @@ Base64 is an encoding scheme to convert binary data into an ASCII text format. I
 
 {{<section demos>}}
 ---
-h2: Encode Image to Base64 in C#
+h2: Convert Image to Base64 in C#
 title: C# code to convert PNG image to Base64
 ---
 
