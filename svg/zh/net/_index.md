@@ -57,6 +57,9 @@ feature6: 更改节点属性
 feature7: 使用 XPath 查询的内容导航
 feature8: 通过 CSS 选择器、元素和文档遍历进行导航
 feature9: 官方 SVG 规范的 DOM 树操作
+feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">将多个文件合并为一个文档</a>
+feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">在 Base64 中编码图像</a>
+feature12: 图像矢量化器
 ---
 
 {{<section converter>}}

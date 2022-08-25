@@ -35,3 +35,14 @@ A2: "You can perform conversions between color models such as RGB, HEX, HSL, HSV
 Q3: "Why should I convert {{i18n.informat}}?"
 A3: "A color space is a specific organization of colors that is a collection of information and data that declares how a system or device displays color to a user. The color spaces are closely linked to the methods of describing and defining these colors using their respective color codes. For different tasks, different color codes are preferred. For example, RGB colors are for the web and CMYK colors are for print."
 ---
+
+{{<section faq-encoder>}}
+---
+h2: FAQ
+Q1: "How can I encode {{i18n.informat}} to {{i18n.outformat}}?"
+A1: "Aspose.SVG allows you to encode {{i18n.informat}} to other output formats in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online [{{i18n.informat}} Encoder](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) that converts your files quickly and with high quality. Upload, encode {{i18n.informat}} and get the result in a few seconds!"
+Q2: "Why is Base64 Encoder needed?"
+A2: "Historically, many data transfer and storage formats use text instead of binary code (HTML, URL-schemes, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 Encoder comes in."
+Q3: "Where is Base64 encoding applied?"
+A3: "To prevent misinterpretation of binary symbols when sending data over the Internet, it is necessary to encode them into characters. Some typical applications of Base64 Encoding: data URI schemes for images (CSS, HTML); transferring pictures and other binary data to XML; storing images in a database; including images into email messages."
+---

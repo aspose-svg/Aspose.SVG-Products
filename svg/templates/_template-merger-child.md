@@ -5,9 +5,9 @@ description: {{i18n.description}}
 url: {{i18n.url}}
 family: svg
 platformtag: net
-feature: conversion
-informat: SVG
-outformat: BMP
+feature: merge
+informat: {{i18n.informat}}
+outformat: {{i18n.outformat}}
 otherformats: GIF JPEG PNG TIFF 
 ---
 

@@ -231,7 +231,7 @@ weight: 20
             <p class="col-lg-10">{{i18n.feature.feature4}}</p>
         </div>
         <div class="col-lg-4">
-            <em class="fa fa-plus ico-blue fa-2x col-lg-2"></em>
+            <em class="fa fa-recycle ico-blue fa-2x col-lg-2"></em>
             <p class="col-lg-10">{{i18n.feature.feature5}}</p>
         </div>
         <div class="col-lg-4">
@@ -243,13 +243,26 @@ weight: 20
             <p class="col-lg-10">{{i18n.feature.feature7}}</p>
         </div>
         <div class="col-lg-4">
-            <em class="fa fa-recycle ico-blue fa-2x col-lg-2"> </em>
+            <em class="fa fa-search-plus ico-blue fa-2x col-lg-2"> </em>
             <p class="col-lg-10"> {{i18n.feature.feature8}}</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-cogs ico-blue fa-2x col-lg-2"> </em>
             <p class="col-lg-10"> {{i18n.feature.feature9}} </p>
         </div>
+        <div class="col-lg-4">
+            <em class="fa fa-plus ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature10}} </p>
+        </div>
+        <div class="col-lg-4">
+            <em class="fa fa-mail-forward ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature11}} </p>
+        </div>
+        <div class="col-lg-4">
+            <em class="fa fa-image ico-blue fa-2x col-lg-2"> </em>
+            <p class="col-lg-10"> {{i18n.feature.feature12}} </p>
+        </div>
+        
 
 <div class="col-lg-12">
 
@@ -334,7 +347,7 @@ weight: 20
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-jpeg/">SVG to JPEG</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-bmp/">SVG to BMP</a></li>
-			<li><a href="/svg/net/{{lang.url-fragment}}merger/svg-to-gif/">SVG to GIF</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/svg-to-gif/">SVG to GIF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		
@@ -348,7 +361,7 @@ weight: 20
 		<ul>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-gif/">GIF to GIF</a></li>
 			<li><a href="/svg/{{lang.url-fragment}}net/merger/png-to-png/">PNG to PNG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/merger/tiff-to-jpg/">TIFF to JPG</a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/merger/gif-to-jpg/">GIF to JPG</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-2">		

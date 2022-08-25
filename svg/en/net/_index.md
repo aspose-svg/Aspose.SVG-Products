@@ -57,6 +57,9 @@ feature6: Change the node properties
 feature7: Content navigation using XPath Query
 feature8: Navigate via CSS Selectors, Element and Document Traversal
 feature9: DOM Tree manipulation of official SVG specifications
+feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Merge multiple files into one document</a>
+feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">Encode Images to Base64</a>
+feature12: Image Vectorizer
 ---
 
 {{<section converter>}}
