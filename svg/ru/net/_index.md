@@ -57,6 +57,9 @@ feature6: Изменение свойств узла
 feature7: Навигация по содержимому с использованием XPath Query
 feature8: Навигация с помощью селекторов CSS, обхода элементов и документов
 feature9: Манипуляции DOM Tree согласно официальным спецификациям SVG
+feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Объединение нескольких файлов в один документ</a>
+feature11: <a href="/svg/{{lang.url-fragment}}net/encoder/">Кодирование изображения в Base64</a>
+feature12: Векторизация изображений
 ---
 
 {{<section converter>}}

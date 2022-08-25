@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder.md
-title: 将图像编码为 Base64 - C# 示例
+title: 在 C# 代码中将图像编码为 Base64
 url: /net/encoder/
 description: 在 C# 代码中将图像转换为 Base64。使用编码为数据 URI 的 Base64 图像将它们嵌入 HTML、CSS 或 JSON。
 ---
@@ -9,7 +9,7 @@ description: 在 C# 代码中将图像转换为 Base64。使用编码为数据 U
 {{<section banner>}}
 ---
 h1: 在 C# 中将图像编码为 Base64
-h2: 在 C# 中将 JPG、PNG、BMP、GIF、TIFF、ICO 或 SVG 转换为 Base64 编码的字符串
+h2: 在 C# 中将图像转换为 Base64 编码的字符串。支持 JPG、PNG、BMP、GIF、TIFF、ICO 和 SVG 格式。
 ---
 
 {{<section base64>}}
@@ -18,9 +18,9 @@ h2: 如何使用 C# 对图像进行编码
 title: Base64 编码
 ---
 
-Base64 是一种将二进制数据转换为 ASCII 文本格式的编码方案。它通常用于通过 Internet 传输数据。将图像转换为 Base64 的结果只是一组字母、数字和两个字符——“+”和“/”。任何浏览器都知道如何处理它们。 Base64 是一种二进制到文本的编码。也就是说，任何数据都表示为文本，任何图像都可以转换为Base64。
+Base64 是一种将二进制数据转换为 ASCII 文本格式的编码方案。它通常用于通过 Internet 传输数据。将图像转换为 Base64 的结果只是一组拉丁字母、数字和两个字符——“+”和“/”。任何浏览器都知道如何处理它们。换句话说，Base64 是一种二进制到文本的编码。
 
-Base64 图像主要用于嵌入 HTML、CSS、JavaScript 或 JSON 等其他格式的图像数据。在 HTML 文件中包含图像数据意味着浏览器不需要发出额外的 Web 请求来检索文件，因为图像已经嵌入在 HTML 文档中。建议仅对小图像使用 base64 编码。大型 base64 图像会导致 HTML 中的大量代码，从而导致性能优势的损失。还应该注意的是，base64 图像永远不会被 Google 索引，因为它不会出现在图像搜索中。
+ Base64 在 Web 上特别常见，它的使用包括将图像文件或其他二进制资源嵌入文本资源(如 HTML 和 CSS 文件)中的能力。在 HTML 文件中包含图像数据意味着浏览器不需要发出额外的 Web 请求来检索文件，因为图像已经嵌入在 HTML 文档中。建议仅对小图像使用 base64 编码。大型 base64 图像会导致 HTML 中的大量代码，从而导致性能优势的损失。还应该注意的是，base64 图像永远不会被 Google 索引，因为它不会出现在图像搜索中。
 
 {{<section demos>}}
 ---
@@ -47,25 +47,62 @@ title: 将PNG图像转换为Base64的C#代码
     document.Save(@"image-base64.svg");
 ```
 
-
 {{<section html>}}
 ---
-h4: "将 Base64 图像嵌入 HTML 的示例"
-text: Base64 编码的图像可以使用 `<img>` 标签嵌入到 HTML 中。 Base64 编码和数据 URI 方案的使用减少了浏览器呈现 HTML 文档所需的 HTTP 请求数量。此代码片段演示了如何在 HTML 中嵌入 Base64 图像。
+h2: 在 HTML 中嵌入 Base64 图像
+title: 将 Base64 图像嵌入为数据 URI 的 HTML 代码
+text: Base64 编码的图像可以使用 `<img>` 标签嵌入到 HTML 中。只需使用数据 URI 将图像数据直接粘贴到 HTML 文件中。 Base64 编码和数据 URI 方案的使用减少了浏览器呈现网页所需的 HTTP 请求数量。此代码片段演示了如何在 HTML 中嵌入 Base64 图像。
 ---
 
 数据 URI 由用逗号分隔的两部分组成。第一部分指定 Base64 编码的图像，第二部分指定 Base64 编码的图像字符串：
-1. data:image/jpeg;base64，是数据URI方案头。
-1. iVBORw0KGgoAAAANSUhEUg...是编码后的Base64数据。
+1. `data:image/jpeg;base64`，是数据URI方案头。
+1. `iVBORw0KGgoAAAANSUhEUg...`是Base64编码数据。
 
 
 
 {{<section css>}}
 ---
-h4: "嵌入 Base64 图像作为 CSS 背景代码的示例"
+h2: 嵌入 Base64 图像作为 CSS 背景代码的示例
+title: 将 Base64 图像嵌入为数据 URI 的 CSS 代码
 ---
 
 减少对图像的 HTTP 请求数量的另一种方法是使用 CSS `background-image` 属性。 `background-image` 属性将图像定义为元素的背景。 background-image 属性的每个图像都可以指定为 URL 或图像数据 URI。不同的是，第一种情况是浏览器发送HTTP请求获取外部图片，而第二种情况则是base64图片直接嵌入到文档中，不指向其他来源。因此，浏览器不需要加载 HTTP 请求来传递输出。
+
+{{<section svg>}}
+---
+title: 用于嵌入 Base64 图像的 SVG 代码
+---
+
+生成的 image-base64.svg 文件的片段如下所示。 Base64 字符串被剪掉，以免弄乱 SVG 代码示例。将 Base64 图像嵌入为 URI 数据的格式如下，具体如下：
+
+`data:[<mime type>][;charset=<charset>][;base64],<encoded data>`
+
+
+{{<section "code-svg" i18n-exclude>}}
+
+```cs
+<svg xmlns="http://www.w3.org/2000/svg">
+	<image href="data:image/png;charset=utf-8;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border"/>
+</svg>
+```
+
+{{<section "code-html" i18n-exclude>}}
+
+```cs
+<body>
+    <div>
+        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border">
+    </div>
+</body>
+```
+
+{{<section "code-css" i18n-exclude>}}
+
+```cs
+body {
+    background-image: url('data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg...');
+}
+```
 
 {{<section encoder-online>}}
 ---
@@ -94,33 +131,4 @@ Aspose.SVG for .NET 是一个跨平台的灵活库，旨在为处理和呈现 SV
 h2: 其他支持的编码器
 ---
 
-您还可以将 SVG 或图像文件编码为其他输出格式，包括下面列出的几种格式：
-
-{{<section "code-text">}}
-
-生成的 image-base64.svg 文件的片段如下所示。 Base64 字符串被剪掉，以免弄乱 SVG 代码示例：
-{{<section "code-svg" i18n-exclude>}}
-
-```cs
-<svg xmlns="http://www.w3.org/2000/svg">
-	<image href="data:image/png;charset=utf-8;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border"/>
-</svg>
-```
-
-{{<section "code-html" i18n-exclude>}}
-
-```cs
-<body>
-    <div>
-        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg..." alt="Red border">
-    </div>
-</body>
-```
-
-{{<section "code-css" i18n-exclude>}}
-
-```cs
-body {
-    background-image: url('data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUg...');
-}
-```
+您还可以将 SVG 或图像文件编码为 Base64：

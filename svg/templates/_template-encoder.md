@@ -21,23 +21,35 @@ url: {{i18n.url}}
 
 {{i18n.code}}<br>
 
-<p>{{i18n.code-text}}</p>
+<p>{{i18n.svg}}</p>
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.svg.title}}" offSpacer="true" %}}
 
 {{i18n.code-svg}}
 <br>
 
-<h2>{{i18n.html.h4}}</h2><br>
+{{% /blocks/products/pf/agp/code-block %}}
+
+<h2>{{i18n.html.h2}}</h2><br>
 
 {{i18n.html.text}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.html.title}}" offSpacer="true" %}}
 
 {{i18n.code-html}}
 <br>
 
 {{i18n.html}}
 
-<h2>{{i18n.css.h4}}</h2><br>
+{{% /blocks/products/pf/agp/code-block %}}
+
+<h2>{{i18n.css.h2}}</h2><br>
 
 {{i18n.css}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.css.title}}" offSpacer="true" %}}
 
 {{i18n.code-css}}
 <br>
