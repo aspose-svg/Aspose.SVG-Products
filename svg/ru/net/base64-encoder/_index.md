@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-encoder.md
 title: Кодировать изображение в Base64 на С#
-url: /net/encoder/
+url: /net/base64-encoder/
 description: Преобразование изображения в Base64 на C#. Используйте изображения Base64 в виде URI данных, чтобы встроить их в HTML, CSS или JSON.
 ---
 

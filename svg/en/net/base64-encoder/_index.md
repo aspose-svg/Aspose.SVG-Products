@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-encoder.md
 title: Encode Image to Base64 in C# code
-url: /net/encoder/
+url: /net/base64-encoder/
 description: Convert image to Base64 in C# code. Use Base64 images encoded as data URIs to embed them in HTML, CSS, or JSON.
 ---
 

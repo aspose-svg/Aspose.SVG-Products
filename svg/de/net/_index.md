@@ -58,7 +58,7 @@ feature7: Inhaltsnavigation mit XPath-Abfrage
 feature8: Navigieren Sie über CSS-Selektoren, Element- und Dokumentendurchlauf
 feature9: DOM-Tree-Manipulation von offiziellen SVG-Spezifikationen
 feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Führen Sie mehrere Dateien zu einem Dokument zusammen</a>
-feature11: <a href="/svg/{{lang.url-fragment}}net/encoder/">Bilder in Base64 codieren</a>
+feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">Bilder in Base64 codieren</a>
 feature12: Bildvektorisierer
 ---
 
