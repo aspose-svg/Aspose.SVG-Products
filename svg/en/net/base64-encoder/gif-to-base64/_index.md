@@ -1,9 +1,9 @@
 ---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Convert GIF to Base64 via C# 
-description: Convert GIF to Base64 in C# and use an encoded string for examples for data URI. Embed it into HTML, CSS, JavaScript and others.
-url: /net/base64-encoder/gif/
+title: Convert GIF to Base64 in C# 
+description: Convert GIF to Base64 in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
+url: /net/gif-to-base64/
 family: svg
 platformtag: net
 feature: encode
@@ -22,7 +22,7 @@ h2: Encode GIF to Base64 string in C# and use it for examples for data URI
 h2: About URI Scheme
 ---
 
-Data URI is based on Base64 encoding use. Data URI scheme allows you to include any binary data in web pages, in CSS, JSON, or SVG. For example, you can embed images in an HTML page as if they were loaded from an external resource. But instead of specifying the URL of the file, you insert the encoded contents of the image. To embed binary data into a text document you should encode it to Base64. The data URI scheme was defined in RFC 2397, and as of 2022, it is fully supported by most major browsers. The main advantage of data URI use is a speed-up of page loading because the browser does not need to make an additional web request to retrieve the file since the image is already embedded in the HTML document.
+Data URI is a method of embedding images and other files in web pages as a string of text based on Base64 encoding. Data URI scheme allows you to include any binary data in HTML, CSS, JSON, or SVG documents. For example, you can embed images in a web page as if they were loaded from an external resource, but instead of specifying the URL of the file, you insert the Base64 encoded contents of the image. The data URI scheme was defined in RFC 2397, and as of 2022, it is fully supported by most major browsers. The main advantage of data URI use is a speed-up of page loading because the browser does not need to make an additional web request to retrieve the file since the image is already embedded in the HTML document.
 
 The syntax of data URI is the following: `data:[<mime type>][;charset=<charset>][;base64],<encoded data>`.
 
@@ -65,6 +65,7 @@ h2: Steps to Convert GIF to Base64 in C#
 1. Add the image element into the SVG document using [AppendChild(`node`)](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/) method.
 1. Call the [Save(`path`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/) method to save the SVG document.
 
+
 {{<section online-encoder>}}
 ---
 h2: Online Base64 Encoders
@@ -72,20 +73,53 @@ h2: Online Base64 Encoders
 
 {{<section examples>}}
 ---
-h2: Base64 Encoding Examples
+h2: Base64 Encoding Usage Examples
+html: HTML code to embed Base64 GIF image
+css: CSS code to embed Base64 GIF image as a background image
+xml: XML code to embed Base64 GIF image into XML document
+json: JSON code to embed Base64 GIF image into JSON document
 ---
 
-{{<section get-started>}}
----
-h2: Get Started with .NET SVG API
----
+{{<section code-html>}}
 
-Install from command line as ```nuget install Aspose.SVG``` or via Package Manager Console of Visual Studio with ```Install-Package Aspose.SVG```.
-Alternatively, get the offline MSI installer or DLLs in a ZIP file from [downloads.](https://releases.aspose.com/svg/net/) Aspose.SVG for .NET API is a standalone library and does not depend on any software for SVG document processing.
- For more details about C# library installation and system requirements, please refer to [Aspose.SVG Documentation.](https://docs.aspose.com/svg/net/getting-started/)
+```cs
+<body>
+    <div>
+        <img src="data:image/gif;base64,R0lGODlhMgAyAPMMAA1dKxdkNC90STV4TkWCXFWNamGVdIaulZe..." alt="Green circle">
+    </div>
+</body>
+```
+
+{{<section code-css>}}
+
+```cs
+.class {
+    background-image: url('data:image/gif;base64,R0lGODlhMgAyAPMMAA1dKxdkNC90STV4TkWCXFWNamGVdIaulZe...');
+}
+```
+
+{{<section code-xml>}}
+
+```cs
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <image mime = "image/gif">R0lGODlhMgAyAPMMAA1dKxdkNC90STV4TkWCXFWNamGVdIaulZe...</image>
+</root>
+```
+
+{{<section code-json>}}
+
+```cs
+{
+  "image": {
+    "mime": "image/gif",
+    "data": "R0lGODlhMgAyAPMMAA1dKxdkNC90STV4TkWCXFWNamGVdIaulZe..."
+  }
+}
+```
 
 {{<section other-encoders>}}
 ---
 title: Other Supported Base64 Encoders
-subTitle: "You can convert Image to Base64 string.  JPG, PNG, BMP, GIF, TIFF, ICO, and SVG formats are supported:"
+subTitle: "You can convert Image to Base64 string. JPG, PNG, BMP, GIF, TIFF, ICO, and SVG formats are supported:"
 ---

@@ -18,7 +18,7 @@ h2: How to Encode Images Using C#
 title: Base64 Encoding
 ---
 
-Base64 is an encoding scheme to convert binary data into an ASCII text format. It is generally used to transfer data over the Internet. The result of converting an image to Base64 is just a set of Latin letters, numbers and two characters - “+” and “/”. Any browser knows what to do with them. In other words, Base64 is a kind of binary-to-text encoding.
+Base64 is a group of similar encoding schemes to convert binary data into an ASCII text format. Base64 is generally used to transfer data over the Internet. The result of converting an image to Base64 is just a set of Latin letters, numbers and two characters - “+” and “/”. Any browser knows what to do with them. In other words, Base64 is a kind of binary-to-text encoding. The Base64 encoded string is used in various output formats: plain Base64, JSON, XML, data URI, or CSS.
 
  Base64 is especially common on the Web, where its use includes the ability to embed image files or other binary resources within text resources such as HTML and CSS files. Including the image data in the HTML file means the browser does not need to make an additional web request to retrieve the file because the image is already embedded in the HTML document. It is recommended to use base64 encoding only for small images. Large base64 images result in a lot of code in HTML, which results in a loss of performance benefits. It should also be noted that a base64 image will never be indexed by Google because it doesn't show up in image searches.
 
@@ -51,7 +51,7 @@ This article considers how to encode an image file to a Base64 string using Aspo
 ---
 h2: Embed a Base64 Image in HTML
 title: HTML code to embed Base64 Image as data URI
-text: Base64 encoded images can be embedded in HTML using the `<img>` tag. Just paste the image data directly into the HTML file using the data URI. Base64 encoding and data URI scheme usage reduce the number of HTTP requests a browser needs to render a web page. This code snippet demonstrates how you can embed Base64 images in HTML.
+text: Why would you need to convert  Image to Base64? Base64 encoded images can be embedded in HTML using the `<img>` tag. Just paste the image data directly into the HTML file using the data URI. Base64 encoding and data URI scheme usage reduce the number of HTTP requests a browser needs to render a web page. This code snippet demonstrates how you can embed Base64 images in HTML.
 ---
 
 The data URI consists of two parts separated by a comma. The first part specifies a Base64 encoded image, and the second part specifies a Base64 encoded image string:
@@ -108,7 +108,7 @@ body {
 h2: Online Base64 Encoders
 ---
 
-Online <a href="https://products.aspose.app/svg/{{lang}}/encoding" target="_blank">Base64 Encoders</a> convert the content of SVG documents or image files to its equivalent string representation that is encoded with base-64 digits. They also provide examples for for data URI, JSON, XML, and others. Encoding tools help you avoid various data encoding issues that make website content or email messages unreadable. Base64 Encoders are secure, easy to use and completely free. They work in any browser and on any operating system. 
+Online <a href="https://products.aspose.app/svg/{{lang}}/encoding" target="_blank">Base64 Encoders</a> convert the content of SVG documents or image files to its equivalent string representation that is encoded with base-64 digits. They also provide examples for for data URI, JSON, XML, and others. Encoding tools help you avoid various data encoding issues that make website content or email messages unreadable. Base64 Encoders are secure, easy to use and completely free. They work in any browser and on any operating system. Convert Image to Base64 for free just now!
 
 {{<section installing>}}
 ---
@@ -124,9 +124,9 @@ Installing <a href="https://www.nuget.org/packages/Aspose.SVG" target="_blank">A
 
 For more details about C# library installation, please refer to [Aspose.SVG Documentation.](https://docs.aspose.com/svg/net/getting-started/installation/)
 
-{{<section other-conversions>}}
+{{<section other-encoders>}}
 ---
 h2: Other Supported Encoders
 ---
 
-You can also encode SVG or Image files to Base64:
+You can encode Image to Base64 - JPG, PNG, BMP, GIF, TIFF, ICO, and SVG formats are supported:

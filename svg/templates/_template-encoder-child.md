@@ -42,14 +42,42 @@ outformat: {{i18n.outformat}}
 {{i18n.steps}}
 <br>
 
+<h2>{{<import path="/{{lang}}/partials/_content.md" section="encode-uri.h2">}}</h2>
+
+{{<import path="/{{lang}}/partials/_content.md" section="encode-uri">}}
+<br><br>
+
 <h2>{{i18n.online-encoder.h2}}</h2>
 
-{{i18n.online-encoder}}
-
-{{<import path="/{{lang}}/partials/_content.md" section="{{i18n.feature}}">}}
+{{<import path="/{{lang}}/partials/_content.md" section="encode-online">}}
 <br><br>
 
 <h2>{{i18n.examples.h2}}</h2>
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.examples.html}}" offSpacer="true" %}}
+
+{{i18n.code-html}}
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.examples.css}}" offSpacer="true" %}}
+
+{{i18n.code-css}}
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.examples.xml}}" offSpacer="true" %}}
+
+{{i18n.code-xml}}
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="{{i18n.examples.json}}" offSpacer="true" %}}
+
+{{i18n.code-json}}
+<br><br>
+
+{{% /blocks/products/pf/agp/code-block %}}
 
 <h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-encoder.h2">}}</h2>
 
@@ -75,14 +103,7 @@ outformat: {{i18n.outformat}}
 
 {{< blocks/products/pf/agp/other-supported-section title="{{i18n.other-encoders.title}}" subTitle="{{i18n.other-encoders.subTitle}}" >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/jpg/" name="JPG to Base64" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/png/" name="PNG to Base64" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/bmp/" name="BMP to Base64" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/svg/" name="SVG to Base64" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/tiff/" name="TIFF to Base64" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/gif/" name="GIF TO Base64" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/ico/" name="ICO to Base64" description="Computer Icons Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/base64-encoder/image/" name="Image to Base64" description="Binary Image" >}}
+{{<import path="/{{lang}}/partials/_othersupported.md" section="{{i18n.feature}}">}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 {{< /blocks/products/pf/main-container >}}
