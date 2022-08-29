@@ -62,7 +62,7 @@ h2: Шаги по преобразованию JPG в Base64 в C#
 1. Используйте метод [CreateElementNS(`namespaceURI,qualName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) класса SVGDocument для создания экземпляр изображения. `namespaceURI` устанавливает ссылку на спецификацию W3C SVG. `qualifiedName` должно содержать имя строкового тега элемента изображения.
 1. Конвертируйте JPG в Base64. Вызовите метод ToBase64String(bytes) для преобразования массива 8-разрядных целых чисел в его эквивалентное строковое представление, кодированное в цифрах Base64.
 1. Добавьте элемент изображения в документ SVG, используя метод [AppendChild(`node`).](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/)
-1. Используйте метод [Сохранить(`путь`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/) для сохранения документа SVG.
+1. Используйте метод [Save(`path`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/) для сохранения документа SVG.
 
 {{<section online-encoder>}}
 ---
