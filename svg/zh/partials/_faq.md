@@ -40,7 +40,7 @@ A3: "颜色空间是一种特定的颜色组织，它是信息和数据的集合
 ---
 h2: 常问问题
 Q1: "如何将 {{i18n.informat}} 转换为 Base64？"
-A1: "Aspose.SVG 允许您以任何方式将 {{i18n.informat}} 转换为 Base64 字符串 - 在线或以编程方式。例如，您可以使用在线 [{{i18n.informat}} 编码器](https://products.aspose.app/svg/encoding/{{i18n.informat lower)对 {{i18n.informat}} 进行实时编码}}) 可以快速、高质量地转换您的文件。上传、编码 {{i18n.informat}} 并在几秒钟内得到结果！或者，您可以使用 Aspose.SVG for .NET API 以编程方式将 {{i18n.informat}} 转换为 Base64。"
+A1: "Aspose.SVG 允许您以任何方式将 {{i18n.informat}} 转换为 Base64 字符串 - 在线或以编程方式。 例如，您可以使用在线 [{{i18n.informat}} 编码器](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) 对 {{i18n.informat}} 进行实时编码，它可以快速且高质量地转换您的文件。 上传、编码 {{i18n.informat}} 并在几秒钟内得到结果！ 以其他方式，您可以使用 Aspose.SVG for .NET API 以编程方式将 {{i18n.informat}} 转换为 Base64。"
 Q2: "为什么需要 Base64 编码？"
 A2: "从历史上看，许多数据传输和存储格式使用文本而不是二进制代码(HTML、XML、电子邮件等)。如果数据传输格式是基于文本的，但您需要传输二进制数据怎么办？这就是 Base64 编码的用武之地。为了防止在通过 Internet 发送数据时对二进制符号的误解，有必要将它们编码为字符。 Base64 编码的一些典型应用：图像的数据 URI 方案(CSS、HTML、JavaScript)；将图片和其他二进制数据传输到 XML；将图像存储在数据库中；将图像包含在电子邮件中。"
 Q3: "哪些浏览器支持数据 URI？"

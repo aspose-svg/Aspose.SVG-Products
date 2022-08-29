@@ -1,20 +1,20 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Konvertieren Sie BMP in Base64 in C#
-description: Konvertieren Sie BMP in C# in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON und andere ein.
-url: /net/bmp-to-base64/
+title: Konvertieren Sie das Bild in C# in Base64
+description: Konvertieren Sie Image in C# in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON und andere ein.
+url: /net/image-to-base64/
 family: svg
 platformtag: net
 feature: encode
-informat: BMP
+informat: Image
 outformat: Base64
 ---
 
 {{<section banner>}}
 ---
-h1: Konvertieren Sie BMP in Base64 über C#
-h2: Codieren Sie BMP in eine Base64-Zeichenfolge in C# und verwenden Sie sie als Beispiele für Daten-URIs
+h1: Konvertieren Sie das Bild in C# in Base64
+h2: Codieren Sie das Bild in C# in eine Base64-Zeichenfolge und verwenden Sie es als Beispiel für Daten-URI
 ---
 
 {{<section overview>}}
@@ -26,27 +26,27 @@ Daten-URI ist eine Methode zum Einbetten von Bildern und anderen Dateien in Webs
 
 Die Syntax des Daten-URI lautet wie folgt: `data:[<mime type>][;charset=<charset>][;base64],<codierte Daten>`.
 
-Da die Größe von Base64-codierten Daten um 33 % zunimmt, wird empfohlen, Daten-URI nur für kleine Bilder zu verwenden. Große Base64-Bilder erzeugen viel Code im HTML, was zu einem Verlust an Leistungsvorteilen führt.
+Da die Größe von Base64-codierten Daten um 33 % zunimmt, wird empfohlen, Daten-URI nur für kleine Bilder zu verwenden. Große Base64-Bilder erzeugen viel Code im HTML, was zu einem Verlust an Leistungsvorteilen führt. Wenn Sie ein Bild in Base64 konvertieren und eine codierte Zeichenfolge zum Einbetten in eine Textdatei verwenden müssen, lernen Sie bitte zuerst alle Vor- und Nachteile kennen.
 
 {{<section code-text>}}
 ---
-h2: So konvertieren Sie BMP in Base64 in C#
-title: C#-Code zum Konvertieren von BMP in eine Base64-Zeichenfolge und zum Einbetten in eine SVG-Datei
+h2: So konvertieren Sie Image in Base64 in C#
+title: C#-Code zum Konvertieren von Bild in eine Base64-Zeichenfolge und zum Einbetten in eine SVG-Datei
 ---
 
-Um BMP in Base64-Zeichenfolgen zu konvertieren, verwenden wir die API [Aspose.SVG for .NET,](https://products.aspose.com/svg/net/) eine funktionsreiche, leistungsstarke und einfach zu verwendende API. Verwenden Sie die Dokumentbearbeitungs-API für die C#-Plattform. Wir betrachten das Beispiel der BMP-zu-Base64-Codierung und Einbettung des Base64-Strings als Daten-URI in ein SVG-Dokument. Diese Operationen können mit ein paar Zeilen Code durchgeführt werden:
+Um das Bild in eine Base64-Zeichenfolge zu konvertieren, verwenden wir die API [Aspose.SVG for .NET](https://products.aspose.com/svg/net/), eine funktionsreiche, leistungsstarke und einfach zu verwendende API. Verwenden Sie die Dokumentbearbeitungs-API für die C#-Plattform. Wir betrachten das Beispiel einer PNG-Bild-zu-Base64-Codierung und Einbettung einer Base64-Zeichenfolge als Daten-URI in ein SVG-Dokument. Diese Operationen können mit ein paar Zeilen Code durchgeführt werden:
 
 {{<section "code-snippet" i18n-exclude>}}
 
 ```cs
-    // Open a binary file - BMP image
-    var bytes = File.ReadAllBytes(@"image.bmp");
+    // Open a binary file - raster image
+    var bytes = File.ReadAllBytes(@"image.png");
     // Initialize an SVGDocument object
     var document = new SVGDocument();
     // Create an image element
     var img = (SVGImageElement)document.CreateElementNS("http://www.w3.org/2000/svg", "image");
-    // Convert BMP to Base64
-    img.Href.BaseVal = "data:image/bmp;charset=utf-8;base64," + Convert.ToBase64String(bytes);
+    // Convert PNG image to Base64
+    img.Href.BaseVal = "data:image/png;charset=utf-8;base64," + Convert.ToBase64String(bytes);
     // Add the image element into the SVG document
     document.RootElement.AppendChild(img);
     // Save the SVG document
@@ -55,12 +55,12 @@ Um BMP in Base64-Zeichenfolgen zu konvertieren, verwenden wir die API [Aspose.SV
 
 {{<section steps>}}
 ---
-h2: Schritte zum Konvertieren von BMP in Base64 in C#
+h2: Schritte zum Konvertieren von Bildern in Base64 in C#
 ---
-1. Öffnen Sie ein zu konvertierendes BMP-Bild. Verwenden Sie die ReadAllBytes(`path`)-Methode, um das BMP-Bild zu öffnen und den Inhalt der Datei in ein Byte-Array einzulesen.
+1. Öffnen Sie ein zu konvertierendes Bild. Verwenden Sie die ReadAllBytes(`path`)-Methode, um das PNG-Bild zu öffnen und den Inhalt der Datei in ein Byte-Array einzulesen.
 1. Initialisieren Sie eine neue Instanz der Klasse [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor).
 1. Verwenden Sie die Methode [CreateElementNS(`namespaceURI,qualifiedName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) der SVGDocument-Klasse, um eine zu erstellen Bildinstanz. Der `namespaceURI` setzt den Verweis auf die W3C-SVG-Spezifikation. Der „qualifiedName“ muss den String-Tag-Namen des Bildelements enthalten.
-1. Konvertieren Sie BMP in Base64. Rufen Sie die ToBase64String(bytes)-Methode auf, um ein Array von 8-Bit-Ganzzahlen in die entsprechende Zeichenfolgendarstellung zu konvertieren, die in Base64-Ziffern codiert ist.
+1. Bild in Base64 konvertieren. Rufen Sie die ToBase64String(bytes)-Methode auf, um ein Array von 8-Bit-Ganzzahlen in die entsprechende Zeichenfolgendarstellung zu konvertieren, die in Base64-Ziffern codiert ist.
 1. Fügen Sie das Bildelement mit der Methode [AppendChild(`node`)](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/) zum SVG-Dokument hinzu.
 1. Rufen Sie die Methode [Save(`path`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/) auf, um das SVG-Dokument zu speichern.
 
@@ -75,18 +75,18 @@ h2: Online-Base64-Encoder
 {{<section examples>}}
 ---
 h2: Anwendungsbeispiele für die Base64-Codierung
-svg: SVG-Code zum Einbetten eines Base64-BMP-Bilds in ein SVG-Dokument
-html: HTML-Code zum Einbetten des Base64-BMP-Bilds
-css: CSS-Code zum Einbetten eines Base64-BMP-Bilds als Hintergrundbild
-xml: XML-Code zum Einbetten des Base64-BMP-Bilds in ein XML-Dokument
-json: JSON-Code zum Einbetten des Base64-BMP-Bilds in das JSON-Dokument
+svg: SVG-Code zum Einbetten von Base64-Bildern in ein SVG-Dokument
+html: HTML-Code zum Einbetten des Base64-Bildes
+css: CSS-Code zum Einbetten von Base64-Bildern als Hintergrundbild
+xml: XML-Code zum Einbetten des Base64-Bildes in ein XML-Dokument
+json: JSON-Code zum Einbetten des Base64-Bildes in das JSON-Dokument
 ---
 
 {{<section "code-svg" i18n-exclude>}}
 
 ```cs
 <svg xmlns="http://www.w3.org/2000/svg">
-	<image href="data:image/bmp;charset=utf-8;base64,Qk04DAAAAAAAADYAAAAoAAA..." alt="Blue circle"/>
+	<image href="data:image/png;charset=utf-8;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAg..." alt="Red circle"/>
 </svg>
 ```
 
@@ -95,7 +95,7 @@ json: JSON-Code zum Einbetten des Base64-BMP-Bilds in das JSON-Dokument
 ```cs
 <body>
     <div>
-        <img src="data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA..." alt="Blue circle">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAg..." alt="Red circle">
     </div>
 </body>
 ```
@@ -104,7 +104,7 @@ json: JSON-Code zum Einbetten des Base64-BMP-Bilds in das JSON-Dokument
 
 ```cs
 .class {
-    background-image: url('data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA...');
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAg...');
 }
 ```
 
@@ -113,7 +113,7 @@ json: JSON-Code zum Einbetten des Base64-BMP-Bilds in das JSON-Dokument
 ```cs
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<image mime = "image/bmp">Qk04DAAAAAAAADYAAAAoAAA...</image>
+<image mime = "image/png">iVBORw0KGgoAAAANSUhEUgAAACAAAAAg...</image>
 </root>
 ```
 
@@ -122,8 +122,8 @@ json: JSON-Code zum Einbetten des Base64-BMP-Bilds in das JSON-Dokument
 ```cs
 {
   "image": {
-    "mime": "image/bmp",
-    "data": "Qk04DAAAAAAAADYAAAAoAAA..."
+    "mime": "image/png",
+    "data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAg..."
   }
 }
 ```

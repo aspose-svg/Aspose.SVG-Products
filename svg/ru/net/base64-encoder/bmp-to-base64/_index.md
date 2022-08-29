@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Преобразование BMP в Base64 на C#
-description: Преобразуйте BMP в Base64 в C# и используйте закодированную строку для URI данных. Встраивайте его в HTML, CSS, XML, JSON и другие.
+title: Конвертировать BMP в Base64 на C#
+description: Преобразуйте BMP в Base64 в C# и используйте кодированную строку для URI данных. Встраивайте ее в HTML, CSS, XML, JSON и другие документы.
 url: /net/bmp-to-base64/
 family: svg
 platformtag: net
@@ -13,7 +13,7 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Преобразование BMP в Base64 через C#
+h1: Преобразование BMP в Base64 на C#
 h2: Кодируйте строку BMP в Base64 на C# и используйте ее в качестве примеров для URI данных.
 ---
 
@@ -60,7 +60,7 @@ h2: Шаги по преобразованию BMP в Base64 в C#
 1. Откройте изображение BMP для преобразования. Используйте метод ReadAllBytes(`path`), чтобы открыть изображение BMP и прочитать содержимое файла в массив байтов.
 1. Инициализируйте новый экземпляр класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/svgdocument/#constructor).
 1. Используйте метод [CreateElementNS(`namespaceURI,qualName`)](https://reference.aspose.com/svg/net/aspose.svg.dom/document/createelementns/#createelementns) класса SVGDocument для создания экземпляр изображения. `namespaceURI` устанавливает ссылку на спецификацию W3C SVG. `qualifiedName` должно содержать имя строкового тега элемента изображения.
-1. Конвертируйте BMP в Base64. Вызовите метод ToBase64String(bytes) для преобразования массива 8-разрядных целых чисел в его эквивалентное строковое представление, закодированное в цифрах base64.
+1. Конвертируйте BMP в Base64. Вызовите метод ToBase64String(bytes) для преобразования массива 8-разрядных целых чисел в его эквивалентное строковое представление, кодированное в цифрах base64.
 1. Добавьте элемент изображения в документ SVG, используя метод [AppendChild(`node`)](https://reference.aspose.com/svg/net/aspose.svg.dom/node/appendchild/).
 1. Вызовите метод [Save(`path`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/), чтобы сохранить документ SVG.
 
@@ -84,7 +84,7 @@ json: Код JSON для встраивания изображения Base64 BM
 ```cs
 <body>
     <div>
-        <img src="data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA...=" alt="Blue circle">
+        <img src="data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA..." alt="Blue circle">
     </div>
 </body>
 ```
@@ -93,7 +93,7 @@ json: Код JSON для встраивания изображения Base64 BM
 
 ```cs
 .class {
-    background-image: url('data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA...=');
+    background-image: url('data:image/bmp;base64,Qk04DAAAAAAAADYAAAAoAAA...');
 }
 ```
 
@@ -102,7 +102,7 @@ json: Код JSON для встраивания изображения Base64 BM
 ```cs
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <image mime = "image/bmp">Qk04DAAAAAAAADYAAAAoAAA...=</image>
+ <image mime = "image/bmp">Qk04DAAAAAAAADYAAAAoAAA...</image>
 </root>
 ```
 
@@ -112,7 +112,7 @@ json: Код JSON для встраивания изображения Base64 BM
 {
   "image": {
     "mime": "image/bmp",
-    "data": "Qk04DAAAAAAAADYAAAAoAAA...="
+    "data": "Qk04DAAAAAAAADYAAAAoAAA..."
   }
 }
 ```

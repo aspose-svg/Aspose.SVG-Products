@@ -58,8 +58,6 @@ Der Daten-URI besteht aus zwei Teilen, die durch ein Komma getrennt sind. Der er
 1. `data:image/jpeg;base64`, ist der Header des Daten-URI-Schemas.
 1. `iVBORw0KGgoAAAANSUhEUg...` sind die codierten Base64-Daten.
 
-
-
 {{<section css>}}
 ---
 h2: Beispiel für das Einbetten eines Base64-Bildes als CSS-Hintergrundcode

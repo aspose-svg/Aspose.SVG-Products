@@ -54,6 +54,12 @@ outformat: {{i18n.outformat}}
 
 <h2>{{i18n.examples.h2}}</h2>
 
+{{% blocks/products/pf/agp/code-block title="{{i18n.examples.svg}}" offSpacer="true" %}}
+
+{{i18n.code-svg}}
+
+{{% /blocks/products/pf/agp/code-block %}}
+
 {{% blocks/products/pf/agp/code-block title="{{i18n.examples.html}}" offSpacer="true" %}}
 
 {{i18n.code-html}}
