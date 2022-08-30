@@ -13,19 +13,19 @@ supply: "Konvertieren Sie {{i18n.informat}} online schnell und effizient auf jed
 steps[1].name: "Installieren Sie Aspose.SVG für .NET."
 steps[1].text: "Fügen Sie Ihrem C#-Projekt einen .NET-Bibliotheksverweis hinzu."
 steps[1].image: "https://products.aspose.com/svg/images/conversion/step0.png"
-steps[1].url: "https://products.aspose.com/svg/net/conversion/svg-to-{{i18n.outformat lower}}/"
+steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/conversion/svg-to-{{i18n.outformat lower}}/"
 steps[2].name: "SVG mit C# laden"
 steps[2].text: "Initialisieren oder lesen Sie ein SVG-Dokument."
 steps[2].image: "https://products.aspose.com/svg/images/conversion/step-{{i18n.informat lower}}-1.png"
-steps[2].url: "https://products.aspose.com/svg/conversion/svg-to-{{i18n.outformat lower}}/"
+steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/conversion/svg-to-{{i18n.outformat lower}}/"
 steps[3].name: "Konvertieren Sie SVG mit C# in {{i18n.outformat}}"
 steps[3].text: "Rufen Sie die ConvertSVG()-Methode auf und übergeben Sie ihr das SVGDocument, das saveOptions-Objekt und den Ausgabedateipfad."
 steps[3].image: "https://products.aspose.com/svg/images/conversion/step-{{i18n.informat lower}}-2.png"
-steps[3].url: "https://products.aspose.com/svg/net/conversion/svg-to-{{i18n.outformat lower}}/"
+steps[3].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/conversion/svg-to-{{i18n.outformat lower}}/"
 steps[4].name: "Holen Sie sich das Ergebnis im Format {{i18n.outformat}}"
 steps[4].text: "Holen Sie sich das Ergebnis der Umwandlung von SVG in {{i18n.outformat}}."
 steps[4].image: "https://products.aspose.com/svg/images/conversion/step3.png"
-steps[4].url: "https://products.aspose.com/svg/net/conversion/svg-to-{{i18n.outformat lower}}/"
+steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/conversion/svg-to-{{i18n.outformat lower}}/"
 ---
 
 {{<import path="/meta/schemas.md" section="howto">}}

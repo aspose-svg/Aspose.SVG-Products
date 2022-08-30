@@ -13,19 +13,19 @@ supply: "Wandeln Sie {{i18n.informat}}-Farbe online schnell und effizient auf je
 steps[1].name: "Installieren Sie Aspose.SVG für .NET."
 steps[1].text: "Fügen Sie Ihrem C#-Projekt einen .NET-Bibliotheksverweis hinzu."
 steps[1].image: "https://products.aspose.com/svg/images/color-converter/step0.png"
-steps[1].url: "https://products.aspose.com/svg/net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
+steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 steps[2].name: "Übergeben Sie den Code {{i18n.informat}}"
 steps[2].text: "Rufen Sie die ConvertFrom()-Methode der ColorConverter-Klasse auf und übergeben Sie den {{i18n.informat}}-Code als String."
 steps[2].image: "https://products.aspose.com/svg/images/color-converter/step1.png"
-steps[2].url: "https://products.aspose.com/svg/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
+steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 steps[3].name: "Wandeln Sie {{i18n.informat}} in {{i18n.outformat}} um"
 steps[3].text: "Die Methode ConvertFrom() analysiert die Farbe aus der Zeichenfolgendarstellung und gibt die IConvertibleColor-Schnittstelle zurück, um sie in die erforderlichen Farbräume zu konvertieren."
 steps[3].image: "https://products.aspose.com/svg/images/color-converter/step2.png"
-steps[3].url: "https://products.aspose.com/svg/net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
+steps[3].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 steps[4].name: "Holen Sie sich das Ergebnis im Format {{i18n.outformat}}"
 steps[4].text: "Erhalten Sie das Ergebnis der Umwandlung von {{i18n.informat}} in {{i18n.outformat}}."
 steps[4].image: "https://products.aspose.com/svg/images/color-converter/step3.png"
-steps[4].url: "https://products.aspose.com/svg/net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
+steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/color-converter/{{i18n.informat lower}}-to-{{i18n.outformat lower}}/"
 ---
 
 {{<import path="/meta/schemas.md" section="howto">}}
