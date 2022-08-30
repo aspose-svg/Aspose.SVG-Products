@@ -3,6 +3,7 @@ template: true
 title: {{i18n.title}}
 description: {{i18n.description}}
 url: {{i18n.url}}
+feature: encode
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -70,9 +71,34 @@ url: {{i18n.url}}
 
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-conversions.h2}}" %}}
+{{% blocks/products/pf/feature-page-section  h2="{{i18n.other-encoders.h2}}" %}}
 
-{{i18n.other-conversions}}
+{{i18n.other-encoders}}
+
+<div class="row">
+	<div class="col-md-3">
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/svg-to-base64/">SVG to Base64</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/image-to-base64/">Image to Base64 </a></li>					
+		</ul>
+	</div>	
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/png-to-base64/">PNG to Base64</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/jpg-to-base64/">JPG to Base64</a></li>			
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/gif-to-base64/">GIF to Base64</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/tiff-to-base64/">TIFF to Base64</a></li>			
+		</ul>
+	</div>
+    <div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/ico-to-base64/">ICO to Base64</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/bmp-to-base64/">BMP to Base64</a></li>			
+	</div>	
+</div>   
 
 {{% /blocks/products/pf/feature-page-section %}}
 {{< /blocks/products/pf/feature-page-wrap >}}

@@ -35,3 +35,14 @@ A2: "Sie können Konvertierungen zwischen Farbmodellen wie RGB, HEX, HSL, HSV, H
 Q3: "Warum sollte ich {{i18n.informat}} konvertieren?"
 A3: "Ein Farbraum ist eine spezifische Organisation von Farben, bei der es sich um eine Sammlung von Informationen und Daten handelt, die angeben, wie ein System oder Gerät einem Benutzer Farben anzeigt. Die Farbräume sind eng mit den Methoden zur Beschreibung und Definition dieser Farben über ihre jeweiligen Farbcodes verbunden. Für unterschiedliche Aufgaben werden unterschiedliche Farbcodes bevorzugt. Beispielsweise sind RGB-Farben für das Web und CMYK-Farben für den Druck bestimmt."
 ---
+
+{{<section faq-encoder>}}
+---
+h2: FAQ
+Q1: "Wie kann ich {{i18n.informat}} in {{i18n.outformat}} codieren?"
+A1: "Mit Aspose.SVG können Sie {{i18n.informat}} auf beliebige Weise in eine Base64-Zeichenfolge codieren – online oder programmgesteuert. Zum Beispiel können Sie {{i18n.informat}} in Echtzeit codieren, indem Sie Online [{{ i18n.informat}} Encoder,](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) der Ihre Dateien schnell und mit hoher Qualität konvertiert. Hochladen, codieren {{i18n.informat}} und Sie erhalten das Ergebnis in wenigen Sekunden! Auf andere Weise können Sie Aspose.SVG für die .NET-API verwenden, um {{i18n.informat}} programmgesteuert in Base64 zu konvertieren."
+Q2: "Warum ist Base64-Codierung erforderlich?"
+A2: "In der Vergangenheit verwenden viele Datenübertragungs- und Speicherformate Text anstelle von Binärcode (HTML, XML, E-Mail usw.). Was ist, wenn das Datenübertragungsformat textbasiert ist, Sie aber die binären Daten übertragen müssen? Hier kommt die Base64-Kodierung ins Spiel. Um eine Fehlinterpretation binärer Symbole beim Senden von Daten über das Internet zu verhindern, ist es notwendig, sie in Zeichen zu kodieren. Einige typische Anwendungen der Base64-Kodierung: Daten-URI-Schemata für Bilder (CSS, HTML, JavaScript); Übertragen von Bildern und anderen Binärdaten in XML; Speichern von Bildern in einer Datenbank; Einfügen von Bildern in E-Mail-Nachrichten."
+Q3: "Welche Browser unterstützen Daten-URIs?"
+A3: "Daten-URI ist der schnellste und einfachste Weg, Bilder und andere Dateien auf Ihren Webseiten einzubetten. Daten-URI wird von den wichtigsten modernen Browsern unterstützt: Chrome, Firefox, Safari, Edge, Opera und IE8+."
+---

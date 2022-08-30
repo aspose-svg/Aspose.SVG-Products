@@ -58,8 +58,6 @@ Der Daten-URI besteht aus zwei Teilen, die durch ein Komma getrennt sind. Der er
 1. `data:image/jpeg;base64`, ist der Header des Daten-URI-Schemas.
 1. `iVBORw0KGgoAAAANSUhEUg...` sind die codierten Base64-Daten.
 
-
-
 {{<section css>}}
 ---
 h2: Beispiel für das Einbetten eines Base64-Bildes als CSS-Hintergrundcode
@@ -75,7 +73,7 @@ title: SVG-Code zum Einbetten des Base64-Bildes
 
 Das Fragment der resultierenden image-base64.svg-Datei ist unten dargestellt. Die Base64-Zeichenfolge wurde abgeschnitten, um das SVG-Codebeispiel nicht zu überladen. Das Format zum Einbetten von Base64-Bildern als URI-Daten ist das folgende, um genau zu sein:
 
-`data:[<MIME-Typ>][;charset=<Zeichensatz>][;base64],<codierte Daten>`
+`data:[<mime type>][;charset=<charset>][;base64],<codierte Daten>`
 
 
 {{<section "code-svg" i18n-exclude>}}
@@ -124,7 +122,7 @@ Installieren von <a href="https://www.nuget.org/packages/Aspose.SVG" target="_bl
 
 Weitere Einzelheiten zur Installation der C#-Bibliothek finden Sie in der [Aspose.SVG-Dokumentation.](https://docs.aspose.com/svg/net/getting-started/installation/)
 
-{{<section other-conversions>}}
+{{<section other-encoders>}}
 ---
 h2: Andere unterstützte Encoder
 ---
