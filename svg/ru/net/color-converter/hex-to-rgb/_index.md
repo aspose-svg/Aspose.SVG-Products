@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-color-child.md
-title: Конвертировать HEX в RGB - C# - Онлайн Конвертер цветов
+title: Конвертировать HEX в RGB - C# - Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование HEX в RGB в C#
 url: /net/color-converter/hex-to-rgb/
 family: svg

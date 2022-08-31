@@ -62,23 +62,19 @@ Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-asp
 ---
 h2: Schritte zum Konvertieren von SVG in ein Bild mit der Methode ConvertSVG()
 ---
-1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)-Klasse.
-1. Erstellen Sie ein neues [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions)-Objekt und geben Sie das ImageFormat an. Standardmäßig ist die Eigenschaft „Format“ PNG.
-1. Verwenden Sie die Methode [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), um SVG als Bild zu speichern. Sie müssen das SVGDocument, die ImageSaveOptions und den Pfad der Ausgabedatei an die Methode ConvertSVG() übergeben.
+1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/)-Klasse.
+1. Erstellen Sie ein neues [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/)-Objekt und geben Sie das ImageFormat an. Standardmäßig ist die Eigenschaft „Format“ PNG.
+1. Verwenden Sie die Methode [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) um SVG als Bild zu speichern. Sie müssen das SVGDocument, die ImageSaveOptions und den Pfad der Ausgabedatei an die Methode ConvertSVG() übergeben.
 1. Die Bilddatei wird im angegebenen Pfad gespeichert.
-
-
 
 {{<section steps2>}}
 ---
 h2: Schritte zum Konvertieren von SVG in ein Bild mit der RenderTo()-Methode
 ---
-1. Initialisieren Sie [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
-1. Erstellen Sie ein Objekt der ImageRenderingOptions-Klasse. Verwenden Sie den Konstruktor [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
-1. Initialisieren Sie die Klasse [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) und geben Sie den zu rendernden Ausgabedateinamen an.
-1. Rufen Sie die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz von ImageDevice.
-
-
+1. Initialisieren Sie [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) mit Ihrer SVG-Datei.
+1. Erstellen Sie ein Objekt der ImageRenderingOptions-Klasse. Verwenden Sie den Konstruktor [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/imagerenderingoptions/) und geben Sie die Eigenschaft „Format“ des Dokuments an.
+1. Initialisieren Sie die Klasse [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/) und geben Sie den zu rendernden Ausgabedateinamen an.
+1. Rufen Sie die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) auf und übergeben Sie die Instanz von ImageDevice.
 
 {{<section code-text>}}
 ---

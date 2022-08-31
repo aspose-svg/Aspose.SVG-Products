@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-color-child.md
-title: Конвертировать HSL в HEX - C# - Онлайн Конвертер цветов
+title: Конвертировать HSL в HEX - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование HSL в HEX в C#
 url: /net/color-converter/hsl-to-hex/
 family: svg

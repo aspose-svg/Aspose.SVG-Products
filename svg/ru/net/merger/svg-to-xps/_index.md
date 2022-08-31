@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-merger-child.md
-title: Объединение нескольких SVG в XPS с помощью C# - Aspose.SVG
+title: Объединить несколько файлов SVG в XPS на C#
 description: Объединение SVG в XPS с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-xps/
 family: svg

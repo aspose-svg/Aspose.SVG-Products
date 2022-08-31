@@ -63,8 +63,8 @@ Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-sv
 h2: Steps to Convert SVG to JPEG using ConvertSVG() Method
 ---
 
-1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) class.
-1.  Create a new  [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) object with JPEG ImageFormat. By default, the `Format` property is PNG.
+1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) class.
+1.  Create a new  [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/) object with JPEG ImageFormat. By default, the `Format` property is PNG.
 1.  Use the [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) method to save SVG as a JPEG image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG() method.
 1.  The JPEG file will be saved to the specified path.
 
@@ -73,10 +73,10 @@ h2: Steps to Convert SVG to JPEG using ConvertSVG() Method
 h2: Steps to Convert SVG to JPEG using RenderTo() Method
 ---
 
-1. Initialize [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) with your SVG file.
-1. Create an object of the ImageRenderingOptions class. Use the [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) constructor and specify the `Format` property of the document.
-1. Initialize [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) class and specify the output file name to render. 
-1. Call [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) method & pass the instance of the ImageDevice.
+1. Initialize [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) with your SVG file.
+1. Create an object of the ImageRenderingOptions class. Use the [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/imagerenderingoptions/) constructor and specify the `Format` property of the document.
+1. Initialize [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/) class and specify the output file name to render. 
+1. Call [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) method & pass the instance of the ImageDevice.
 
 {{<section code-text>}}
 ---

@@ -62,8 +62,8 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: Шаги по преобразованию SVG в GIF с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
-1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) с GIF ImageFormat. По умолчанию свойство «Формат» имеет значение PNG.
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/).
+1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/) с GIF ImageFormat. По умолчанию свойство «Формат» имеет значение PNG.
 1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG в виде изображения GIF. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл GIF будет сохранен по указанному пути.
 
@@ -73,10 +73,10 @@ h2: Шаги по преобразованию SVG в GIF с использов�
 ---
 h2: Шаги по преобразованию SVG в GIF с использованием метода RenderTo()
 ---
-1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
-1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) и укажите свойство «Формат» документа.
-1. Инициализируйте класс [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) и укажите имя выходного файла для рендеринга.
-1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр ImageDevice.
+1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) с помощью файла SVG.
+1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/imagerenderingoptions/) и укажите свойство «Формат» документа.
+1. Инициализируйте класс [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/) и укажите имя выходного файла для рендеринга.
+1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) и передайте экземпляр ImageDevice.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-merger-child.md
-title: Объединение SVG в TIFF с помощью C# - Aspose.SVG
+title: Объединение SVG в TIFF на C# - Aspose.SVG
 description: Объединение SVG в TIFF с помощью C# API в Windows, macOS и Linux
 url: /net/merger/svg-to-tiff/
 family: svg

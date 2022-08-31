@@ -62,8 +62,8 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: 使用 ConvertSVG() 方法将 SVG 转换为 PNG 的步骤
 ---
-1. 使用 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
-1. 创建一个新的 [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) 对象。默认情况下，“格式”属性为 PNG。
+1. 使用 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
+1. 创建一个新的 [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/) 对象。默认情况下，“格式”属性为 PNG。
 1. 使用[ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/)方法将SVG保存为PNG图片。您需要将 SVGDocument、ImageSaveOptions 和输出文件路径传递给 ConvertSVG() 方法。
 1. PNG文件将被保存到指定路径。
 
@@ -71,10 +71,10 @@ h2: 使用 ConvertSVG() 方法将 SVG 转换为 PNG 的步骤
 ---
 h2: 使用 RenderTo() 方法将 SVG 转换为 PNG 的步骤
 ---
-1. 使用您的 SVG 文件初始化 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)。
-1. 创建 ImageRenderingOptions 类的对象。使用 [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
-1. 初始化[ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice)类并指定要渲染的输出文件名。
-1. 调用[RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto)方法并传递ImageDevice的实例。
+1. 使用您的 SVG 文件初始化 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/)。
+1. 创建 ImageRenderingOptions 类的对象。使用 [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/imagerenderingoptions/) 构造函数并指定文档的 `Format` 属性。
+1. 初始化[ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/)类并指定要渲染的输出文件名。
+1. 调用[RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/)方法并传递ImageDevice的实例。
 
 {{<section code-text>}}
 ---

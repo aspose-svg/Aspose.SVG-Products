@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-conversion.md
-title: Преобразование SVG в популярные форматы с помощью C# - онлайн Конвертер SVG
+title: Конвертировать SVG в популярные форматы на C# - онлайн Конвертер
 url: /net/conversion/
 description: Конвертируйте SVG в PDF, XPS и изображения с помощью нескольких строк кода C#. Проверьте онлайн Конвертер SVG бесплатно!
 ---

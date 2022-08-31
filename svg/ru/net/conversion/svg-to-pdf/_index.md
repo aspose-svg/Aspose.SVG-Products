@@ -61,8 +61,8 @@ using Aspose.Svg.Converters;
 ---
 h2: Шаги для преобразования SVG в PDF с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument.](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)
-1. Создайте новый объект [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions).
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument.](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/)
+1. Создайте новый объект [PdfSaveOptions.](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions/)
 1. Используйте метод [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) чтобы сохранить SVG в виде файла PDF. Вам необходимо передать SVGDocument, PdfSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл PDF будет сохранен по указанному пути.
 
@@ -70,10 +70,10 @@ h2: Шаги для преобразования SVG в PDF с использо�
 ---
 h2: Шаги по преобразованию SVG в PDF с использованием метода RenderTo()
 ---
-1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
-1. Создайте объект класса PdfRenderingOptions. Используйте конструктор [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) и укажите свойство «Формат» документа.
-1. Инициализируйте класс [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) и укажите имя выходного файла для рендеринга.
-1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр PdfDevice.
+1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) с помощью файла SVG.
+1. Создайте объект класса PdfRenderingOptions. Используйте конструктор [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/pdfrenderingoptions/) и укажите свойство «Формат» документа.
+1. Инициализируйте класс [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice/) и укажите имя выходного файла для рендеринга.
+1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) и передайте экземпляр PdfDevice.
 
 {{<section code-text>}}
 ---

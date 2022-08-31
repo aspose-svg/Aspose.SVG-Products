@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-merger-child.md
-title: Объединение SVG в GIF с помощью C# - Aspose.SVG
+title: Объединение SVG в GIF на C# - Aspose.SVG
 description: Объединение SVG в GIF с помощью C# в Windows, macOS и Linux
 url: /net/merger/svg-to-gif/
 family: svg

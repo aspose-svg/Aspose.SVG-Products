@@ -3,7 +3,7 @@ translation: true
 template: /templates/_template-encoder.md
 title: Bild in Base64 in C#-Code codieren
 url: /net/base64-encoder/
-description: Konvertieren Sie das Bild in C#-Code in Base64. Verwenden Sie als Daten-URIs codierte Base64-Bilder, um sie in HTML, CSS oder JSON einzubetten.
+description: Konvertieren Sie das Bild in C# in Base64. Verwenden Sie als Daten-URIs codierte Base64-Bilder, um sie in HTML, CSS oder JSON einzubetten.
 ---
 
 {{<section banner>}}
