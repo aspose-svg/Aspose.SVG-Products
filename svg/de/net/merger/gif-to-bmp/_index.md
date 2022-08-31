@@ -93,8 +93,6 @@ h2: Schritte zum Zusammenführen von GIF zu BMP mit C#
 1. Rufen Sie die Methode [RenderTo(`device`)](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/#renderto) auf, um das aktuelle Dokument an das Ausgaberenderinggerät zu senden.
 1. Mehrere GIF-Bilder werden in einer BMP-Datei im angegebenen Pfad gespeichert.
 
-
-
 {{<section documentation>}}
 
 Eine Hochgeschwindigkeits-C#-Bibliothek ermöglicht es .NET-Entwicklern, GIF-Dateien schnell und effizient zu einem BMP-Bild zusammenzuführen. Der Namensraum [Aspose.Svg.Rendering.Image](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/) stellt spezifische Geräteklassen sowie einige für das Rendern zuständige Rendering-Optionsklassen bereit in Rasterformate: JPEG, PNG, BMP, GIF und TIFF. Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/" target="_blank">unsere Dokumentation</a>, um mehr zu erfahren mehr über die Verwendung von Aspose.SVG-API-Funktionen.

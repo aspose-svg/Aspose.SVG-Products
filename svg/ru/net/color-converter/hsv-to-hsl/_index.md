@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-color-child.md
-title: Конвертировать HSV в HSL - C#
+title: Конвертировать HSV в HSL - C# код, Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование HSV в HSL в C#
 url: /net/color-converter/hsv-to-hsl/
 family: svg

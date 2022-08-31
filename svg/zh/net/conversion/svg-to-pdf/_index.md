@@ -61,8 +61,8 @@ using Aspose.Svg.Converters;
 ---
 h2: 使用 ConvertSVG() 方法将 SVG 转换为 PDF 的步骤
 ---
-1. 使用 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
-1. 创建一个新的 [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions) 对象。
+1. 使用 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) 类的 SVGDocument() 构造函数之一加载 SVG 文件。
+1. 创建一个新的 [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions/) 对象。
 1. 使用 [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) 方法将 SVG 保存为 PDF 文件。您需要将 SVGDocument、PdfSaveOptions 和输出文件路径传递给 ConvertSVG() 方法。
 1. PDF文件将保存到指定路径。
 
@@ -70,10 +70,10 @@ h2: 使用 ConvertSVG() 方法将 SVG 转换为 PDF 的步骤
 ---
 h2: 使用 RenderTo() 方法将 SVG 转换为 PDF 的步骤
 ---
-1. 使用您的 SVG 文件初始化 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)。
-1. 创建 PdfRenderingOptions 类的对象。使用 [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) 构造函数并指定文档的 `Format` 属性。
-1. 初始化[PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice)类并指定要渲染的输出文件名。
-1. 调用 [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) 方法并传递 PdfDevice 的实例。
+1. 使用您的 SVG 文件初始化 [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/)。
+1. 创建 PdfRenderingOptions 类的对象。使用 [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/pdfrenderingoptions/) 构造函数并指定文档的 `Format` 属性。
+1. 初始化[PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice/)类并指定要渲染的输出文件名。
+1. 调用 [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) 方法并传递 PdfDevice 的实例。
 
 {{<section code-text>}}
 ---

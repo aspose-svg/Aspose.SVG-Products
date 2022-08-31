@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-conversion-child.md
-title: Конвертировать SVG в BMP с помощью C# Core - Онлайн-конвертер SVG в BMP
+title: Конвертировать SVG в BMP на C# - Онлайн Конвертер
 description: Загружайте и конвертируйте SVG в BMP с помощью .NET Core API в Windows, macOS и Linux. Попробуйте онлайн Конвертер SVG в BMP бесплатно!
 url: /net/conversion/svg-to-bmp/
 family: svg
@@ -62,23 +62,19 @@ using Aspose.Svg.Rendering.Image;
 ---
 h2: Шаги для преобразования SVG в BMP с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
-1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) с форматом изображения BMP. По умолчанию свойство «Формат» имеет значение PNG.
-1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG как изображение BMP. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/).
+1. Создайте новый объект [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/) с форматом изображения BMP. По умолчанию свойство «Формат» имеет значение PNG.
+1. Используйте метод [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) чтобы сохранить SVG как изображение BMP. Вам необходимо передать SVGDocument, ImageSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл BMP будет сохранен по указанному пути.
-
-
 
 {{<section steps2>}}
 ---
 h2: Шаги по преобразованию SVG в BMP с использованием метода RenderTo()
 ---
-1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
-1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/constructors/1) и укажите свойство «Формат» документа.
-1. Инициализируйте класс [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice) и укажите имя выходного файла для рендеринга.
-1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр ImageDevice.
-
-
+1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) с помощью файла SVG.
+1. Создайте объект класса ImageRenderingOptions. Используйте конструктор [ImageRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagerenderingoptions/imagerenderingoptions/) и укажите свойство «Формат» документа.
+1. Инициализируйте класс [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/) и укажите имя выходного файла для рендеринга.
+1. Используйте метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) и передайте ему экземпляр ImageDevice.
 
 {{<section code-text>}}
 ---

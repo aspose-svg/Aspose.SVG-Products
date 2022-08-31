@@ -61,23 +61,19 @@ Bitte besuchen Sie <a href="https://docs.aspose.com/svg/net/how-to-work-with-asp
 ---
 h2: Schritte zum Konvertieren von SVG in PDF mit der ConvertSVG()-Methode
 ---
-1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument)-Klasse.
-1. Erstellen Sie ein neues [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions)-Objekt.
-1. Verwenden Sie die Methode [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), um SVG als PDF-Datei zu speichern. Sie müssen das SVGDocument, PdfSaveOptions und den Ausgabedateipfad an die Methode ConvertSVG() übergeben.
+1. Laden Sie eine SVG-Datei mit einem der SVGDocument()-Konstruktoren der [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/)-Klasse.
+1. Erstellen Sie ein neues [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions/)-Objekt.
+1. Verwenden Sie die Methode [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) um SVG als PDF-Datei zu speichern. Sie müssen das SVGDocument, PdfSaveOptions und den Ausgabedateipfad an die Methode ConvertSVG() übergeben.
 1. Die PDF-Datei wird im angegebenen Pfad gespeichert.
-
-
 
 {{<section steps2>}}
 ---
 h2: Schritte zum Konvertieren von SVG in PDF mit der RenderTo()-Methode
 ---
-1. Initialisieren Sie [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) mit Ihrer SVG-Datei.
-1. Erstellen Sie ein Objekt der Klasse PdfRenderingOptions. Verwenden Sie den Konstruktor [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) und geben Sie die Eigenschaft „Format“ des Dokuments an.
-1. Initialisieren Sie die Klasse [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) und geben Sie den Namen der zu rendernden Ausgabedatei an.
-1. Rufen Sie die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) auf und übergeben Sie die Instanz des PdfDevice.
-
-
+1. Initialisieren Sie [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) mit Ihrer SVG-Datei.
+1. Erstellen Sie ein Objekt der Klasse PdfRenderingOptions. Verwenden Sie den Konstruktor [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/pdfrenderingoptions/) und geben Sie die Eigenschaft „Format“ des Dokuments an.
+1. Initialisieren Sie die Klasse [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice/) und geben Sie den Namen der zu rendernden Ausgabedatei an.
+1. Rufen Sie die Methode [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) auf und übergeben Sie die Instanz des PdfDevice.
 
 {{<section code-text>}}
 ---

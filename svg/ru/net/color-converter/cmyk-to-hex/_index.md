@@ -1,7 +1,7 @@
 ﻿---
 translation: true
 template: /templates/_template-color-child.md
-title: Конвертировать CMYK в HEX - C# - Онлайн Конвертер цветов
+title: Конвертировать CMYK в HEX - C# - Онлайн Конвертер
 description: Работа с цветовыми кодами и преобразование CMYK в HEX в C#
 url: /net/color-converter/cmyk-to-hex/
 family: svg

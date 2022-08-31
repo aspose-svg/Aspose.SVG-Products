@@ -60,19 +60,19 @@ using Aspose.Svg.Converters;
 ---
 h2: Шаги для преобразования SVG в XPS с использованием метода ConvertSVG()
 ---
-1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument).
-1. Создайте новый объект [XpsSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/xpssaveoptions).
-1. Используйте метод [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/), чтобы сохранить SVG в виде файла XPS. Вам необходимо передать SVGDocument, XpsSaveOptions и путь к выходному файлу методу ConvertSVG().
+1. Загрузите файл SVG с помощью одного из конструкторов SVGDocument() класса [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/).
+1. Создайте новый объект [XpsSaveOptions.](https://reference.aspose.com/svg/net/aspose.svg.saving/xpssaveoptions/)
+1. Используйте метод [ConvertSVG(),](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) чтобы сохранить SVG в виде файла XPS. Вам необходимо передать SVGDocument, XpsSaveOptions и путь к выходному файлу методу ConvertSVG().
 1. Файл XPS будет сохранен по указанному пути.
 
 {{<section steps2>}}
 ---
 h2: Шаги по преобразованию SVG в XPS с использованием метода RenderTo()
 ---
-1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) с помощью файла SVG.
-1. Создайте объект класса XpsRenderingOptions. Используйте конструктор [XpsRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsrenderingoptions/constructors/1) и укажите свойство Format документа.
-1. Инициализируйте класс [XpsDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsdevice) и укажите имя выходного файла для рендеринга.
-1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) и передайте экземпляр XpsDevice.
+1. Инициализируйте [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) с помощью файла SVG.
+1. Создайте объект класса XpsRenderingOptions. Используйте конструктор [XpsRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsrenderingoptions/xpsrenderingoptions/) и укажите свойство Format документа.
+1. Инициализируйте класс [XpsDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.xps/xpsdevice/) и укажите имя выходного файла для рендеринга.
+1. Вызовите метод [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) и передайте ему экземпляр XpsDevice.
 
 {{<section code-text>}}
 ---

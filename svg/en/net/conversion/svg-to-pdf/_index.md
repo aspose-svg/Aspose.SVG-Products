@@ -1,7 +1,7 @@
 ---
 translation: true
 template: /templates/_template-conversion-child.md
-title: Convert SVG to PDF with C# Core - Online SVG to PDF Converter
+title: Convert SVG to PDF in C# - Online Converter
 description: Load and Convert SVG to PDF using .NET Core API on Windows, macOS & Linux. Try online SVG to PDF Converter for free!
 url: /net/conversion/svg-to-pdf/
 family: svg
@@ -62,8 +62,8 @@ Please visit <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-sv
 h2: Steps to Convert SVG to PDF using ConvertSVG() Method
 ---
 
-1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) class.
-1.  Create a new  [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions) object.
+1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) class.
+1.  Create a new  [PdfSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/pdfsaveoptions/) object.
 1.  Use the [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) method to save SVG as a PDF file. You need to pass the SVGDocument, PdfSaveOptions, and output file path to the ConvertSVG() method.
 1.  The PDF file will be saved to the specified path.
 
@@ -72,10 +72,10 @@ h2: Steps to Convert SVG to PDF using ConvertSVG() Method
 h2: Steps to Convert SVG to PDF using RenderTo() Method
 ---
 
-1. Initialize [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument) with your SVG file.
-1. Create an object of the PdfRenderingOptions class. Use the [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/constructors/1) constructor and specify the `Format` property of the document.
-1. Initialize [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice) class and specify the output file name to render. 
-1. Call [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/methods/renderto) method & pass the instance of the PdfDevice.
+1. Initialize [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) with your SVG file.
+1. Create an object of the PdfRenderingOptions class. Use the [PdfRenderingOptions()](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfrenderingoptions/pdfrenderingoptions/) constructor and specify the `Format` property of the document.
+1. Initialize [PdfDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.pdf/pdfdevice/) class and specify the output file name to render. 
+1. Call [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) method & pass the instance of the PdfDevice.
 
 {{<section code-text>}}
 ---
