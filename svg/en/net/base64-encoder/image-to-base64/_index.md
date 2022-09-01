@@ -1,7 +1,7 @@
 ---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Convert Image to Base64 in C# 
+title: Convert Image to Base64 in C# code
 description: Convert Image to Base64 in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
 url: /net/image-to-base64/
 family: svg
