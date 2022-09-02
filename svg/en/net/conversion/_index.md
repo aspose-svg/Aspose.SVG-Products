@@ -19,7 +19,7 @@ h2: How to Convert SVG Using C#
 
 SVG (Scalable Vector Graphics) is an XML-based image format for two-dimensional graphics. It is a vector graphics format intended primarily for the Web. The main excellence of SVG is its unmatched ability to be scaled to any size without any shred of quality degradation. All modern browsers support SVG, and it would seem that the Web should already switch to vector graphics. However, there are some restrictions on the use of SVG and sometimes you need to convert SVG to other formats.
  
-<a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG for .NET API</a> makes the conversion process easier for developers. Converting between formats can perform by using a few different approaches:
+<a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/" target="_blank">Aspose.SVG for .NET API</a> makes the conversion process easier for developers. Converting between formats can perform by using a few different approaches:
  - The static [Converter class](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/) is a shared facade that provides SVG file conversions to the popular formats and allows to make these operations convenient and easy. 
 
  - The [RenderTo()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/renderto/) method is used to render SVG to another format and send a document to the output device. Aspose.SVG API provides the following output devices implementation: the PdfDevice, XpsDevice,  and ImageDevice classes, which perform rendering to PDF, XPS, and Image file formats respectively.

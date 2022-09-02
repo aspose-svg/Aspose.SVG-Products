@@ -14,6 +14,13 @@ feature: encode
 
 {{i18n.overview}}
 
+{{i18n.app-pluging}}
+<br>
+
+<h2>{{i18n.plugin-use.h2}}</h2>
+
+{{i18n.plugin-use}}
+
 <h2>{{i18n.image-vectorization.h2}}</h2>
 
 <p>{{i18n.image-vectorization}}</p>
@@ -24,19 +31,25 @@ feature: encode
 
 {{% /blocks/products/pf/agp/code-block %}}
 
+<p>{{i18n.link-image}}</p>
+
 {{% /blocks/products/pf/feature-page-section %}}
 
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.text-vectorization.title}}" %}}
 
-{{i18n.text-vectorization}}
+{{i18n.text-vectorization.text}}
 
 <h2>{{i18n.text-vectorization.h2}}</h2>
+
+{{i18n.text-vectorization}}
 
 {{% blocks/products/pf/agp/code-block title="{{i18n.text-vectorization.title-code}}" offSpacer="true" %}}
 
 {{i18n.code-text}}<br>
 
 {{% /blocks/products/pf/agp/code-block %}}
+
+<p>{{i18n.link-text}}</p>
 
  {{% /blocks/products/pf/feature-page-section %}}
 
