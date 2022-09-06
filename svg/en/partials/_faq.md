@@ -46,3 +46,14 @@ A2: "Historically, many data transfer and storage formats use text instead of bi
 Q3: "What browsers support Data URIs?"
 A3: "Data URI is the fastest and easiest way to embed images and other files on your web pages. Data URI is supported by major modern browsers: Chrome, Firefox, Safari, Edge, Opera, and IE8+."
 ---
+
+{{<section faq-vectorizer>}}
+---
+h2: FAQ
+Q1: "How can I vectorize {{i18n.informat}}?"
+A1: "Aspose.SVG allows you to convert {{i18n.informat}} to SVG in any way - online or programmatically. For example, you can vectorize {{i18n.informat}} in real-time using Online [Image Vectorizer](https://products.aspose.app/svg/image-vectorization) that converts your images quickly and with high quality. In other way, you can use Aspose.SVG for .NET API to vectorize {{i18n.informat}} programmatically."
+Q2: "What is the image vectorization for?"
+A2: "Vector images are essential for any professional who works with drawings, graphics, or sketches. Many designers, printers, architects, and artists often choose to work with sketches or drawings as vector images. And they have good reasons! Unlike bitmap graphics, vector arts are resizable and scalable without losing any quality, and they will still display just as clearly. Also, vectorization can be used to update or recover images. <br> Vector images are what you need to produce banners, logos, maps, signs, embroideries, engravings, graphs, blueprints, etc."
+Q3: "What is a raster to vector conversion?"
+A3: "The process of image conversion from raster to vector is called image vectorization. It is a complex computational process that converts a bitmap image made up of pixels into a vector image made up of lines, curves, and other geometric shapes."
+---

@@ -1,7 +1,7 @@
 ---
 translation: true
 template: /templates/_template-vectorization.md
-title: Vectorize Image or Text - C# code and Online Vectorizer 
+title: Vectorize Image or Text - C# code and Online Vectorizer
 url: /net/vectorization/
 description: Convert images or SVG text to vector graphics and save the output to an SVG file. Vectorize images or text online or in C#!
 ---
@@ -24,7 +24,9 @@ You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free 
 {{<section "app-pluging" i18n-exclude>}}
 
 {{<app/svg/imagevectorizer id="1" inputFormat="PNG">}}
+
 {{</app/svg/imagevectorizer>}} 
+
 {{<section plugin-use>}}
 ---
 h2: How to Use Image Vectorizer?
