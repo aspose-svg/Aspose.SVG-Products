@@ -10,9 +10,9 @@ informat: {{i18n.informat}}
 outformat: {{i18n.outformat}}
 ---
 
-{{<meta path="/{{lang}}/meta/color-converter/default.md" section="{{env.howto}}">}}
+{{<meta path="/{{lang}}/meta/vectorization/default.md" section="{{env.howto}}">}}
 
-{{<meta path="/{{lang}}/meta/color-converter/default.md" section="faq">}}
+{{<meta path="/{{lang}}/meta/vectorization/default.md" section="faq">}}
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
@@ -31,13 +31,13 @@ outformat: {{i18n.outformat}}
 
 {{i18n.app-plugin}}<br>
 
-<h2>{{i18n.code-text.h2}}</h2>
+<h2>{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use.h2">}}</h2>
 
-{{i18n.code-text}}<br>
+{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use">}}<br>
 
 <h2>{{i18n.steps.h2}}</h2>
 
-{{i18n.steps.text}}
+{{i18n.code-text}}
 
 {{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
 

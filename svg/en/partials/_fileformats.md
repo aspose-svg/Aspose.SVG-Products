@@ -13,7 +13,7 @@ A JPEG (Joint Photographic Experts Group) is a type of image format that is save
 
 {{<section PNG>}}
 
-PNG, Portable Network Graphics, refers to a type of raster image file format that uses lossless compression. This file format was created as a replacement for Graphics Interchange Format (GIF) and has no copyright limitations. However, the PNG file format does not support animations. PNG file format supports lossless image compression that makes it popular among its users. With the passage of time, PNG has evolved into one of the most used image file formats. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of the installation.
+PNG (Portable Network Graphics) refers to a type of raster image file format that uses lossless compression. This file format was created as a replacement for Graphics Interchange Format (GIF) and has no copyright limitations. However, the PNG file format does not support animations. PNG file format supports lossless image compression that makes it popular among its users. With the passage of time, PNG has evolved into one of the most used image file formats. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of the installation.
 
 {{<section GIF>}}
 
