@@ -23,8 +23,7 @@ You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free 
 
 {{<section "app-pluging" i18n-exclude>}}
 
-{{<app/svg/imagevectorizer id="1" inputFormat="PNG">}}
-{{</app/svg/imagevectorizer>}} 
+{{<app/svg/imagevectorizer id="1" inputFormat="PNG">}}{{</app/svg/imagevectorizer>}} 
 {{<section plugin-use>}}
 ---
 h2: How to Use Image Vectorizer?
