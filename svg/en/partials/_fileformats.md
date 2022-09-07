@@ -7,7 +7,7 @@ deploy: false
 
 SVG files are Scalable Vector Graphics Files that use XML-based text format to describe an image's appearance. In an SVG file, images are described as geometric primitives: lines, curves, shapes, text, etc. Vector objects are built and stored as a set of commands, numbers, formulas, and not in a pixel grid, as in bitmap images. The word Scalable refers to the fact that SVG can be scaled to different sizes without losing any quality. A text-based description of such files makes them independent of resolution. It is one of the most used formats for website building and print graphics to achieve scalability. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
 
-{{<section JPEG>}}
+{{<section JPG>}}
 
 A JPEG (Joint Photographic Experts Group) is a type of image format that is saved using the method of lossy compression. The output image, as a result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reducing the storage size. The higher the compression value, the higher the degradation in image quality. The JPEG algorithm is most effective for compressing photographs and paintings containing realistic scenes with smooth transitions in brightness and color. JPEG is most widely used in digital photography and for storing and transmitting images on the Web. Almost all Operating systems have viewers that support the visualization of JPEG images, which are often stored with JPG extension as well.
 

@@ -34,14 +34,16 @@ The data URI gives us a wise way to embed images on a web page. URI schemes can 
 h2: How to use Image Vectorizer?
 ---
 
-1. First, load the raster image from a local file system in PNG, JPG, GIF, BMP, TIFF, or ICO format. You will see three windows - Source, Quantized and Vectorized - with the preview of initial, color-quantized and vectorized images.
-1. Image Vectorizer converts BMP to vector with default settings and you can download vectorized BMP as an SVG file. But for getting a better result, you can handle the quantization and vectorization processes with two settings sidebars. Click "Quantize" button to apply quantization settings, click "Vectorize" button to apply vectorization settings and convert BMP to SVG.
+1. First, load the raster image from a local file system in JPEG, JPG, PJP, PJPEG, WEBP, PNG, BMP, ICO, GIF, TIFF, XBM or other bitmap format. You will see three windows - Source, Quantized and Vectorized - with the preview of initial, color-quantized and vectorized images.
+1. Image Vectorizer converts {{i18n.informat}} to vector with default settings and you can download vectorized {{i18n.informat}} as an SVG file. But for getting a better result, you can handle the quantization and vectorization processes with two settings sidebars. Click "Quantize" button to apply quantization settings, click "Vectorize" button to apply vectorization settings and convert {{i18n.informat}} to SVG.
 1. Click the "Download Result" button to get the resultant. 
 
- Image Vectorizer converts raster bitmap images into vector artwork constructed from outlines. The vectorization algorithm includes the next steps: color quantization, contour tracing, trace smoothing, trace simplification, and building SVG path elements from the traces. Apply custom settings to get the best BMP vectorization result.
+ Image Vectorizer converts raster bitmap images into vector artwork constructed from outlines. The vectorization algorithm includes the next steps: color quantization, contour tracing, trace smoothing, trace simplification, and building SVG path elements from the traces. Apply custom settings to get the best {{i18n.informat}} vectorization result.
 
 <b>Quantization sidebar</b>
- - Color quantization is a process of selecting the limited number of colors to use in an image. It is applied when the color information of an image is to be reduced. Color quantization is a very complex process involving a number of factors. This can be implemented using different algorithms. Each of the algorithms determines which colors from the larger set of colors remain in the new image and how the discarded colors are mapped to the remaining ones.
+
+ Color quantization is a process of selecting the limited number of colors to use in an image. It is applied when the color information of an image is to be reduced. Color quantization is a very complex process involving a number of factors. This can be implemented using different algorithms. Each of the algorithms determines which colors from the larger set of colors remain in the new image and how the discarded colors are mapped to the remaining ones.
+ 
  - <b>colors</b> - desired palette size;
  - <b>method</b> - histogram methods that implement various color quantization algorithms;
  - <b>minHueCols</b> - is a parameter that works with color gradients;

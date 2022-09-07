@@ -13,6 +13,7 @@ feature: encode
 {{% blocks/products/pf/feature-page-section  h2="{{i18n.overview.title}}" %}}
 
 {{i18n.overview}}
+<br>
 
 {{i18n.app-pluging}}
 <br>
@@ -66,4 +67,4 @@ feature: encode
 {{% /blocks/products/pf/feature-page-section %}}
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/feature-page-options pairs="text-to-vector jpg-to-vector png-to-vector gif-to-vector bmp-to-vector tiff-to-vector image-to-vector ico-to-vector" >}}
+{{< blocks/products/pf/feature-page-options pairs="text-to-vector jpg-to-svg png-to-svg gif-to-svg bmp-to-svg tiff-to-svg image-to-svg ico-to-svg" >}}

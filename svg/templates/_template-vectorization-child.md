@@ -33,11 +33,12 @@ outformat: {{i18n.outformat}}
 
 <h2>{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use.h2">}}</h2>
 
-{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use">}}<br>
+{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use">}}
+<br><br>
 
 <h2>{{i18n.steps.h2}}</h2>
 
-{{i18n.code-text}}
+{{i18n.code-text}}<br>
 
 {{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
 
@@ -52,7 +53,6 @@ outformat: {{i18n.outformat}}
 
 {{i18n.documentation}}
 
-{{i18n.online-vectorizer}}
 <br>
 
 <h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.h2">}}</h2>
@@ -101,13 +101,13 @@ outformat: {{i18n.outformat}}
 {{< blocks/products/pf/agp/other-supported-section title="{{i18n.other-vectorizers.title}}" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/" name="Text to Vector" description="SVG Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/jpg-to-vector/" name="JPG to Vector" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/png-to-vector/" name="PNG to Vector" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/image-to-vector/" name="Image to Vector" description="Raster Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/jpg-to-svg/" name="JPG to SVG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/png-to-svg/" name="PNG to SVG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/" name="Image to SVG" description="Raster Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/bmp-to-svg/" name="BMP to SVG" description="Microsoft Windows Bitmap" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/gif-to-vector/" name="GIF TO Vector" description="Graphical Interchange Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/tiff-to-vector/" name="TIF to Vector" description="Tagged Image File Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/ico-to-vector/" name="ICO to Vector" description="Windows Icon" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/gif-to-svg/" name="GIF TO SVG" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/tiff-to-svg/" name="TIF to SVG" description="Tagged Image File Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/ico-to-svg/" name="ICO to SVG" description="Windows Icon" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 {{< /blocks/products/pf/main-container >}}

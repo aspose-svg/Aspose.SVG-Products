@@ -1,0 +1,36 @@
+﻿---
+translation: true
+deploy: false
+---
+
+{{<section SVG>}}
+
+SVG-Dateien sind skalierbare Vektorgrafiken, die ein XML-basiertes Textformat verwenden, um das Erscheinungsbild eines Bildes zu beschreiben. In einer SVG-Datei werden Bilder als geometrische Grundelemente beschrieben: Linien, Kurven, Formen, Text usw. Vektorobjekte werden als eine Reihe von Befehlen, Zahlen, Formeln und nicht in einem Pixelraster wie in Bitmap-Bildern erstellt und gespeichert. Das Wort skalierbar bezieht sich auf die Tatsache, dass SVG auf verschiedene Größen skaliert werden kann, ohne an Qualität zu verlieren. Eine textbasierte Beschreibung solcher Dateien macht sie auflösungsunabhängig. Es ist eines der am häufigsten verwendeten Formate zum Erstellen von Websites und zum Drucken von Grafiken, um Skalierbarkeit zu erreichen. SVG-Dateien können in fast allen modernen Browsern angezeigt/geöffnet werden, einschließlich Chrome, Internet Explorer, Firefox und Safari.
+
+{{<section JPG>}}
+
+Ein JPEG (Joint Photographic Experts Group) ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Das Ausgabebild ist als Ergebnis der Komprimierung ein Kompromiss zwischen Speichergröße und Bildqualität. Benutzer können die Komprimierungsstufe anpassen, um die gewünschte Qualitätsstufe zu erreichen und gleichzeitig die Speichergröße zu reduzieren. Je höher der Komprimierungswert, desto stärker die Verschlechterung der Bildqualität. Der JPEG-Algorithmus ist am effektivsten zum Komprimieren von Fotos und Gemälden, die realistische Szenen mit sanften Übergängen in Helligkeit und Farbe enthalten. JPEG wird am häufigsten in der Digitalfotografie und zum Speichern und Übertragen von Bildern im Internet verwendet. Fast alle Betriebssysteme haben Viewer, die die Visualisierung von JPEG-Bildern unterstützen, die oft auch mit der JPG-Erweiterung gespeichert werden.
+
+{{<section PNG>}}
+
+PNG (Portable Network Graphics) bezieht sich auf ein Rasterbild-Dateiformat, das verlustfreie Komprimierung verwendet. Dieses Dateiformat wurde als Ersatz für das Graphics Interchange Format (GIF) erstellt und unterliegt keinen Urheberrechtsbeschränkungen. Das PNG-Dateiformat unterstützt jedoch keine Animationen. Das PNG-Dateiformat unterstützt die verlustfreie Bildkomprimierung, was es bei seinen Benutzern beliebt macht. Im Laufe der Zeit hat sich PNG zu einem der am häufigsten verwendeten Bilddateiformate entwickelt. Fast alle Betriebssysteme unterstützen das Öffnen von PNG-Dateien. Zum Beispiel hat der Microsoft Windows Viewer die Fähigkeit, PNG-Dateien zu öffnen, da das Betriebssystem standardmäßig die Unterstützung bietet, die als Teil der Installation verfügbar ist.
+
+{{<section GIF>}}
+
+Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. GIF-Bilder sind im Besitz von Unisys und werden mit der verlustfreien LZW-Datenkomprimierungstechnik komprimiert, die die Dateigröße reduziert und die Bildqualität nicht beeinträchtigt. Für jedes Bild erlaubt GIF normalerweise bis zu 8 Bit pro Pixel und bis zu 256 Farben sind über das Bild verteilt im Gegensatz zu einem JPEG-Bild, das bis zu 16 Millionen Farben darstellen kann und ziemlich an die Grenzen des menschlichen Auges stößt. Als das Internet aufkam, blieben GIFs die beste Wahl, da sie eine geringe Bandbreite benötigten und mit Grafiken kompatibel waren, die Volltonbereiche verbrauchen. GIF war lange Zeit eines der gängigsten Formate im Internet. GIFs eignen sich hervorragend für Strichzeichnungen mit begrenzten Farben, wie z. B. Logos. Sie sind in sozialen Netzwerken beliebt und können für kleine Animationen und Videoclips mit niedriger Auflösung verwendet werden.
+
+{{<section TIFF>}}
+
+TIFF (Tag Image File Format oder Tagged Image File Format) stellt Rasterbilder dar, die für die Verwendung auf verschiedenen Geräten gedacht sind, die diesem Dateiformatstandard entsprechen. TIFF ist ein Grafikformat, das 1987 von Adobe als eines der grundlegenden universellen Formate für die Präsentation hochwertiger Bilder in der Druckindustrie entwickelt wurde. Jetzt ist TIFF zu einem beliebten Format zum Speichern von Deep-Color-Bildern geworden. Es ist in der Lage, Bilevel-, Graustufen-, Palettenfarben- und Vollfarben-Bilddaten in mehreren Farbräumen zu beschreiben. Es unterstützt sowohl verlustbehaftete als auch verlustfreie Komprimierungsschemata, um zwischen Speicherplatz und Zeit für Anwendungen zu wählen, die das Format verwenden. Das Format ist maschinenunabhängig und frei von Grenzen wie Prozessoren, Betriebssystemen oder Dateisystemen.
+
+{{<section BMP>}}
+
+BMP (Microsoft Windows Bitmap) ist ein Bitmap-Bilddateiformat, bei dem das Bild als zweidimensionales Array von Pixeln gespeichert wird, wobei jedes Pixel seine eigene Farbe im RGB-Farbmodell hat. Dateien mit der Erweiterung .BMP werden verwendet, um praktisch jede Art von Bitmap-Daten zu speichern. Diese Bilder sind unabhängig vom Grafikadapter und werden auch als geräteunabhängiges Bitmap-Dateiformat (DIB) bezeichnet. Diese Unabhängigkeit dient dem Zweck, die Datei auf mehreren Plattformen wie Microsoft Windows und Mac zu öffnen. Das BMP-Dateiformat kann Daten als zweidimensionale digitale Bilder sowohl in Monochrom- als auch in Farbformaten mit verschiedenen Farbtiefen speichern. Obwohl BMP auf Windows-internen Bitmap-Datenstrukturen basiert, wird es von vielen Nicht-Windows- und Nicht-PC-Anwendungen unterstützt.
+
+{{<section ICO>}}
+
+Das ICO-Dateiformat ist ein Bilddateiformat für Computersymbole in Microsoft Windows. ICO-Dateien enthalten ein oder mehrere kleine Bilder unterschiedlicher Größe und Farbtiefe, sodass sie entsprechend skaliert werden können. ICO-Bilder gibt es in unterschiedlicher Größe, Farbunterstützung und Auflösung, um den Anforderungen des Displays gerecht zu werden. Unter Windows müssen alle ausführbaren Dateien, die ein Symbol für den Benutzer auf dem Desktop, im Startmenü oder im Windows Explorer anzeigen, ein Symbol im ICO-Format haben. In Bezug auf die Struktur sind die Bilder in der ICO-Datei BMP am nächsten, unterscheiden sich jedoch grundlegend von ihnen durch das Vorhandensein eines zusätzlichen Bildes - einer Maske, die mit Hilfe von Bitoperationen auf den Hintergrund gelegt wird, wodurch Sie Transparenz realisieren können des Bildes.
+
+{{<section Image>}}
+
+Es gibt zwei Haupttypen von digitalen Bilddateien – Raster und Vektor. Beliebte Arten von Rasterbildern sind die Dateiformate JPEG, PNG, BMP, TIFF und GIF. Eine Bitmap ist ein zweidimensionales Array, das Farben Pixeln an einer bestimmten Position zuordnet. Ein Rasterbild ist eine viel größere Datei als ein Vektorbild. Rasterformate eignen sich für Fotos oder Bilder mit Farbverläufen. Aber einer ihrer Hauptnachteile ist der Qualitätsverlust beim Skalieren. Da die Pixelzahl fest ist, können Rasterbilder verzerrt oder verschwommen werden, wenn sie in der Größe geändert werden, um einen größeren oder kleineren Raum auszufüllen. Das Erhöhen der Größe eines Bildes mit zu wenigen Pixeln kann zu Pixelbildung führen, was normalerweise nicht erwünscht ist.

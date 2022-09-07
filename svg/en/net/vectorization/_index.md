@@ -9,7 +9,7 @@ description: Convert images or SVG text to vector graphics and save the output t
 {{<section banner>}}
 ---
 h1: Vectorize Image or Text in C# 
-h2: Convert Image to vector in C#. JPG, PNG, BMP, GIF, TIFF, and ICO formats are supported.
+h2: Convert Image to vector in C#. JPG, JPEG, PNG, BMP, GIF, TIFF, ICO, IFIF, WEBP and other bitmap formats are supported.
 ---
 
 {{<section overview>}}
@@ -19,11 +19,11 @@ title: Image Vectorization
 
 A raster image is a map of pixels - dots or grains - on film, paper or screen. Each pixel has its own color. Scaling a raster image leads to noise and blurring appearing on it. To avoid such artefacts, you can convert a bitmap image into a vector format, for example, into SVG graphics. Image vectorization is a way to represent an image in vector form. A vector image is based upon a formula — it is not based upon pixels but on primitives such as points, lines, curves, which are represented by mathematical expressions. Lines and filled colored areas in such images are represented as mathematical curves that are defined by Cartesian points connected by paths to form them. A vector image will have all the benefits of vector graphics and will not be pixelated when scaled.
  
-You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free Image Vectorizer and convert pixel color information into simple geometric objects! Please select a PNG image to vectorize.
+You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free Image Vectorizer and convert pixel color information into simple geometric objects! Please select an image to vectorize. JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP and other bitmap formats are supported.
 
 {{<section "app-pluging" i18n-exclude>}}
 
-{{<app/svg/imagevectorizer id="1" inputFormat="PNG">}}{{</app/svg/imagevectorizer>}}
+{{<app/svg/imagevectorizer id="1" inputFormat="Image">}}{{</app/svg/imagevectorizer>}}
 
 {{<section plugin-use>}}
 ---
@@ -70,7 +70,7 @@ Converting an image to vector is very easy with <a href="https://products.aspose
 
 {{<section link-image>}}
 
-You can learn more about image vectorization by clicking on the link - <a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/png-to-vector">PNG to Vector.</a>
+You can learn more about image vectorization by clicking on the link - <a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Image to SVG.</a>
 
 
 {{<section text-vectorization>}}
@@ -99,7 +99,7 @@ document.Save("text_vectorized.svg", saveOptions);
 
 {{<section link-text>}}
 
-You can learn more about text vectorization by clicking on the link - <a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector">Text to Vector.</a>
+You can learn more about text vectorization by clicking on the link - <a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/">Text to Vector.</a>
 
 {{<section installing>}}
 ---
