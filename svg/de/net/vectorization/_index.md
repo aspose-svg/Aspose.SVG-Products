@@ -3,7 +3,7 @@ translation: true
 template: /templates/_template-vectorization.md
 title: Bild oder Text vektorisieren – C#-Code und Online-Vektorisierer
 url: /net/vectorization/
-description: Konvertieren Sie Bilder oder SVG-Text in Vektorgrafiken und speichern Sie die Ausgabe in einer SVG-Datei. Vektorisieren Sie Bilder oder Text online oder in C#!
+description: Konvertieren Sie Bilder oder SVG-Text in Vektorgrafiken und speichern Sie die Ausgabe im SVG-Format. Online oder in C# vektorisieren!
 ---
 
 {{<section banner>}}

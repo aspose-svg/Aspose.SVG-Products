@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: Bild in SVG konvertieren – C#-Code und Online-Vektorisierer
-description: Bild zu Vektor in C#. Konvertieren Sie Bilder in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: Bild zu Vektor in C# oder online. Konvertieren Sie Bilder in SVG und nutzen Sie die Vorteile von Vektorgrafiken voll aus!
 url: /net/vectorization/image-to-svg/
 family: svg
 platformtag: net

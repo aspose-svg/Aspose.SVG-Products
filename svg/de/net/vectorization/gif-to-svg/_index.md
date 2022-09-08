@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: GIF zu SVG – C#-Code und Online-Vektorisierer
-description: GIF in C# vektorisieren. Konvertieren Sie GIF in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: Konvertieren Sie GIF in SVG in C# und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie den Online-Bildvektorisierer aus!
 url: /net/vectorization/gif-to-svg/
 family: svg
 platformtag: net

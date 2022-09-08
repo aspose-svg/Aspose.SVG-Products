@@ -57,3 +57,14 @@ A2: "Vector images are essential for any professional who works with drawings, g
 Q3: "What is a raster to vector conversion?"
 A3: "The process of image conversion from raster to vector is called image vectorization. It is a complex computational process that converts a bitmap image made up of pixels into a vector image made up of lines, curves, and other geometric shapes."
 ---
+
+{{<section faq-text-vectorization>}}
+---
+h2: FAQ
+Q1: "What does text vectorization mean?"
+A1: "In vectorized SVG text, all font glyphs are replaced by a combination of XML text tags such as `<path>`, `<use>`, `<g>`, etc. The text is converted to vector shapes and cannot be edited. This prevents casual users from opening and editing this file in a text editor."
+Q2: "Why should I convert text to vector?"
+A2: "Text vectorization protects text from simple copying, unwanted use, borrowing and modification. Vectorized text, being digital graphics, allows you to use a unique font without installing it on a client computer and retains its style when used in any computer environment. Text can be scaled while maintaining quality and apply any SVG effects to it. <br >When converting text to vector paths, you will no longer be able to edit the text like plain text. However, you will be able to edit vector paths. Vectorized text, which you can edit as a vector object, allows you to: customize font aspects, create logos or wordmarks, prepare assets for printing, reduce file or export size, combine multiple paths into one object, etc."
+Q3: "How can I convert text to vector?"
+A3: "Aspose.SVG allows you vectorize SVG text in any way - online or programmatically. You can convert text to vector in real-time using Online [Text to Vector](https://products.aspose.app/svg/text-to-vector) application that vectorizes your text in SVG file quickly and with high quality. In other way, you can use Aspose.SVG for .NET API to vectorize text programmatically."
+---

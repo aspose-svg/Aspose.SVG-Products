@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: Konvertieren Sie ICO in SVG - C#-Code und Online-Vektorisierer
-description: Bitmap in C# vektorisieren. Konvertieren Sie ICO in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: Vektorisieren Sie Bitmaps in C# oder online. Konvertieren Sie ICO in SVG und nutzen Sie die Vorteile von Vektorgrafiken voll aus.
 url: /net/vectorization/ico-to-svg/
 family: svg
 platformtag: net

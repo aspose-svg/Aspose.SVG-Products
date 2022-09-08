@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-vectorization-child.md
-title: Преобразование TIFF в SVG — код C# и онлайн-векторизатор
-description: TIFF в вектор на C#. Преобразуйте TIFF в SVG и получите все преимущества векторной графики. Попробуйте онлайн векторизатор изображений бесплатно!
+title: Преобразование TIFF в SVG — C# код и онлайн Векторизатор
+description: Конвертируйте TIFF в векторный формат и получите все преимущества векторной графики. Попробуйте онлайн векторизатор изображений бесплатно!
 url: /net/vectorization/tiff-to-svg/
 family: svg
 platformtag: net
@@ -13,7 +13,7 @@ outformat: SVG
 
 {{<section banner>}}
 ---
-h1: Преобразование TIFF в SVG — код C# и онлайн-векторизатор
+h1: Преобразование TIFF в SVG — C# код и онлайн Векторизатор
 h2: Векторизуйте изображения онлайн или программно.
 ---
 
@@ -23,7 +23,7 @@ h2: Векторизация изображения TIFF
 ---
 
 Под векторизацией мы подразумеваем процесс замены растровых изображений математическими кривыми и геометрическими фигурами, составленными из элементов пути и сохраненными в формате SVG. Вы можете захотеть векторизовать растровые изображения по ряду причин. У векторной графики есть ряд преимуществ: масштабирование, небольшой размер файла, поддержка анимации и т. д., или вы просто хотите поэкспериментировать с изображениями и получить забавные эффекты векторизации. В любом случае векторизация растровых изображений — это хороший опыт, если вы интересуетесь фотографией, живописью, дизайном, искусством и веб-разработкой.<br>
-[Aspose.SVG для .NET API](https://products.aspose.com/svg/{{lang.url-fragment}}net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. . Пространство имен [ImageVectorization](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/) включает классы и интерфейсы для реализации процесса векторизации изображения. В этой статье мы рассмотрим, как преобразовать TIFF в векторную графику на C# с помощью API Aspose.SVG. Более того, мы предоставляем онлайн-векторизатор изображений, чтобы вы могли попробовать преобразовать изображение в вектор в реальном времени.
+[Aspose.SVG для .NET API](https://products.aspose.com/svg/{{lang.url-fragment}}net/) предлагает высокоскоростную библиотеку C#, которую можно использовать для различных задач анализа SVG. Пространство имен [ImageVectorization](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/) включает классы и интерфейсы для реализации процесса векторизации изображения. В этой статье мы рассмотрим, как преобразовать TIFF в векторную графику на C# с помощью API Aspose.SVG. Более того, мы предоставляем онлайн Векторизатор Изображений, чтобы вы могли попробовать преобразовать изображение в векторный формат в реальном времени.
 
 {{<section input-file>}}
 ---
@@ -37,7 +37,7 @@ title: Что такое формат файла SVG?
 
 {{<section plagin-text>}}
 ---
-h2: Онлайн векторизатор изображений
+h2: Онлайн Векторизатор Изображений
 ---
 
 Если вам нужно векторизовать изображения, воспользуйтесь нашим бесплатным онлайн-инструментом! Image Vectorizer поддерживает форматы JPG, PNG, BMP, ICO, GIF и TIFF. Он предлагает различные варианты предварительной обработки растровых изображений перед их сохранением в формате SVG. Преобразуйте свои изображения в масштабируемые и четкие векторные изображения прямо сейчас!
@@ -82,14 +82,12 @@ title: Действия по преобразованию TIFF в SVG на C#
 ---
 
 Чтобы векторизовать TIFF с помощью Aspose.SVG, вы должны выполнить несколько шагов:
-1. Инициализируйте экземпляр класса [ImageVectorizer](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizer/). Используйте один из конструкторов ImageVectorizer() и укажите свойства конфигурации.
+1. Инициализируйте экземпляр класса [ImageVectorizer.](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizer/) Используйте один из конструкторов ImageVectorizer() и укажите свойства конфигурации.
     - Свойство [TraceSmoother](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizerconfiguration/tracesmoother/) делает трассировку более гладкой. Используется для сглаживания фрагментов контуров.
     - Свойство [TraceSimplifier](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizerconfiguration/tracesimplifier/) упрощает трассировку. В результате кривая трассировки будет построена из отрезков с меньшим (или большим) числом точек.
     - Свойство [PathBuilder](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizerconfiguration/pathbuilder/) задает построитель сегментов пути SVG и влияет на то, насколько резко кривая изгибается в контрольных точках.
-1. Векторизировать TIFF из указанного файла. Используйте метод [Vectorize()](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizer/vectorize/), который возвращает SVGDocument.
+1. Векторизировать TIFF из указанного файла. Используйте метод [Vectorize(),](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizer/vectorize/) который возвращает SVGDocument.
 1. Сохраните векторизованное изображение TIFF как файл SVG.
-
-
 
 {{<section documentation>}}
 

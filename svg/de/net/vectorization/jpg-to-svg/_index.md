@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: Konvertieren Sie JPG in SVG - C#-Code und Online-Vektorisierer
-description: JPG zu Vektor in C#. Vektorisieren Sie JPG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: JPG in Vektor in C#. Vektorisieren Sie JPG und nutzen Sie das Vektorformat voll aus. Probieren Sie den Online-Bildvektorisierer aus!
 url: /net/vectorization/jpg-to-svg/
 family: svg
 platformtag: net

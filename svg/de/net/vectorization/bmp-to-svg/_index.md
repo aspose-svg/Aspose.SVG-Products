@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: BMP zu SVG – C#-Code und Online-Vektorisierer
-description: BMP zu Vektor in C#. Konvertieren Sie BMP in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: BMP zu Vektor in C#. Konvertieren Sie BMP in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie den Online-Vektorisierer aus
 url: /net/vectorization/bmp-to-svg/
 family: svg
 platformtag: net

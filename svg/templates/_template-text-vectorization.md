@@ -10,9 +10,9 @@ informat: {{i18n.informat}}
 outformat: {{i18n.outformat}}
 ---
 
-{{<meta path="/{{lang}}/meta/vectorization/default.md" section="{{env.howto}}">}}
+{{<meta path="/{{lang}}/meta/vectorization/default.md" section="howtoText">}}
 
-{{<meta path="/{{lang}}/meta/vectorization/default.md" section="faq">}}
+{{<meta path="/{{lang}}/meta/vectorization/default.md" section="faq-text">}} 
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true" >}}
 
@@ -25,70 +25,43 @@ outformat: {{i18n.outformat}}
 {{i18n.overview}}
 <br>
 
-<h2>{{i18n.plagin-text.h2}}</h2>
-
-{{i18n.plagin-text}}<br>
-
-{{i18n.app-plugin}}<br>
-
-<h2>{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use.h2">}}</h2>
-
-{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use">}}
-<br><br>
-
-<h2>{{i18n.steps.h2}}</h2>
+<h2>{{i18n.code-text.h2}}</h2>
 
 {{i18n.code-text}}<br>
 
 {{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
 
-{{i18n.code}}<br>
+{{i18n.code-snippet}} 
+
+<p></p><br><br>
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-<h2>{{i18n.steps.title}}</h2>
+<h2>{{i18n.steps.h2}}</h2>
 
 {{i18n.steps}}
 <br>
 
 {{i18n.documentation}}
-
 <br>
 
-<h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.h2">}}</h2>
+<h2>{{i18n.online-vectorizer.h2}}</h2>
 
-<b>1. {{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.Q1">}}</b>
+{{i18n.online-vectorizer}}<br>
 
-{{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.A1">}}
+<h2>{{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.h2">}}</h2>
 
-<b>2. {{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.Q2">}}</b>
+<b>1. {{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.Q1">}}</b>
 
-{{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.A2">}}
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.A1">}}
 
-<b>3. {{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.Q3">}}</b>
+<b>2. {{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.Q2">}}</b>
 
-{{<import path="/{{lang}}/partials/_faq.md" section="faq-vectorizer.A3">}}
-<br><br>
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.A2">}}
 
-{{% blocks/products/pf/agp/feature-section-col title="{{i18n.input-file.title}}" %}}
+<b>3. {{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.Q3">}}</b>
 
-{{% blocks/products/pf/agp/text %}}
-
-{{<import path="/{{lang}}/partials/_fileformats.md" section="{{i18n.informat}}">}}
-
-{{% /blocks/products/pf/agp/text %}}
-
-{{% /blocks/products/pf/agp/feature-section-col %}}
-
-{{% blocks/products/pf/agp/feature-section-col title="{{i18n.output-file.title}}" %}}
-
-{{% blocks/products/pf/agp/text %}}
-
-{{<import path="/{{lang}}/partials/_fileformats.md" section="{{i18n.outformat}}">}}
-
-{{% /blocks/products/pf/agp/text %}}
-
-{{% /blocks/products/pf/agp/feature-section-col %}}
+{{<import path="/{{lang}}/partials/_faq.md" section="faq-text-vectorization.A3">}}
 
 {{% /blocks/products/pf/agp/content %}}
 

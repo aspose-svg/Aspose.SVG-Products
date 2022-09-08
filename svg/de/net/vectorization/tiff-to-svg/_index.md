@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: Konvertieren Sie TIFF in SVG - C#-Code und Online-Vektorisierer
-description: TIFF zu Vektor in C#. Konvertieren Sie TIFF in SVG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: Konvertieren Sie TIFF in SVG und nutzen Sie die Vorteile von Vektorgrafiken voll aus. Probieren Sie den Online-Bildvektorisierer aus!
 url: /net/vectorization/tiff-to-svg/
 family: svg
 platformtag: net

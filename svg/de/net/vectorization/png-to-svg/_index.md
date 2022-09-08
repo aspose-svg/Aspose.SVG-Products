@@ -2,7 +2,7 @@
 translation: true
 template: /templates/_template-vectorization-child.md
 title: PNG vektorisieren - C#-Code und Online-Vektorisierer
-description: Konvertieren Sie PNG in SVG in C#. Vektorisieren Sie PNG und nutzen Sie alle Vorteile von Vektorgrafiken. Probieren Sie Online Image Vectorizer kostenlos aus!
+description: Konvertieren Sie PNG in SVG in C#. Vektorisieren Sie PNG und speichern Sie es als Vektorgrafik. Probieren Sie den Online-Vektorisierer aus!
 url: /net/vectorization/png-to-svg/
 family: svg
 platformtag: net
