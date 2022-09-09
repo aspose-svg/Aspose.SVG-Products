@@ -72,7 +72,7 @@ title: 在 C# 中将 PNG 转换为 SVG
     // Vectorize PNG from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.png");
     // Save vectorized PNG as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

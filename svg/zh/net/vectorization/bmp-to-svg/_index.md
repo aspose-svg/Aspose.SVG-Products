@@ -72,7 +72,7 @@ title: 在 C# 中将 BMP 转换为 SVG
     // Vectorize BMP from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.bmp");
     // Save vectorized BMP image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

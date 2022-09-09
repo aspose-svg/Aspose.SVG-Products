@@ -59,7 +59,7 @@ feature8: Navigate via CSS Selectors, Element and Document Traversal
 feature9: DOM Tree manipulation of official SVG specifications
 feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Merge multiple files into one document</a>
 feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">Encode Images to Base64</a>
-feature12: Image Vectorizer
+feature12: <a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Image Vectorizer</a>
 ---
 
 {{<section converter>}}
@@ -127,6 +127,14 @@ using Aspose.Svg.Saving;
 	
 	// Save vectorized image as SVG file 
 	document.Save("output.svg");
+
+{{<section online-vectorization>}}
+
+You can try online Image Vectorizer <a href="https://products.aspose.app/svg/image-vectorization" target="_blank">here.</a>
+
+{{<section other-vectorizers>}}	
+
+Other Supported Vectorizers: 
 
 {{<section merge>}}
 ---

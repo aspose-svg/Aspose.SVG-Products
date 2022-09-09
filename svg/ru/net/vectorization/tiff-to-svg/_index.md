@@ -72,7 +72,7 @@ Aspose.SVG для .NET API предоставляет классы и метод
     // Vectorize TIFF from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.tiff");
     // Save vectorized TIFF image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

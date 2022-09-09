@@ -72,7 +72,7 @@ title: 在 C# 中将 GIF 转换为 SVG
     // Vectorize GIF image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.gif");
     // Save vectorized GIF image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

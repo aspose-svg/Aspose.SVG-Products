@@ -71,7 +71,7 @@ title: 在 C# 中将 JPG 转换为 SVG
     // Vectorize JPG from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.jpg");
     // Save vectorized JPG image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

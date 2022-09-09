@@ -71,7 +71,7 @@ Aspose.SVG для .NET API предоставляет классы и метод
     // Vectorize image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.png");
     // Save vectorized Image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

@@ -321,6 +321,37 @@ weight: 20
 </code></pre>
 </div><br>
 
+<p>{{i18n.online-vectorization}}</p>
+
+<p>{{i18n.other-vectorizers}}</p>
+
+<div class="row">
+	<div class="col-md-3">
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Image to SVG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/">Text to Vector </a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/png-to-svg/">PNG to SVG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/jpg-to-svg/">JPG to SVG</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/bmp-to-svg/">BMP to SVG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/ico-to-svg/">ICO to SVG</a></li>						
+		</ul>
+	</div>
+	<div class="col-md-3">		
+		<ul>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/gif-to-svg/">GIF to SVG</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/tiff-to-svg/">TIFF to SVG</a></li>						
+		</ul>
+	</div>
+</div>
+
 <h2 class="h2title">{{i18n.merge.h2}}</h2>
 
 <p>{{i18n.merge}}</p>

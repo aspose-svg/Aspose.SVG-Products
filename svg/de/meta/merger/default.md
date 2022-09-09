@@ -37,7 +37,7 @@ steps[5].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/merger/{
 {{<section howtoSvg>}}
 ---
 name: "So führen Sie {{i18n.informat}} mit {{i18n.outformat}} zusammen"
-image: "https://products.aspose.com/svg/images/merger/step3.png"
+image: "https://products.aspose.com/svg/images/merger/step-svg-4.png"
 tool: "Fusion von {{i18n.informat}} zu {{i18n.outformat}}"
 supply: "Führen Sie {{i18n.informat}} online schnell und effizient auf jeder Plattform zusammen."
 steps[1].name: "Installieren Sie Aspose.SVG für .NET."

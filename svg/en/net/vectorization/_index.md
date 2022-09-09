@@ -65,7 +65,7 @@ Converting an image to vector is very easy with <a href="https://products.aspose
     // Vectorize image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.jpg");
     // Save vectorized image as SVG file 
-	document.Save(OutputFolder + "example.svg"));
+	document.Save(OutputFolder + "example.svg");
 ```
 
 {{<section link-image>}}
@@ -87,7 +87,7 @@ In case you are interested in the development of scalable vector graphics and th
 
 ```cs
 // Load an SVG document from a file
-var document = new SVGDocument("text.svg"));
+var document = new SVGDocument("text.svg");
 // Set text elements vectorization 
 var saveOptions = new SVGSaveOptions
 {

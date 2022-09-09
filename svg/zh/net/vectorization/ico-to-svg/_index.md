@@ -72,7 +72,7 @@ title: 在 C# 中将 ICO 转换为 SVG
     // Vectorize ICO image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.ico");
     // Save vectorized ICO as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

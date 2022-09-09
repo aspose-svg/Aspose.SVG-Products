@@ -14,7 +14,7 @@ outformat: Base64
 {{<section banner>}}
 ---
 h1: Convert BMP to Base64 via C#
-h2: Encode BMP to Base64 string in C# and use it for examples for data URI
+h2: Encode BMP to Base64 string in C# and use it for data URI
 ---
 
 {{<section overview>}}

@@ -72,7 +72,7 @@ Aspose.SVG für die .NET-API bietet Klassen und Methoden, mit denen Sie den Bild
     // Vectorize GIF image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.gif");
     // Save vectorized GIF image as SVG file 
-	document.Save(OutputFolder + "image.svg"));
+	document.Save(OutputFolder + "image.svg");
 ```
 
 {{<section steps>}}

@@ -15,7 +15,7 @@ steps[1].text: "Fügen Sie Ihrem C#-Projekt einen .NET-Bibliotheksverweis hinzu.
 steps[1].image: "https://products.aspose.com/svg/images/vectorization/step0.png"
 steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/{{i18n.informat lower}}-to-svg/"
 steps[2].name: "ImageVectorizer-Objekt erstellen"
-steps[2].text: "Initialisieren Sie eine Instanz der ImageVectorizer-Klasse."
+steps[2].text: "Initialisieren Sie eine Instanz der ImageVectorizer-Klasse und geben Sie Konfigurationseigenschaften an."
 steps[2].image: "https://products.aspose.com/svg/images/vectorization/step1.png"
 steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/{{i18n.informat lower}}-to-svg/"
 steps[3].name: "{{i18n.informat}} in C# vektorisieren"
@@ -30,10 +30,10 @@ steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectoriz
 
 {{<import path="/meta/schemas.md" section="howto">}}
 
-{{<section howto-text>}}
+{{<section howtoText>}}
 ---
 name: "So konvertieren Sie Text in Vektoren"
-image: "https://products.aspose.com/svg/images/vectorization/step3.png"
+image: "https://products.aspose.com/svg/images/vectorization/step-text-3.png"
 tool: "SVG-Text vektorisieren"
 supply: "Konvertieren Sie Text auf jeder Plattform schnell und effizient online in Vektorgrafiken."
 steps[1].name: "Installieren Sie Aspose.SVG für .NET."
@@ -42,15 +42,15 @@ steps[1].image: "https://products.aspose.com/svg/images/vectorization/step0.png"
 steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[2].name: "SVG mit C# laden"
 steps[2].text: "Laden Sie ein SVG-Dokument aus einer Datei."
-steps[2].image: "https://products.aspose.com/svg/images/vectorization/step1.png"
+steps[2].image: "https://products.aspose.com/svg/images/vectorization/step-text-1.png"
 steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[3].name: "Text mit C# in Vektor umwandeln"
 steps[3].text: "Legen Sie die VectorizeText-Eigenschaft der SVGSaveOptions-Klasse auf true fest."
-steps[3].image: "https://products.aspose.com/svg/images/vectorization/step2.png"
+steps[3].image: "https://products.aspose.com/svg/images/vectorization/step-text-2.png"
 steps[3].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[4].name: "Holen Sie sich das Ergebnis"
 steps[4].text: "Speichern Sie das SVG-Dokument mit vektorisiertem Text"
-steps[4].image: "https://products.aspose.com/svg/images/vectorization/step3.png"
+steps[4].image: "https://products.aspose.com/svg/images/vectorization/step-text-3.png"
 steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 ---
 
@@ -73,7 +73,7 @@ qs[3].text: "Der Prozess der Bildkonvertierung von Raster zu Vektor wird als Bil
 qs[1].name: "Wie kann ich Text in Vektor umwandeln?"
 qs[1].text: "Mit Aspose.SVG können Sie SVG-Text auf beliebige Weise vektorisieren – online oder programmgesteuert. Sie können Text in Echtzeit in Vektor umwandeln, indem Sie die Online-Text-zu-Vektor-Anwendung verwenden, die Ihre Texte schnell und in hoher Qualität in eine SVG-Datei umwandelt. Auf andere Weise können Sie Aspose.SVG für die .NET-API verwenden, um Text programmgesteuert zu vektorisieren."
 qs[2].name: "Was bedeutet Textvektorisierung?"
-qs[2].text: "In vektorisiertem SVG-Text werden alle Schriftzeichen durch eine Kombination aus XML-Text-Tags wie <path>, <use>, <g> usw. ersetzt. Der Text wird in Vektorformen konvertiert und kann nicht bearbeitet werden. Dadurch wird verhindert, dass gelegentliche Benutzer diese Datei in einem Texteditor öffnen und bearbeiten."
+qs[2].text: "In vektorisiertem SVG-Text werden alle Schriftzeichen durch eine Kombination aus XML-Text-Tags. Der Text wird in Vektorformen konvertiert und kann nicht bearbeitet werden. Dadurch wird verhindert, dass gelegentliche Benutzer diese Datei in einem Texteditor öffnen und bearbeiten."
 qs[3].name: "Warum sollte ich Text in Vektor umwandeln?"
 qs[3].text: "Die Textvektorisierung schützt Text vor einfachem Kopieren, unerwünschter Verwendung, Entlehnung und Änderung. Vektorisierter Text, der digitale Grafiken ist, ermöglicht es Ihnen, eine einzigartige Schriftart zu verwenden, ohne sie auf einem Client-Computer zu installieren, und behält seinen Stil bei, wenn er in einer beliebigen Computerumgebung verwendet wird. Text kann unter Beibehaltung der Qualität skaliert und beliebige SVG-Effekte darauf angewendet werden."
 ---

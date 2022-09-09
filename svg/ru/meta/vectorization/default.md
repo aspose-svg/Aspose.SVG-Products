@@ -15,7 +15,7 @@ steps[1].text: "Добавьте ссылку на библиотеку .NET в 
 steps[1].image: "https://products.aspose.com/svg/images/vectorization/step0.png"
 steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/{{i18n.informat lower}}-to-svg/"
 steps[2].name: "Создайте объект ImageVectorizer"
-steps[2].text: "Инициализируйте экземпляр класса ImageVectorizer."
+steps[2].text: "Инициализируйте экземпляр класса ImageVectorizer и укажите свойства конфигурации."
 steps[2].image: "https://products.aspose.com/svg/images/vectorization/step1.png"
 steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/{{i18n.informat lower}}-to-svg/"
 steps[3].name: "Векторизовать {{i18n.informat}} с помощью C#"
@@ -30,10 +30,10 @@ steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectoriz
 
 {{<import path="/meta/schemas.md" section="howto">}}
 
-{{<section howto-text>}}
+{{<section howtoText>}}
 ---
 name: "Как конвертировать текст в вектор"
-image: "https://products.aspose.com/svg/images/vectorization/step3.png"
+image: "https://products.aspose.com/svg/images/vectorization/step-text-3.png"
 tool: "Векторизировать текст SVG"
 supply: "Конвертируйте текст в вектор онлайн быстро и эффективно на любой платформе."
 steps[1].name: "Установите Aspose.SVG для .NET."
@@ -42,15 +42,15 @@ steps[1].image: "https://products.aspose.com/svg/images/vectorization/step0.png"
 steps[1].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[2].name: "Загрузите SVG на C#"
 steps[2].text: "Загрузите документ SVG из файла."
-steps[2].image: "https://products.aspose.com/svg/images/vectorization/step1.png"
+steps[2].image: "https://products.aspose.com/svg/images/vectorization/step-text-1.png"
 steps[2].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[3].name: "Преобразование текста в вектор на C#"
 steps[3].text: "Установите для свойства VectorizeText класса SVGSaveOptions значение true."
-steps[3].image: "https://products.aspose.com/svg/images/vectorization/step2.png"
+steps[3].image: "https://products.aspose.com/svg/images/vectorization/step-text-2.png"
 steps[3].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 steps[4].name: "Получить результат"
 steps[4].text: "Сохраните документ SVG с векторизованным текстом."
-steps[4].image: "https://products.aspose.com/svg/images/vectorization/step3.png"
+steps[4].image: "https://products.aspose.com/svg/images/vectorization/step-text-3.png"
 steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/"
 ---
 
@@ -73,7 +73,7 @@ qs[3].text: "Процесс преобразования растрового и
 qs[1].name: "Как преобразовать текст в вектор?"
 qs[1].text: "Aspose.SVG позволяет векторизовать текст SVG любым способом — онлайн или программно. Вы можете конвертировать текст в вектор в режиме реального времени с помощью приложения Online Text to Vector, которое быстро и качественно преобразует тексты в SVG графику. С другой стороны, вы можете использовать Aspose.SVG for .NET API для программной векторизации текста."
 qs[2].name: "Что означает векторизация текста?"
-qs[2].text: "В векторизованном тексте SVG все глифы шрифта заменяются комбинацией текстовых тегов XML, таких как <path>, <use>, <g> и т. д. Текст преобразуется в векторные формы и не может быть отредактирован. Это не позволяет случайным пользователям открывать и редактировать этот файл в текстовом редакторе."
+qs[2].text: "В векторизованном тексте SVG все глифы шрифта заменяются комбинацией текстовых тегов XML, таких как path, use, g и т. д. Текст преобразуется в векторные формы и не может быть отредактирован. Это не позволяет случайным пользователям открывать и редактировать этот файл в текстовом редакторе."
 qs[3].name: "Зачем мне конвертировать текст в вектор?"
 qs[3].text: "Векторизация защищает текст от простого копирования, нежелательного использования, заимствования и модификации. Векторизованный текст, являясь цифровой графикой, позволяет использовать уникальный шрифт без его установки на клиентский компьютер и сохраняет свой стиль при использовании в любой компьютерной среде. Текст можно масштабировать с сохранением качества и применять к нему любые эффекты SVG."
 ---
