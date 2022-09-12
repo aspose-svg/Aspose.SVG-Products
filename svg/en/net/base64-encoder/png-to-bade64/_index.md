@@ -1,7 +1,7 @@
 ---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Convert PNG to Base64 in C# 
+title: Convert PNG to Base64 in C# code
 description: Convert PNG to Base64 in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
 url: /net/png-to-base64/
 family: svg
@@ -14,7 +14,7 @@ outformat: Base64
 {{<section banner>}}
 ---
 h1: Convert PNG to Base64 in C#
-h2: Encode PNG to Base64 string in C# and use it for examples for data URI
+h2: Encode PNG to Base64 string in C# and use it for data URI
 ---
 
 {{<section overview>}}

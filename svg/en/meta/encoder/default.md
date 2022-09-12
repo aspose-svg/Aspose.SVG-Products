@@ -33,7 +33,7 @@ steps[4].url: "https://products.aspose.com/svg/{{lang.url-fragment}}net/{{i18n.i
 {{<section faq>}}
 ---
 qs[1].name: "How can I encode {{i18n.informat}} to Base64?"
-qs[1].text: "Aspose.SVG allows you to encode {{i18n.informat}} to Base64 in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online Encoders that transform your files quickly and with high quality. Upload, encode {{i18n.informat}} and get results in a few seconds! In other way, you can use Aspose.SVG for .NET API to convert {{i18n.informat}} to Base64 programmatically."
+qs[1].text: "Aspose.SVG allows you to encode {{i18n.informat}} to Base64 in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online Encoders that transform your files quickly and with high quality. Upload, encode {{i18n.informat}} and get results in a few seconds! On other hand, you can use Aspose.SVG for .NET API to convert {{i18n.informat}} to Base64 programmatically."
 qs[2].name: "What other output formats can use Base64 encoding?"
 qs[2].text: "The Base64 encoded string is used in various output formats: plain Base64, JSON, XML, data URI, or CSS."
 qs[3].name: "Why is Base64 Encoding needed?"

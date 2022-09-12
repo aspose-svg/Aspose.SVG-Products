@@ -40,9 +40,31 @@ A3: "A color space is a specific organization of colors that is a collection of 
 ---
 h2: FAQ
 Q1: "How can I convert {{i18n.informat}} to Base64?"
-A1: "Aspose.SVG allows you to convert {{i18n.informat}} to Base64 string in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online [{{i18n.informat}} Encoder](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) that converts your files quickly and with high quality. Upload, encode {{i18n.informat}} and get the result in a few seconds! In other way, you can use Aspose.SVG for .NET API to convert {{i18n.informat}} to Base64 programmatically."
+A1: "Aspose.SVG allows you to convert {{i18n.informat}} to Base64 string in any way - online or programmatically. For example, you can encode {{i18n.informat}} in real-time using Online [{{i18n.informat}} Encoder](https://products.aspose.app/svg/encoding/{{i18n.informat lower}}) that converts your files quickly and with high quality. Upload, encode {{i18n.informat}} and get the result in a few seconds! On other hand, you can use Aspose.SVG for .NET API to convert {{i18n.informat}} to Base64 programmatically."
 Q2: "Why is Base64 Encoding needed?"
 A2: "Historically, many data transfer and storage formats use text instead of binary code (HTML, XML, e-mail, and so on). What if the data transfer format is text-based, but you require to transfer the binary data? This is where Base64 encoding comes in. To prevent misinterpretation of binary symbols when sending data over the Internet, it is necessary to encode them into characters. Some typical applications of Base64 Encoding: data URI schemes for images (CSS, HTML, JavaScript); transferring pictures and other binary data to XML; storing images in a database; including images into email messages."
 Q3: "What browsers support Data URIs?"
 A3: "Data URI is the fastest and easiest way to embed images and other files on your web pages. Data URI is supported by major modern browsers: Chrome, Firefox, Safari, Edge, Opera, and IE8+."
+---
+
+{{<section faq-vectorizer>}}
+---
+h2: FAQ
+Q1: "How can I vectorize {{i18n.informat}}?"
+A1: "Aspose.SVG allows you to convert {{i18n.informat}} to SVG in any way - online or programmatically. For example, you can vectorize {{i18n.informat}} in real-time using Online [Image Vectorizer](https://products.aspose.app/svg/image-vectorization) that converts your images quickly and with high quality. On other hand, you can use Aspose.SVG for .NET API to vectorize {{i18n.informat}} programmatically."
+Q2: "What is the image vectorization for?"
+A2: "Vector images are essential for any professional who works with drawings, graphics, or sketches. Many designers, printers, architects, and artists often choose to work with sketches or drawings as vector images. And they have good reasons! Unlike bitmap graphics, vector arts are resizable and scalable without losing any quality, and they will still display just as clearly. Also, vectorization can be used to update or recover images. <br> Vector images are what you need to produce banners, logos, maps, signs, embroideries, engravings, graphs, blueprints, etc."
+Q3: "What is a raster to vector conversion?"
+A3: "The process of image conversion from raster to vector is called image vectorization. It is a complex computational process that converts a bitmap image made up of pixels into a vector image made up of lines, curves, and other geometric shapes."
+---
+
+{{<section faq-text-vectorization>}}
+---
+h2: FAQ
+Q1: "What does text vectorization mean?"
+A1: "In vectorized SVG text, all font glyphs are replaced by a combination of XML text tags such as `<path>`, `<use>`, `<g>`, etc. The text is converted to vector shapes and cannot be edited. This prevents casual users from opening and editing this file in a text editor."
+Q2: "Why should I convert text to vector?"
+A2: "Text vectorization protects text from simple copying, unwanted use, borrowing and modification. Vectorized text, being digital graphics, allows you to use a unique font without installing it on a client computer and retains its style when used in any computer environment. Text can be scaled while maintaining quality and apply any SVG effects to it. <br >When converting text to vector paths, you will no longer be able to edit the text like plain text. However, you will be able to edit vector paths. Vectorized text, which you can edit as a vector object, allows you to: customize font aspects, create logos or wordmarks, prepare assets for printing, reduce file or export size, combine multiple paths into one object, etc."
+Q3: "How can I convert text to vector?"
+A3: "Aspose.SVG allows you to vectorize SVG text in any way - online or programmatically. You can convert text to vector in real-time using Online [Text to Vector](https://products.aspose.app/svg/text-to-vector) application that vectorizes your text in SVG file quickly and with high quality. On other hand, you can use Aspose.SVG for .NET API to vectorize text programmatically."
 ---

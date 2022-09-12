@@ -64,7 +64,7 @@ h2: Steps to Convert SVG to BMP using ConvertSVG() Method
 ---
 
 1.  Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/) class.
-1.  Create a new  [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions) object with BMP ImageFormat. By default, the `Format` property is PNG.
+1.  Create a new  [ImageSaveOptions](https://reference.aspose.com/svg/net/aspose.svg.saving/imagesaveoptions/) object with BMP ImageFormat. By default, the `Format` property is PNG.
 1.  Use the [ConvertSVG()](https://reference.aspose.com/svg/net/aspose.svg.converters/converter/convertsvg/) method to save SVG as a BMP image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG() method.
 1.  The BMP file will be saved to the specified path.
 

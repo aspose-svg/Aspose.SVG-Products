@@ -17,7 +17,7 @@ h2: Use the C# library to convert  between color formats - RGB, HEX, HSL, HSV, C
 h2: Convert Color Codes Using C#
 ---
 
-In order to convert color codes, we’ll use <a href="https://products.aspose.com/svg/net/" target="_blank">Aspose.SVG for .NET API</a> which is a feature-rich, powerful and easy-to-use document manipulation library for the C# platform. With our C# library, you can easily convert color code from one color model to many others. Supports conversion from modern CSS3 and CSS4 color formats, for example, from and vice versa.<br><br>
+In order to convert color codes, we’ll use <a href="https://products.aspose.com/svg/{{lang.url-fragment}}net/" target="_blank">Aspose.SVG for .NET API</a> which is a feature-rich, powerful and easy-to-use document manipulation library for the C# platform. With our C# library, you can easily convert color code from one color model to many others. Supports conversion from modern CSS3 and CSS4 color formats, for example, from and vice versa.<br><br>
 The [Aspose.Svg.Converters](https://reference.aspose.com/svg/net/aspose.svg.converters/) namespace implements easy access to [ColorConverter](https://reference.aspose.com/svg/net/aspose.svg.converters/colorconverter/) class that parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the IConvertibleColor interface for converting to various color spaces.
 
 {{<section demos>}}

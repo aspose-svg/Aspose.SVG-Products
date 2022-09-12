@@ -59,7 +59,7 @@ feature8: 通过 CSS 选择器、元素和文档遍历进行导航
 feature9: 官方 SVG 规范的 DOM 树操作
 feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">将多个文件合并为一个文档</a>
 feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">在 Base64 中编码图像</a>
-feature12: 图像矢量化器
+feature12: <a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">图像矢量化器</a>
 ---
 
 {{<section converter>}}
@@ -127,6 +127,14 @@ using Aspose.Svg.Saving;
 	
 	// Save vectorized image as SVG file 
 	document.Save("output.svg");
+
+{{<section online-vectorization>}}
+
+您可以尝试在线 <a href="https://products.aspose.app/svg/image-vectorization" target="_blank">此处的图像矢量化器.</a>
+
+{{<section other-vectorizers>}}	
+
+其他支持的矢量化器: 
 
 {{<section merge>}}
 ---
