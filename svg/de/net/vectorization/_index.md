@@ -32,11 +32,11 @@ h2: Wie verwende ich den Bildvektorisierer?
 
 Der Image Vectorizer hat drei Bereiche: Source, Quantized und Vectorized.
 
-<b>Source</b> - dieser Bereich enthält das Quell-Rasterbild für die Vektorisierung.
+<b>Source Image</b> - dieser Bereich enthält das Quell-Rasterbild für die Vektorisierung.
 
-<b>Quantized</b> - dieser Bereich enthält ein Rasterbild nach Anwendung der Farbquantisierung. Die Farbquantisierung ist ein Prozess zur Auswahl einer begrenzten Anzahl von Farben, die in einem Bild verwendet werden sollen. Es wird angewendet, wenn die Farbinformationen eines Bildes reduziert werden sollen. Die Farbquantisierung ist ein sehr komplexer Prozess, an dem eine Reihe von Faktoren beteiligt sind. Dies kann unter Verwendung verschiedener Algorithmen implementiert werden. Jeder der Algorithmen bestimmt, welche Farben aus dem größeren Farbsatz im neuen Bild verbleiben und wie die verworfenen Farben den verbleibenden zugeordnet werden. <br>Sie können die Anzahl der <b>Farben</b> und andere Farbquantisierungseinstellungen in der Seitenleiste manuell auswählen.
+<b>Quantized Image</b> - dieser Bereich enthält ein Rasterbild nach Anwendung der Farbquantisierung. Die Farbquantisierung ist ein Prozess zur Auswahl einer begrenzten Anzahl von Farben, die in einem Bild verwendet werden sollen. Es wird angewendet, wenn die Farbinformationen eines Bildes reduziert werden sollen. Die Farbquantisierung ist ein sehr komplexer Prozess, an dem eine Reihe von Faktoren beteiligt sind. Dies kann unter Verwendung verschiedener Algorithmen implementiert werden. Jeder der Algorithmen bestimmt, welche Farben aus dem größeren Farbsatz im neuen Bild verbleiben und wie die verworfenen Farben den verbleibenden zugeordnet werden. <br>Sie können die Anzahl der <b>Farben</b> und andere Farbquantisierungseinstellungen in der Seitenleiste manuell auswählen.
 
-<b>Vectorized</b> - dieser Bereich enthält das vektorisierte Bild und eine Seitenleiste mit Einstellungen. Sie können Werte für Toleranz, Schweregrad, Spannung und Linienbreite festlegen. Weitere Einzelheiten zu Bildvektorisierungsoptionen finden Sie im Dokumentationsartikel <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">Beispiele für die Vektorisierung von Bildern.</a>
+<b>Vectorized Image</b> - dieser Bereich enthält das vektorisierte Bild und eine Seitenleiste mit Einstellungen. Sie können Werte für Toleranz, Schweregrad, Spannung und Linienbreite festlegen. Weitere Einzelheiten zu Bildvektorisierungsoptionen finden Sie im Dokumentationsartikel <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">Beispiele für die Vektorisierung von Bildern.</a>
 
 {{<section image-vectorization>}}
 ---

@@ -30,13 +30,13 @@ title: 图像矢量化
 h2: 如何使用图像矢量化器？
 ---
 
-Image Vectorizer 具有三个区域：Source、Quantized 和 Vectorized。
+Image Vectorizer 具有三个区域：Source Image、Quantized Image 和 Vectorized Image。
 
-<b>Source</b> - 此区域包含用于矢量化的源光栅图像。
+<b>Source Image</b> - 此区域包含用于矢量化的源光栅图像。
 
-<b>Quantized</b> - 此区域包含应用颜色量化后的光栅图像。颜色量化是选择有限数量的颜色以在图像中使用的过程。当要减少图像的颜色信息时应用它。颜色量化是一个非常复杂的过程，涉及许多因素。这可以使用不同的算法来实现。每个算法都确定较大颜色集中的哪些颜色保留在新图像中，以及丢弃的颜色如何映射到剩余的颜色。 <br>您可以在边栏中手动选择<b>颜色</b>的数量和其他颜色量化设置。
+<b>Quantized Image</b> - 此区域包含应用颜色量化后的光栅图像。颜色量化是选择有限数量的颜色以在图像中使用的过程。当要减少图像的颜色信息时应用它。颜色量化是一个非常复杂的过程，涉及许多因素。这可以使用不同的算法来实现。每个算法都确定较大颜色集中的哪些颜色保留在新图像中，以及丢弃的颜色如何映射到剩余的颜色。 <br>您可以在边栏中手动选择<b>颜色</b>的数量和其他颜色量化设置。
 
-<b>Vectorized</b> - 此区域包含矢量化图像和设置侧边栏。您可以设置公差、严重性、张力和线宽值。有关图像矢量化选项的更多详细信息，请参阅文档文章 <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">图像矢量化示例。</a>
+<b>Vectorized Image</b> - 此区域包含矢量化图像和设置侧边栏。您可以设置公差、严重性、张力和线宽值。有关图像矢量化选项的更多详细信息，请参阅文档文章 <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">图像矢量化示例。</a>
 
 {{<section image-vectorization>}}
 ---

@@ -37,13 +37,13 @@ Der Daten-URI bietet uns eine clevere Möglichkeit, Bilder auf einer Webseite ei
 h2: Wie verwende ich den Bildvektorisierer?
 ---
 
-1. Laden Sie zunächst das Rasterbild aus einem lokalen Dateisystem im JPEG-, JPG-, PJP-, PJPEG-, WEBP-, PNG-, BMP-, ICO-, GIF-, TIFF-, XBM- oder anderen Bitmap-Format. Sie sehen drei Fenster – Quelle, Quantisiert und Vektorisiert – mit der Vorschau der ursprünglichen, farbquantisierten und vektorisierten Bilder.
+1. Laden Sie zunächst das Rasterbild aus einem lokalen Dateisystem im JPEG-, JPG-, PJP-, PJPEG-, WEBP-, PNG-, BMP-, ICO-, GIF-, TIFF-, XBM- oder anderen Bitmap-Format. Sie sehen drei Fenster – Source Image, Quantized Image und Vectorized Image – mit der Vorschau der ursprünglichen, farbquantisierten und vektorisierten Bilder.
 1. Image Vectorizer konvertiert {{i18n.informat}} in Vektor mit Standardeinstellungen und Sie können vektorisiertes {{i18n.informat}} als SVG-Datei herunterladen. Aber um ein besseres Ergebnis zu erzielen, können Sie die Quantisierungs- und Vektorisierungsprozesse mit zwei Einstellungsseitenleisten handhaben. Klicken Sie auf die Schaltfläche „Quantize“, um die Quantisierungseinstellungen anzuwenden, klicken Sie auf die Schaltfläche „Vectorize“, um die Vektorisierungseinstellungen anzuwenden und {{i18n.informat}} in SVG umzuwandeln.
 1. Klicken Sie auf die Schaltfläche „Download Result“, um das Ergebnis zu erhalten. 
 
 Image Vectorizer wandelt Raster-Bitmap-Bilder in Vektorgrafiken um, die aus Umrissen aufgebaut sind. Der Vektorisierungsalgorithmus umfasst die nächsten Schritte: Farbquantisierung, Konturverfolgung, Spurglättung, Spurvereinfachung und Erstellen von SVG-Pfadelementen aus den Spuren. Wende benutzerdefinierte Einstellungen an, um das beste {{i18n.informat}}-Vektorisierungsergebnis zu erhalten.
 
-<b>Quantisierungs-Seitenleiste</b>
+<b> Seitenleiste Quantization Options</b>
 
 Die Farbquantisierung ist ein Prozess zur Auswahl einer begrenzten Anzahl von Farben, die in einem Bild verwendet werden sollen. Es wird angewendet, wenn die Farbinformationen eines Bildes reduziert werden sollen. Die Farbquantisierung ist ein sehr komplexer Prozess, an dem eine Reihe von Faktoren beteiligt sind. Dies kann unter Verwendung verschiedener Algorithmen implementiert werden. Jeder der Algorithmen bestimmt, welche Farben aus dem größeren Farbsatz im neuen Bild verbleiben und wie die verworfenen Farben den verbleibenden zugeordnet werden.
 
@@ -52,7 +52,7 @@ Die Farbquantisierung ist ein Prozess zur Auswahl einer begrenzten Anzahl von Fa
  - <b>minHueCols</b> - ist ein Parameter, der mit Farbverläufen arbeitet;
  - <b>scale</b> - oder Skalierungsfaktor wird für eine feinere oder gröbere Abtastung der Farben in der Ebene eingestellt.
 
-<b>Seitenleiste zur Vektorisierung</b>
+<b>Seitenleiste Vectorization Options</b>
 
 - <b>tolerance</b> - ist verantwortlich für die Verringerung der Anzahl von Punkten in einer Kurve, die durch eine Reihe von Trace-Punkten angenähert wird, und bestimmt die maximal zulässige Fehlertoleranz, damit ein Punkt aus dem Trace eliminiert werden kann. Der Standardwert ist 0,3;
 - <b>tension</b> - ist verantwortlich für das Erstellen von Pfadsegmenten aus der Liste der Verfolgungspunkte. Der Spannungswert bestimmt, wie stark sich die Kurve an den Kontrollpunkten krümmt;

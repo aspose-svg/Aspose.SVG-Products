@@ -30,13 +30,13 @@ You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free 
 h2: How to Use Image Vectorizer?
 ---
 
-The Image Vectorizer has three areas: Source, Quantized and Vectorized.
+The Image Vectorizer has three areas: Source Image, Quantized Image and Vectorized Image.
 
-<b>Source</b> - this area contains the source raster image for vectorization.
+<b>Source Image</b> - this area contains the source raster image for vectorization.
 
-<b>Quantized</b> - this area contains a raster image after applying color quantization. Color quantization is a process of selecting the limited number of colors to use in an image. It is applied when the color information of an image is to be reduced. Color quantization is a very complex process involving a number of factors. This can be implemented using different algorithms. Each of the algorithms determines which colors from the larger set of colors remain in the new image and how the discarded colors are mapped to the remaining ones. <br>You can manually select the number of <b>colors</b> and other color quantization settings in the sidebar.
+<b>Quantized Image</b> - this area contains a raster image after applying color quantization. Color quantization is a process of selecting the limited number of colors to use in an image. It is applied when the color information of an image is to be reduced. Color quantization is a very complex process involving a number of factors. This can be implemented using different algorithms. Each of the algorithms determines which colors from the larger set of colors remain in the new image and how the discarded colors are mapped to the remaining ones. <br>You can manually select the number of <b>colors</b> and other color quantization settings in the sidebar.
 
-<b>Vectorized</b> - this area contains the vectorized image and a settings sidebar. You can set a tolerance, severity, tension, and line-width valies. For more details about image vectorization options, please learn the documentation article <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">Image Vectorization Examples.</a>
+<b>Vectorized Image</b> - this area contains the vectorized image and a settings sidebar. You can set a tolerance, severity, tension, and line-width valies. For more details about image vectorization options, please learn the documentation article <a href="https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/image-vectorization-examples/" target="_blank">Image Vectorization Examples.</a>
 
 {{<section image-vectorization>}}
 ---

@@ -34,13 +34,13 @@ The data URI gives us a wise way to embed images on a web page. URI schemes can 
 h2: How to use Image Vectorizer?
 ---
 
-1. First, load the raster image from a local file system in JPEG, JPG, PJP, PJPEG, WEBP, PNG, BMP, ICO, GIF, TIFF, XBM or other bitmap format. You will see three windows - Source, Quantized and Vectorized - with the preview of initial, color-quantized and vectorized images.
+1. First, load the raster image from a local file system in JPEG, JPG, PJP, PJPEG, WEBP, PNG, BMP, ICO, GIF, TIFF, XBM or other bitmap format. You will see three windows - Source Image, Quantized Image and Vectorized Image - with the preview of initial, color-quantized and vectorized images.
 1. Image Vectorizer converts {{i18n.informat}} to vector with default settings and you can download vectorized {{i18n.informat}} as an SVG file. But for getting a better result, you can handle the quantization and vectorization processes with two settings sidebars. Click "Quantize" button to apply quantization settings, click "Vectorize" button to apply vectorization settings and convert {{i18n.informat}} to SVG.
 1. Click the "Download Result" button to get the resultant. 
 
  Image Vectorizer converts raster bitmap images into vector artwork constructed from outlines. The vectorization algorithm includes the next steps: color quantization, contour tracing, trace smoothing, trace simplification, and building SVG path elements from the traces. Apply custom settings to get the best {{i18n.informat}} vectorization result.
 
-<b>Quantization sidebar</b>
+<b>Quantization Options</b>
 
  Color quantization is a process of selecting the limited number of colors to use in an image. It is applied when the color information of an image is to be reduced. Color quantization is a very complex process involving a number of factors. This can be implemented using different algorithms. Each of the algorithms determines which colors from the larger set of colors remain in the new image and how the discarded colors are mapped to the remaining ones.
  
@@ -50,7 +50,8 @@ h2: How to use Image Vectorizer?
  - <b>scale</b> - or scaling factor is adjusted for a finer or coarser sampling of the colors in the plane.
 
 
-<b>Vectorization sidebar</b>
+<b>Vectorization Options</b>
+
 - <b>tolerance</b> -  is responsible for reducing the number of points in a curve that is approximated by a series of trace points and determines the maximum error tolerance allowed for a point to be eliminated from the trace. The default value is 0.3;
 - <b>tension</b> -  is responsible for building path segments from the list of trace points. The tension value determines how sharply the curve bends at the control points;
 - <b>severity</b> - affects contours' smoothing and determines the extent of the region considered by query point the Nearest Neighbor approach.
