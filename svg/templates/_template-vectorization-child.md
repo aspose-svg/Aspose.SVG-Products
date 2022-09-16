@@ -29,7 +29,12 @@ outformat: {{i18n.outformat}}
 
 {{i18n.plagin-text}}<br>
 
-{{i18n.app-plugin}}<br>
+
+{{% /blocks/products/pf/agp/content %}}
+
+{{i18n.app-plugin}}
+
+{{% blocks/products/pf/agp/content %}}
 
 <h2>{{<import path="/{{lang}}/partials/_content.md" section="vectorization-use.h2">}}</h2>
 
