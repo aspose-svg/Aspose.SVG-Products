@@ -36,6 +36,20 @@ title: C# code to convert BMP to Base64 string and embed it into SVG file
 
 In order to convert BMP to Base64 string, we use [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, which is a feature-rich, powerful, easy-to-use document manipulation API for the C# platform. We consider the example of BMP to Base64 encoding and embedding Base64 string as data URI into an SVG document. These operations can be done with a few lines of code:
 
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 inputFormat="BMP">}}
+using Aspose.Svg;
+using System;
+using System.IO;
+
+    using var document = new SVGDocument();
+    var img = (SVGImageElement)document.CreateElementNS("http://www.w3.org/2000/svg", "image");
+    img.Href.BaseVal = "data:image/bmp;charset=utf-8;base64," + Convert.ToBase64String(File.ReadAllBytes(@"image.bmp"));
+    document.RootElement.AppendChild(img);
+    document.Save(@"image-base64.svg");
+{{< /app/svg/base64>}} 
+
 {{<section "code-snippet" i18n-exclude>}}
 
 ```cs

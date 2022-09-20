@@ -29,6 +29,13 @@ outformat: {{i18n.outformat}}
 
 {{i18n.code-text}}<br>
 
+{{% /blocks/products/pf/agp/content %}}
+
+{{i18n.app-plugin}}
+
+{{% blocks/products/pf/agp/content %}}
+
+
 {{% blocks/products/pf/agp/code-block title="{{i18n.code-text.title}}" offSpacer="true" %}}
 
 {{i18n.code-snippet}} 
