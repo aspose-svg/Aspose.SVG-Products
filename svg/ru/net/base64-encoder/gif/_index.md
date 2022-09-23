@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Конвертировать GIF в Base64 на C#
-description: Преобразуйте GIF в Base64 на C# и используйте кодированную строку для схемы URI данных. Встраивайте Base64 строку в HTML, CSS, JSON, XML.
+title: Конвертировать GIF в Base64 - Онлайн Конвертер и C# код
+description: Преобразуйте GIF в Base64 онлайн или на C# и используйте кодированную строку для схемы URI данных. Встраивайте в HTML, CSS, JSON, XML.
 url: /net/gif-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Конвертируйте GIF в Base64 на C#
-h2: Кодируйте GIF в строку Base64 на C# и используйте ее в качестве примеров для URI данных.
+h1: Конвертируйте GIF в Base64
+h2: Кодируйте GIF в строку Base64 онлайн или на C# и используйте ее в качестве примеров для URI данных.
 ---
 
 {{<section overview>}}

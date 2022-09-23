@@ -1,8 +1,8 @@
 ---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Convert GIF to Base64 in C# code
-description: Convert GIF to Base64 in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
+title: Convert GIF to Base64 - Online Encoder and C# Code
+description: Convert GIF to Base64 online or in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
 url: /net/gif-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Convert GIF to Base64 via C#
-h2: Encode GIF to Base64 string in C# and use it for examples for data URI
+h1: Convert GIF to Base64 online or via C#
+h2: Encode GIF to Base64 string and use it for data URI examples. You can encode images online or with C#.
 ---
 
 {{<section overview>}}
@@ -35,6 +35,20 @@ title: C# code to convert GIF to Base64 string and embed it into SVG file
 ---
 
 In order to convert GIF to Base64 string, we use [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, which is a feature-rich, powerful, easy-to-use document manipulation API for the C# platform. We consider the example of GIF to Base64 encoding and embedding Base64 string as data URI into an SVG document. These operations can be done with a few lines of code:
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 inputFormat="GIF">}}
+using Aspose.Svg;
+using System;
+using System.IO;
+
+    using var document = new SVGDocument();
+    var img = (SVGImageElement)document.CreateElementNS("http://www.w3.org/2000/svg", "image");
+    img.Href.BaseVal = "data:image/gif;charset=utf-8;base64," + Convert.ToBase64String(File.ReadAllBytes(@"image.gif"));
+    document.RootElement.AppendChild(img);
+    document.Save(@"image-base64.svg");
+{{< /app/svg/base64>}} 
 
 {{<section "code-snippet" i18n-exclude>}}
 

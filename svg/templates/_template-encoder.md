@@ -14,6 +14,12 @@ feature: encode
 
 {{i18n.base64}}
 
+<h2>{{i18n.text-plugin.h2}}</h2>
+
+{{<import path="/{{lang}}/partials/_content.md" section="encode-plugin">}}
+
+{{i18n.app-plugin}}
+
 <h2>{{i18n.demos.h2}}</h2>
 
 <p>{{i18n.demos}}</p>

@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: 在 C# 中将 ICO 转换为 Base64
-description: 在 C# 中将 ICO 转换为 Base64，并使用编码字符串作为数据 URI。将其嵌入 HTML、CSS、XML、JSON 等。
+title: 将 ICO 转换为 Base64 - 在线编码器和 C# 代码
+description: 在线或在 C# 中将 ICO 转换为 Base64，并使用编码字符串作为数据 URI。 将其嵌入 HTML、CSS、XML、JSON 等。
 url: /net/ico-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: 通过 C# 将 ICO 转换为 Base64
-h2: 在 C# 中将 ICO 编码为 Base64 字符串并将其用作数据 URI 的示例
+h1: 在线或使用 C# 将 ICO 转换为 Base64
+h2: 将 ICO 编码为 Base64 字符串并将其用于数据 URI。 您可以在线或使用 C# 对图像进行编码。
 ---
 
 {{<section overview>}}

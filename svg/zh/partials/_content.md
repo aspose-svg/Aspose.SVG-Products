@@ -3,6 +3,18 @@ translation: true
 deploy: false
 ---
 
+{{<section encode-plugin>}}
+---
+h2: 在线编码图像
+---
+
+使用 [Aspose.SVG for .NET](https://products.aspose.com/svg/{{lang.url-fragment}}net/) API 实时编码图像！ 请从本地文件系统加载图像，您将立即获得数据 URI、Base64 图像源和 Base64 CSS 背景源的结果。 支持JPG、JPEG、PJP、PJPEG、PNG、BMP、XBM、GIF、TIFF、ICO、IFIF、WEBP等图片格式。
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< /app/svg/base64>}} 
+
 {{<section encode-online>}}
 
 Aspose.SVG 提供免费的在线应用程序来编码和解码二进制数据：

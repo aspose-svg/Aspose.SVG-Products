@@ -3,6 +3,18 @@ translation: true
 deploy: false
 ---
 
+{{<section encode-plugin>}}
+---
+h2: Bilder online kodieren
+---
+
+Codieren Sie Bilder mit [Aspose.SVG for .NET](https://products.aspose.com/svg/{{lang.url-fragment}}net/)-API in Echtzeit! Bitte laden Sie ein Bild aus dem lokalen Dateisystem und Sie erhalten sofort das Ergebnis als Daten-URI, Base64-Bildquelle und Base64-CSS-Hintergrundquelle. JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP und andere Bildformate werden unterstützt.
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< /app/svg/base64>}} 
+
 {{<section encode-online>}}
 
  - [Base64-Encoder](https://products.aspose.app/svg/encoding) sind eine Reihe von Tools, mit denen Sie Binärdaten in verschiedenen Ausgabeformaten codieren können: Plain Base64, JSON, XML, URI oder CSS.

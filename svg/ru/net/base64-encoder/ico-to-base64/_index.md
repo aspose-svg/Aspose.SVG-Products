@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Конвертировать ICO в Base64 на C#
-description: Преобразуйте ICO в Base64 на C# и используйте кодированную строку для URI данных. Встраивайте его в HTML, CSS, XML, JSON и другие.
+title: Конвертировать ICO в Base64 - Онлайн Конвертер и C# код
+description: Преобразуйте ICO в Base64 онлайн или на C# и используйте кодированную строку для URI данных. Встраивайте в HTML, CSS, XML, JSON и др.
 url: /net/ico-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Конвертируйте изображение ICO в Base64 на C#
-h2: Кодируйте строку ICO в Base64 на C# и используйте ее в качестве примеров для URI данных.
+h1: Конвертируйте изображение ICO в Base64
+h2: Кодируйте строку ICO в Base64 онлайн или на C# и используйте ее в качестве примеров для URI данных.
 ---
 
 {{<section overview>}}

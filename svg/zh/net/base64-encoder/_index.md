@@ -1,16 +1,26 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder.md
-title: 在 C# 代码中将图像编码为 Base64
+title: 将图像编码为 Base64 - 在线编码器和 C# 代码
 url: /net/base64-encoder/
-description: 在 C# 代码中将图像转换为 Base64。使用编码为数据 URI 的 Base64 图像将它们嵌入 HTML、CSS 或 JSON。
+description: 在线或在 C# 代码中将图像转换为 Base64。 使用编码为数据 URI 的 Base64 图像将它们嵌入 HTML、CSS 或 JSON。
 ---
 
 {{<section banner>}}
 ---
-h1: 在 C# 中将图像编码为 Base64
-h2: 在 C# 中将图像转换为 Base64 编码的字符串。支持 JPG、PNG、BMP、GIF、TIFF、ICO 和 SVG 格式。
+h1: 在线或在 C# 中将图像编码为 Base64
+h2: 将图像转换为 Base64 编码的字符串。 支持JPG、JPEG、PJP、PJPEG、PNG、BMP、XBM、GIF、TIFF、ICO、IFIF、WEBP等图片格式。
 ---
+
+{{<section text-plugin>}}
+---
+h2: 在线将图片转Base64
+---
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 inputFormat="Image" sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< /app/svg/base64>}} 
 
 {{<section base64>}}
 ---
@@ -20,7 +30,7 @@ title: Base64 编码
 
 Base64 是一组类似的编码方案，用于将二进制数据转换为 ASCII 文本格式。 Base64 通常用于通过 Internet 传输数据。将图像转换为 Base64 的结果只是一组拉丁字母、数字和两个字符——“+”和“/”。任何浏览器都知道如何处理它们。换句话说，Base64 是一种二进制到文本的编码。 Base64 编码字符串用于各种输出格式：普通 Base64、JSON、XML、数据 URI 或 CSS。
 
- Base64 在 Web 上特别常见，它的用途包括将图像文件或其他二进制资源嵌入文本资源(如 HTML 和 CSS 文件)中的能力。在 HTML 文件中包含图像数据意味着浏览器不需要发出额外的 Web 请求来检索文件，因为图像已经嵌入在 HTML 文档中。建议仅对小图像使用 base64 编码。大型 base64 图像会导致 HTML 中的大量代码，从而导致性能优势的损失。还应该注意的是，base64 图像永远不会被 Google 索引，因为它不会出现在图像搜索中。
+ Base64 在 Web 上特别常见，它的用途包括将图像文件或其他二进制资源嵌入文本资源(如 HTML 和 CSS 文件)中的能力。在 HTML 文件中包含图像数据意味着浏览器不需要发出额外的 Web 请求来检索文件，因为图像已经嵌入在 HTML 文档中。建议仅对小图像使用 Base64 编码。大型 base64 图像会导致 HTML 中的大量代码，从而导致性能优势的损失。还应该注意的是，base64 图像永远不会被 Google 索引，因为它不会出现在图像搜索中。
 
 {{<section demos>}}
 ---

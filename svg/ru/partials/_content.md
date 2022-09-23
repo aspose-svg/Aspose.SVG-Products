@@ -3,6 +3,18 @@ translation: true
 deploy: false
 ---
 
+{{<section encode-plugin>}}
+---
+h2: Кодируйте изображения онлайн
+---
+
+Кодируйте изображения с помощью [Aspose.SVG for .NET](https://products.aspose.com/svg/{{lang.url-fragment}}net/) API в режиме реального времени! Загрузите изображение из локальной файловой системы, и вы немедленно получите результат в виде data URI, Base64 Image для встраивания в HTML и CSS Background. Поддерживаются JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP и другие форматы изображений.
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< /app/svg/base64>}} 
+
 {{<section encode-online>}}
 
 Aspose.SVG предлагает бесплатные онлайн-приложения для кодирования и декодирования двоичных данных:

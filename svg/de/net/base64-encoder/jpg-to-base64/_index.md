@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Konvertieren Sie JPG in Base64 in C#
-description: Konvertieren Sie JPG in C# in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON.
+title: Konvertieren Sie JPG in Base64 - Online-Encoder und C#-Code
+description: Konvertieren Sie JPG in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON.
 url: /net/jpg-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Konvertieren Sie JPG in Base64 in C#
-h2: Codieren Sie JPG in eine Base64-Zeichenfolge in C# und verwenden Sie sie als Beispiele für Daten-URI
+h1: Konvertieren Sie JPG in Base64 online oder über C#
+h2: Codieren Sie JPG in eine Base64-Zeichenfolge und verwenden Sie sie als Beispiele für Daten-URI
 ---
 
 {{<section overview>}}
