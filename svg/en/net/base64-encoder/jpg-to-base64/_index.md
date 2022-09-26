@@ -1,8 +1,8 @@
 ---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Convert JPG to Base64 in C# code
-description: Convert JPG to Base64 in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
+title: Convert JPG to Base64 - Online Encoder and C# Code
+description: Convert JPG to Base64 online or in C# and use an encoded string for data URI. Embed it into HTML, CSS, XML, JSON and others.
 url: /net/jpg-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Convert JPG to Base64 in C#
-h2: Encode JPG to Base64 string in C# and use it for examples for data URI
+h1: Convert JPG to Base64 online or in C#
+h2: Encode JPG to Base64 string and use it for data URI examples. You can encode images online or with C#.
 ---
 
 {{<section overview>}}
@@ -37,7 +37,7 @@ title: C# code to convert JPG to Base64 string and embed it into SVG file
 In order to convert JPG to Base64 string, we use [Aspose.SVG for .NET](https://products.aspose.com/svg/net/) API, which is a feature-rich, powerful, easy-to-use document manipulation API for the C# platform. We consider the example of JPG to Base64 encoding and embedding Base64 string as data URI into an SVG document. These operations can be done with a few lines of code:
 
 {{<section "code-snippet" i18n-exclude>}}
-{{<app/svg/imagebase64encoder id="1" inputFormat="JPG">}}
+```cs
     // Open a binary file - JPG image
     var bytes = File.ReadAllBytes(@"image.jpg");
     // Initialize an SVGDocument object
@@ -50,7 +50,7 @@ In order to convert JPG to Base64 string, we use [Aspose.SVG for .NET](https://p
     document.RootElement.AppendChild(img);
     // Save the SVG document
     document.Save(@"image-base64.svg");
-{{</app/svg/imagebase64encoder>}}
+```
 
 {{<section steps>}}
 ---

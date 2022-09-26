@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Конвертировать BMP в Base64 на C#
-description: Преобразуйте BMP в Base64 в C# и используйте кодированную строку для URI данных. Встраивайте ее в HTML, CSS, XML, JSON и другие документы.
+title: Конвертировать BMP в Base64 - C# код и Онлайн Конвертер
+description: Преобразуйте BMP в Base64 и используйте кодированную строку для URI данных. Встраивайте ее в HTML, CSS, XML, JSON и другие документы.
 url: /net/bmp-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Преобразование BMP в Base64 на C#
-h2: Кодируйте строку BMP в Base64 на C# и используйте ее в качестве примеров для URI данных.
+h1: Преобразование BMP в Base64
+h2: Кодируйте строку BMP в Base64 онлайн или на C# и используйте ее в качестве примеров для URI данных.
 ---
 
 {{<section overview>}}

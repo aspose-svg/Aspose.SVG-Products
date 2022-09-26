@@ -3,6 +3,18 @@ translation: true
 deploy: false
 ---
 
+{{<section encode-plugin>}}
+---
+h2: Encode Images online
+---
+
+Encode images with [Aspose.SVG for .NET](https://products.aspose.com/svg/{{lang.url-fragment}}net/) API in real-time! Please load an image from the local file system and you will immediately get the result as a data URI, Base64 Image Source, and Base64 CSS Background Source. JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP and other image formats are supported.
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 sourceImage="/svg/images/encoder/lighthouse.jpg">}}
+{{< /app/svg/base64>}} 
+
 {{<section encode-online>}}
 
 Aspose.SVG offers free online applications for encodind and decoding binary data:

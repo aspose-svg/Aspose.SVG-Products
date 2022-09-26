@@ -1,16 +1,26 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder.md
-title: Bild in Base64 in C#-Code codieren
+title: Konvertieren Sie das Bild in Base64 - Online-Encoder und C#-Code
 url: /net/base64-encoder/
-description: Konvertieren Sie das Bild in C# in Base64. Verwenden Sie als Daten-URIs codierte Base64-Bilder, um sie in HTML, CSS oder JSON einzubetten.
+description: Konvertieren Sie das Bild in Base64. Verwenden Sie als Daten-URIs codierte Base64-Bilder, um sie in HTML, CSS oder JSON einzubetten.
 ---
 
 {{<section banner>}}
 ---
-h1: Bild in Base64 in C# codieren
-h2: Konvertieren Sie das Bild in C# in eine Base64-codierte Zeichenfolge. JPG-, PNG-, BMP-, GIF-, TIFF-, ICO- und SVG-Formate werden unterstützt.
+h1: Bild in Base64 online oder über C# codieren
+h2: Konvertieren Sie das Bild in eine Base64-codierte Zeichenfolge. JPG-, PNG-, BMP-, GIF-, TIFF-, ICO- und SVG-Formate werden unterstützt.
 ---
+
+{{<section text-plugin>}}
+---
+h2: Konvertieren Sie das Bild online in Base64
+---
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 inputFormat="Image" sourceImage="/svg/images/encoder/yellow.jpg">}}
+{{< /app/svg/base64>}} 
 
 {{<section base64>}}
 ---

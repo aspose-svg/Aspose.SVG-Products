@@ -20,10 +20,20 @@ outformat: {{i18n.outformat}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{% blocks/products/pf/agp/content h2="{{i18n.overview.h2}}" %}}
+{{% blocks/products/pf/agp/content h2="{{<import path="/{{lang}}/partials/_content.md" section="encode-plugin.h2">}}" %}}
 
-{{i18n.overview}}
-<br>
+{{<import path="/{{lang}}/partials/_content.md" section="encode-plugin">}}
+<br><br>
+
+{{% /blocks/products/pf/agp/content %}}
+
+{{<import path="/{{lang}}/partials/_content.md" section="app-plugin">}}
+
+{{% blocks/products/pf/agp/content %}}
+
+<h2>{{i18n.overview.h2}}</h2>
+
+{{i18n.overview}}<br>
 
 <h2>{{i18n.code-text.h2}}</h2>
 

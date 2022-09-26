@@ -1,16 +1,26 @@
 ---
 translation: true
 template: /templates/_template-encoder.md
-title: Encode Image to Base64 in C# code
+title: Encode Image to Base64 - Online Encoder and C# Code
 url: /net/base64-encoder/
-description: Convert image to Base64 in C# code. Use Base64 images encoded as data URIs to embed them in HTML, CSS, or JSON.
+description: Convert Image to Base64 online or in C# code. Use Base64 images encoded as data URIs to embed them in HTML, CSS, or JSON.
 ---
 
 {{<section banner>}}
 ---
-h1: Encode Image to Base64 in C# 
-h2: Convert Image to Base64 encoded string in C#. JPG, PNG, BMP, GIF, TIFF, ICO, and SVG formats are supported.
+h1: Encode Image to Base64 online or in C# 
+h2: Convert Image to Base64 encoded string. JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP, and other image formats are supported.
 ---
+
+{{<section text-plugin>}}
+---
+h2: Convert Image to Base64 online
+---
+
+{{<section "app-plugin" i18n-exclude>}}
+
+{{< app/svg/base64 inputFormat="Image" sourceImage="/svg/images/encoder/yellow.jpg">}}
+{{< /app/svg/base64>}} 
 
 {{<section base64>}}
 ---
@@ -20,7 +30,7 @@ title: Base64 Encoding
 
 Base64 is a group of similar encoding schemes to convert binary data into an ASCII text format. Base64 is generally used to transfer data over the Internet. The result of converting an image to Base64 is just a set of Latin letters, numbers and two characters - “+” and “/”. Any browser knows what to do with them. In other words, Base64 is a kind of binary-to-text encoding. The Base64 encoded string is used in various output formats: plain Base64, JSON, XML, data URI, or CSS.
 
- Base64 is especially common on the Web, where its use includes the ability to embed image files or other binary resources within text resources such as HTML and CSS files. Including the image data in the HTML file means the browser does not need to make an additional web request to retrieve the file because the image is already embedded in the HTML document. It is recommended to use base64 encoding only for small images. Large base64 images result in a lot of code in HTML, which results in a loss of performance benefits. It should also be noted that a base64 image will never be indexed by Google because it doesn't show up in image searches.
+ Base64 is especially common on the Web, where its use includes the ability to embed image files or other binary resources within text resources such as HTML and CSS files. Including the image data in the HTML file means the browser does not need to make an additional web request to retrieve the file because the image is already embedded in the HTML document. It is recommended to use Base64 encoding only for small images. Large Base64 images result in a lot of code in HTML, which results in a loss of performance benefits. It should also be noted that a Base64 image will never be indexed by Google because it doesn't show up in image searches.
 
 {{<section demos>}}
 ---
@@ -28,7 +38,7 @@ h2: Convert Image to Base64 in C#
 title: C# code to convert PNG image to Base64
 ---
 
-This article considers how to encode an image file to a Base64 string using Aspose.SVG .NET API features. The following C# example demonstrates how to convert a PNG image to a Base64 string and embed it into an SVG file. The ReadAllBytes(string) method is used to open an image  (binary file) and read the contents of the file into a byte array. The ToBase64String(bytes) method converts an array of 8-bit integers to its equivalent string representation encoded in base 64 digits. The AppendChild() method then adds the base64 encoded image to the SVG document.
+This article considers how to encode an image file to a Base64 string using Aspose.SVG .NET API features. The following C# example demonstrates how to convert a PNG image to a Base64 string and embed it into an SVG file. The ReadAllBytes(string) method is used to open an image  (binary file) and read the contents of the file into a byte array. The ToBase64String(bytes) method converts an array of 8-bit integers to its equivalent string representation encoded in base 64 digits. The AppendChild() method then adds the Base64 encoded image to the SVG document.
 
 {{<section "code" i18n-exclude>}}
 
@@ -65,7 +75,7 @@ h2: Example of embedded a Base64 image as CSS background code
 title: CSS code to embed Base64 Image as data URI
 ---
 
-One more way to reduce the number of HTTP requests for images - is the CSS `background-image` property usage. The `background-image` property defines images as the background of an element. Each image for the background-image property can be specified as a URL or as an image data URI. The difference is that in the first case the browser sends an HTTP request to get the external image, while in the second case the base64 image is directly embedded in the document and does not point out other sources. Therefore, the browser doesn’t need to load HTTP requests to deliver the output.
+One more way to reduce the number of HTTP requests for images - is the CSS `background-image` property usage. The `background-image` property defines images as the background of an element. Each image for the background-image property can be specified as a URL or as an image data URI. The difference is that in the first case the browser sends an HTTP request to get the external image, while in the second case the Base64 image is directly embedded in the document and does not point out other sources. Therefore, the browser doesn’t need to load HTTP requests to deliver the output.
 
 {{<section svg>}}
 ---

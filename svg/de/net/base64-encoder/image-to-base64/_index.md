@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Konvertieren Sie das Bild in C# in Base64
-description: Konvertieren Sie Image in C# in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, JSON.
+title: Bild in Base64 konvertieren – Online-Encoder und C#-Code
+description: Konvertieren Sie das Bild in Base64 online oder in C# und verwenden Sie eine codierte Zeichenfolge, um es in HTML, CSS, XML, JSON einzubetten.
 url: /net/image-to-base64/
 family: svg
 platformtag: net
@@ -13,8 +13,8 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Konvertieren Sie das Bild in C# in Base64
-h2: Codieren Sie das Bild in C# in eine Base64-Zeichenfolge und verwenden Sie es als Beispiel für Daten-URI
+h1: Konvertieren Sie das Bild in Base64 online oder über C#
+h2: Codieren Sie das Bild in eine Base64-Zeichenfolge und verwenden Sie es als Beispiel für Daten-URI
 ---
 
 {{<section overview>}}

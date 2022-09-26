@@ -1,8 +1,8 @@
 ﻿---
 translation: true
 template: /templates/_template-encoder-child.md
-title: Konvertieren Sie SVG in C# in Base64
-description: Konvertieren Sie SVG in C# in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON.
+title: Konvertieren Sie SVG in Base64 - Online-Encoder und C#-Code
+description: Konvertieren Sie SVG in Base64 und verwenden Sie eine codierte Zeichenfolge für den Daten-URI. Betten Sie es in HTML, CSS, XML, JSON.
 url: /net/svg-to-base64/
 family: svg
 platformtag: net
@@ -13,7 +13,7 @@ outformat: Base64
 
 {{<section banner>}}
 ---
-h1: Konvertieren Sie SVG in C# in Base64
+h1: Konvertieren Sie SVG in Base64 online oder über C#
 h2: Codieren Sie das SVG-Bild in C# in eine Base64-Zeichenfolge und verwenden Sie es als Beispiel für Daten-URI
 ---
 

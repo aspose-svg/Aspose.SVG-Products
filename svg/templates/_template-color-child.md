@@ -30,7 +30,11 @@ otherformats: {{i18n.otherformats}}
 
 {{i18n.code-text}}<br>
 
+{{% /blocks/products/pf/agp/content %}}
+
 {{i18n.app-pluging}}
+
+{{% blocks/products/pf/agp/content %}}
 
 <h2>{{i18n.steps.h2}}</h2>
 
