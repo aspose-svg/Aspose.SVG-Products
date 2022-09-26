@@ -19,7 +19,7 @@ h2: Konvertieren Sie das Bild online in Base64
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{< app/svg/base64 inputFormat="Image" sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< app/svg/base64 inputFormat="Image" sourceImage="/svg/images/encoder/yellow.jpg">}}
 {{< /app/svg/base64>}} 
 
 {{<section base64>}}

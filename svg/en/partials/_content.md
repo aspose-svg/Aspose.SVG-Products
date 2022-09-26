@@ -12,7 +12,7 @@ Encode images with [Aspose.SVG for .NET](https://products.aspose.com/svg/{{lang.
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< app/svg/base64 sourceImage="/svg/images/encoder/lighthouse.jpg">}}
 {{< /app/svg/base64>}} 
 
 {{<section encode-online>}}

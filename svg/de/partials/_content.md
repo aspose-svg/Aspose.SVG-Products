@@ -12,7 +12,7 @@ Codieren Sie Bilder mit [Aspose.SVG for .NET](https://products.aspose.com/svg/{{
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< app/svg/base64 sourceImage="/svg/images/encoder/lighthouse.jpg">}}
 {{< /app/svg/base64>}} 
 
 {{<section encode-online>}}

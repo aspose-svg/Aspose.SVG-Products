@@ -12,7 +12,7 @@ h2: 在线编码图像
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< app/svg/base64 sourceImage="/svg/images/encoder/horses.jpg">}}
 {{< /app/svg/base64>}} 
 
 {{<section encode-online>}}

@@ -12,7 +12,7 @@ h2: Кодируйте изображения онлайн
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{< app/svg/base64 sourceImage="/svg/images/encoder/tulip.jpg">}}
+{{< app/svg/base64 sourceImage="/svg/images/encoder/sea.jpg">}}
 {{< /app/svg/base64>}} 
 
 {{<section encode-online>}}
