@@ -23,7 +23,7 @@ title: Векторизация изображений
 
 {{<section "app-pluging" i18n-exclude>}}
 
-{{<app/svg/imagevectorizer id="1" inputFormat="Image">}}{{</app/svg/imagevectorizer>}}
+{{<app/svg/imagevectorizer id="1" inputFormat="Image" sourceImage="/svg/images/vectorization/flower.png">}}{{</app/svg/imagevectorizer>}}
 
 {{<section plugin-use>}}
 ---
