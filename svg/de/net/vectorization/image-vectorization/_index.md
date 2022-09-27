@@ -34,7 +34,7 @@ Sind Sie bereit, vom Malen mit Pixeln zum Zeichnen mit Vektoren überzugehen? Im
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{<app/svg/imagevectorizer id="1" inputFormat="Image">}}{{</app/svg/imagevectorizer>}} 
+{{<app/svg/imagevectorizer id="1" inputFormat="Image" sourceImage="/svg/images/vectorization/flower.png">}}{{</app/svg/imagevectorizer>}} 
 
 {{<section code-text>}}
 ---
@@ -76,9 +76,7 @@ title: Schritte zum Vektorisieren von Bildern in C#
     - Die Eigenschaft [TraceSimplifier](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizerconfiguration/tracesimplifier/) legt die Ablaufverfolgung vereinfacht fest. Als Ergebnis wird die Spurkurve aus Liniensegmenten mit weniger (oder größeren) Punkten aufgebaut.
     - Die Eigenschaft [PathBuilder](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizerconfiguration/pathbuilder/) legt den Builder für SVG-Pfadsegmente fest und beeinflusst, wie stark sich die Kurve an den Kontrollpunkten krümmt.
 1. Bild aus der angegebenen Datei vektorisieren. Die Methode [Vectorize()](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/imagevectorizer/vectorize/) nimmt den Pfad zur Bilddatei und gibt ein SVGDocument zurück.
-1. Speichern Sie das vektorisierte Bild als SVG-Datei. Verwenden Sie die Methode [Save()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/#save_6) und übergeben Sie ihr den Ausgabepfad.
-
-  
+1. Speichern Sie das vektorisierte Bild als SVG-Datei. Verwenden Sie die Methode [Save()](https://reference.aspose.com/svg/net/aspose.svg/svgdocument/save/#save_6) und übergeben Sie ihr den Ausgabepfad.  
 
 {{<section documentation>}}
 ---

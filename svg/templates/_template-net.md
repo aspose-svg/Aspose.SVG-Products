@@ -328,8 +328,9 @@ weight: 20
 <div class="row">
 	<div class="col-md-3">
 		<ul>
-			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Image to SVG</a></li>
-			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/">Text to Vector </a></li>						
+			<li><a href="/svg/{{lang.url-fragment}}net/image-vectorization/">Image Vectorization</a></li>
+			<li><a href="/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/">Text to Vector </a></li>
+            <li><a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Imaget to SVG </a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">		

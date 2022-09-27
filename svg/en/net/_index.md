@@ -59,7 +59,7 @@ feature8: Navigate via CSS Selectors, Element and Document Traversal
 feature9: DOM Tree manipulation of official SVG specifications
 feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Merge multiple files into one document</a>
 feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">Encode Images to Base64</a>
-feature12: <a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Image Vectorizer</a>
+feature12: <a href="/svg/{{lang.url-fragment}}net/image-vectorization/">Image Vectorizer</a>
 ---
 
 {{<section converter>}}

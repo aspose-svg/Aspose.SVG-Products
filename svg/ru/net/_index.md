@@ -59,7 +59,7 @@ feature8: Навигация с помощью селекторов CSS, обх�
 feature9: Манипуляции DOM Tree согласно официальным спецификациям SVG
 feature10: <a href="/svg/{{lang.url-fragment}}net/merger/">Объединение нескольких файлов в один документ</a>
 feature11: <a href="/svg/{{lang.url-fragment}}net/base64-encoder/">Кодирование изображения в Base64</a>
-feature12: <a href="/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/">Векторизация изображений</a>
+feature12: <a href="/svg/{{lang.url-fragment}}net/image-vectorization/">Векторизация растровых изображений</a>
 ---
 
 {{<section converter>}}
