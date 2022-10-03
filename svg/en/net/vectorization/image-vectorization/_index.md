@@ -34,7 +34,7 @@ Are you ready to go from painting with pixels to drawing with vectors? Image Vec
 
 {{<section "app-plugin" i18n-exclude>}}
 
-{{<app/svg/imagevectorizer id="1" inputFormat="Image">}}{{</app/svg/imagevectorizer>}} 
+{{<app/svg/imagevectorizer id="1" inputFormat="Image" sourceImage="/svg/images/encoder/flower.jpg">}}{{</app/svg/imagevectorizer>}} 
 
 {{<section code-text>}}
 ---
