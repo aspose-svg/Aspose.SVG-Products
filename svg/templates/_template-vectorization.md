@@ -14,8 +14,9 @@ feature: encode
 
 {{i18n.overview}}
 <br>
-
+<a name="plugin"></a>
 {{i18n.app-pluging}}
+
 <br>
 
 <h2>{{i18n.plugin-use.h2}}</h2>

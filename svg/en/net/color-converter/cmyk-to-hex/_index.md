@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="CMYK" output="HEX">}}
 // Parse CMYK color from a string
-var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
+var color = Color.FromString("cmyk(82%, 59%, 0%, 15%)");
 
 // Convert CMYK to HEX 
-string hexColor = color.ToHexString();
+string hexColor = color.ToRgbHexString();
 
 // Print the result into console
 Console.WriteLine(hexColor);

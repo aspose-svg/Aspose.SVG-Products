@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="HSV" output="HSL">}}
 // Parse HSV color from a string
-var color = ColorConverter.ConvertFrom("hsv(223.0,82%,85%)");
+var color = Color.FromString("hsv(223.0,82%,85%)");
 
 // Convert HSV to HSL 
-string hslColor = color.ToHslString();
+string hslColor = color.Convert(ColorModel.Hsl).ToString(false,false,2);
 
 // Print the result into console
 Console.WriteLine(hslColor);

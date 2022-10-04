@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="RGB" output="CMYK">}}
 // Parse RGB color from a string
-var color = ColorConverter.ConvertFrom("rgb(222, 180, 135)");
+var color = Color.FromRgb(222, 180, 135);
 
 // Convert RGB to CMYK 
-string cmykColor = color.ToCmykString();
+string cmykColor = color.Convert(ColorModel.Cmyk).ToString(false, false, 0);
 
 // Print the result into console
 Console.WriteLine(cmykColor);

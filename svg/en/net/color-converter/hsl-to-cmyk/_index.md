@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="HSL" output="CMYK">}}
 // Parse HSL color from a string
-var color = ColorConverter.ConvertFrom("hsl(31.034, 57%, 70%)");
+var color = Color.FromString("hsl(31.034, 57%, 70%)");
 
 // Convert HSL to CMYK 
-string cmykColor = color.ToCmykString();
+string cmykColor = color.Convert(ColorModel.Cmyk).ToString(false, false, 3);
 
 // Print the result into console
 Console.WriteLine(cmykColor);

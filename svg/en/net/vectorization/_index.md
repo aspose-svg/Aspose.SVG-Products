@@ -22,8 +22,7 @@ A raster image is a map of pixels - dots or grains - on film, paper or screen. E
 You can vectorize image with Aspose.SVG for .NET API in real-time. Try our free Image Vectorizer and convert pixel color information into simple geometric objects! Please select an image to vectorize. JPG, JPEG, PJP, PJPEG, PNG, BMP, XBM, GIF, TIFF, ICO, IFIF, WEBP and other bitmap formats are supported.
 
 {{<section "app-pluging" i18n-exclude>}}
-
-{{<app/svg/imagevectorizer id="1" inputFormat="Image" sourceImage="/svg/images/encoder/flower.jpg">}}{{</app/svg/imagevectorizer>}}
+{{<app/svg/imagevectorizer id="1" inputFormat="Image"  sourceImage="/svg/images/encoder/flower.jpg">}}{{</app/svg/imagevectorizer>}}
 
 {{<section plugin-use>}}
 ---
@@ -50,17 +49,21 @@ Converting an image to vector is very easy with <a href="https://products.aspose
 
 ```cs       
 	// Initialize an instance of the ImageVectorizer class
-    var vectorizer = new ImageVectorizer
+	var vectorizer = new ImageVectorizer
     {
-        Configuration = 
-		{
-			// Set severity
-			TraceSmoother =   new ImageTraceSmoother(3),
-			// Set tolerance
-			TraceSimplifier = new ImageTraceSimplifier(0.3f),
-			// Set tension
-        	PathBuilder = new PathBuilder(0.5f),
-		}
+		//optionally set configuration
+        Configuration =
+        {
+			//optionally set path builder
+            PathBuilder = new BezierPathBuilder {
+			//optionally set trace smoother
+            TraceSmoother = new ImageTraceSmoother(1),
+                ErrorThreshold =  30,
+                MaxIterations = 30
+            },
+            ColorsLimit = 25,
+            LineWidth = 1
+        }
     };
     // Vectorize image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.jpg");
