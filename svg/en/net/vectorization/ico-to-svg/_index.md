@@ -57,17 +57,21 @@ Aspose.SVG for the .NET API provides classes and methods that allow you to imple
 
 ```cs       
 	// Initialize an instance of the ImageVectorizer class
-    var vectorizer = new ImageVectorizer
+	var vectorizer = new ImageVectorizer
     {
-        Configuration = 
-		{
-			// Set severity
-			TraceSmoother =   new ImageTraceSmoother(3),
-			// Set tolerance
-			TraceSimplifier = new ImageTraceSimplifier(0.3f),
-			// Set tension
-        	PathBuilder = new PathBuilder(0.5f),
-		}
+		//optionally set configuration
+        Configuration =
+        {
+			//optionally set path builder
+            PathBuilder = new BezierPathBuilder {
+			//optionally set trace smoother
+            TraceSmoother = new ImageTraceSmoother(1),
+                ErrorThreshold =  30,
+                MaxIterations = 30
+            },
+            ColorsLimit = 25,
+            LineWidth = 1
+        }
     };
     // Vectorize ICO image from the specified file
 	using var document = vectorizer.Vectorize(InputFolder + "image.ico");

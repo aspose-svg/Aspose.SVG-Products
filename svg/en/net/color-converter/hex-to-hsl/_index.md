@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="HEX" output="HSL">}}
 // Parse HEX color from a string
-var color = ColorConverter.ConvertFrom("#DEB487");
+var color = Color.FromString("#DEB487");
 
 // Convert HEX to HSL 
-string hslColor = color.ToHslString();
+string hslColor = color.Convert(ColorModel.Hsl).ToString(false, false, 3);
 
 // Print the result into console
 Console.WriteLine(hslColor);

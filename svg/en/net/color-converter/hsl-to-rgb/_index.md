@@ -47,7 +47,7 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="HSL" output="RGB">}}
 // Parse HSL color from a string
-var color = ColorConverter.ConvertFrom("hsl(31.034, 57%, 70%)");
+var color = Color.FromString("hsl(31.034, 57%, 70%)");
 
 // Convert HSL to RGB 
 string rgbColor = color.ToRgbString();

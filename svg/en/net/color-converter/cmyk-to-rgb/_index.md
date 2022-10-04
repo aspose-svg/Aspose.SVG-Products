@@ -47,7 +47,7 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="CMYK" output="RGB">}}
 // Parse CMYK color from a string
-var color = ColorConverter.ConvertFrom("cmyk(82%, 59%, 0%, 15%)");
+var color = Color.FromString("cmyk(82%, 59%, 0%, 15%)");
 
 // Convert CMYK to RGB 
 string rgbColor = color.ToRgbString();

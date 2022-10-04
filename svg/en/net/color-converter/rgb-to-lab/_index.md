@@ -47,10 +47,10 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="RGB" output="LAB">}}
 // Parse RGB color from a string
-var color = ColorConverter.ConvertFrom("rgb(222, 180, 135)");
+var color = Color.FromRgb(222, 180, 135);
 
 // Convert RGB to LAB 
-string labColor = color.ToLabString();
+string labColor =  color.Convert(ColorModel.Lab).ToString(false, false, 3);
 
 // Print the result into console
 Console.WriteLine(labColor);

@@ -47,7 +47,7 @@ If you need to convert colors from one color model to another, use our free onli
 
 {{< app/svg/color id=1 input="HSL" output="RGB">}}
 // Parse HSLA color from a string
-var color = ColorConverter.ConvertFrom("hsla(31.034, 57%, 70%, 0.2)");
+var color = Color.FromString("hsla(31.034, 57%, 70%, 0.2)");
 
 // Convert HSLA to RGBA 
 string rgbaColor = color.ToRgbaString();
