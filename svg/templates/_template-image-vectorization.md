@@ -84,6 +84,7 @@ outformat: {{i18n.outformat}}
 {{< blocks/products/pf/agp/other-supported-section title="{{i18n.other-vectorizers.title}}" subTitle="{{i18n.other-vectorizers.subTitle}}" >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/text-to-vector/" name="Text to Vector" description="SVG Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/stencil/" name="Stencil" description="Stencil images" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/jpg-to-svg/" name="JPG to SVG" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/png-to-svg/" name="PNG to SVG" description="Portable Network Graphics" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/image-to-svg/" name="Image to SVG" description="Raster Image" >}}

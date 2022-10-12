@@ -113,6 +113,7 @@ outformat: {{i18n.outformat}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/gif-to-svg/" name="GIF TO SVG" description="Graphical Interchange Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/tiff-to-svg/" name="TIF to SVG" description="Tagged Image File Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/ico-to-svg/" name="ICO to SVG" description="Windows Icon" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/svg/{{lang.url-fragment}}net/vectorization/stancil/" name="Stencil" description="Stencil maker" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 {{< /blocks/products/pf/main-container >}}

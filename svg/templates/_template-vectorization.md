@@ -68,4 +68,4 @@ feature: encode
 {{% /blocks/products/pf/feature-page-section %}}
 {{< /blocks/products/pf/feature-page-wrap >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/feature-page-options pairs="text-to-vector jpg-to-svg png-to-svg gif-to-svg bmp-to-svg tiff-to-svg image-to-svg ico-to-svg" >}}
+{{< blocks/products/pf/feature-page-options pairs="text-to-vector jpg-to-svg png-to-svg gif-to-svg bmp-to-svg tiff-to-svg image-to-svg ico-to-svg stencil" >}}
