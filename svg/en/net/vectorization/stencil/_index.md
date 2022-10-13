@@ -32,6 +32,11 @@ There are several basic steps for turning a photo or image into a stencil:
 <br>
 [Aspose.SVG for .NET API](https://products.aspose.com/svg/{{lang.url-fragment}}net/) offers a high-speed C# library that you can use for different SVG parsing tasks. The [ImageVectorization](https://reference.aspose.com/svg/net/aspose.svg.imagevectorization/) Namespace includes classes and interfaces for implementing the image vectorization process with stenciling options.
 
+{{<section input-file>}}
+---
+title: What is Image File Format?
+---
+
 {{<section output-file>}}
 ---
 title: What is SVG File Format?
